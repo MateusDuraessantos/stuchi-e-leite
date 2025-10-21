@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUCHI & LEITE</title>
+  <app-header>Início</app-header>
+  <link rel="stylesheet" href="../style/global.css">
+  <script type="module" src="../main.js"></script>
+</head>
+
+<style>
+
+/* Banner */
+.banner {
+  width: 100%;
+  max-height: 400px;
+  background: var(--branco_00);
+  overflow: hidden;
+}
+.banner img {
+  object-fit: cover;
+}
+/* section */
+.section__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.section--right {
+  padding-left: 30vw;
+}
+.section--left {
+  padding-right: 30vw;
+}
+.section__img {
+  width: 100%;
+  min-height: 300px;
+}
+.section__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+</style>
+
+<body>
+  <main>
+    <section class="banner">
+      <img class="banner" src="../src/imagens/4-FIG 05_NKSTORE_FOTO.jpg" alt="">
+    </section>
+
+    <section class="section__body">
+      <img class="section__img section--right" width="300" height="300" src="../src/imagens/5-FIG 03_NKSTORE_FOTO.jpg" alt="">  
+      <img class="section__img section--left" width="300" height="300" src="../src/imagens/5-FIG 03_NKSTORE_FOTO.jpg" alt="">  
+      <img class="section__img section--right" width="300" height="300" src="../src/imagens/6-FIG 06_NKSTORE_FOTO.jpg" alt="">  
+      <div class="section__grid">
+        <img class="section__img" width="300" height="300" src="../src/imagens/7-FIG 07_NKSTORE_FOTO.jpg" alt="">
+        <img class="section__img" width="300" height="300" src="../src/imagens/7-FIG 07_NKSTORE_FOTO.jpg" alt="">
+      </div>
+    </section>
+    
+    <section id="contato">
+    </section>
+
+  </main>
+
+</body>
+</html>
