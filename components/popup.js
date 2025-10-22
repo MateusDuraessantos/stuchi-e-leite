@@ -1,4 +1,4 @@
-import { projetos } from '../projetos_dados.js';
+import { projetos } from '../dados_projetos.js';
 
 export const abrirPopup = (event) => {
   const index = Number(event.currentTarget.getAttribute('index'))
@@ -10,7 +10,6 @@ export const abrirPopup = (event) => {
     `<img class="popup__img" src="../src/projetos/${obj}" alt="">`)
   .join('')
 
-
   popup.innerHTML = `
     <div class="popup__content">
       <button class="popup__close">✕</button>
@@ -20,7 +19,7 @@ export const abrirPopup = (event) => {
         <p class="popup__data">${projetoSelecionado.data}</p>
       </div>
 
-      <div class="popup__portfolio">
+      <div class="popup__portfolio g-gap">
         <img class="popup__img popup__img--thumb" src="../src/projetos/${projetoSelecionado.thumbPath}" alt="">
 
         <div class="popup__grid">
@@ -36,10 +35,7 @@ export const abrirPopup = (event) => {
   close.addEventListener('click', () => {
     popup.classList.remove('slowFade--open')
     popup.classList.add('slowFade--close')
-    setTimeout(() => {
-      popup.remove()
-    }, 1000);
-
+    setTimeout(() => popup.remove(), 1000);
   });
 
 }

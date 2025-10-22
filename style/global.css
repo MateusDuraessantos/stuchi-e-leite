@@ -26,3 +26,15 @@ body {
 app-header {
   display: none;
 }
+a {
+  text-decoration: none;
+  transition: .3s;
+  cursor: pointer;
+}
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+.g-gap {
+  gap: 10px;
+}

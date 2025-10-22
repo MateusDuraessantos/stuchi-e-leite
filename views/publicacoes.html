@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>STUCHI & LEITE - Publicações</title>
-  <app-header>Publicações</app-header>
-  <link rel="stylesheet" href="../style/global.css">
-  <script type="module" src="../main.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STUCHI & LEITE - Publicações</title>
+<app-header>Publicações</app-header>
+<link rel="stylesheet" href="../style/global.css">
+<script type="module" src="../main.js"></script>
+<style>
+.publi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.publi__img {
+  width: 100%;
+  object-fit: contain;
+}
+</style>
+  
 </head>
 <body>
   <main>
-    Publicações
+    <section class="publi g-gap max__width">
+      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
+      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
+      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
+      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
+      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
+    </section>
   </main>
 </body>
 </html>

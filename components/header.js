@@ -1,5 +1,6 @@
-export const header = 
-`
+import { links } from '../constants/constants.js'
+
+export const header = `
 <header>
   <div class="header__logo">
     <p class="header__name">STUCHI<span>&</span>LEITE</p>
@@ -16,9 +17,9 @@ export const header =
       <a class="header__link" href="../views/publicacoes.html">Publicações</a>
     </div>
     <div class="header__redes">
-      <a class="header__a" href="#"><img src="../src/icons/face.svg" alt="Facebook"></a>
-      <a class="header__a" href="#"><img src="../src/icons/insta.svg" alt="Instagram"></a>
-      <a class="header__a" href="#"><img src="../src/icons/linkedin.svg" alt="LinkedIn"></a>
+      <a class="header__a" href="${links.urlFacebook}" target="_blank"><img src="../src/icons/face.svg" alt="Facebook"></a>
+      <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="../src/icons/insta.svg" alt="Instagram"></a>
+      <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="../src/icons/linkedin.svg" alt="LinkedIn"></a>
     </div>
   </div>
 </header>
