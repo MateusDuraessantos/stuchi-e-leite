@@ -1,3 +1,6 @@
+header * {
+  transition: .3s;
+}
 header {
   position: fixed;
   top: 0;
@@ -5,7 +8,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 80px;
   width: 100%;
   margin: auto;
   padding: 0 50px;
@@ -26,7 +29,7 @@ header {
 .header__name span {
   color: var(--vermelho_00);
 }
-.header__right {
+.header__container {
   display: flex;
   gap: 100px;
 }
@@ -62,4 +65,113 @@ header {
 .header__redes img:hover {
   opacity: .6;
   transition: .3s;
+}
+.header__hamburger, .header__close {
+  display: none;
+}
+.header__hamburger {
+  position: absolute;
+  right: 20px;
+  top: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    height: 50px;
+    padding: 0 20px;
+  }
+  .header__description, .header__links, .header__redes {
+    display: none;
+  }
+  .header__name {
+    font-size: 14px;
+  }
+  
+  .header__hamburger {
+    display: block;
+  }
+
+  /* Menu para mobiles */
+  .menu--open {
+    position: fixed;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    z-index: 100;
+    gap: 0;
+  }
+  .menu--open .header__description, .menu--open .header__links, .menu--open .header__redes, .menu--open .header__close {
+    display: block;
+  } 
+  .menu--open .header__hamburger {
+    display: block;
+  }
+  .menu--open .header__container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: initial;
+    left: 0;
+    top: 0;
+    background: white;
+    width: 80vw;
+    height: 100%;
+  }
+  .menu--open .header__links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .menu--open .header__link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+  }
+  .menu--open .header__link, .menu--open .header__redes {
+    padding: 0 20px;
+  }
+  .menu--open .header__redes {
+    gap: 24px;
+  }
+  .menu--open .header__redes {
+    margin: 30px 0;
+  }
+  .menu--open hr {
+    width: calc(100% - 40px);
+    margin: auto;
+  }
+  .menu--open .header__link:hover {
+    background-color: rgb(209, 209, 209);
+  }
+  .menu--open .header__redes img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+  }
+  .menu--open .header__redes {
+    margin: 30px auto;
+    display: flex;
+    gap: 14px;
+  }
+  .menu--open .header__close {
+    position: absolute;
+    right: 18px;
+    top: 1px;
+    font-size: 30px;
+    color: white;
+    transition: .3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  .menu--open .header__close:hover {
+    opacity: 0.4;
+    transition: .3s;
+  }
+  .menu--open .header__right {
+    backdrop-filter: blur(4px);
+  }
 }

@@ -1,7 +1,7 @@
 import { links } from '../constants/constants.js'
 
 export const footer = `
-<footer>
+<footer class="max__width" id="contato">
   <div class="footer__col">
     <p class="footer__title">Telefone</p>
     <p class="footer__info">+55 (11) 2589-8019</p>
@@ -15,8 +15,8 @@ export const footer = `
     <p class="footer__info">comunicacao@stuchileite.com</p>
   </div>
   <div class="footer__col">
-    <a class="footer__title" href="${links.urlLinkedin}" target="_blank">Linkedin</a>
-    <a class="footer__title" href="${links.urlInstagram}" target="_blank">Instagram</a>
+    <a class="footer__title footer__title--link" href="${links.urlLinkedin}" target="_blank">Linkedin</a>
+    <a class="footer__title footer__title--link" href="${links.urlInstagram}" target="_blank">Instagram</a>
   </div>
 </footer>
 `

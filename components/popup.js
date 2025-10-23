@@ -1,4 +1,4 @@
-import { projetos } from '../dados_projetos.js';
+import { projetos } from '../dados/dados_projetos.js';
 
 export const abrirPopup = (event) => {
   const index = Number(event.currentTarget.getAttribute('index'))

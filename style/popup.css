@@ -93,3 +93,16 @@
     opacity: 1;
   }
 }
+@media screen and (max-width: 1000px) {
+  .popup {
+    padding: 10px;
+  }
+  .popup__content {
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+  }
+}

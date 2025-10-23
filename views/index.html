@@ -14,8 +14,8 @@
 /* Banner */
 .banner {
   width: 100%;
-  max-height: 400px;
-  background: var(--branco_00);
+  height: calc(100vh - 80px);
+  background: white;
   overflow: hidden;
 }
 .banner img {
@@ -36,19 +36,161 @@
 .section__img {
   width: 100%;
   object-fit: cover;
-  min-height: 300px;
+  min-height: 50vh;
 }
 .section__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+/* sobre */
+.sobre {
+  padding: 60px 0;
+}
+/* tabs */
+tabs * {
+  transition: .3s;
+}
+tabs {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+}
+tabs-container {
+  display: flex;
+}
+tab-menu {
+  gap: 34px;
+  width: 100%;
+  display: flex;
+  padding-bottom: 6px;
+  font-weight: 600;
+  border-bottom: 1px solid #E6E6E6;
+}
+tab-names {
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
+}
+tab-names:hover {
+  color: var(--vermelho_00);
+  transition: .3s;
+}
+[tab-ativa] {
+  position: relative;
+  color: var(--vermelho_00);
+}
+[tab-ativa]::before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  border-bottom: 1px solid var(--vermelho_00);
+}
+tab-item {
+  min-width: 100%;
+  overflow: hidden;
+  min-height: 300px;
+}
+.tab {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+.tab__col--1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tab--img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+.tab h1 {
+  font-size: 30px;
+}
+.tab__descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 300px;
+  overflow: auto;
+  background-color: white;
+  font-size: 16px;
+  width: 100%;
+}
+.tab__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: black;
+  height: 36px;
+  border: 1px solid black;
+  transition: .3s;
+  margin-bottom: 8px;
+}
+.tab__button p {
+  font-weight: 400;
+}
+.tab__button:hover {
+  background: black;
+  color: white;
+  opacity: 1;
+  transition: .3s;
+}
+tab-item p {
+  font-weight: 300;
+}
+.tab__fone p {
+  font-weight: 400;
+}
+/* Parcerias */
+.parcerias {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 360px;
+  background: var(--cinza_01);
+  overflow: hidden;
+}
+.parcerias__slider {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  animation: slider infinite;
+  width: 100%;
+  transition: .2s;
+  animation-timing-function: linear;
+}
+.parceiras__img {
+  object-fit: contain;
+  max-width: 16.66%;
+  min-width: 16.66%;
+  filter: contrast(0.85);
+}
+@keyframes slider {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  
+}
+
 </style>
 
-<body>
+<body id="inicio">
   <main>
     <section class="banner">
-      <img class="banner" src="../src/imagens/4-FIG 05_NKSTORE_FOTO.jpg" alt="">
+      <img class="banner" src="../src/projetos/130_CORUJAS/banner.jpg" alt="">
     </section>
 
     <section class="section__body g-gap">
@@ -61,10 +203,187 @@
       </div>
     </section>
     
-    <section id="contato">
+    <section class="max__width sobre" id="sobre">
+
+      <tabs>
+        <tabs-container>
+
+          <tab-item class="tab" title="Estudio">
+            <div class="tab__col--1">
+              <h1>Stuchi & Leite</h1>
+
+              <div class="tab__descricao">
+                <p>O escritório nasceu da parceria entre Carlos Leite e Fabiana Stuchi, unindo trajetórias que combinam a prática profissional e a vivência acadêmica, somando mais de 25 anos de experiência. </p>
+                <p>Uma empresa dedicada ao desenvolvimento de projetos, pesquisa e consultoria em arquitetura, design, urbanismo, reabilitação, estruturação/modelagem urbana e desenvolvimento urbano sustentável.</p>
+              </div>
+            </div>
+
+            <div class="tab__col--2">
+              <img class="tab--img" height="300" width="300" src="../src/stuch-leite.jpg" alt="">
+            </div>
+          </tab-item>
+          
+          <tab-item class="tab" title="Carlos Leite">
+            <div class="tab__col--1">
+              <h1>Carlos Leite</h1>
+              <div class="tab__descricao">
+                <p>Cursou Engenharia Agrícola Ambiental na UFRRJ, 1983-86;</p>
+                <p>Graduou-se Arquiteto e Urbanista pela Escola de Belas Artes de São Paulo, 1991;</p>
+                <p>É Mestre (1997) e Doutor (2002) em Estruturas Ambientais Urbanas pela FAU-USP;</p>
+                <p>Possui Pós-doutorado pela Universidade Politécnica da Califórnia em Sustainable Urban-economic Development;</p>
+                <p>É professor da Faculdade de Arquitetura e Urbanismo da Universidade Presbiteriana Mackenzie;</p>
+                <p>Coordena o Projeto de Pesquisa Instrumentos Urbanos Inovadores: financiamento da cidade e urbanismo social;</p>
+                <p>É Pesquisador Visitante no Instituto de Estudos Avançados da USP (Grupo Espaços Urbanos e Saúde);</p>
+                <p>É Coordenador do Núcleo de Urbanismo Social, Laboratório Arq.Futuro de Cidades do Insper;</p>
+                <p>Tem sido professor/pesquisador convidado em diversas instituições internacionais: UC Berkeley, Columbia University, Parsons/NY, IaaC/Barcelona;</p>
+                <p>É consultor em Desenvolvimento Urbano para os setores público e privado, ONGs e organismos internacionais, como BID, CAF, UNESCO;</p>
+                <p>Autor do livro Cidades Sustentáveis, Cidades Inteligentes (Bookman, 2012, finalista do Prêmio Jabuti);</p>
+                <p>Foi membro do Conselho da Cidade do Rio de Janeiro;</p>
+                <p>Foi Diretor da São Paulo Urbanismo, PMSP (sendo responsável pelos PIUs, Projetos de Intervenção Urbana) e revisão da OUC-Água Branca);</p>
+                <p>Possui cursos no Lincoln Institute of Land Police, 2018;</p>
+                <p>Novo livro: Social Urbanism in Latin America. Cases and Instruments of Planning, Land Policy and Financing the City Transformation with Social Inclusion (Springer Nature, Sepetember 2019, Leite, Carlos et al.).</p>
+              </div>
+            </div>
+
+            <div class="tab__col--2">
+              <img class="tab--img" height="300" width="300" src="../src/carlos.png" alt="">
+              
+              <a class="tab__button" href="#" target="_blank">
+                <p>Instagram</p>
+                <img width="20" height="20" src="../src/icons/arrow.svg" alt="Seta">
+              </a>
+              
+              <a class="tab__button" href="#" target="_blank">
+                <p>LinkedIn</p>
+                <img width="20" height="20" src="../src/icons/arrow.svg" alt="Seta">
+              </a>
+              
+              <div class="tab__fone">
+                <p>+55 11 2589-8019</p>
+                <p>+55 11 99466-9573</p>
+              </div>
+            </div>
+          </tab-item>
+          
+          <tab-item class="tab" title="Fabiana Stuchi">
+            <div class="tab__col--1">
+              <h1>Fabiana Stuchi</h1>
+              <div class="tab__descricao">
+                <p>Arquiteta e Urbanista pelo Instituto de Arquitetura e Urbanismo da USP em 1998. </p>
+                <p>Mestre em Arquitetura e Urbanismo pela FAU.USP em 2007. </p>
+                <p>Atuou como arquiteta colaboradora e coordenadora de projetos em grandes escritórios paulistanos, onde desenvolveu projetos complexos e de grande porte (industrial, educacional, institucional, corporativo, habitacional e urbanístico).</p>
+                <p>Acumula ainda experiências em projetos residenciais e de mobiliário em parcerias diversas.</p>
+                <p>É professora nas disciplinas de Projeto e Projeto Urbano no curso de Arquitetura e Urbanismo na Fundação Armando Alvares Penteado (FAAP) em São Paulo.</p>
+                <p>Aldus PageMaker including versions of Lorem Ipsum</p>
+                <p>Where can I get some? There are many variations of passages of Lorem Ipsum available,</p>
+                <p>Where does it come from?500s, when an unknown printer took a galley of type and scrambled it to make a type </p>
+                <p>specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially </p>
+                <p>unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and </p>
+                <p>more recently with desktop publishing software like</p>
+                <p>Aldus PageMaker including versions of Lorem Ipsum</p>
+                <p>Where can I get some? There are many variations of passages of Lorem Ipsum available,</p>
+                <p>Where does it come from?</p>
+              </div>
+            </div>
+
+            <div class="tab__col--2">
+              <img class="tab--img" height="300" width="300" src="../src/fabiana.png" alt="">
+
+              <a class="tab__button" href="#" target="_blank">
+                <p>Instagram</p>
+                <img width="20" height="20" src="../src/icons/arrow.svg" alt="Seta">
+              </a>
+
+              <a class="tab__button" href="#" target="_blank">
+                <p>LinkedIn</p>
+                <img width="20" height="20" src="../src/icons/arrow.svg" alt="Seta">
+              </a>
+              
+              <div class="tab__fone">
+                <p>+55 11 2589-8019</p>
+                <p>+55 11 99466-9573</p>
+              </div>
+            </div>
+          </tab-item>
+
+        </tabs-container>
+      </tabs>
+
+    </section>
+
+    <section class="parcerias" id="slider" velocidade="20">
+      <div class="parcerias__slider">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image.jpg" alt="Parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-1.jpg" alt="Parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-2.jpg" alt="Parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-3.jpg" alt="Parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-4.jpg" alt="Parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-5.jpg" alt="Parcerias">
+      </div>
     </section>
 
   </main>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* Header */
+  document.querySelectorAll('[ancora]').forEach(obj => {
+    obj.addEventListener('click', e => {
+      document.querySelectorAll('.header__link').forEach(elem => elem.style = '')
+      e.currentTarget.style.color = 'red'
+    })
+    obj.setAttribute('href', `#${obj.getAttribute('ancora')}`)
+  })
+
+
+  /* Tabs */
+  const tabs = document.querySelector('tabs')
+  const tabItens = Array.from(tabs.querySelectorAll('tab-item'))
+  const tabAtiva = 'tab-ativa'
+  const tabsContainer = document.querySelector('tabs-container')
+  let tabAtivaIndex = 0
+
+  const tabsNomes = tabItens.map((obj, i) => `<tab-names ${i == tabAtivaIndex ? tabAtiva : ''}>${obj.getAttribute('title')}</tab-names>`).join('')
+
+  const tabMenu = document.createElement('tab-menu')
+  tabMenu.innerHTML = tabsNomes
+  tabs.appendChild(tabMenu)
+
+  document.querySelectorAll('tab-names')
+    .forEach((obj, index) => 
+      obj.addEventListener('click', (event) => {
+        tabAtivaIndex = index
+        moverTabs(event.currentTarget, index)
+      })
+    )
+
+
+  function moverTabs(elem, index) {
+    tabsContainer.style.transform = `translateX(${tabAtivaIndex * -100}%)`
+    if (elem == undefined) return 
+    if (!elem.getAttribute(tabAtiva)) {
+      document.querySelector(`[${tabAtiva}]`).removeAttribute(tabAtiva)
+      elem.setAttribute(tabAtiva, '')
+    }
+  }
+
+  moverTabs()
+
+
+  /* Slider */
+  const slider = document.getElementById('slider')
+  const sliderContent = slider.querySelector('.parcerias__slider')
+  const velocidade = Number(slider.getAttribute('velocidade'))
+  const tempoDeAnimacao = (80 / (velocidade + 1)) * 4
+  sliderContent.style.animationDuration = `${tempoDeAnimacao}s`
+  
+  sliderContent.querySelectorAll('[imageSlider]')
+    .forEach(obj => sliderContent.appendChild(obj.cloneNode(true)))
+})
+
+</script>
 
 </body>
 </html>

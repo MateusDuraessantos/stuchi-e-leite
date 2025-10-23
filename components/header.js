@@ -7,19 +7,27 @@ export const header = `
     <p class="header__description">Projetos & Consultoria | Arquitetura e Desevolvimento Urbano</p>
   </div>
 
+  <button class="header__hamburger">
+    <img width="20" width="40" src="../src/icons/hamburger.svg" id="hamburger" />
+  </button>
+  
   <div class="header__right" id="id-header">
-    <div class="header__links">
-      <a class="header__link" href="../views/index.html">Início</a>
-      <a class="header__link" href="../views/index.html">Sobre</a>
-      <a class="header__link" href="../views/index.html">Contato</a>
-      <hr>
-      <a class="header__link" href="../views/projetos.html">Projetos</a>
-      <a class="header__link" href="../views/publicacoes.html">Publicações</a>
-    </div>
-    <div class="header__redes">
-      <a class="header__a" href="${links.urlFacebook}" target="_blank"><img src="../src/icons/face.svg" alt="Facebook"></a>
-      <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="../src/icons/insta.svg" alt="Instagram"></a>
-      <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="../src/icons/linkedin.svg" alt="LinkedIn"></a>
+    <button class="header__close" id="header__close">✕</button>
+
+    <div class="header__container">
+      <div class="header__links">
+        <a class="header__link" ancora="inicio" href="../views/index.html">Início</a>
+        <a class="header__link" ancora="sobre" href="../views/index.html">Sobre</a>
+        <a class="header__link" ancora="contato" href="../views/index.html">Contato</a>
+        <hr>
+        <a class="header__link" href="../views/projetos.html">Projetos</a>
+        <a class="header__link" href="../views/publicacoes.html">Publicações</a>
+      </div>
+      <div class="header__redes">
+        <a class="header__a" href="${links.urlFacebook}" target="_blank"><img src="../src/icons/face.svg" alt="Facebook"></a>
+        <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="../src/icons/insta.svg" alt="Instagram"></a>
+        <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="../src/icons/linkedin.svg" alt="LinkedIn"></a>
+      </div>
     </div>
   </div>
 </header>
