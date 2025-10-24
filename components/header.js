@@ -16,9 +16,9 @@ export const header = `
 
     <div class="header__container">
       <div class="header__links">
-        <a class="header__link" ancora="inicio" href="../views/index.html">Início</a>
-        <a class="header__link" ancora="sobre" href="../views/index.html">Sobre</a>
-        <a class="header__link" ancora="contato" href="../views/index.html">Contato</a>
+        <a class="header__link" ancora="inicio" href="../index.html">Início</a>
+        <a class="header__link" ancora="sobre" href="../index.html">Sobre</a>
+        <a class="header__link" ancora="contato" href="../index.html">Contato</a>
         <hr>
         <a class="header__link" href="../views/projetos.html">Projetos</a>
         <a class="header__link" href="../views/publicacoes.html">Publicações</a>
