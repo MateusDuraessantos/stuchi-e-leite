@@ -6,7 +6,7 @@
   justify-content: center;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: rgba(0,0,0, 0.4);
   z-index: 10;

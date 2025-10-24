@@ -75,6 +75,14 @@ header {
   top: 14px;
 }
 
+@media screen and (max-width: 1200px) {
+  .header__links {
+    gap: 12px;
+  }
+  .header__container {
+    gap: 30px;
+  }
+}
 @media screen and (max-width: 1000px) {
   header {
     height: 50px;
@@ -171,7 +179,7 @@ header {
     opacity: 0.4;
     transition: .3s;
   }
-  .menu--open .header__right {
+  .header__right {
     backdrop-filter: blur(4px);
   }
 }

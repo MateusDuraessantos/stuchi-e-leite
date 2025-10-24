@@ -12,23 +12,62 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-
 .publi__img {
   width: 100%;
+  height: max-content;
   object-fit: contain;
+}
+.public__ctn {
+  height: calc(100% - 7px);
+  overflow: hidden;
+}
+.g-hover {
+  height: calc(100% - 7px);
+}
+@media screen and (max-width: 1000px) {
+  .publi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .publi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 </style>
   
 </head>
 <body>
   <main>
-    <section class="publi g-gap max__width">
-      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
-      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
-      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
-      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
-      <img class="publi__img" width="300" height="300" src="../src/publicacoes/publi_arquitetura/mv2.png" alt="mv2" />
-    </section>
+    <section class="publi g-gap max__width" id="grid"></section>
   </main>
 </body>
+
+<script type="module">
+import { abrirPopup } from '../components/popup.js'
+import { publications } from '../dados/data_publications.js'
+
+document.addEventListener('DOMContentLoaded', () => {
+  
+  const grid = document.getElementById('grid')
+
+  publications.forEach((obj, index) => {
+    const imgThumb = document.createElement('div')
+    imgThumb.classList.add('public__ctn', 'g-hover__container')
+    imgThumb.setAttribute('index', index)
+
+    imgThumb.innerHTML = `
+      <div class="g-hover">${obj.title}</div>
+      <img class="publi__img" width="300" height="300" src="../src/${obj.thumbPath}" alt="mv2" />
+    `
+
+    imgThumb.addEventListener('click', (event) => abrirPopup(publications, event))
+    grid.appendChild(imgThumb)
+  })
+
+})
+
+</script>
 </html>

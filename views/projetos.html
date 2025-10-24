@@ -26,28 +26,6 @@
   height: 100%;
   object-fit: cover;
 }
-.grid__hover {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  line-height: 36px;
-  font-size: 24px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0, 0.4);
-  transition: .3s;
-  opacity: 0;
-}
-.grid__hover:hover  {
-  opacity: 1;
-  transition: .3s;
-}
 .grid--col2 {
   grid-column: span 2;
 }
@@ -63,12 +41,6 @@
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 30vw;
-  }
-  .grid__hover {
-    padding: 0;
-  }
-  .grid__hover {
-    display: none;
   }
 }
 
@@ -98,18 +70,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (valorAleatorio >= 2 && valorAleatorio < 3) classeDaColuna = 'grid--col3'
     if (valorAleatorio >= 3 && valorAleatorio < 4) classeDaColuna = 'grid--col4'
     
-    const imagemDeThumb = document.createElement('div')
-    imagemDeThumb.classList.add('grid__btn')
-    imagemDeThumb.setAttribute('index', index)
-    if (classeDaColuna) imagemDeThumb.classList.add(classeDaColuna)
+    const imgThumb = document.createElement('div')
+    imgThumb.classList.add('grid__btn')
+    imgThumb.setAttribute('index', index)
+    if (classeDaColuna) imgThumb.classList.add(classeDaColuna)
 
-    imagemDeThumb.innerHTML = `
-      <div class="grid__hover">${obj.nome}</div>
-      <img class="grid__img" width="300" height="300" src="../src/projetos/${obj.thumbPath}" alt="${obj.thumbPath}">
+    imgThumb.innerHTML = `
+      <div class="g-hover">${obj.title}</div>
+      <img class="grid__img" width="300" height="300" src="../src/${obj.thumbPath}" alt="${obj.thumbPath}">
     `
 
-    imagemDeThumb.addEventListener('click', abrirPopup);
-    grid.appendChild(imagemDeThumb)
+    imgThumb.addEventListener('click', (event) => abrirPopup(projetos, event))
+
+    grid.appendChild(imgThumb)
   })
 })
 
