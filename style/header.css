@@ -74,7 +74,33 @@ header {
   right: 20px;
   top: 14px;
 }
-
+.menu--open .header__container {
+  animation: 1s openMenu forwards;
+  transform: translateX(-100vw);
+}
+@keyframes openMenu {
+  from { transform: translateX(-100vw) }
+  to { transform: translateX(0) }
+}
+.menu--open .header__container {
+  animation: 1s openMenu forwards;
+  transform: translateX(-100vw);
+}
+.menu--close .header__container {
+  animation: 1s closeMenu forwards;
+  transform: translateX(0);
+}
+.menu--close.menu--open {
+  opacity: 0;
+}
+@keyframes openMenu {
+  from { transform: translateX(-100vw) }
+  to { transform: translateX(0) }
+}
+@keyframes closeMenu {
+  from { transform: translateX(0) }
+  to { transform: translateX(-100vw) }
+}
 @media screen and (max-width: 1200px) {
   .header__links {
     gap: 12px;
@@ -84,7 +110,7 @@ header {
   }
 }
 @media screen and (max-width: 1000px) {
-  header {
+  header, .body__scroll header {
     height: 50px;
     padding: 0 20px;
   }

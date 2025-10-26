@@ -113,4 +113,8 @@ app-header {
   .g-hover {
     display: none;
   }
+  .body__scroll {
+    padding-right: initial;
+    overflow: initial;
+  }
 }

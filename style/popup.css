@@ -95,7 +95,7 @@
 }
 @media screen and (max-width: 1000px) {
   .popup {
-    padding: 10px;
+    padding: 0;
   }
   .popup__content {
     padding: 10px;
@@ -104,5 +104,26 @@
     gap: 10px;
     width: calc(100% - 10px);
     height: calc(100% - 10px);
+  }
+  .popup__close {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+  }
+  .popup__title {
+    font-size: 16px;
+  }
+  .popup__descricao, .popup__data {
+    font-size: 14px;
+  }
+  .popup__container {
+    gap: 14px;
+  }
+  .popup__portfolio, .popup__grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .popup__close {
+    font-size: 24px;
   }
 }
