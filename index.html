@@ -85,7 +85,6 @@
 .section__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
 }
 /* sobre */
 .sobre {
@@ -241,12 +240,22 @@
   .tab--img {
     width: 100%;
     object-fit: cover;
-    max-width: 500px;
     margin: auto;
+    object-position: 0 -116px;
+    margin-bottom: 10px;
   }
   .tab__col--2 {
     display: flex;
     flex-direction: column;
+  }
+  .section--right {
+    margin-left: 20vw;
+  }
+  .section--left {
+    margin-right: 20vw;
+  }
+  .section__container {
+    height: 300px;
   }
 }
 
@@ -307,7 +316,7 @@
         <div class="g-hover">Teste</div>
         <img class="section__img" width="300" height="300" src="../src/projetos/130_CORUJAS/130_IMG_A2.jpg" alt="">
       </div>  
-      <div class="section__grid">
+      <div class="section__grid g-gap">
         <div class="section__container">
           <div class="g-hover">teste</div>
           <img class="section__img" width="300" height="300" src="../src/projetos/130_CORUJAS/130_IMG_A2.jpg" alt="">
