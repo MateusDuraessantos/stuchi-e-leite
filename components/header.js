@@ -62,7 +62,7 @@ export const addHeader = () => {
     setTimeout(() => {
       header.querySelector('[active]')?.removeAttribute('active')
       const url = window.location
-      const param = url.hash.slice(1) || url.pathname === '/' ? 'inicio' : url.pathname.split('.')[0].replace('/', '')
+      const param = url.hash.slice(1) || url.pathname.split('.')[0].replace('/', '') || 'inicio'
       header.querySelector(`[data-ancor="${param}"]`)?.setAttribute('active', '')
     }, 0);
   }
