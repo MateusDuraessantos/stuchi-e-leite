@@ -9,7 +9,7 @@ export const abrirPopup = (dados, event) => {
   popup.setAttribute('id', 'popupcontent')
   
   const htmlImagens = selectProject.imagesPaths.map(obj =>
-    `<img class="popup__img" src="../src/${obj}" opentozoom alt="">`)
+    `<img class="popup__img" src="../src/${obj}" opentozoom loading="lazy" alt="">`)
   .join('')
 
   popup.innerHTML = `
@@ -22,7 +22,7 @@ export const abrirPopup = (dados, event) => {
       </div>
 
       <div class="popup__portfolio g-gap">
-        <img class="popup__img popup__img--thumb" opentozoom src="../src/${selectProject.thumbPath}" alt="">
+        <img class="popup__img popup__img--thumb" opentozoom src="../src/${selectProject.thumbPath}" loading="lazy" alt="">
 
         <div class="popup__grid">
           ${htmlImagens}
@@ -33,7 +33,7 @@ export const abrirPopup = (dados, event) => {
   const popupSecundario = `
     <div class="popup__zoom slowFade--open" id="zoom">
       <button class="popup__close popup__close--zoom" closeZoom aria-label="Fechar popup de inspeção da imagem">✕</button>
-      <img class="popup__zoom--img" alt="">
+      <img class="popup__zoom--img" loading="lazy" alt="">
     </div>
   `
 
