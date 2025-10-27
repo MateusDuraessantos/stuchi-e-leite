@@ -1,24 +1,26 @@
 export const projetos = [
   {
-    title: '104_CRISPINIANO 79',
-    thumbPath: 'projetos/104_CRISPINIANO 79/104_EP_PL_R00-V10-PAV 11.png',
-    description: 'Edifício moderno com linhas retas e áreas integradas, priorizando iluminação natural.',
-    date: '2025',
-    imagesPaths: [
-      'projetos/104_CRISPINIANO 79/104_EP_PL_R00-V10-PAV 11.png',
-      'projetos/104_CRISPINIANO 79/104_EP_PL_R00-V10-PAV 11.png',
-      'projetos/104_CRISPINIANO 79/104_EP_PL_R00-V10-PAV 11.png',
-      'projetos/104_CRISPINIANO 79/104_EP_PL_R00-V10-PAV 11.png',
-      'projetos/104_CRISPINIANO 79/104_EP_PL_R00-V10-PAV 11.png',
-    ]
-  },
-  {
     title: '130_CORUJAS',
     thumbPath: 'projetos/130_CORUJAS/130_IMG_A2.jpg',
     description: 'Ambientes amplos e integração entre interior e exterior com vista para o jardim.',
     date: '2025',
     imagesPaths: [
       'projetos/130_CORUJAS/130_IMG_A2.jpg',
+      'projetos/130_CORUJAS/130_IMG_A3.jpg',
+      'projetos/130_CORUJAS/130_IMG_E2.jpg',
+      'projetos/130_CORUJAS/130_IMG_C2.jpg',
+      'projetos/130_CORUJAS/130_IMG_D2.jpg',
+      'projetos/130_CORUJAS/130_IMG_B2.jpg',
+      'projetos/130_CORUJAS/130_IMG_F2.jpg',
+      'projetos/130_CORUJAS/130_IMG_G2.jpg',
+      'projetos/130_CORUJAS/130_IMG_H2.jpg',
+      'projetos/130_CORUJAS/ESQUEMA.01.png',
+      'projetos/130_CORUJAS/ESQUEMA.02.png',
+      'projetos/130_CORUJAS/ESQUEMA.03.png',
+      'projetos/130_CORUJAS/ESQUEMA.04.png',
+      'projetos/130_CORUJAS/ESQUEMA.05.png',
+      'projetos/130_CORUJAS/ESQUEMA.06.png',
+      'projetos/130_CORUJAS/Imagem do WhatsApp de 2024-04-03 à(s) 19.59.47_197f87f7.jpg',
     ]
   },
   {
@@ -27,7 +29,10 @@ export const projetos = [
     description: 'Projeto focado em conforto e funcionalidade, com uso de materiais naturais e tons neutros.',
     date: '2025',
     imagesPaths: [
-      'arq 01_G+A/01_IMPLANTACAO.jpg',
+      'projetos/arq 01_G+A/01_IMPLANTACAO.jpg',
+      'projetos/arq 01_G+A/02_PLANTA SUPERIOR.jpg',
+      'projetos/arq 01_G+A/03_CORTE.01.jpg',
+      'projetos/arq 01_G+A/04_CORTE.02.jpg',
     ]
   },
   {
@@ -37,6 +42,13 @@ export const projetos = [
     date: '2025',
     imagesPaths: [
       'projetos/arq 02_RESIDÊNCIA PIRACICABA I/1.jpg',
+      'projetos/arq 02_RESIDÊNCIA PIRACICABA I/DSC01986.jpg',
+      'projetos/arq 02_RESIDÊNCIA PIRACICABA I/DSC01987.jpg',
+      'projetos/arq 02_RESIDÊNCIA PIRACICABA I/DSC01988.jpg',
+      'projetos/arq 02_RESIDÊNCIA PIRACICABA I/DSC01994.jpg',
+      'projetos/arq 02_RESIDÊNCIA PIRACICABA I/DSC01995.jpg',
+      'projetos/arq 02_RESIDÊNCIA PIRACICABA I/DSC01996.jpg',
+      'projetos/arq 02_RESIDÊNCIA PIRACICABA I/2- CORTE.png',
     ]
   },
   {
@@ -46,6 +58,9 @@ export const projetos = [
     date: '2025',
     imagesPaths: [
       'projetos/arq 03_CLÍNICA RADIOLÓGICA/DSC00217.jpg',
+      'projetos/arq 03_CLÍNICA RADIOLÓGICA/1- PLANTA SUPERIOR.png',
+      'projetos/arq 03_CLÍNICA RADIOLÓGICA/1- PLANTA TÉRREO.png',
+      'projetos/arq 03_CLÍNICA RADIOLÓGICA/03_CORTE LONG.png',
     ]
   },
   {
@@ -91,6 +106,10 @@ export const projetos = [
     date: '2025',
     imagesPaths: [
       'projetos/arq 23_DUO I/11-FIG 11_DUO I_FOTO.jpg',
+      'projetos/arq 23_DUO I/5-FIG 05_DUO I_FOTO.jpg',
+      'projetos/arq 23_DUO I/10-FIG 10_DUO I_FOTO.jpg',
+      'projetos/arq 23_DUO I/13-FIG 13_DUO I_FOTO.jpg',
+      'projetos/arq 23_DUO I/01_EX_MARCENARIA HALL.jpg',
     ]
   },
   {
@@ -100,6 +119,13 @@ export const projetos = [
     date: '2025',
     imagesPaths: [
       'projetos/arq 39_VILA NOVA CONCEIÇÃO/6_Slide12.jpg',
+      'projetos/arq 39_VILA NOVA CONCEIÇÃO/Slide43.jpg',
+      'projetos/arq 39_VILA NOVA CONCEIÇÃO/Slide46.jpg',
+      'projetos/arq 39_VILA NOVA CONCEIÇÃO/Slide47.jpg',
+      'projetos/arq 39_VILA NOVA CONCEIÇÃO/Slide48.jpg',
+      'projetos/arq 39_VILA NOVA CONCEIÇÃO/Slide49.jpg',
+      'projetos/arq 39_VILA NOVA CONCEIÇÃO/Slide49.jpg',
+      'projetos/arq 39_VILA NOVA CONCEIÇÃO/Slide54.jpg',
     ]
   },
 ];

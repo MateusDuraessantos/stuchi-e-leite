@@ -72,7 +72,6 @@
   gap: 10px;
 }
 .slowFade--open {
-  cursor: pointer;
   transition: .2s;
   animation: open forwards 1s;
 }
@@ -91,6 +90,8 @@
 }
 .popup__zoom {
   position: fixed;  
+  display: flex;
+  align-items: center;
   top: 0;
   left: 0;
   width: 100%;
@@ -98,6 +99,7 @@
   background: white;
   z-index: 12;
   overflow: hidden;
+  cursor: grab;
 }
 .popup__zoom * {
   transition: .2s;
@@ -113,6 +115,15 @@
 .popup__zoom--ctn {
   width: 100%;
   height: 100%;
+}
+[opentozoom] {
+  cursor: pointer;
+  transition: .3s;
+  border: 1px solid transparent;
+}
+[opentozoom]:hover {
+  border: 1px solid #cacaca;
+  transition: .3s;
 }
 @media screen and (max-width: 1000px) {
   .popup {

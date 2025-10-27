@@ -4,9 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>STUCHI & LEITE</title>
-  <app-header>Início</app-header>
   <link rel="stylesheet" href="../style/global.css">
   <script type="module" src="../main.js"></script>
+  
+  <meta name="description" content="Arquitetura e Interiores | Desenvolvimento Urbano: Inteligência Territorial, Planos Urbanos Estratégicos, Estruturação e Modelagem Urbana, Masterplans.">
+  <meta property="og:title" content="STUCHI &amp; LEITE - PROJETOS | CONSULTORIA">
+  <meta property="og:description" content="Arquitetura e Interiores I Desenvolvimento Urbano: Inteligência Territorial, Planos Urbanos Estratégicos, Estruturação e Modelagem Urbana, Masterplans">
+  <meta property="og:image" content="https://static.wixstatic.com/media/ba8294_64d09f9010fa41729132545d8d26bbd0.png/v1/fit/w_2500,h_1330,al_c/ba8294_64d09f9010fa41729132545d8d26bbd0.png">
+  <meta property="og:image:width" content="2500">
+  <meta property="og:image:height" content="1330">
+  <meta property="og:url" content="https://www.stuchileite.com">
+  <meta property="og:site_name" content="stuchileite">
+  <meta property="og:type" content="website">
 </head>
 
 <style>
@@ -297,7 +306,7 @@
           class="carrossel__img"
           height="500"
           width="1200"
-          src="../src/projetos/arq 13_RESIDENCIA IBIRAPUERA/3-FIG 03_RESIDIBIRAPUERA_FOTO.jpg"
+          src="../src/projetos/arq 13_RESIDENCIA IBIRAPUERA/teste.jpg"
           alt=""
         >
       </div>
@@ -476,7 +485,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let timeoutCarrossel = null
 
   const botoesParaSelecao = imagensNoBanner.map((obj, index) =>
-    `<button class="carrossel__btn ${index == 0 ? 'carrossel__ativa':''}" ${crs}="${index}"><span></span></button>`
+    `<button class="carrossel__btn ${index == 0 ? 'carrossel__ativa':''} aria-label="Trocar imagem do carrossel" ${crs}="${index}"><span></span></button>`
   ).join('')
 
   bannerBotoes.innerHTML += botoesParaSelecao
@@ -525,6 +534,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ${i === tabAtivaIndex ? tabAtiva : ''}
       aria-selected="${i===tabAtivaIndex}"
       tabindex="${i===tabAtivaIndex? '0':'-1'}"
+      aria-label="Trocar aba ativa"
     >
       ${obj.getAttribute('title')}
     </button>

@@ -6,6 +6,7 @@ export const abrirPopup = (dados, event) => {
 
   popup.classList.add('popup', 'slowFade--open')
   popup.setAttribute(closableTag, '')
+  popup.setAttribute('id', 'popupcontent')
   
   const htmlImagens = selectProject.imagesPaths.map(obj =>
     `<img class="popup__img" src="../src/${obj}" opentozoom alt="">`)
@@ -13,7 +14,7 @@ export const abrirPopup = (dados, event) => {
 
   popup.innerHTML = `
     <div class="popup__content">
-      <button class="popup__close" ${closableTag}>✕</button>
+      <button class="popup__close" ${closableTag}="true" aria-label="Fechar popup">✕</button>
       <div class="popup__container">
         <p class="popup__title">${selectProject.title}</p>
         <p class="popup__descricao">${selectProject.description}</p>
@@ -31,7 +32,7 @@ export const abrirPopup = (dados, event) => {
   `
   const popupSecundario = `
     <div class="popup__zoom slowFade--open" id="zoom">
-      <button class="popup__close popup__close--zoom" closeZoom>✕</button>
+      <button class="popup__close popup__close--zoom" closeZoom aria-label="Fechar popup de inspeção da imagem">✕</button>
       <img class="popup__zoom--img" alt="">
     </div>
   `
@@ -39,6 +40,10 @@ export const abrirPopup = (dados, event) => {
   document.body.append(popup)
   addBlockBodyScroll()
   popup.addEventListener('click', closePopup)
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' || event.key === 'Esc') closePopup()
+  });
   
   document.querySelectorAll('[opentozoom]').forEach(obj => obj.addEventListener('click', openZoom))
 
@@ -72,11 +77,12 @@ export const abrirPopup = (dados, event) => {
 
   function closePopup(event) {
     document.body.style.overflow = ''
-    if (event.target.getAttribute(closableTag) == null) return
-    removeBlockBodyScroll()
-    popup.classList.remove('slowFade--open')
-    popup.classList.add('slowFade--close')
-    setTimeout(() => popup.remove(), 1000);
+    if (event == undefined || Boolean(event?.target.getAttribute(closableTag))) {
+      removeBlockBodyScroll()
+      popup.classList.remove('slowFade--open')
+      popup.classList.add('slowFade--close')
+      setTimeout(() => popup.remove(), 1000);
+    }
   }
 
   function addDragAndDrop() {

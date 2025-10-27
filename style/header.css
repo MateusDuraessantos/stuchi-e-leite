@@ -1,6 +1,9 @@
 header * {
   transition: .3s;
 }
+[active] {
+  color: var(--vermelho_00) !important;
+}
 header {
   position: fixed;
   top: 0;

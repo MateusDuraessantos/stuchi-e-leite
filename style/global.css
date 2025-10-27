@@ -64,11 +64,8 @@ a:hover {
   transition: .3s;
   opacity: 0.6;
 }
-app-header {
-  display: none;
-}
 .g-gap {
-  gap: 10px;
+  gap: 8px;
 }
 .g-hover__container {
   position: relative;
