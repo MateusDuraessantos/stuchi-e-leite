@@ -50,6 +50,9 @@ To update the project online using **Firebase Hosting**, follow these steps:
 ## 📁 About the project
 
 How to add and update projects to page projects.html
+
+  Note: This project need a server to run. You can use the Visual Studio code "live server" extension.
+
   1. **Navigate to the folowing directory** <br>
     src/projetos
 
