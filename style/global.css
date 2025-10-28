@@ -37,6 +37,7 @@ html {
 }
 body {
   padding-top: 80px;
+  overflow-y: scroll;
 }
 .body__scroll {
   padding-right: 10px;

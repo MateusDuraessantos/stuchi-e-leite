@@ -44,7 +44,7 @@
   justify-content: center;
   bottom: 20px;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
 }
 .carrossel__img {
   min-width: 100vw;
@@ -97,7 +97,15 @@
 }
 /* sobre */
 .sobre {
+  position: relative;
   padding: 60px 0;
+}
+#sobre {
+  position: absolute;
+  bottom: 100%;
+  width: 100%;
+  height: 25vh;
+  pointer-events: none;
 }
 /* tab */
 .tab {
@@ -342,7 +350,8 @@
       </div>
     </section>
     
-    <section class="max__width sobre" id="sobre">
+    <section class="max__width sobre">
+      <div id="sobre"></div>
       <div class="tab" id="m-tab">
         <div class="tab-container" id="m-tab-container">
 
@@ -504,7 +513,7 @@ document.addEventListener('DOMContentLoaded', () => {
     intervaloCarrossel = setInterval(() => {
     alterarSelecaoCarrossel(indexSlide)
       indexSlide++
-      if (indexSlide >= imagensNoBanner.length) indexSlide = 0;
+      if (indexSlide >= imagensNoBanner.length) indexSlide = 0
     }, 2500)
   }
   
@@ -512,7 +521,7 @@ document.addEventListener('DOMContentLoaded', () => {
     clearInterval(intervaloCarrossel)
     clearTimeout(timeoutCarrossel)
 
-    timeoutCarrossel = setTimeout(ativarCarrosselAutomatico, 5000);
+    timeoutCarrossel = setTimeout(ativarCarrosselAutomatico, 5000)
     const index = Number(event.currentTarget.getAttribute(crs))
     indexSlide = index
     alterarSelecaoCarrossel(index)
@@ -565,14 +574,13 @@ document.addEventListener('DOMContentLoaded', () => {
       elem.setAttribute(tabAtiva, '')
 
       tabs.querySelectorAll('.tab-names').forEach((b, i) => {
-        b.setAttribute('aria-selected', i===index ? 'true' : 'false');
-        b.setAttribute('tabindex', i===index ? '0' : '-1');
-      });
+        b.setAttribute('aria-selected', i===index ? 'true' : 'false')
+        b.setAttribute('tabindex', i===index ? '0' : '-1')
+      })
     }
   }
 
   moverTabs()
-
 
   /* Slider */
   const slider = document.getElementById('slider')

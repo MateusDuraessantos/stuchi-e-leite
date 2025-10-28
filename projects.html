@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUCHI & LEITE - Projetos</title>
+  <link rel="stylesheet" href="../style/global.css">
+  <script type="module" src="../main.js"></script>
+</head>
+
+<style>
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr)); */
+  /* grid-template-columns: repeat(4, minmax(20vw, 2fr)); */
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 20vw;
+  grid-auto-flow: dense;
+  margin: 0 100px;
+}
+.grid__btn {
+  position: relative; 
+  cursor: pointer;
+  overflow: hidden;
+}
+.grid__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid--col2 {
+  grid-column: span 2;
+}
+.grid--col3 {
+  grid-column: span 2;
+}
+.grid--col3 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+@media screen and (min-width: 1400px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 30vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+}
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  margin: 20px 100px;
+}
+.filter__buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.filter__btn {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  transition: .3s;
+}
+.filter__btn::before {
+  content: '';
+  position: absolute;
+  top: calc(100% - 1px);
+  transition: .3s;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+}
+[activeFilter].filter__btn {
+  color: var(--vermelho_00);
+} 
+[activeFilter].filter__btn::before {
+  content: '';
+  position: absolute;
+  top: calc(100% - 1px);
+  width: 100%;
+  border-bottom: 2px solid var(--vermelho_00);
+}
+.filter__btn:hover {
+  color: var(--vermelho_00);
+  transition: .3s;
+}
+.filter__text {
+  border: 1px solid black;
+  height: 30px;
+  padding: 0 14px;
+  width: 240px;
+}
+</style>
+
+<body>
+  <main>
+
+    <div class="filter">
+      <div class="filter__buttons">
+        <button class="filter__btn" data-filter="todos" activeFilter>Todos</button>
+        <button class="filter__btn" data-filter="arquitetura">Arquitetura</button>
+        <button class="filter__btn" data-filter="urbanismo">Urbanismo</button>
+      </div>
+      <input class="filter__text" type="text" id="typeInput" placeholder="Pesquisar">
+    </div>
+
+    <div class="grid g-gap" id="grid"></div>
+  </main>
+</body>
+
+<script type="module">
+import { projects } from '../datas/data_projects.js'
+import { openPopup } from '../components/popup.js'
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const elGrid = document.getElementById('grid')
+  const typeInput = document.getElementById('typeInput')
+  const filters = document.querySelectorAll('.filter__btn')
+
+  projects.forEach((obj, index) => {
+    const randomVal = Number((Math.pow(Math.random(), 4) * 4).toFixed(0))
+    
+    let colClass = ''
+    if (randomVal >= 1 && randomVal < 2) colClass = 'grid--col2'
+    if (randomVal >= 2 && randomVal < 3) colClass = 'grid--col3'
+    if (randomVal >= 3 && randomVal < 4) colClass = 'grid--col4'
+    
+    const elThumb = document.createElement('div')
+    elThumb?.classList.add('grid__btn')
+    elThumb?.setAttribute('type', obj.type)
+    elThumb?.setAttribute('index', index)
+    if (colClass) elThumb.classList.add(colClass)
+
+    elThumb.innerHTML = `
+      <div class="g-hover">${obj.title}</div>
+      <img class="grid__img" width="300" height="300" src="../src/${obj.thumbPath}" loading="lazy" alt="${obj.thumbPath}">
+    `
+
+    elThumb?.addEventListener('click', (event) => openPopup(projects, event))
+    elGrid?.appendChild(elThumb)
+  })
+
+  /* Filters */
+  const gridBtn = document.querySelectorAll('.grid__btn')
+
+  const handleVisibility = (obj, validation) => obj.style.display = validation ? 'block' : 'none'
+  
+  const filterOnTipping = (event) => {
+    document.querySelector('[activeFilter]')?.removeAttribute('activeFilter')
+    event.currentTarget?.setAttribute('activeFilter', '')
+    const filterValue = event.currentTarget?.getAttribute('data-filter')
+    gridBtn?.forEach(obj => handleVisibility(obj, obj.getAttribute('type') == filterValue || filterValue == 'todos'))
+  }
+
+  const filterByInput = (input) => {
+    const val = input.target.value
+    gridBtn?.forEach(obj => handleVisibility(obj, obj.querySelector('.g-hover').innerText.includes(val)))
+  }
+
+  typeInput?.addEventListener('input', filterByInput)
+  filters?.forEach(obj => obj.addEventListener('click', filterOnTipping))
+})
+
+</script>
+</html>

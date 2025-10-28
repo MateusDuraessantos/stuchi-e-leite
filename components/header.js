@@ -21,7 +21,7 @@ export const addHeader = () => {
           <a class="header__link" data-ancor="sobre" href="/#sobre">Sobre</a>
           <a class="header__link" data-ancor="contato" href="/#contato">Contato</a>
           <hr>
-          <a class="header__link" data-ancor="projetos" href="/projetos.html">Projetos</a>
+          <a class="header__link" data-ancor="projetos" href="/projects.html">Projetos</a>
           <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>
         </div>
         <div class="header__redes">
@@ -32,7 +32,7 @@ export const addHeader = () => {
       </div>
     </div>
   `
-  
+
   document.body.appendChild(header)
 
   const idHeader = header.querySelector('#id-header')
@@ -54,9 +54,8 @@ export const addHeader = () => {
       idHeader.setAttribute('aria-expanded', 'false')
       idHeader?.classList.remove('menu--close')
       idHeader?.classList.remove('menu--open')
-    }, 1000);
+    }, 1000)
   }
-
 
   const urlParams = () => {
     setTimeout(() => {
@@ -64,10 +63,9 @@ export const addHeader = () => {
       const url = window.location
       const param = url.hash.slice(1) || url.pathname.split('.')[0].replace('/', '') || 'inicio'
       header.querySelector(`[data-ancor="${param}"]`)?.setAttribute('active', '')
-    }, 0);
+    }, 0)
   }
 
-  
   hamburger?.addEventListener('click', hamburgerMenu_open)
   headerClose?.addEventListener('click', hamburgerMenu_close)
   headerLink.forEach(obj => obj.addEventListener('click', urlParams))

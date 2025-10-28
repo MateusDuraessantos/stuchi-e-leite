@@ -16,6 +16,7 @@ header {
   margin: auto;
   padding: 0 50px;
   background: white;
+  z-index: 2;
 }
 .header__logo {
   display: flex;
@@ -137,7 +138,7 @@ header {
     width: 100vw;
     background: rgba(0, 0, 0, 0.4);
     height: 100vh;
-    z-index: 100;
+    z-index: 20;
     gap: 0;
   }
   .menu--open .header__description, .menu--open .header__links, .menu--open .header__redes, .menu--open .header__close {

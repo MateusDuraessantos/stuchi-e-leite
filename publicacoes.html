@@ -45,8 +45,8 @@
 </body>
 
 <script type="module">
-import { abrirPopup } from '../components/popup.js'
-import { publications } from '../dados/data_publications.js'
+import { openPopup } from '../components/popup.js'
+import { publications } from '../datas/data_publications.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <img class="publi__img" width="300" height="300" src="../src/${obj.thumbPath}" loading="lazy" alt="mv2" />
     `
 
-    imgThumb.addEventListener('click', (event) => abrirPopup(publications, event))
+    imgThumb.addEventListener('click', (event) => openPopup(publications, event))
     grid.appendChild(imgThumb)
   })
 
