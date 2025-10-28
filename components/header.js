@@ -22,7 +22,7 @@ export const addHeader = () => {
           <a class="header__link" data-ancor="contato" href="/#contato">Contato</a>
           <hr>
           <a class="header__link" data-ancor="projetos" href="/projects.html">Projetos</a>
-          <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>
+          <a class="header__link" data-ancor="publicacoes" href="/publications.html">Publicações</a>
         </div>
         <div class="header__redes">
           <a class="header__a" href="${links.urlFacebook}" target="_blank"><img src="../src/icons/face.svg" loading="lazy" alt="Facebook"></a>
