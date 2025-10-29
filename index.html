@@ -210,27 +210,24 @@
 /* Parcerias */
 .parcerias {
   display: flex;
-  align-items: center;
-  width: 100%;
-  height: 360px;
+  min-width: 100vw;
+  height: 340px;
   background: var(--cinza_01);
-  overflow: hidden;
 }
 .parcerias__slider {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  animation: slider infinite;
-  width: 100%;
-  gap: 2vw;
-  transition: .2s;
-  animation-timing-function: linear;
+  animation: slider 10s infinite linear;
+  padding: 10px 0;
+  width: max-content;
 }
 .parceiras__img {
   object-fit: contain;
   filter: contrast(0.85);
   width: 160px;
   height: 160px;
+  margin-right: 60px;
 }
 @keyframes slider {
   from {
@@ -458,7 +455,7 @@
 
     </section>
 
-    <section class="parcerias" id="slider" velocidade="20">
+    <section class="parcerias" id="slider">
       <div class="parcerias__slider">
         <img class="parceiras__img" imageSlider src="../src/parcerias/image.jpg" loading="lazy" alt="Parcerias">
         <img class="parceiras__img" imageSlider src="../src/parcerias/image-1.jpg" loading="lazy" alt="Parcerias">
@@ -584,17 +581,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* Slider */
   const slider = document.getElementById('slider')
-  const sliderContent = slider?.querySelector('.parcerias__slider')
-  const imgSlider = sliderContent.querySelectorAll('img')
-  const velocidade = Number(slider?.getAttribute('velocidade'))
-  const tempoDeAnimacao = (80 / velocidade) * 4
-  sliderContent.style.animationDuration = `${tempoDeAnimacao}s`
-  
+  const parcerias__slider = slider?.querySelector('.parcerias__slider')
 
-  const widthImages = 100 / imgSlider.length
-  imgSlider.forEach(obj => obj.style.width = `${widthImages}%`)
-  sliderContent.querySelectorAll('[imageSlider]')
-    .forEach(obj => sliderContent.appendChild(obj.cloneNode(true)))
+  slider.innerHTML = `
+    ${parcerias__slider.outerHTML}
+    ${parcerias__slider.outerHTML}
+    ${parcerias__slider.outerHTML}
+  `
 })
 
 </script>

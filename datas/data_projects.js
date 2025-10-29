@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'arq_03',
     type: 'arquitetura',
-    thumbPath: 'projetos/arq_03/planta_3.png',
+    thumbPath: 'projetos/arq_03/thumb.png',
     description: 'Clínica projetada com estética limpa e moderna, priorizando conforto e privacidade.',
     date: '2025',
     imagesPaths: [
@@ -14,7 +14,7 @@ export const projects = [
   {
     title: 'arq_233',
     type: 'urbanismo',
-    thumbPath: 'projetos/arq_233/fig_2.jpg',
+    thumbPath: 'projetos/arq_233/thumb.jpg',
     description: 'Design funcional com estética leve e uso de iluminação indireta para destacar texturas.',
     date: '2025',
     imagesPaths: [
@@ -28,21 +28,9 @@ export const projects = [
     ]
   },
   {
-    title: 'corujas',
-    type: 'arquitetura',
-    thumbPath: 'projetos/corujas/fig_1.jpg',
-    description: 'Ambientes amplos e integração entre interior e exterior com vista para o jardim.',
-    date: '2025',
-    imagesPaths: [
-      'projetos/corujas/fig_2.jpg',
-      'projetos/corujas/fig_3.jpg',
-      'projetos/corujas/fig_4.jpg',
-    ]
-  },
-  {
     title: 'arq_10',
     type: 'arquitetura',
-    thumbPath: 'projetos/arq_10/planta_2.jpg',
+    thumbPath: 'projetos/arq_10/thumb.jpg',
     description: 'Releitura contemporânea de espaços integrados, com iluminação natural e mobiliário sob medida.',
     date: '2025',
     imagesPaths: [
@@ -53,7 +41,7 @@ export const projects = [
   {
     title: 'arq_13',
     type: 'urbanismo',
-    thumbPath: 'projetos/arq_13/fig_02.jpg',
+    thumbPath: 'projetos/arq_13/thumb.jpg',
     description: 'Combinação elegante de concreto aparente e madeira, integrando natureza e arquitetura.',
     date: '2025',
     imagesPaths: [
@@ -66,7 +54,7 @@ export const projects = [
   {
     title: 'arq_18',
     type: 'urbanismo',
-    thumbPath: 'projetos/arq_18/fig_7.jpg',
+    thumbPath: 'projetos/arq_18/thumb.jpg',
     description: 'Projeto que valoriza o contraste entre áreas íntimas e sociais, com fachada imponente.',
     date: '2025',
     imagesPaths: [
@@ -83,7 +71,7 @@ export const projects = [
   {
     title: 'arq_233',
     type: 'urbanismo',
-    thumbPath: 'projetos/arq_233/fig_2.jpg',
+    thumbPath: 'projetos/arq_233/thumb.jpg',
     description: 'Design funcional com estética leve e uso de iluminação indireta para destacar texturas.',
     date: '2025',
     imagesPaths: [
@@ -99,7 +87,7 @@ export const projects = [
   {
     title: 'corujas',
     type: 'arquitetura',
-    thumbPath: 'projetos/corujas/fig_1.jpg',
+    thumbPath: 'projetos/corujas/thumb.jpg',
     description: 'Ambientes amplos e integração entre interior e exterior com vista para o jardim.',
     date: '2025',
     imagesPaths: [
@@ -112,7 +100,7 @@ export const projects = [
     title: 'arq_03',
     
     type: 'arquitetura',
-    thumbPath: 'projetos/arq_03/planta_3.png',
+    thumbPath: 'projetos/arq_03/thumb.png',
     description: 'Clínica projetada com estética limpa e moderna, priorizando conforto e privacidade.',
     date: '2025',
     imagesPaths: [
@@ -124,7 +112,7 @@ export const projects = [
   {
     title: 'arq_10',
     type: 'arquitetura',
-    thumbPath: 'projetos/arq_10/planta_2.jpg',
+    thumbPath: 'projetos/arq_10/thumb.jpg',
     description: 'Releitura contemporânea de espaços integrados, com iluminação natural e mobiliário sob medida.',
     date: '2025',
     imagesPaths: [
@@ -135,7 +123,7 @@ export const projects = [
   {
     title: 'arq_13',
     type: 'urbanismo',
-    thumbPath: 'projetos/arq_13/fig_02.jpg',
+    thumbPath: 'projetos/arq_13/thumb.jpg',
     description: 'Combinação elegante de concreto aparente e madeira, integrando natureza e arquitetura.',
     date: '2025',
     imagesPaths: [
@@ -148,7 +136,7 @@ export const projects = [
   {
     title: 'arq_18',
     type: 'urbanismo',
-    thumbPath: 'projetos/arq_18/fig_7.jpg',
+    thumbPath: 'projetos/arq_18/thumb.jpg',
     description: 'Projeto que valoriza o contraste entre áreas íntimas e sociais, com fachada imponente.',
     date: '2025',
     imagesPaths: [
@@ -160,6 +148,18 @@ export const projects = [
       'projetos/arq_18/fig_6.jpg',
       'projetos/arq_18/fig_8.jpg',
       'projetos/arq_18/fig_9.jpg',
+    ]
+  },
+  {
+    title: 'corujas',
+    type: 'arquitetura',
+    thumbPath: 'projetos/corujas/thumb.jpg',
+    description: 'Ambientes amplos e integração entre interior e exterior com vista para o jardim.',
+    date: '2025',
+    imagesPaths: [
+      'projetos/corujas/fig_2.jpg',
+      'projetos/corujas/fig_3.jpg',
+      'projetos/corujas/fig_4.jpg',
     ]
   },
 ]
