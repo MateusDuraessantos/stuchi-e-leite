@@ -12,8 +12,8 @@ export const addHeader = () => {
       <img width="20" width="40" src="../src/icons/hamburger.svg" loading="lazy" alt="Menu hamburger" />
     </button>
     
-    <div class="header__right" id="id-header" aria-expanded="false">
-      <button class="header__close" id="header__close" aria-label="Fechar menu hamburguer">✕</button>
+    <div class="header__right" closable="true" id="id-header" aria-expanded="false">
+      <button class="header__close" closable="true" aria-label="Fechar menu hamburguer">✕</button>
 
       <div class="header__container">
         <div class="header__links">
@@ -21,8 +21,8 @@ export const addHeader = () => {
           <a class="header__link" data-ancor="sobre" href="/#sobre">Sobre</a>
           <a class="header__link" data-ancor="contato" href="/#contato">Contato</a>
           <hr>
-          <a class="header__link" data-ancor="projetos" href="/projects.html">Projetos</a>
-          <a class="header__link" data-ancor="publicacoes" href="/publications.html">Publicações</a>
+          <a class="header__link" data-ancor="projetos" href="/projetos.html">Projetos</a>
+          <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>
         </div>
         <div class="header__redes">
           <a class="header__a" href="${links.urlFacebook}" target="_blank"><img src="../src/icons/face.svg" loading="lazy" alt="Facebook"></a>
@@ -37,7 +37,6 @@ export const addHeader = () => {
 
   const idHeader = header.querySelector('#id-header')
   const hamburger = header.querySelector('#hamburger')
-  const headerClose = header.querySelector('#header__close')
   const headerLink = header.querySelectorAll('.header__link')
   let setTime = null
 
@@ -48,7 +47,9 @@ export const addHeader = () => {
     idHeader?.classList.add('menu--open')
   }
 
-  const hamburgerMenu_close = () => {
+  const hamburgerMenu_close = (event) => {
+    const isClosable = Boolean(event.target.getAttribute('closable'))
+    if (!isClosable) return
     idHeader?.classList.add('menu--close')
     setTime = setTimeout(() => {
       idHeader.setAttribute('aria-expanded', 'false')
@@ -67,7 +68,7 @@ export const addHeader = () => {
   }
 
   hamburger?.addEventListener('click', hamburgerMenu_open)
-  headerClose?.addEventListener('click', hamburgerMenu_close)
+  header?.addEventListener('click', hamburgerMenu_close)
   headerLink.forEach(obj => obj.addEventListener('click', urlParams))
   urlParams()
 }

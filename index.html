@@ -19,7 +19,7 @@
 </head>
 
 <style>
-/* Carrossel */
+/* carrossel */
 .carrossel {
   position: relative;
   display: flex;
@@ -71,22 +71,22 @@
   background: #D9D9D9;
 }
 /* section */
-.section__body {
+.destaques {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 }
-.section--right {
+.destaques--right {
   margin-left: 30vw;
 }
-.section--left {
+.destaques--left {
   margin-right: 30vw;
 }
-.section__container {
+.destaques__ctn {
   position: relative;
   height: 50vh;
 }
-.section__img {
+.destaques__img {
   width: 100%;
   object-fit: cover;
   height: 100%;
@@ -99,6 +99,7 @@
 .sobre {
   position: relative;
   padding: 60px 0;
+  margin-top: 40px;
 }
 #sobre {
   position: absolute;
@@ -141,16 +142,12 @@
   display: flex;
   min-width: 100%;
   overflow: hidden;
-  min-height: 300px;
-  height: max-content;
+  height: 440px;
   margin-top: 30px;
   gap: 30px;
 }
 .tab-item h1 {
   font-size: 30px;
-}
-.tab-item p {
-  font-weight: 300;
 }
 [tab-ativa] {
   position: relative;
@@ -178,11 +175,15 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-height: 300px;
-  overflow: auto;
+  height: 100%;
   background-color: white;
   font-size: 16px;
   width: 100%;
+  overflow: auto;
+}
+.tab__descricao p {
+  font-weight: 300;
+  font-size: 16px;
 }
 .tab__button {
   display: flex;
@@ -196,6 +197,7 @@
   margin-bottom: 8px;
 }
 .tab__button p {
+  font-size: 16px;
   font-weight: 400;
 }
 .tab__button:hover {
@@ -207,12 +209,13 @@
 .tab__fone p {
   font-weight: 400;
 }
-/* Parcerias */
+/* parcerias */
 .parcerias {
   display: flex;
-  min-width: 100vw;
+  min-width: 100%;
   height: 340px;
   background: var(--cinza_01);
+  overflow: hidden;
 }
 .parcerias__slider {
   display: flex;
@@ -237,7 +240,7 @@
     transform: translateX(-100%);
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 650px) {
   .carrossel {
     max-height: 700px; 
   }
@@ -250,33 +253,43 @@
   }
   .tab-item {
     flex-direction: column;
+    height: max-content;
   }
   .tab--img {
     width: 100%;
     object-fit: cover;
     margin: auto;
-    object-position: 0 -116px;
     margin-bottom: 10px;
   }
   .tab__col--2 {
     display: flex;
     flex-direction: column;
   }
-  .section--right {
+  .destaques--right {
     margin-left: 20vw;
   }
-  .section--left {
+  .destaques--left {
     margin-right: 20vw;
   }
-  .section__container {
+  .destaques__ctn {
     height: 300px;
   }
+  .tab__descricao {
+    height: 400px;
+  }
+  .tab-menu {
+    position: sticky;
+    top: 50px;
+    padding-top: 8px;
+    z-index: 1;
+    background: white;
+  }
 }
-
 </style>
 
 <body id="inicio">
   <main>
+    <!-- Carrossel -->
     <div class="carrossel" id="m-carrossel">
       <div class="carrossel-slider" id="m-carrossel-slider">
         <img
@@ -322,32 +335,22 @@
       </div>
     </div>
 
-    <section class="section__body g-gap">
-      <div class="section__container section--right">
-        <div class="g-hover">Teste</div>
-        <img class="section__img" width="300" height="300" loading="lazy" src="../src/projetos/corujas/fig_1.jpg" alt="">
-      </div>
-      <div class="section__container section--left">
-        <div class="g-hover">Teste</div>
-        <img class="section__img" width="300" height="300" loading="lazy" src="../src/projetos/corujas/fig_2.jpg" alt="">
-      </div>  
-      <div class="section__container section--right">
-        <div class="g-hover">Teste</div>
-        <img class="section__img" width="300" height="300" loading="lazy" src="../src/projetos/corujas/fig_3.jpg" alt="">
-      </div>  
-      <div class="section__grid g-gap">
-        <div class="section__container">
+    <!-- Destaques -->
+    <section class="destaques g-gap" id="destaques">
+      <!-- <div class="section__grid g-gap">
+        <div class="destaques__ctn">
           <div class="g-hover">teste</div>
-          <img class="section__img" width="300" height="300" loading="lazy" src="../src/projetos/corujas/fig_4.jpg" alt="">
+          <img class="destaques__img" width="300" height="300" loading="lazy" src="../src/projetos/corujas/fig_4.jpg" alt="">
         </div>
-        <div class="section__container">
+        <div class="destaques__ctn">
           <div class="g-hover">teste</div>
-          <img class="section__img" width="300" height="300" loading="lazy" src="../src/projetos/corujas/fig_4.jpg" alt="">
+          <img class="destaques__img" width="300" height="300" loading="lazy" src="../src/projetos/corujas/fig_4.jpg" alt="">
         </div>
-      </div>
+      </div> -->
     </section>
     
-    <section class="max__width sobre">
+    <!-- Sobre -->
+    <section class="max__width sobre" id="sobre_id">
       <div id="sobre"></div>
       <div class="tab" id="m-tab">
         <div class="tab-container" id="m-tab-container">
@@ -357,8 +360,13 @@
               <h1>Stuchi & Leite</h1>
 
               <div class="tab__descricao">
-                <p>O escritório nasceu da parceria entre Carlos Leite e Fabiana Stuchi, unindo trajetórias que combinam a prática profissional e a vivência acadêmica, somando mais de 25 anos de experiência. </p>
-                <p>Uma empresa dedicada ao desenvolvimento de projetos, pesquisa e consultoria em arquitetura, design, urbanismo, reabilitação, estruturação/modelagem urbana e desenvolvimento urbano sustentável.</p>
+                <p>O escritório nasceu da parceria entre <strong>Carlos Leite</strong> e <strong>Fabiana Stuchi</strong>, unindo trajetórias que combinam a prática profissional e a vivência acadêmica, somando mais de 25 anos de experiência.</p>
+                <p>Uma empresa dedicada ao desenvolvimento de projetos, pesquisa e consultoria em <strong>arquitetura</strong>, <strong>design</strong>, <strong>urbanismo</strong>, reabilitação, estruturação/modelagem urbana e desenvolvimento urbano sustentável.</p>
+                <p>O pesquisa e consultoria em arquitetura, design, urbanismo, reabilitação.</p>
+                <p>Prática profissional e a vivência acadêmica, somando mais de 25 anos de experiência.</p>
+                <p>Cultoria em arquitetura, design, urbanismo, reabilitação, estruturação/modelagem.</p>
+                <p>O escritório nasceu da parceria entre Carlos Leite e Fabiana Stuchi, unindo trajetórias que combinam a prática profissional e a vivência acadêmica, somando mais de 25 anos de experiência.</p>
+                <p>arquitetura, design, urbanismo, reabilitação, estruturação/modelagem urbana e desenvolvimento urbano sustentável.</p>
               </div>
             </div>
 
@@ -452,27 +460,47 @@
 
         </div>
       </div>
-
     </section>
 
-    <section class="parcerias" id="slider">
+    <!-- Parcerias -->
+    <section class="parcerias" id="parcerias">
       <div class="parcerias__slider">
-        <img class="parceiras__img" imageSlider src="../src/parcerias/image.jpg" loading="lazy" alt="Parcerias">
-        <img class="parceiras__img" imageSlider src="../src/parcerias/image-1.jpg" loading="lazy" alt="Parcerias">
-        <img class="parceiras__img" imageSlider src="../src/parcerias/image-2.jpg" loading="lazy" alt="Parcerias">
-        <img class="parceiras__img" imageSlider src="../src/parcerias/image-3.jpg" loading="lazy" alt="Parcerias">
-        <img class="parceiras__img" imageSlider src="../src/parcerias/image-4.jpg" loading="lazy" alt="Parcerias">
-        <img class="parceiras__img" imageSlider src="../src/parcerias/image-5.jpg" loading="lazy" alt="Parcerias">
-        <img class="parceiras__img" imageSlider src="../src/parcerias/samsung.jpg" loading="lazy" alt="Parcerias">
-        <img class="parceiras__img" imageSlider src="../src/parcerias/apple.png" loading="lazy" alt="Parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image.jpg" loading="lazy" alt="Alguma parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-1.jpg" loading="lazy" alt="Alguma parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-2.jpg" loading="lazy" alt="Alguma parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-3.jpg" loading="lazy" alt="Alguma parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-4.jpg" loading="lazy" alt="Alguma parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/image-5.jpg" loading="lazy" alt="Alguma parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/samsung.jpg" loading="lazy" alt="Alguma parcerias">
+        <img class="parceiras__img" imageSlider src="../src/parcerias/apple.png" loading="lazy" alt="Alguma parcerias">
       </div>
     </section>
 
   </main>
+</body>
 
-<script>
+<script type="module">
+import { projetos } from '../datas/data_projects.js'
+import { openPopup } from '../components/popup.js'
 
 document.addEventListener('DOMContentLoaded', () => {
+  const bannerOriginal = document.getElementById('m-carrossel')
+  const tabsContainer = document.getElementById('m-tab-container')
+  const destaques = document.getElementById('destaques')  
+  const parcerias = document.getElementById('parcerias')
+  const banner = document.getElementById('m-carrossel-slider')
+  const tabs = document.getElementById('m-tab')
+  const destaquesSelecionados = ['corujas', 'arq_233', 'arq_18', 'arq_13'/* , 'arq_03' */]
+  const tabAtiva = 'tab-ativa'
+  const crs = 'index_carrossel'
+  const imagensNoBanner = Array.from(banner.querySelectorAll('img'))
+  const tabItens = Array.from(tabs.querySelectorAll('.tab-item'))
+  const parcerias__slider = parcerias?.querySelector('.parcerias__slider')
+  let tabAtivaIndex = 0
+  let indexSlide = 1
+  let intervaloCarrossel = null
+  let timeoutCarrossel = null
+
 
   /* Header */
   document.querySelectorAll('[ancora]').forEach(obj => {
@@ -484,41 +512,47 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 
 
-  /* Banner */
-  const banner = document.getElementById('m-carrossel-slider')
-  const bannerOriginal = document.getElementById('m-carrossel')
-  const imagensNoBanner = Array.from(banner.querySelectorAll('img'))
+  /* Destaques */
+  destaquesSelecionados.forEach((obj, index) => {
+    const projeto = projetos.find(elem => elem.title === obj)
+    const destaques__ctn = document.createElement('div')
+    const posicaoImagem = index % 2 ? 'destaques--left' : 'destaques--right'
+    destaques__ctn.classList.add('destaques__ctn', posicaoImagem)
+    destaques__ctn.setAttribute('title', obj)
+    destaques__ctn.innerHTML = `
+      <div class="g-hover">${obj}</div>
+      <img class="destaques__img" width="300" height="300" loading="lazy" src="../src/${projeto.thumbPath}" alt="">
+    `
+    destaques__ctn?.addEventListener('click', (event) => openPopup(projetos, event))
+    destaques?.prepend(destaques__ctn)
+  })
+
+  /* Carrossel */
   const bannerBotoes = document.createElement('div')
   bannerBotoes.classList.add('carrossel-button')
-  const crs = 'index_carrossel'
-  let indexSlide = 0
-  let intervaloCarrossel = null
-  let timeoutCarrossel = null
 
   const botoesParaSelecao = imagensNoBanner.map((obj, index) =>
-    `<button class="carrossel__btn ${index == 0 ? 'carrossel__ativa':''} aria-label="Trocar imagem do carrossel" ${crs}="${index}"><span></span></button>`
+    `<button class="carrossel__btn ${index === 0 ? 'carrossel__ativa':''} aria-label="Trocar imagem do carrossel" ${crs}="${index}"><span></span></button>`
   ).join('')
 
   bannerBotoes.innerHTML += botoesParaSelecao
   bannerOriginal.appendChild(bannerBotoes)
-  
   const buttonsCarrossel = document.querySelectorAll(`[${crs}]`)
-
   buttonsCarrossel.forEach(obj => obj.addEventListener('click', selecaoManual))
 
   function ativarCarrosselAutomatico() {
     intervaloCarrossel = setInterval(() => {
-    alterarSelecaoCarrossel(indexSlide)
+      alterarSelecaoCarrossel(indexSlide)
       indexSlide++
       if (indexSlide >= imagensNoBanner.length) indexSlide = 0
-    }, 2500)
+    }, 2000) // Velocidade que a imagem será passada dentro do carrossel.
   }
   
   function selecaoManual(event) {
     clearInterval(intervaloCarrossel)
     clearTimeout(timeoutCarrossel)
 
-    timeoutCarrossel = setTimeout(ativarCarrosselAutomatico, 5000)
+    timeoutCarrossel = setTimeout(ativarCarrosselAutomatico, 5000) // Ativa o carrossel após o usuário ter selecionado alguma imagem manualmente.
     const index = Number(event.currentTarget.getAttribute(crs))
     indexSlide = index
     alterarSelecaoCarrossel(index)
@@ -529,22 +563,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.carrossel__ativa')?.classList.remove('carrossel__ativa')
     buttonsCarrossel[index].classList.add('carrossel__ativa')
   }
-  
-  ativarCarrosselAutomatico()
 
-  /* Tabs */
-  const tabs = document.getElementById('m-tab')
-  const tabItens = Array.from(tabs.querySelectorAll('.tab-item'))
-  const tabAtiva = 'tab-ativa'
-  const tabsContainer = document.getElementById('m-tab-container')
-  let tabAtivaIndex = 0
 
+  /* Sobre */
+  const sobre_id = document.getElementById('sobre_id')
   const tabsNomes = tabItens.map((obj, i) => `
     <button
       class="tab-names"
       ${i === tabAtivaIndex ? tabAtiva : ''}
-      aria-selected="${i===tabAtivaIndex}"
-      tabindex="${i===tabAtivaIndex? '0':'-1'}"
+      aria-selected="${i === tabAtivaIndex}"
+      tabindex="${i === tabAtivaIndex? '0':'-1'}"
       aria-label="Trocar aba ativa"
     >
       ${obj.getAttribute('title')}
@@ -554,7 +582,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const tabMenu = document.createElement('div')
   tabMenu.classList.add('tab-menu')
   tabMenu.innerHTML = tabsNomes
-  tabs.appendChild(tabMenu)
+  sobre_id.prepend(tabMenu)
 
   document.querySelectorAll('.tab-names')?.forEach((obj, index) => 
     obj.addEventListener('click', (event) => {
@@ -571,26 +599,27 @@ document.addEventListener('DOMContentLoaded', () => {
       elem.setAttribute(tabAtiva, '')
 
       tabs.querySelectorAll('.tab-names').forEach((b, i) => {
-        b.setAttribute('aria-selected', i===index ? 'true' : 'false')
-        b.setAttribute('tabindex', i===index ? '0' : '-1')
+        b.setAttribute('aria-selected', i === index ? 'true' : 'false')
+        b.setAttribute('tabindex', i === index ? '0' : '-1')
       })
     }
   }
 
-  moverTabs()
 
-  /* Slider */
-  const slider = document.getElementById('slider')
-  const parcerias__slider = slider?.querySelector('.parcerias__slider')
-
-  slider.innerHTML = `
-    ${parcerias__slider.outerHTML}
-    ${parcerias__slider.outerHTML}
-    ${parcerias__slider.outerHTML}
+  /* Parcerias */
+  parcerias.innerHTML = `
+    ${parcerias__slider?.outerHTML}
+    ${parcerias__slider?.outerHTML}
+    ${parcerias__slider?.outerHTML}
   `
+
+
+  moverTabs()
+  ativarCarrosselAutomatico()
 })
+
+
 
 </script>
 
-</body>
 </html>

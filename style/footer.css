@@ -28,15 +28,27 @@ footer {
 }
 @media screen and (max-width: 1000px) {
   footer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     height: initial;
-    width: calc(100% - 20px);
-    padding: 40px 0;
   }
   .footer__col {
     width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0;
+    width: calc(100% - 20px);
+  }
+  .footer__col {
+    width: 100%;
+    text-align: center;
+    margin: initial;
     max-width: initial;
   }
 }

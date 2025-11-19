@@ -17,7 +17,7 @@ Website institucional do escritório de arquitetura Stuchi & Leite, desenvolvido
 ---
 
 ## 💻 Pages
-index.html / projects.html / publications.html
+index.html / projetos.html / publicacoes.html
 
 ---
 
@@ -49,7 +49,7 @@ To update the project online using **Firebase Hosting**, follow these steps:
 
 ## 📁 About the project
 
-How to add and update projects to page projects.html
+How to add and update projetos to page projetos.html
 
   Note: This project need a server to run. You can use the Visual Studio code "live server" extension.
 
@@ -61,7 +61,7 @@ How to add and update projects to page projects.html
     Make sure the folder name is consistent with your naming conventions (e.g., no spaces or special characters).
 
   3. **Update the data file** <br>
-    Go to: src/datas/data_projects.js (This file stores all project information displayed on the projects.html page)
+    Go to: src/datas/data_projects.js (This file stores all project information displayed on the projetos.html page)
 
   4. **Add or modify project data** <br>
     Inside data_projects.js, copy the estructure of a existing project and paste it below others. Then update each property (such as title, thumbPath, description, etc.) with the new project's details

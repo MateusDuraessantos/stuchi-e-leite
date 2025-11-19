@@ -8,6 +8,7 @@
   margin: 0;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent !important; 
+  /* border: 1px solid rgba(250, 0, 0, 0.4); */
 }
 *::-webkit-scrollbar {
   width: 10px;
@@ -35,15 +36,19 @@
 html {
   scroll-behavior: smooth;
 }
+strong {
+  font-weight: 600;
+}
 body {
   padding-top: 80px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
-.body__scroll {
+body.no-scroll, .no-scroll {
   padding-right: 10px;
   overflow: hidden;
 }
-.body__scroll header {
+.no-scroll header {
   padding: 0 60px 0 50px;
 }
 .max__width {
@@ -111,8 +116,11 @@ a:hover {
   .g-hover {
     display: none;
   }
-  .body__scroll {
+  .no-scroll {
     padding-right: initial;
     overflow: initial;
+  }
+  .no-scroll header {
+    padding: 0 20px;
   }
 }

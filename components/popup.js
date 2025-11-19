@@ -1,6 +1,6 @@
 export const openPopup = (datas, event) => {
-  const index = Number(event.currentTarget.getAttribute('index'))
-  const selectProject = datas[index]
+  const title = event.currentTarget.getAttribute('title')
+  const selectProject = datas.find(obj => obj.title === title)
   const popup = document.createElement('div')
   const closableTag = 'closable'
   popup.classList.add('popup', 'slowFade--open')
@@ -50,9 +50,9 @@ export const openPopup = (datas, event) => {
     addDragAndDrop() 
   }
 
-  const addBlockBodyScroll = () => document.body.classList.add('body__scroll')
+  const addBlockBodyScroll = () => document.body.classList.add('no-scroll')
 
-  const removeBlockBodyScroll = () => document.body.classList.remove('body__scroll')
+  const removeBlockBodyScroll = () => document.body.classList.remove('no-scroll')
 
   const closeZoom = (event) => {
     const zoom = document.getElementById('zoom')
@@ -124,7 +124,7 @@ export const openPopup = (datas, event) => {
       else if (e.deltaY > 0) scale -= step
       if (scale < 1) scale = 1
       if (scale > 5) scale = 5
-      if (scale == 1) {
+      if (scale === 1) {
         translateX = 0
         translateY = 0
       }

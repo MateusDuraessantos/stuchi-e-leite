@@ -10,18 +10,20 @@
 .publi {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
 }
 .publi__img {
+  display: block;
   width: 100%;
   height: max-content;
   object-fit: contain;
 }
 .public__ctn {
-  height: calc(100% - 7px);
+  height: 100%;
   overflow: hidden;
 }
 .g-hover {
-  height: calc(100% - 7px);
+  height: 100%;
 }
 @media screen and (max-width: 1000px) {
   .publi {
@@ -46,23 +48,23 @@
 
 <script type="module">
 import { openPopup } from '../components/popup.js'
-import { publications } from '../datas/data_publications.js'
+import { publicacoes } from '../datas/data_publications.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   
   const grid = document.getElementById('grid')
 
-  publications.forEach((obj, index) => {
+  publicacoes.forEach(obj => {
     const imgThumb = document.createElement('div')
     imgThumb.classList.add('public__ctn', 'g-hover__container')
-    imgThumb.setAttribute('index', index)
+    imgThumb.setAttribute('title', obj.title)
 
     imgThumb.innerHTML = `
       <div class="g-hover">${obj.title}</div>
       <img class="publi__img" width="300" height="300" src="../src/${obj.thumbPath}" loading="lazy" alt="mv2" />
     `
 
-    imgThumb.addEventListener('click', (event) => openPopup(publications, event))
+    imgThumb.addEventListener('click', (event) => openPopup(publicacoes, event))
     grid.appendChild(imgThumb)
   })
 

@@ -38,21 +38,6 @@
   grid-column: span 2;
   grid-row: span 2;
 }
-@media screen and (min-width: 1400px) {
-  .grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 30vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-}
 .filter {
   display: flex;
   align-items: center;
@@ -99,6 +84,30 @@
   padding: 0 14px;
   width: 240px;
 }
+@media screen and (min-width: 1400px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 30vw;
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .filter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: max-content;
+    margin-bottom: 10px !important;
+  }
+  .filter__btn {
+    font-size: 14px;
+  }
+}
 </style>
 
 <body>
@@ -118,19 +127,17 @@
 </body>
 
 <script type="module">
-import { projects } from '../datas/data_projects.js'
+import { projetos } from '../datas/data_projects.js'
 import { openPopup } from '../components/popup.js'
 
 document.addEventListener('DOMContentLoaded', () => {
-
   const elGrid = document.getElementById('grid')
   const typeInput = document.getElementById('typeInput')
   const filters = document.querySelectorAll('.filter__btn')
-
-  projects.forEach((obj, index) => {
-    const randomVal = Number((Math.pow(Math.random(), 4) * 4).toFixed(0))
-    
+  
+  projetos.forEach(obj => {
     let colClass = ''
+    const randomVal = Number((Math.pow(Math.random(), 4) * 4).toFixed(0))
     if (randomVal >= 1 && randomVal < 2) colClass = 'grid--col2'
     if (randomVal >= 2 && randomVal < 3) colClass = 'grid--col3'
     if (randomVal >= 3 && randomVal < 4) colClass = 'grid--col4'
@@ -138,7 +145,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const elThumb = document.createElement('div')
     elThumb?.classList.add('grid__btn')
     elThumb?.setAttribute('type', obj.type)
-    elThumb?.setAttribute('index', index)
+    elThumb?.setAttribute('title', obj.title)
+    
     if (colClass) elThumb.classList.add(colClass)
 
     elThumb.innerHTML = `
@@ -146,13 +154,12 @@ document.addEventListener('DOMContentLoaded', () => {
       <img class="grid__img" width="300" height="300" src="../src/${obj.thumbPath}" loading="lazy" alt="${obj.thumbPath}">
     `
 
-    elThumb?.addEventListener('click', (event) => openPopup(projects, event))
+    elThumb?.addEventListener('click', (event) => openPopup(projetos, event))
     elGrid?.appendChild(elThumb)
   })
 
   /* Filters */
   const gridBtn = document.querySelectorAll('.grid__btn')
-
   const handleVisibility = (obj, validation) => obj.style.display = validation ? 'block' : 'none'
   
   const filterOnTipping = (event) => {
