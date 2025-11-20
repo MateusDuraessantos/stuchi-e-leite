@@ -9,7 +9,7 @@ export const addHeader = () => {
     </div>
 
     <button class="header__hamburger" id="hamburger" aria-label="Menu hamburguer">
-      <img width="20" width="40" src="../src/icons/hamburger.svg" loading="lazy" alt="Menu hamburger" />
+      <img width="20" width="40" src="../assets/icons/hamburger.svg" loading="lazy" alt="Menu hamburger" />
     </button>
     
     <div class="header__right" closable="true" id="id-header" aria-expanded="false">
@@ -25,9 +25,9 @@ export const addHeader = () => {
           <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>
         </div>
         <div class="header__redes">
-          <a class="header__a" href="${links.urlFacebook}" target="_blank"><img src="../src/icons/face.svg" loading="lazy" alt="Facebook"></a>
-          <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="../src/icons/insta.svg" loading="lazy" alt="Instagram"></a>
-          <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="../src/icons/linkedin.svg" loading="lazy" alt="LinkedIn"></a>
+          <a class="header__a" href="${links.urlFacebook}" target="_blank"><img src="../assets/icons/face.svg" loading="lazy" alt="Facebook"></a>
+          <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="../assets/icons/insta.svg" loading="lazy" alt="Instagram"></a>
+          <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="../assets/icons/linkedin.svg" loading="lazy" alt="LinkedIn"></a>
         </div>
       </div>
     </div>

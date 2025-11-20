@@ -54,14 +54,14 @@ How to add and update projetos to page projetos.html
   Note: This project need a server to run. You can use the Visual Studio code "live server" extension.
 
   1. **Navigate to the folowing directory** <br>
-    src/projetos
+    assets/projetos
 
   2. **Add a new project folder** <br>
-    Create a new folder inside src/projetos and place all the images related to the new project inside it.
+    Create a new folder inside assets/projetos and place all the images related to the new project inside it.
     Make sure the folder name is consistent with your naming conventions (e.g., no spaces or special characters).
 
   3. **Update the data file** <br>
-    Go to: src/datas/data_projects.js (This file stores all project information displayed on the projetos.html page)
+    Go to: datas/data_projects.js (This file stores all project information displayed on the projetos.html page)
 
   4. **Add or modify project data** <br>
     Inside data_projects.js, copy the estructure of a existing project and paste it below others. Then update each property (such as title, thumbPath, description, etc.) with the new project's details

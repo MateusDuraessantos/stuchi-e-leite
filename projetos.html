@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     elThumb.innerHTML = `
       <div class="g-hover">${obj.title}</div>
-      <img class="grid__img" width="300" height="300" src="../src/${obj.thumbPath}" loading="lazy" alt="${obj.thumbPath}">
+      <img class="grid__img" width="300" height="300" src="../assets/${obj.thumbPath}" loading="lazy" alt="${obj.thumbPath}">
     `
 
     elThumb?.addEventListener('click', (event) => openPopup(projetos, event))
