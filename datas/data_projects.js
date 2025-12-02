@@ -21,7 +21,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 01 residencia ga",
+    "title": "Residência GA",
     "thumbPath": "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_05_foto_ga.jpg",
     "type": "arquitetura",
     "description": "",
@@ -56,7 +56,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 02 residencia piracicaba i",
+    "title": "Residência Piracicaba I",
     "thumbPath": "projetos/arq_02_residencia_piracicaba_i/arq_02_para_publicar/fig_03_foto_residencia_piracicaba_i.jpg",
     "type": "arquitetura",
     "description": "",
@@ -71,7 +71,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 03 clinica radiologica",
+    "title": "Clínica Radiológica",
     "thumbPath": "projetos/arq_03_clinica_radiologica/arq_03_para_publicar/fig_04_foto_clinica_radiologica.jpg",
     "type": "arquitetura",
     "description": "",
@@ -84,7 +84,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 106 escritorio regina bi",
+    "title": "Escritório Regina Bi",
     "thumbPath": "projetos/arq_106_escritorio_regina_bi/arq_106_para_publicar/fig_01_planta_depois_escritorio_regina_bi.png",
     "type": "arquitetura",
     "description": "",
@@ -98,7 +98,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 109 boulevard da paz prov2",
+    "title": "Boulevard da Paz Prov. 2",
     "thumbPath": "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_02_implantacao_boulevard_da_pax_prov2.jpg",
     "type": "arquitetura",
     "description": "",
@@ -121,7 +121,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 10 max haus panamby",
+    "title": "Max Haus Panamby",
     "thumbPath": "projetos/arq_10_max_haus_panamby/arq_10_para_publicar/fig_04_foto_max_haus_panamby.jpg",
     "type": "arquitetura",
     "description": "",
@@ -143,7 +143,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 121 boulevard da paz prov1 estudos",
+    "title": "Boulevard da Paz Prov. 1 Estudos",
     "thumbPath": "projetos/arq_121_boulevard_da_paz_prov1_estudos/arq_121_boulevard_da_paz_prov1_estudos/fig_01_estudo_boulevard_da_pax_prov1.jpg",
     "type": "arquitetura",
     "description": "",
@@ -165,7 +165,7 @@ export const projetos = [
     ]
   }, 
   {
-    "title": "arq 128 residencia ae campinas",
+    "title": "Residência AE Campinas",
     "thumbPath": "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_04_perspectiva_residencia_ae_campinas.jpg",
     "type": "arquitetura",
     "description": "",
@@ -181,7 +181,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 130 corujas",
+    "title": "Corujas",
     "thumbPath": "projetos/arq_130_corujas/arq_130_para_publicar/fig_01_render_corujas.jpg",
     "type": "arquitetura",
     "description": "",
@@ -210,7 +210,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 132 souza de toledo advogados",
+    "title": "Souza de Toledo Advogados",
     "thumbPath": "projetos/arq_132_souza_de_toledo_advogados/arq_132_para_publicar/fig_03_perspectiva_souza_de_toledo_advogados.png",
     "type": "arquitetura",
     "description": "",
@@ -227,7 +227,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 134 clinica medica casa santa terezinha",
+    "title": "Clínica Médica Casa Santa Terezinha",
     "thumbPath": "projetos/arq_134_clinica_medica_casa_santa_terezinha/arq_134_para_publicar/fig_03_render_clinica_medica_cst.png",
     "type": "arquitetura",
     "description": "",
@@ -244,7 +244,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 139 apartamento alagoas",
+    "title": "Apartamento Alagoas",
     "thumbPath": "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_05_render_apartamento_alagoas.png",
     "type": "arquitetura",
     "description": "",
@@ -265,7 +265,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 13 residencia ibirapuera",
+    "title": "Residência Ibirapuera",
     "thumbPath": "projetos/arq_13_residencia_ibirapuera/arq_13_para_publicar/fig_03_foto_residencia_ibirapuera.jpg",
     "type": "arquitetura",
     "description": "",
@@ -283,7 +283,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 140 apartamento liberdade",
+    "title": "Apartamento Liberdade",
     "thumbPath": "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_07_perspectiva_apartamento_liberdade.png",
     "type": "arquitetura",
     "description": "",
@@ -303,7 +303,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 141 apartamento alagoas ima",
+    "title": "Apartamento Alagoas IMA",
     "thumbPath": "projetos/arq_141_apartamento_alagoas_ima/arq_141_para_publicar/fig_06_render_apartamento_alagoas.png",
     "type": "arquitetura",
     "description": "",
@@ -319,7 +319,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 143 apartamento mm",
+    "title": "Apartamento MM",
     "thumbPath": "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_05_perspectiva_apartamento_mm.png",
     "type": "arquitetura",
     "description": "",
@@ -336,7 +336,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 17 cubo azul",
+    "title": "Cubo Azul",
     "thumbPath": "projetos/arq_17_cubo_azul/arq_17_para_publicar/fig_03_cubo_azul.jpg",
     "type": "arquitetura",
     "description": "",
@@ -355,7 +355,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 18 araguari",
+    "title": "Araguari",
     "thumbPath": "projetos/arq_18_araguari/arq_18_para_publicar/fig_01_planta_inferior_araguari.png",
     "type": "arquitetura",
     "description": "",
@@ -379,7 +379,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 19 residencia marques de itanhaem",
+    "title": "Residência Marques de Itanhaém",
     "thumbPath": "projetos/arq_19_residencia_marques_de_itanhaem/arq_19_para_publicar/fig_01_planta_residencia_marques_de_itanhaem.png",
     "type": "arquitetura",
     "description": "",
@@ -393,7 +393,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 23 duo i",
+    "title": "Duo I",
     "thumbPath": "projetos/arq_23_duo_i/arq_23_para_publicar/fig_03_foto_duo_i.jpg",
     "type": "arquitetura",
     "description": "",
@@ -417,7 +417,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 24 residencia piracicaba ii",
+    "title": "Residência Piracicaba II",
     "thumbPath": "projetos/arq_24_residencia_piracicaba_ii/arq_24_para_publicar/fig_05_foto_residencia_piracicaba_ii.jpg",
     "type": "arquitetura",
     "description": "",
@@ -436,7 +436,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 26 e 27 max haus vila leopoldina i e ii",
+    "title": "Max Haus Vila Leopoldina I e II",
     "thumbPath": "projetos/arq_26_e_27_max_haus_vila_leopoldina_i_e_ii/arq_26_e_27_para_publicar/fig_04_corte_aa_max_haus_vila_leopoldina_i_e_ii.jpg",
     "type": "arquitetura",
     "description": "",
@@ -452,7 +452,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 29 reserva saude",
+    "title": "Reserva Saúde",
     "thumbPath": "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_15_foto_reserva_saude.jpg",
     "type": "arquitetura",
     "description": "",
@@ -481,7 +481,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 34 atelie fotografia",
+    "title": "Ateliê Fotografia",
     "thumbPath": "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_11_foto_atelie_fotografia.jpg",
     "type": "arquitetura",
     "description": "",
@@ -523,7 +523,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 39 vila nova conceicao",
+    "title": "Vila Nova Conceição",
     "thumbPath": "projetos/arq_39_vila_nova_conceicao/arq_39_para_publicar/fig_01_slide_01_villa_nova_conceição.jpg",
     "type": "arquitetura",
     "description": "",
@@ -541,7 +541,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 45 residencia municipal",
+    "title": "Residência Municipal",
     "thumbPath": "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_05_pespectiva_residencia_municipal.jpg",
     "type": "arquitetura",
     "description": "",
@@ -560,7 +560,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 47 residencia iraci",
+    "title": "Residência Iraci",
     "thumbPath": "projetos/arq_47_residencia_iraci/arq_47_para_publicar/fig_03_foto_residencia_iracia.jpg",
     "type": "arquitetura",
     "description": "",
@@ -584,7 +584,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 48 apto jardim sul",
+    "title": "Apto Jardim Sul",
     "thumbPath": "projetos/arq_48_apto_jardim_sul/arq_48_para_publicar/fig_01_planta_original_apto_jardim_sul.png",
     "type": "arquitetura",
     "description": "",
@@ -602,7 +602,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 48 residencia iraci ii",
+    "title": "Residência Iraci II",
     "thumbPath": "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_01_planta_inferior_residencia_iraci_ii.png",
     "type": "arquitetura",
     "description": "",
@@ -623,7 +623,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 51 aratas",
+    "title": "Aratas",
     "thumbPath": "projetos/arq_51_aratas/arq_51_para_publicar/fig_14_foto_aratas.jpg",
     "type": "arquitetura",
     "description": "",
@@ -652,7 +652,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 52 clinica de saude",
+    "title": "Clínica de Saúde",
     "thumbPath": "projetos/arq_52_clinica_de_saude/arq_52_para_publicar/fig_01_planta_clinica_de_saude.jpg",
     "type": "arquitetura",
     "description": "",
@@ -673,7 +673,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 57 atelie republica",
+    "title": "Ateliê República",
     "thumbPath": "projetos/arq_57_atelie_republica/arq_57_para_publicar/fig_01_planta_siperior_atelie_republica.png",
     "type": "arquitetura",
     "description": "",
@@ -705,7 +705,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 58 escritorio plenno",
+    "title": "Escritório Plenno",
     "thumbPath": "projetos/arq_58_escritorio_plenno/arq_58_para_publicar/fig_01_planta_escritorio_plenno.jpg",
     "type": "arquitetura",
     "description": "",
@@ -732,7 +732,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 63 casa mirante",
+    "title": "Casa Mirante",
     "thumbPath": "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_12_render_casa_mirante.jpg",
     "type": "arquitetura",
     "description": "",
@@ -753,7 +753,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 64 duo ii bancada",
+    "title": "Duo II Bancada",
     "thumbPath": "projetos/arq_64_duo_ii_bancada/arq_64_para_publicar/fig_01_foto_duo_ii_bancada.jpg",
     "type": "arquitetura",
     "description": "",
@@ -765,7 +765,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 67 quadra modelo",
+    "title": "Quadra Modelo",
     "thumbPath": "projetos/arq_67_quadra_modelo/arq_67_para_publicar/fig_01_diagrama_quadra_modelo.png",
     "type": "arquitetura",
     "description": "",
@@ -779,7 +779,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 70 escola infantil alto da lapa up school",
+    "title": "Escola Infantil Alto da Lapa UP School",
     "thumbPath": "projetos/arq_70_escola_infantil_alto_da_lapa_up_school/arq_70_para_publicar/fig_01_diagrama_escola_infantil_alto_da_lapa.jpg",
     "type": "arquitetura",
     "description": "",
@@ -804,7 +804,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 71 atelie foto e filme jg",
+    "title": "Ateliê Foto e Filme JP",
     "thumbPath": "projetos/arq_71_atelie_foto_e_filme_jg/arq_71_para_publicar/fig_17_gif_modelo.gif",
     "type": "arquitetura",
     "description": "",
@@ -830,7 +830,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 75 nk store",
+    "title": "NK Store",
     "thumbPath": "projetos/arq_75_nk_store/arq_75_para_publicar/fig_01_foto_nk_store.jpg",
     "type": "arquitetura",
     "description": "",
@@ -857,7 +857,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 78 atelie lapa",
+    "title": "Ateliê Lapa",
     "thumbPath": "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_01_planta_atelie_lapa.png",
     "type": "arquitetura",
     "description": "",
@@ -887,7 +887,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 90 copan azul",
+    "title": "Copan Azul",
     "thumbPath": "projetos/arq_90_copan_azul/arq_90_para_publicar/fig_02_render_copan_azul.jpg",
     "type": "arquitetura",
     "description": "",
@@ -912,7 +912,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq 92 gravata",
+    "title": "Gravata",
     "thumbPath": "projetos/arq_92_gravata/arq_92_para_publicar/fig_01_planta_depois_gravata.png",
     "type": "arquitetura",
     "description": "",
@@ -957,7 +957,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq ww residencia sumarezinho",
+    "title": "Residência Sumarezinho",
     "thumbPath": "projetos/arq_ww_residencia_sumarezinho/arq_ww_para_publicar/fig_01_planta_inferior_residencia_sumarezinho.png",
     "type": "arquitetura",
     "description": "",
@@ -969,7 +969,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq yy edificio royal",
+    "title": "Edifício Royal",
     "thumbPath": "projetos/arq_yy_edificio_royal/arq_yy_para_publicar/fig_03_foto_edificio_royal.jpg",
     "type": "arquitetura",
     "description": "",
@@ -986,7 +986,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "arq zz kansas",
+    "title": "Kansas",
     "thumbPath": "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_07_foto_kansas.jpg",
     "type": "arquitetura",
     "description": "",
@@ -1005,7 +1005,7 @@ export const projetos = [
   // URBANISMO
 
   {
-    "title": "urb 01 reurbanizacao marginais sao paulo",
+    "title": "Reurbanização Marginais São Paulo",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_01_reurbanizacao_marginais_sao_paulo/fig_01_reurbanizacao_marginas_sao_paulo.jpg",
     "description": "",
@@ -1017,7 +1017,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 02 requalificacao urbana maua RUIM",
+    "title": "Requalificação Urbana Mauá RUIM",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_02_requalificacao_urbana_maua_RUIM/fig_01_requalificacao_urbana_maua.jpg",
     "description": "",
@@ -1028,7 +1028,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 03 estruturacao urbana santana de parnaiba",
+    "title": "Estruturação Urbana Santana de Parnaíba",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_03_estruturacao_urbana_santana_de_parnaiba/fig_01_estruturacao_urbana_santana_de_parnaiba.jpg",
     "description": "",
@@ -1046,7 +1046,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 04 orla ferroviaria RUIM",
+    "title": "Orla Ferroviária RUIM",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_04_orla_ferroviaria_RUIM/fig_01_orla_ferroviaria_tamanduatei.jpg",
     "description": "",
@@ -1062,7 +1062,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 05 nova centralidade angola",
+    "title": "Nova Centralidade Angola",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_05_nova_centralidade_angola/fig_01_angola.jpg",
     "description": "",
@@ -1079,7 +1079,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 06 ouc diagonal sul",
+    "title": "OUC Diagonal Sul",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_06_ouc_diagonal_sul/fig_01_ouc_diagonal_sul.jpg",
     "description": "",
@@ -1100,7 +1100,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 07 toru heliopolis",
+    "title": "Toru Heliópolis",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_07_toru_heliopolis/fig_01_toru_heliopolis.jpg",
     "description": "",
@@ -1129,7 +1129,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 08 pdu alphaville barueri santana",
+    "title": "PDU Alphaville Barueri Santana",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_08_pdu_alphaville_barueri_santana/fig_1_folder_pdu_alphaville_barueri_santana.png",
     "description": "",
@@ -1144,7 +1144,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 09 pdu viracopos",
+    "title": "PDU Viracopos",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_09_pdu_viracopos/fig_01_pdu_viracopos.jpg",
     "description": "",
@@ -1162,7 +1162,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 10 masterplan viracopos",
+    "title": "Masterplan Viracopos",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_10_masterplan_viracopos/fig_01_masterplan_viracopos.jpg",
     "description": "",
@@ -1178,7 +1178,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 11 reestruturação urbano ambiental mobilidade rio piracicaba",
+    "title": "Reestruturação Urbano Ambiental Mobilidade Rio Piracicaba",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_11_reestruturação_urbano_ambiental_mobilidade_rio_piracicaba/fig_01_reestruturação_urbano_ambiental_mobilidade_rio_piracicaba.png",
     "description": "",
@@ -1190,7 +1190,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 12 parque linear renato wagner piracicaba",
+    "title": "Parque Linear Renato Wagner Piracicaba",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_01_parque_linear_renato_wagner_piracicaba.jpg",
     "description": "",
@@ -1229,7 +1229,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 13 parque joao hermann neto piracicaba",
+    "title": "Parque João Hermann Neto Piracicaba",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_13_parque_joao_hermann_neto_piracicaba/fig_01_parque_joao_hermann_neto_piracicaba.jpg",
     "description": "",
@@ -1252,7 +1252,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 14 parque do trabalhador piracicaba",
+    "title": "Parque do Trabalhador Piracicaba",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_14_parque_do_trabalhador_piracicaba/fig_01_parque_do_trabalhador_piracicaba.png",
     "description": "",
@@ -1269,7 +1269,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 15 masterplan fuzileiros navais salvador",
+    "title": "Masterplan Fuzileiros Navais Salvador",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_15_masterplan_fuzileiros_navais_salvador/fig_01_fuzileiros.jpg",
     "description": "",
@@ -1292,7 +1292,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 16 charrette cruz das almas maceio",
+    "title": "Charrette Cruz das Almas Maceió",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_16_charrette_cruz_das_almas_maceio/fig_01_charrete_maceio.jpeg",
     "description": "",
@@ -1308,7 +1308,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 17 quadra modelo piu",
+    "title": "Quadra Modelo PIU",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_17_quadra_modelo_piu/fig_01_quadra_modelo.png",
     "description": "",
@@ -1324,7 +1324,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 18 instrumentos urbanos inovadores ppps urbanos piu",
+    "title": "Instrumentos Urbanos Inovadores PPPs Urbanos PIU",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_18_instrumentos_urbanos_inovadores_ppps_urbanos_piu/fig_01_instrumentos_urbanos_depois.png",
     "description": "",
@@ -1341,7 +1341,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 19 piu nesp",
+    "title": "PIU NESP",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_19_piu_nesp/fig_01_piu_nesp.jpg",
     "description": "",
@@ -1368,7 +1368,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 21 revisão plano diretor mogi 2018",
+    "title": "Revisão Plano Diretor Mogi 2018",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_21_revisão_plano_diretor_mogi_2018/ChatGPT Image 27 de nov. de 2025, 18_17_46[1].png",
     "description": "",
@@ -1399,7 +1399,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 22 cas masterplan centro salvador",
+    "title": "CAS Masterplan Centro Salvador",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_22_cas_masterplan_centro_salvador/fig_01_cas_masterplan_orla_implantacao.jpg",
     "description": "",
@@ -1440,7 +1440,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 23 lapena urbanismo social",
+    "title": "Lapena Urbanismo Social",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_23_lapena_urbanismo_social/fig_01_lapena_social.jpg",
     "description": "",
@@ -1468,7 +1468,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 24 praca mutirao lapena",
+    "title": "Praça Mutirão Lapena",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_24_praca_mutirao_lapena/img_01_praca_mutirao_lapena.jpg",
     "description": "",
@@ -1493,7 +1493,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 25 distrito de inovação  citi ii",
+    "title": "Distrito de Inovação CITI II",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_01_distrito_de_inovação_ citi_ii.jpg",
     "description": "",
@@ -1520,7 +1520,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 26 cury maktub estudo viabilidade",
+    "title": "Cury Maktub Estudo de Viabilidade",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_02_estudo_viabilidade_cury_maktub.png",
     "description": "",
@@ -1537,7 +1537,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 27 sistema parques boulevard da paz",
+    "title": "Sistema Parques Boulevard da Paz",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_01_pq_boulevard.png",
     "description": "",
@@ -1564,7 +1564,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 28 nova jundiapeba",
+    "title": "Nova Jundiapeba",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_28_nova_jundiapeba/fig_01_jundiapeba_mogi.png",
     "description": "",
@@ -1580,7 +1580,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "urb 29 distrito de inovação  citi iii iv",
+    "title": "Distrito de Inovação CITI III e IV",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_29_distrito_de_inovação_ citi_iii_iv/fig_11_citi_iii_iv.jpg",
     "description": "",
