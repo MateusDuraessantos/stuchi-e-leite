@@ -1,5 +1,25 @@
 'use strict'
 export const projetos = [
+  
+  // ARQUITETURA
+  
+  {
+    "title": "XX Nejimi",
+    "thumbPath": "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_08_foto_nejimi.jpg",
+    "type": "arquitetura",
+    "description": "",
+    "date": "",
+    "imagesPaths": [
+      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_08_foto_nejimi.jpg",
+      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_07_foto_nejimi.jpg",
+      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_06_foto_nejimi.jpg",
+      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_05_foto_nejimi.jpg",
+      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_04_foto_nejimi.jpg",
+      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_03_corte_trans_nejimi.png",
+      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_02_corte_long_nejimi.png",
+      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_01_plantas_nejimi.png",
+    ]
+  },
   {
     "title": "arq 01 residencia ga",
     "thumbPath": "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_05_foto_ga.jpg",
@@ -982,8 +1002,8 @@ export const projetos = [
     ]
   },
   
-  // ARQUITETURA
-  
+  // URBANISMO
+
   {
     "title": "urb 01 reurbanizacao marginais sao paulo",
     "type": "urbanismo",
@@ -1502,19 +1522,18 @@ export const projetos = [
   {
     "title": "urb 26 cury maktub estudo viabilidade",
     "type": "urbanismo",
-    "thumbPath": "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_02_maktub.png",
+    "thumbPath": "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_02_estudo_viabilidade_cury_maktub.png",
     "description": "",
     "date": "",
     "imagesPaths": [
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_02_maktub.png",
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_03_maktub.png",
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_04_maktub.png",
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_05_maktub.jpg",
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_06_maktub.jpg",
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_07_maktub.jpg",
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_08_maktub.jpg",
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_12_maktub.jpg",
-      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_13_maktub.jpg"
+      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_02_estudo_viabilidade_cury_maktub.png",
+      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_03_estudo_viabilidade_cury_maktub.png",
+      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_04_estudo_viabilidade_cury_maktub.png",
+      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_05_estudo_viabilidade_cury_maktub.jpg",
+      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_06_estudo_viabilidade_cury_maktub.jpg",
+      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_07_estudo_viabilidade_cury_maktub.jpg",
+      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_12_estudo_viabilidade_cury_maktub.jpg",
+      "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_13_estudo_viabilidade_cury_maktub.jpg",
     ]
   },
   {
