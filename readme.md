@@ -5,7 +5,7 @@ Website institucional do escritório de arquitetura Stuchi & Leite, desenvolvido
 
 ## 👨‍💻 Developer by:
 **Mateus Durães dos Santos**
-[LinkedIn](https://www.linkedin.com/in/mateus-dur%C3%A3es-dos-santos/)
+[LinkedIn](https://www.linkedin.com/in/mateus-duraes-dos-santos/)
 
 ---
 
