@@ -297,7 +297,7 @@
           class="carrossel__img"
           height="500"
           width="1200"
-          src="../assets/projetos/corujas/fig_1.jpg"
+          src="../assets/projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_05_render_apartamento_alagoas.png"
           alt=""
         >
         <img
@@ -305,7 +305,7 @@
           class="carrossel__img"
           height="500"
           width="1200"
-          src="../assets/projetos/corujas/fig_2.jpg"
+          src="../assets/projetos/arq_130_corujas/arq_130_para_publicar/fig_09_render_corujas.jpg"
           alt=""
         >
         <img
@@ -313,7 +313,7 @@
           class="carrossel__img"
           height="500"
           width="1200"
-          src="../assets/projetos/corujas/fig_3.jpg"
+          src="../assets/projetos/arq_51_aratas/arq_51_para_publicar/fig_14_foto_aratas.jpg"
           alt=""
         >
         <img
@@ -321,7 +321,7 @@
           class="carrossel__img"
           height="500"
           width="1200"
-          src="../assets/projetos/arq_13/fig_02.jpg"
+          src="../assets/projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_05_foto_ga.jpg"
           alt=""
         >
         <img
@@ -329,7 +329,7 @@
           class="carrossel__img"
           height="500"
           width="1200"
-          src="../assets/projetos/arq_13/fig_01.jpg"
+          src="../assets/projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_01_parque_linear_renato_wagner_piracicaba.jpg"
           alt=""
         >
       </div>
@@ -472,36 +472,84 @@
 import { projetos } from '../datas/data_projects.js'
 import { openPopup } from '../components/popup.js'
 
+
+// ===== VARIABLES =====
+const tabsContainer = document.getElementById('m-tab-container')
+const bannerOriginal = document.getElementById('m-carrossel')
+const banner = document.getElementById('m-carrossel-slider')
+const destaques = document.getElementById('destaques')  
+const parcerias = document.getElementById('parcerias')
+const sobre_id = document.getElementById('sobre_id')
+const tabs = document.getElementById('m-tab')
+const destaquesSelecionados = ['Corujas', 'Ateliê Fotografia', 'Kansas', 'Cubo Azul']
+const tabAtiva = 'tab-ativa'
+const crs = 'index_carrossel'
+const imagensNoBanner = Array.from(banner.querySelectorAll('img'))
+const tabItens = Array.from(tabs.querySelectorAll('.tab-item'))
+const parcerias__slider = parcerias?.querySelector('.parcerias__slider')
+let tabAtivaIndex = 0
+let indexSlide = 1
+let intervaloCarrossel = null
+let timeoutCarrossel = null
+const buttonsCarrossel = createButtonsCarrossel()
+
+
+// ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
-  const bannerOriginal = document.getElementById('m-carrossel')
-  const tabsContainer = document.getElementById('m-tab-container')
-  const destaques = document.getElementById('destaques')  
-  const parcerias = document.getElementById('parcerias')
-  const banner = document.getElementById('m-carrossel-slider')
-  const tabs = document.getElementById('m-tab')
-  const destaquesSelecionados = ['corujas', 'arq_233', 'arq_18', 'arq_13'/* , 'arq_03' */]
-  const tabAtiva = 'tab-ativa'
-  const crs = 'index_carrossel'
-  const imagensNoBanner = Array.from(banner.querySelectorAll('img'))
-  const tabItens = Array.from(tabs.querySelectorAll('.tab-item'))
-  const parcerias__slider = parcerias?.querySelector('.parcerias__slider')
-  let tabAtivaIndex = 0
-  let indexSlide = 1
-  let intervaloCarrossel = null
-  let timeoutCarrossel = null
+  initHTMLDestaques()
+  initTabsSobre()
+  initAutomaticCarrossel()
+  SelectCarrosselByClick()
+  initSlideParceiros()
+})
 
 
-  /* Header */
-  document.querySelectorAll('[ancora]').forEach(obj => {
-    obj.addEventListener('click', e => {
-      document.querySelectorAll('.header__link')?.forEach(elem => elem.style = '')
-      e.currentTarget.style.color = 'red'
+// ===== METHODS =====
+function createButtonsCarrossel() {
+  const bannerBotoes = document.createElement('div')
+  bannerBotoes.classList.add('carrossel-button')
+
+  const botoesParaSelecao = imagensNoBanner.map((obj, index) =>
+    `<button class="carrossel__btn ${index === 0 ? 'carrossel__ativa':''} aria-label="Trocar imagem do carrossel" ${crs}="${index}"><span></span></button>`
+  ).join('')
+
+  bannerBotoes.innerHTML += botoesParaSelecao
+  bannerOriginal.appendChild(bannerBotoes)
+  const buttonsCarrossel = document.querySelectorAll(`[${crs}]`)
+
+  return buttonsCarrossel
+}
+
+const SelectCarrosselByClick = () => {
+  buttonsCarrossel.forEach(obj => {
+    obj.addEventListener('click', () => {
+      clearInterval(intervaloCarrossel)
+      clearTimeout(timeoutCarrossel)
+
+      timeoutCarrossel = setTimeout(initAutomaticCarrossel, 5000) // Ativa o carrossel após o usuário ter selecionado alguma imagem manualmente.
+      const index = Number(event.currentTarget.getAttribute(crs))
+      indexSlide = index
+      alterarSelecaoCarrossel(index)
     })
-    obj.setAttribute('href', `#${obj.getAttribute('ancora')}`)
   })
+}
+
+const initAutomaticCarrossel = () => {
+  intervaloCarrossel = setInterval(() => {
+    alterarSelecaoCarrossel(indexSlide)
+    indexSlide++
+    if (indexSlide >= imagensNoBanner.length) indexSlide = 0
+  }, 2000) // Velocidade que a imagem será passada dentro do carrossel.
+}
+
+function alterarSelecaoCarrossel(index) {
+  banner.style.transform = `translateX(${index * -100}vw)`
+  document.querySelector('.carrossel__ativa')?.classList.remove('carrossel__ativa')
+  buttonsCarrossel[index].classList.add('carrossel__ativa')
+}
 
 
-  /* Destaques */
+const initHTMLDestaques = () => {
   destaquesSelecionados.forEach((obj, index) => {
     const projeto = projetos.find(elem => elem.title === obj)
     const destaques__ctn = document.createElement('div')
@@ -515,47 +563,9 @@ document.addEventListener('DOMContentLoaded', () => {
     destaques__ctn?.addEventListener('click', (event) => openPopup(projetos, event))
     destaques?.prepend(destaques__ctn)
   })
+}
 
-  /* Carrossel */
-  const bannerBotoes = document.createElement('div')
-  bannerBotoes.classList.add('carrossel-button')
-
-  const botoesParaSelecao = imagensNoBanner.map((obj, index) =>
-    `<button class="carrossel__btn ${index === 0 ? 'carrossel__ativa':''} aria-label="Trocar imagem do carrossel" ${crs}="${index}"><span></span></button>`
-  ).join('')
-
-  bannerBotoes.innerHTML += botoesParaSelecao
-  bannerOriginal.appendChild(bannerBotoes)
-  const buttonsCarrossel = document.querySelectorAll(`[${crs}]`)
-  buttonsCarrossel.forEach(obj => obj.addEventListener('click', selecaoManual))
-
-  function ativarCarrosselAutomatico() {
-    intervaloCarrossel = setInterval(() => {
-      alterarSelecaoCarrossel(indexSlide)
-      indexSlide++
-      if (indexSlide >= imagensNoBanner.length) indexSlide = 0
-    }, 2000) // Velocidade que a imagem será passada dentro do carrossel.
-  }
-  
-  function selecaoManual(event) {
-    clearInterval(intervaloCarrossel)
-    clearTimeout(timeoutCarrossel)
-
-    timeoutCarrossel = setTimeout(ativarCarrosselAutomatico, 5000) // Ativa o carrossel após o usuário ter selecionado alguma imagem manualmente.
-    const index = Number(event.currentTarget.getAttribute(crs))
-    indexSlide = index
-    alterarSelecaoCarrossel(index)
-  }
-
-  function alterarSelecaoCarrossel(index) {
-    banner.style.transform = `translateX(${index * -100}vw)`
-    document.querySelector('.carrossel__ativa')?.classList.remove('carrossel__ativa')
-    buttonsCarrossel[index].classList.add('carrossel__ativa')
-  }
-
-
-  /* Sobre */
-  const sobre_id = document.getElementById('sobre_id')
+const initTabsSobre = () => {
   const tabsNomes = tabItens.map((obj, i) => `
     <button
       class="tab-names"
@@ -579,36 +589,29 @@ document.addEventListener('DOMContentLoaded', () => {
       moverTabs(event.currentTarget, index)
     })
   )
+}
 
-  function moverTabs(elem, index) {
-    tabsContainer.style.transform = `translateX(${tabAtivaIndex * -100}%)`
-    if (elem == undefined) return 
-    if (!elem.getAttribute(tabAtiva)) {
-      document.querySelector(`[${tabAtiva}]`)?.removeAttribute(tabAtiva)
-      elem.setAttribute(tabAtiva, '')
+const moverTabs = (elem, index) => {
+  tabsContainer.style.transform = `translateX(${tabAtivaIndex * -100}%)`
+  if (elem == undefined) return
+  if (!elem.getAttribute(tabAtiva)) {
+    document.querySelector(`[${tabAtiva}]`)?.removeAttribute(tabAtiva)
+    elem.setAttribute(tabAtiva, '')
 
-      tabs.querySelectorAll('.tab-names').forEach((b, i) => {
-        b.setAttribute('aria-selected', i === index ? 'true' : 'false')
-        b.setAttribute('tabindex', i === index ? '0' : '-1')
-      })
-    }
+    tabs.querySelectorAll('.tab-names').forEach((b, i) => {
+      b.setAttribute('aria-selected', i === index ? 'true' : 'false')
+      b.setAttribute('tabindex', i === index ? '0' : '-1')
+    })
   }
+}
 
-
-  /* Parcerias */
+const initSlideParceiros = () => {
   parcerias.innerHTML = `
     ${parcerias__slider?.outerHTML}
     ${parcerias__slider?.outerHTML}
     ${parcerias__slider?.outerHTML}
   `
-
-
-  moverTabs()
-  ativarCarrosselAutomatico()
-})
-
-
-
+}
 </script>
 
 </html>

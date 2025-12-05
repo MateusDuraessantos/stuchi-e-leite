@@ -50,10 +50,16 @@
 import { openPopup } from '../components/popup.js'
 import { publicacoes } from '../datas/data_publications.js'
 
-document.addEventListener('DOMContentLoaded', () => {
-  
-  const grid = document.getElementById('grid')
+// ===== ONMOUNTED =====
+document.addEventListener('DOMContentLoaded', () => initHTMLGrid())
 
+
+// ===== VARIABLES =====
+const grid = document.getElementById('grid')
+
+
+// ===== METHODS =====
+const initHTMLGrid = () => {
   publicacoes.forEach(obj => {
     const imgThumb = document.createElement('div')
     imgThumb.classList.add('public__ctn', 'g-hover__container')
@@ -67,8 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
     imgThumb.addEventListener('click', (event) => openPopup(publicacoes, event))
     grid.appendChild(imgThumb)
   })
-
-})
+}
 
 </script>
 </html>

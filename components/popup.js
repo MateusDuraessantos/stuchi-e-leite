@@ -6,6 +6,7 @@ export const openPopup = (datas, event) => {
   popup.classList.add('popup', 'slowFade--open')
   popup.setAttribute(closableTag, '')
   popup.setAttribute('id', 'popupcontent')
+  popup.setAttribute('closable', 'true')
 
   const htmlImagens = selectProject.imagesPaths.map(obj =>
     `<img class="popup__img" src="../assets/${obj}" opentozoom loading="lazy" alt="">`)

@@ -38,7 +38,7 @@
   transition: .3s;
   cursor: pointer;
   font-size: 30px;
-  text-shadow: 2px 0px 1px white;
+  text-shadow: 2px 0px 3px #ffffffa3;
 }
 .popup__close:hover {
   opacity: 0.3;

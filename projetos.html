@@ -130,11 +130,21 @@
 import { projetos } from '../datas/data_projects.js'
 import { openPopup } from '../components/popup.js'
 
+// ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
-  const elGrid = document.getElementById('grid')
-  const typeInput = document.getElementById('typeInput')
-  const filters = document.querySelectorAll('.filter__btn')
-  
+  const gridBtn = initHTMLGrid()
+  filtersLogics(gridBtn)
+})
+
+
+// ===== VARIABLES =====
+const elGrid = document.getElementById('grid')
+const typeInput = document.getElementById('typeInput')
+const filters = document.querySelectorAll('.filter__btn')
+
+
+// ===== METHODS =====
+const initHTMLGrid = () => {
   projetos.forEach(obj => {
     let colClass = ''
     const randomVal = Number((Math.pow(Math.random(), 4) * 4).toFixed(0))
@@ -158,25 +168,36 @@ document.addEventListener('DOMContentLoaded', () => {
     elGrid?.appendChild(elThumb)
   })
 
-  /* Filters */
   const gridBtn = document.querySelectorAll('.grid__btn')
-  const handleVisibility = (obj, validation) => obj.style.display = validation ? 'block' : 'none'
+
+  return gridBtn
+}
+
+const filtersLogics = (gridBtn) => {
   
-  const filterOnTipping = (event) => {
+  const filterImgsByCategory = (event) => {
     document.querySelector('[activeFilter]')?.removeAttribute('activeFilter')
     event.currentTarget?.setAttribute('activeFilter', '')
     const filterValue = event.currentTarget?.getAttribute('data-filter')
     gridBtn?.forEach(obj => handleVisibility(obj, obj.getAttribute('type') == filterValue || filterValue == 'todos'))
   }
 
-  const filterByInput = (input) => {
-    const val = input.target.value
-    gridBtn?.forEach(obj => handleVisibility(obj, obj.querySelector('.g-hover').innerText.includes(val)))
+  const filterImgsByInput = (input) => {
+    const val = normalizeStr(input.target.value)
+    
+    gridBtn?.forEach(obj => {
+      const title = obj.querySelector('.g-hover')?.textContent ?? ''
+      handleVisibility(obj, normalizeStr(title).includes(val))
+    })
   }
 
-  typeInput?.addEventListener('input', filterByInput)
-  filters?.forEach(obj => obj.addEventListener('click', filterOnTipping))
-})
+  typeInput?.addEventListener('input', filterImgsByInput)
+  filters?.forEach(obj => obj.addEventListener('click', filterImgsByCategory))
+}
+
+const handleVisibility = (obj, validation) => obj.style.display = validation ? 'block' : 'none'
+
+const normalizeStr = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
 
 </script>
 </html>
