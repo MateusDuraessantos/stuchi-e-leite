@@ -111,19 +111,19 @@
 </style>
 
 <body>
-  <main>
-
-    <div class="filter">
-      <div class="filter__buttons">
-        <button class="filter__btn" data-filter="todos" activeFilter>Todos</button>
-        <button class="filter__btn" data-filter="arquitetura">Arquitetura</button>
-        <button class="filter__btn" data-filter="urbanismo">Urbanismo</button>
+  <div id="body-scroll">
+    <main>
+      <div class="filter">
+        <div class="filter__buttons">
+          <button class="filter__btn" data-filter="todos" activeFilter>Todos</button>
+          <button class="filter__btn" data-filter="arquitetura">Arquitetura</button>
+          <button class="filter__btn" data-filter="urbanismo">Urbanismo</button>
+        </div>
+        <input class="filter__text" type="text" id="typeInput" placeholder="Pesquisar">
       </div>
-      <input class="filter__text" type="text" id="typeInput" placeholder="Pesquisar">
-    </div>
-
-    <div class="grid g-gap" id="grid"></div>
-  </main>
+      <div class="grid g-gap" id="grid"></div>
+    </main>
+  </div>
 </body>
 
 <script type="module">

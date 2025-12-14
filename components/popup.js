@@ -5,10 +5,10 @@ export const openPopup = (datas, event) => {
   const closableTag = 'closable'
   popup.classList.add('popup', 'slowFade--open')
   popup.setAttribute(closableTag, '')
-  popup.setAttribute('id', 'popupcontent')
+  popup.id = 'popupcontent'
   popup.setAttribute('closable', 'true')
 
-  const htmlImagens = selectProject.imagesPaths.map(obj =>
+  const imagesTagHtml = selectProject.imagesPaths.map(obj =>
     `<img class="popup__img" src="../assets/${obj}" opentozoom loading="lazy" alt="">`)
   .join('')
 
@@ -25,39 +25,35 @@ export const openPopup = (datas, event) => {
         <img class="popup__img popup__img--thumb" opentozoom src="../assets/${selectProject.thumbPath}" loading="lazy" alt="">
 
         <div class="popup__grid">
-          ${htmlImagens}
+          ${imagesTagHtml}
         </div>
       </div>
     </div>
   `
-  const popupSecundario = `
-    <div class="popup__zoom slowFade--open" id="zoom">
-      <button class="popup__close popup__close--zoom" closeZoom aria-label="Fechar popup de inspeção da imagem">✕</button>
+  const zoom_popupHtml = `
+      <button class="popup__close popup__close--zoom" zoom_close aria-label="Fechar popup de inspeção da imagem">✕</button>
       <img class="popup__zoom--img" loading="lazy" alt="">
-    </div>
   `
 
   document.body.append(popup)
 
   // Methods
-  const openZoom = (event) => {
+  const zoom_open = (event) => {
     const pathImg = event.currentTarget.getAttribute('src')
     const temp = document.createElement('div')
-    temp.innerHTML = popupSecundario.trim()
+    temp.classList.add('popup__zoom', 'slowFade--open')
+    temp.id = 'zoom'
+    temp.innerHTML = zoom_popupHtml
     temp.querySelector('img').setAttribute('src', pathImg)
     popup.appendChild(temp)
-    const closeBtn = document.querySelector('[closeZoom]')
-    closeBtn.addEventListener('click', closeZoom)
+    const closeBtn = document.querySelector('[zoom_close]')
+    closeBtn.addEventListener('click', zoom_close)
     addDragAndDrop() 
   }
 
-  const addBlockBodyScroll = () => document.body.classList.add('no-scroll')
-
-  const removeBlockBodyScroll = () => document.body.classList.remove('no-scroll')
-
-  const closeZoom = (event) => {
+  const zoom_close = (event) => {
     const zoom = document.getElementById('zoom')
-    if (event.target.getAttribute('closeZoom') != null) {
+    if (event.target.getAttribute('zoom_close') != null) {
       zoom.classList.add('slowFade--close')
       setTimeout(() => zoom.remove(), 1000)
     }
@@ -66,7 +62,6 @@ export const openPopup = (datas, event) => {
   const closePopup = (event) => {
     document.body.style.overflow = ''
     if (event == undefined || Boolean(event?.target.getAttribute(closableTag))) {
-      removeBlockBodyScroll()
       popup.classList.remove('slowFade--open')
       popup.classList.add('slowFade--close')
       setTimeout(() => popup.remove(), 1000)
@@ -76,7 +71,6 @@ export const openPopup = (datas, event) => {
   const closeOnEsc = (event) => { if (event.key === 'Escape' || event.key === 'Esc') closePopup() }
 
   const addDragAndDrop = () => {
-    addBlockBodyScroll()
     const zoomContainer = document.getElementById('zoom')
     const zoomImg = zoomContainer.querySelector('img')
 
@@ -135,8 +129,7 @@ export const openPopup = (datas, event) => {
   }
 
   // On Mounted
-  addBlockBodyScroll()
-  document.querySelectorAll('[opentozoom]').forEach(obj => obj.addEventListener('click', openZoom))
+  document.querySelectorAll('[opentozoom]').forEach(obj => obj.addEventListener('click', zoom_open))
   document.addEventListener('keydown', closeOnEsc)
   popup.addEventListener('click', closePopup)
 }

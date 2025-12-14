@@ -10,7 +10,7 @@
 .publi {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .publi__img {
   display: block;
@@ -41,9 +41,11 @@
   
 </head>
 <body>
-  <main>
-    <section class="publi g-gap max__width" id="grid"></section>
-  </main>
+  <div id="body-scroll">
+    <main>
+      <section class="publi g-gap max__width" id="grid"></section>
+    </main>
+  </div>
 </body>
 
 <script type="module">
@@ -65,12 +67,21 @@ const initHTMLGrid = () => {
     imgThumb.classList.add('public__ctn', 'g-hover__container')
     imgThumb.setAttribute('title', obj.title)
 
-    imgThumb.innerHTML = `
-      <div class="g-hover">${obj.title}</div>
-      <img class="publi__img" width="300" height="300" src="../assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
-    `
-
-    imgThumb.addEventListener('click', (event) => openPopup(publicacoes, event))
+    if (obj.showPopup === true) {
+      imgThumb.innerHTML = `
+        <div class="g-hover">${obj.title}</div> 
+        <img class="publi__img" width="300" height="300" src="../assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
+      `
+      imgThumb.addEventListener('click', (event) => openPopup(publicacoes, event))
+    } else {
+      imgThumb.innerHTML = `
+        <a href="${obj.link}" target="_blank">
+          <div class="g-hover">${obj.title}</div> 
+        </a>
+        <img class="publi__img" width="300" height="300" src="../assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
+      `
+    }
+    
     grid.appendChild(imgThumb)
   })
 }

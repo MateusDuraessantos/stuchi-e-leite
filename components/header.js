@@ -25,7 +25,6 @@ export const addHeader = () => {
           <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>
         </div>
         <div class="header__redes">
-          <a class="header__a" href="${links.urlFacebook}" target="_blank"><img src="../assets/icons/face.svg" loading="lazy" alt="Facebook"></a>
           <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="../assets/icons/insta.svg" loading="lazy" alt="Instagram"></a>
           <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="../assets/icons/linkedin.svg" loading="lazy" alt="LinkedIn"></a>
         </div>
@@ -33,7 +32,7 @@ export const addHeader = () => {
     </div>
   `
 
-  document.body.appendChild(header)
+  document.getElementById('body-scroll').appendChild(header)
 
   const idHeader = header.querySelector('#id-header')
   const hamburger = header.querySelector('#hamburger')
