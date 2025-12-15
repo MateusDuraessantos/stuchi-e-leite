@@ -9,7 +9,7 @@ export const openPopup = (datas, event) => {
   popup.setAttribute('closable', 'true')
 
   const imagesTagHtml = selectProject.imagesPaths.map(obj =>
-    `<img class="popup__img" src="../assets/${obj}" opentozoom loading="lazy" alt="">`)
+    `<img class="popup__img" src="./assets/${obj}" opentozoom loading="lazy" alt="">`)
   .join('')
 
   popup.innerHTML = `
@@ -22,7 +22,7 @@ export const openPopup = (datas, event) => {
       </div>
 
       <div class="popup__portfolio g-gap">
-        <img class="popup__img popup__img--thumb" opentozoom src="../assets/${selectProject.thumbPath}" loading="lazy" alt="">
+        <img class="popup__img popup__img--thumb" opentozoom src="./assets/${selectProject.thumbPath}" loading="lazy" alt="">
 
         <div class="popup__grid">
           ${imagesTagHtml}

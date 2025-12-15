@@ -61,7 +61,7 @@ How to add and update projetos to page projetos.html
     Make sure the folder name is consistent with your naming conventions (e.g., no spaces or special characters).
 
   3. **Update the data file** <br>
-    Go to: datas/data_projects.js (This file stores all project information displayed on the projetos.html page)
+    Go to: ./datas/data_projects.js (This file stores all project information displayed on the projetos.html page)
 
   4. **Add or modify project data** <br>
     Inside data_projects.js, copy the estructure of a existing project and paste it below others. Then update each property (such as title, thumbPath, description, etc.) with the new project's details

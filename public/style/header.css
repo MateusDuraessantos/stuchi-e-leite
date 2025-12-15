@@ -46,11 +46,11 @@ header {
   text-decoration: none;
   color: var(--preto_00);
   font-weight: 600;
-  transition: .3s;
+  transition: .3s !important;
   gap: 24px;
 }
 .header__link:hover {
-  transition: .3s;
+  transition: .3s !important;
   color: var(--vermelho_00);
 }
 .header__a {

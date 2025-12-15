@@ -9,7 +9,7 @@ export const addHeader = () => {
     </div>
 
     <button class="header__hamburger" id="hamburger" aria-label="Menu hamburguer">
-      <img width="20" width="40" src="../assets/icons/hamburger.svg" loading="lazy" alt="Menu hamburger" />
+      <img width="20" width="40" src="./assets/icons/hamburger.svg" loading="lazy" alt="Menu hamburger" />
     </button>
     
     <div class="header__right" closable="true" id="id-header" aria-expanded="false">
@@ -17,16 +17,16 @@ export const addHeader = () => {
 
       <div class="header__container">
         <div class="header__links">
-          <a class="header__link" data-ancor="inicio" href="/#inicio">Início</a>
-          <a class="header__link" data-ancor="sobre" href="/#sobre">Sobre</a>
-          <a class="header__link" data-ancor="contato" href="/#contato">Contato</a>
+          <a class="header__link" data-ancor="inicio" href="./index.html#inicio">Início</a>
+          <a class="header__link" data-ancor="sobre" href="./index.html#sobre">Sobre</a>
+          <a class="header__link" data-ancor="contato" href="./index.html#contato">Contato</a>
           <hr>
-          <a class="header__link" data-ancor="projetos" href="/projetos.html">Projetos</a>
-          <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>
+          <a class="header__link" data-ancor="projetos" href="./projetos.html">Projetos</a>
+          <a class="header__link" data-ancor="publicacoes" href="./publicacoes.html">Publicações</a>
         </div>
         <div class="header__redes">
-          <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="../assets/icons/insta.svg" loading="lazy" alt="Instagram"></a>
-          <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="../assets/icons/linkedin.svg" loading="lazy" alt="LinkedIn"></a>
+          <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="./assets/icons/insta.svg" loading="lazy" alt="Instagram"></a>
+          <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="./assets/icons/linkedin.svg" loading="lazy" alt="LinkedIn"></a>
         </div>
       </div>
     </div>
@@ -60,9 +60,8 @@ export const addHeader = () => {
   const urlParams = () => {
     setTimeout(() => {
       header.querySelector('[active]')?.removeAttribute('active')
-      const url = window.location
-      const param = url.hash.slice(1) || url.pathname.split('.')[0].replace('/', '') || 'inicio'
-      header.querySelector(`[data-ancor="${param}"]`)?.setAttribute('active', '')
+
+      header.querySelector(`[data-ancor="${verifyUrl()}"]`)?.setAttribute('active', '')
     }, 0)
   }
 
@@ -70,4 +69,15 @@ export const addHeader = () => {
   header?.addEventListener('click', hamburgerMenu_close)
   headerLink.forEach(obj => obj.addEventListener('click', urlParams))
   urlParams()
+}
+
+const verifyUrl = () => {
+  try {
+    const url = window.location
+    if (url.pathname.includes('publicacoes')) return 'publicacoes'
+    else if (url.pathname.includes('projetos')) return 'projetos'
+    else return url.hash.slice(1) || 'inicio'
+  } catch (error) {
+    throw new Error("Url inválido" + error);
+  }
 }

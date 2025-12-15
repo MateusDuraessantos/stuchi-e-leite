@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>STUCHI & LEITE - Publicações</title>
-<link rel="stylesheet" href="../style/global.css">
-<script type="module" src="../main.js"></script>
+<link rel="stylesheet" href="./style/global.css">
+<script type="module" src="./main.js"></script>
 <style>
 .publi {
   display: grid;
@@ -49,8 +49,8 @@
 </body>
 
 <script type="module">
-import { openPopup } from '../components/popup.js'
-import { publicacoes } from '../datas/data_publications.js'
+import { openPopup } from './components/popup.js'
+import { publicacoes } from './datas/data_publications.js'
 
 // ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => initHTMLGrid())
@@ -70,7 +70,7 @@ const initHTMLGrid = () => {
     if (obj.showPopup === true) {
       imgThumb.innerHTML = `
         <div class="g-hover">${obj.title}</div> 
-        <img class="publi__img" width="300" height="300" src="../assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
+        <img class="publi__img" width="300" height="300" src="./assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
       `
       imgThumb.addEventListener('click', (event) => openPopup(publicacoes, event))
     } else {
@@ -78,7 +78,7 @@ const initHTMLGrid = () => {
         <a href="${obj.link}" target="_blank">
           <div class="g-hover">${obj.title}</div> 
         </a>
-        <img class="publi__img" width="300" height="300" src="../assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
+        <img class="publi__img" width="300" height="300" src="./assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
       `
     }
     
