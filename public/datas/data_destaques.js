@@ -1,10 +1,10 @@
 export const destaquesSelecionados = [
     {
-      projetoTitle: 'Ateliê Fotografia',
+      projetoTitle: 'Ateliê de Fotografia', // O valor de projetoTitle precisa ser exatamente igual ao projeto dentro do arquivo data_projects.js
       imageThumb: 'projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_16_foto_atelie_fotografia.jpg'
     },
     {
-      projetoTitle: 'Sistema Parques Boulevard da Paz',
+      projetoTitle: 'PLANO URBANO - BOULEVARD DA PAZ',
       imageThumb: 'projetos/urb_27_sistema_parques_boulevard_da_paz/fig_05_pq_boulevard_sehab.jpg'
     },
     {
