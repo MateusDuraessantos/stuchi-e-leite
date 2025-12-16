@@ -2696,7 +2696,7 @@ export const projetos = [
     ]
   },
   {
-    "title": "Cury Maktub Estudo de Viabilidade",
+    "title": "Estudos de Viabilidade Urbanística-Arquitetônica das Áreas Cury e Maktub – Mogi das Cruzes",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_12_estudo_viabilidade_cury_maktub.jpg",
     "description": `
@@ -2792,11 +2792,51 @@ export const projetos = [
     ]
   },
   {
-    "title": "Distrito de Inovação CITI III e IV",
+    "title": "Distrito de Inovação CITI_III e IV",
     "type": "urbanismo",
     "thumbPath": "projetos/urb_29_distrito_de_inovação_ citi_iii_iv/fig_11_citi_iii_iv.jpg",
-    "description": ``,
-    "date": "",
+    "description": `
+      <p>Estudos técnicos voltados à concepção e implementação do Distrito de Inovação, planejado no âmbito do projeto FIPE/ FAPESP/ Governo do Estado (2020/22) para a implementação do CITI SP - Centro Internacional de Tecnologia e Inovação do Estado de São Paulo. O projeto incorpora três diferentes áreas, totalizando 89,08 ha, distribuídas ao longo do Rio Pinheiros: CITI II (USP/ GESP), III (CDP/ Humaitá) e IV (CEAGESP). Desenvolvido em conjunto com uma equipe multidisciplinar composta por arquitetos e urbanistas, economistas, advogados, pesquisadores e gestores públicos, servindo como referência para a estruturação e modelagem da concessão das áreas.</p>
+      <br>
+
+      <p>Foram elaborados ensaios volumétricos para os conjuntos de edifícios de todo o complexo com cerca de 4.185.750,00 m² de área construída total, que resultaram no Masterplan, plano de massas e quadros de áreas e de população. Os estudos foram desenvolvidos considerando-se as condicionantes e potencialidades identificadas no território, a partir do regramento e parâmetros urbanísticos definidos pelas legislações vigentes, integrando-se as dimensões urbanística e arquitetônica, a capacidade de suporte da infraestrutura urbana existente e prevista, o sistema de transporte coletivo, o meio-ambiente e a inter-relação das edificações com o sistema de áreas livres e espaços públicos do entorno.</p>
+      <br>
+
+      <p>O processo se inicia com o benchmarking, sobre a ocorrência e recorrência dos agrupamentos programáticos e sobre os modelos arquitetônicos e de ocupação que se relacionam aos programas almejados. A partir disso, foi definido o Programa de Necessidades do projeto, realizando-se estudos sobre a sistematização e interação entre os diferentes programas e modelos arquitetônicos adequados à situação urbana do Complexo CITI-SP. </p>
+      <br>
+
+      <p>O termo distrito de inovação é utilizado para se referir a concentrações de atividades na malha urbana que potencializam o surgimento de inovação por meio da troca de conhecimento e de ideias, mediante uma governança orientada ao estímulo de sinergias e o uso diferenciado do espaço urbano. Busca associar atividade econômica e produção de conhecimento com qualidade de vida, oferecendo condições para que residência, lazer, entretenimento e geração de negócios inovadores se estabeleçam em um mesmo local. Os espaços de sociabilidade desempenham um importante papel articulador dos diferentes programas e áreas funcionais no âmbito do ecossistema de inovação, por se tratarem de ambientes colaborativos, propícios para a troca constante de experiências entre os trabalhadores e usuários dos edifícios, através da integração interdisciplinar. </p>
+      <br>
+
+      <p>Diante disso, o Distrito de Inovação do CITI-SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) traz elementos de projeto urbano e urbanístico que conferem qualidade ao ambiente construído, consolidando-se como um trecho de cidade integrado à malha urbana existente, tanto em termos morfológicos quanto à complementação de usos. Evidencia o compromisso com a mobilidade e a acessibilidade nas diferentes escalas, articulando-se à infraestrutura de transporte coletivo e à rede cicloviária, privilegiando os pedestres. Conecta o distrito à estação Villa Lobos-Jaguaré da CPTM, à Cidade Universitária da USP, IPT (CITI I), UNIP e Bairro Jaguaré. Foram adotadas soluções projetuais comprometidas com a dimensão urbano-ambiental, incorporando-se a provisão de infraestruturas de mobilidade, saneamento, adaptação ambiental e tecnologias da informação.</p>
+      <br>
+
+      <strong>local:</strong> São Paulo CITI III (CDP/ Humaitá)- SP e CITI IV (CEAGESP)- SP
+      <br>
+
+      <strong>Equipe:</strong> Stuchi & Leite:
+      <br>
+
+      <strong>Coordenação:</strong> Fabiana Stuchi e Danilo Bocchini
+      <br>
+
+      <strong>Desenvolvimento:</strong> Fabiana Granusso, Fernanda Moreira, Thayse Portugal. 
+      <br>
+
+      <strong>Demais consultores: </strong>
+      <br>
+
+      <p>Adriana Hansen - <i>engenheira, gerentede sustentabilidade</i></p>
+      <p>Adriano Gonçalves de Pinho, Beatriz Vilella Benitez Codas, Fernando Ferreira de Araújo Souza, Roberto de Souza, Rosane Ribeiro - <i>engenheiros</i></p>
+      <p>Marília Formoso Camargo, Vitor Monteiro, Yasser Reis Gabriel - <i>advogados</i></p>
+      <p>Matheus Villar Ejima - <i>administrador de empresas</i></p>
+      <p>Myriam Tschiptschin - <i>arquiteta, gerente de Smart CITIes</i></p>
+      <p>Glaucio Neves, Sylvia Facciolla - economista</p>
+      <p>Roberta Fontan Pereira Galvão - <i>arquiteta, ciência ambiental e geoprocessamento</i></p>
+      <p>Ingrid Schmidt Ori, Martina Mazzucco, Moreno Zaidan Garcia, Rafael Giorgi Costa - <i>arquitetos</i></p>
+      <p>Paulo Tripolini - <i>modelagem, rendering e produção de vídeo</i></p>
+    `,
+    "date": "2022",
     "imagesPaths": [
       "projetos/urb_29_distrito_de_inovação_ citi_iii_iv/fig_11_citi_iii_iv.jpg",
       "projetos/urb_29_distrito_de_inovação_ citi_iii_iv/fig_12_citi_iii_iv.jpg",
