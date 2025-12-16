@@ -8,11 +8,11 @@ export const addHeader = () => {
       <p class="header__description">Projetos & Consultoria | Arquitetura e Desevolvimento Urbano</p>
     </div>
 
-    <button class="header__hamburger" id="hamburger" aria-label="Menu hamburguer">
-      <img width="20" width="40" src="/assets/icons/hamburger.svg" loading="lazy" alt="Menu hamburger" />
+    <button class="header__hamburger" id="hamburger" aria-label="Menu hamburguer" aria-expanded="false" aria-controls="id-header">
+      <img width="20" width="40" src="/assets/icons/hamburger.svg" loading="lazy" alt="" aria-hidden="true"/>
     </button>
     
-    <div class="header__right" closable="true" id="id-header" aria-expanded="false">
+    <div class="header__right" closable="true" id="id-header" role="navigation">
       <button class="header__close" closable="true" aria-label="Fechar menu hamburguer">✕</button>
 
       <div class="header__container">
@@ -41,7 +41,7 @@ export const addHeader = () => {
 
   const hamburgerMenu_open = () => {
     clearTimeout(setTime)
-    idHeader.setAttribute('aria-expanded', 'true')
+    hamburger.setAttribute('aria-expanded', 'true')
     idHeader?.classList.remove('menu--close')
     idHeader?.classList.add('menu--open')
   }
@@ -51,7 +51,7 @@ export const addHeader = () => {
     if (!isClosable) return
     idHeader?.classList.add('menu--close')
     setTime = setTimeout(() => {
-      idHeader.setAttribute('aria-expanded', 'false')
+      hamburger.setAttribute('aria-expanded', 'false')
       idHeader?.classList.remove('menu--close')
       idHeader?.classList.remove('menu--open')
     }, 1000)

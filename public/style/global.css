@@ -86,10 +86,19 @@ a {
   transition: .3s;
   cursor: pointer;
   opacity: 0;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(10px);
 }
 .g-hover:hover {
   opacity: 1;
+  transition: .3s;
+}
+.g-hover__type {
+  position: absolute;
+  bottom: 2px;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
 }
 @media screen and (max-width: 1000px) {
   .max__width {
@@ -107,4 +116,18 @@ a {
   .g-hover {
     display: none;
   }
+}
+
+/* Loading Images */
+.loading__img {
+  background: linear-gradient( 90deg, #ececec 25%, #d7d7d7 37%, #ececec 63% );
+  background-size: 400% 100%;
+  position: relative;
+  z-index: 2;
+  animation: imgLoading 1.4s ease infinite;
+}
+
+@keyframes imgLoading {
+  0%   { background-position: 100% 0; }
+  100% { background-position: 0 0; }
 }

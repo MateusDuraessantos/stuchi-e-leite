@@ -24,7 +24,7 @@
 .grid__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .grid--col2 {
   grid-column: span 2;
@@ -127,11 +127,13 @@
 <script type="module">
 import { projetos } from '/datas/data_projects.js'
 import { openPopup } from '/components/popup.js'
+import { loadImages } from './main.js'
 
 // ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
   const gridBtn = initHTMLGrid()
   filtersLogics(gridBtn)
+  loadImages(document.querySelectorAll('img'))
 })
 
 
@@ -143,7 +145,11 @@ const filters = document.querySelectorAll('.filter__btn')
 
 // ===== METHODS =====
 const initHTMLGrid = () => {
-  projetos.forEach(obj => {
+
+  // const shuffled = [...projetos].sort(() => Math.random() - 0.5);
+  const shuffled = projetos;
+
+  shuffled.forEach(obj => {
     let colClass = ''
     const randomVal = Number((Math.pow(Math.random(), 4) * 4).toFixed(0))
     if (randomVal >= 1 && randomVal < 2) colClass = 'grid--col2'
@@ -158,7 +164,10 @@ const initHTMLGrid = () => {
     if (colClass) elThumb.classList.add(colClass)
 
     elThumb.innerHTML = `
-      <div class="g-hover">${obj.title}</div>
+      <div class="g-hover">
+        <p>${obj.title}</p>
+        <p class="g-hover__type">${obj.type}</p>
+      </div>
       <img class="grid__img" width="300" height="300" src="/assets/${obj.thumbPath}" loading="lazy" alt="${obj.thumbPath}">
     `
 

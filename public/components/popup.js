@@ -1,3 +1,5 @@
+import { loadImages } from '../main.js'
+
 export const openPopup = (datas, event) => {
   const title = event.currentTarget.getAttribute('title')
   const selectProject = datas.find(obj => obj.title === title)
@@ -9,7 +11,7 @@ export const openPopup = (datas, event) => {
   popup.setAttribute('closable', 'true')
 
   const imagesTagHtml = selectProject.imagesPaths.map(obj =>
-    `<img class="popup__img" src="/assets/${obj}" opentozoom loading="lazy" alt="">`)
+    `<img class="popup__img" src="/assets/${obj}" width="300" height="300" opentozoom loading="lazy" alt="">`)
   .join('')
 
   popup.innerHTML = `
@@ -17,25 +19,27 @@ export const openPopup = (datas, event) => {
       <button class="popup__close" ${closableTag}="true" aria-label="Fechar popup">✕</button>
       <div class="popup__container">
         <p class="popup__title">${selectProject.title}</p>
-        <p class="popup__descricao">${selectProject.description}</p>
+        <div class="popup__descricao">${selectProject.description}</div>
         <p class="popup__data">${selectProject.date}</p>
       </div>
 
       <div class="popup__portfolio g-gap">
         <img class="popup__img popup__img--thumb" opentozoom src="/assets/${selectProject.thumbPath}" loading="lazy" alt="">
 
-        <div class="popup__grid">
+        <div class="popup__grid g-gap">
           ${imagesTagHtml}
         </div>
       </div>
     </div>
   `
   const zoom_popupHtml = `
-      <button class="popup__close popup__close--zoom" zoom_close aria-label="Fechar popup de inspeção da imagem">✕</button>
-      <img class="popup__zoom--img" loading="lazy" alt="">
+    <button class="popup__close popup__close--zoom" zoom_close aria-label="Fechar popup de inspeção da imagem">✕</button>
+    <img class="popup__zoom--img" loading="lazy" alt="">
   `
 
   document.body.append(popup)
+
+  loadImages(popup.querySelectorAll('img'))
 
   // Methods
   const zoom_open = (event) => {

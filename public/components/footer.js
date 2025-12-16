@@ -8,7 +8,7 @@ export const addFooter = () => {
   footer.innerHTML = `
     <div class="footer__col">
       <p class="footer__title">Escritório</p>
-      <p class="footer__info">Rua Marquês de Itu, 837, cj.11, Higienópolis | São Paulo - SP</p>
+      <p class="footer__info">Rua Marquês de Itu, 837, cj.11, Higienópolis <br> São Paulo - SP</p>
     </div>
     <div class="footer__col">
       <p class="footer__title">Telefone</p>
