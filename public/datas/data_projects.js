@@ -1,10 +1,287 @@
 'use strict'
 export const projetos = [
-  
   // ARQUITETURA
-  
+  {
+    "title": "arq 116.1 centro de tecnologia e inovacao gesp 1 citi",
+    "id": 9,
+    "thumbPath": "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_01_render_centro_de_tecnologia_e_inovacao_gesp_1.jpg",
+    "type": "arquitetura",
+    "description":  ``,
+    "date": "",
+    "imagesPaths": [
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_01_render_centro_de_tecnologia_e_inovacao_gesp_1.jpg",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_02_render_centro_de_tecnologia_e_inovacao_gesp_1.jpg",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_03_travessia_centro_de_tecnologia_e_inovacao_gesp_1.jpg",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_04_perspectiva_esquematica_centro_de_tecnologia_e_inovacao_gesp_1 (2).PNG",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_04_perspectiva_esquematica_centro_de_tecnologia_e_inovacao_gesp_1.PNG",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_05_perspectiva_esquematica_geral_centro_de_tecnologia_e_inovacao_gesp_1.PNG",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_06_diagrama_centro_de_tecnologia_e_inovacao_gesp_1.png",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_08_planta_terreo_centro_de_tecnologia_e_inovacao_gesp_1.png",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_09_planta_01_pavto_centro_de_tecnologia_e_inovacao_gesp_1.png",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_10_planta_02_pavto_centro_de_tecnologia_e_inovacao_gesp_1.png",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_11_planta_04_pavto_centro_de_tecnologia_e_inovacao_gesp_1.png",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_12_corte_aa_centro_de_tecnologia_e_inovacao_gesp_1.png",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_13_corte_bb_centro_de_tecnologia_e_inovacao_gesp_1.png",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_14_elevacao_01_centro_de_tecnologia_e_inovacao_gesp_1.png",
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_15_elevacao_03_centro_de_tecnologia_e_inovacao_gesp_1.png"
+    ]
+  },
+  {
+    "title": "Edifício de uso misto – Gesp.2",
+    "id": 18,
+    "thumbPath": "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_02_diagrama_uso_misto_gesp_2.PNG",
+    "type": "arquitetura",
+    "description":  `
+      <strong>Local:</strong> Jaguaré – São Paulo
+      <br>
+
+      <p>O conjunto de uso misto estabelece a conexão entre o Distrito de Inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo), a Cidade Universitária da USP, com o IPT (CITI I), e o bairro do Jaguaré. Ao permitir o fluxo público livre e sem barreiras entre os edifícios, a implantação cria largos propícios ao encontro, que funcionam como extensões dos usos localizados nos pavimentos térreos, em sua maioria comerciais. O conjunto articula diferentes programas: uma galeria de três pavimentos, localizada na esquina, com uso comercial; usos corporativos distribuídos em sete pavimentos; e uso habitacional horizontal, voltado para a Avenida Escola Politécnicaárea: 21.148,30 m2</p>
+      <br>
+
+      <strong>equipe:</strong> stuchi&leite
+    `,
+    "date": "2021-2022",
+    "imagesPaths": [
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_02_diagrama_uso_misto_gesp_2.PNG",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_03_diagrama_geral_habitação_de_interesse_social_gesp_3.PNG",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_01_diagrama_edifício_uso_misto_gesp_2.png",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_06_planta_terreo_edifício_uso_misto_gesp_2.png",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_07_planta_01_pavto.png",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_08_planta_pavto_tipo_edifício_uso_misto_gesp_2.png",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_09_corte_aa_edifício_uso_misto_gesp_2.png",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_10_corte_bb_edifício_uso_misto_gesp_2.png",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_11_elevacao_01_edifício_uso_misto_gesp_2.png",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_12_elevacao_03_edifício_uso_misto_gesp_2.png",
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_13_elevacao_02_edifício_uso_misto_gesp_2.png"
+    ]
+  },
+  {
+    "title": "Edifício Habitacional e Equipamento associado - USP.3",
+    "id": 27,
+    "thumbPath": "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_01_diagrama_habitação_de_interesse_social_gesp_3.PNG",
+    "type": "arquitetura",
+    "description":  `
+      <p>O edifício, inserido no distrito de inovação, tem o programa de uso habitacional. O projeto considera duas subcategorias de uso residencial distintas – habitação de interesse social (HIS) e R2h-2 (residencial multifamiliar horizontal, segundo a legislação paulistana) – deverão produzir receitas na forma de locação e alienação. </p>
+      <br>
+      <p>O uso habitacional, complementar às atividades de CT&I, integrando-o às dinâmicas próprias de bairros de uso misto – com habitação, serviços, comércio e lazer –, segundo os melhores exemplos internacionais.</p>
+      <br>
+      
+      <strong>área construída:</strong> 36.327,1 m2 
+      <br>
+      
+      <strong>autoria:</strong> Stuchi&Leite
+      <br>
+      <br>
+
+      <p>deverá ser previsto, no mínimo, 30% da área total construída destinada a usos residenciais, sendo que, no mínimo, metade deverá ser habitação de interesse social (his), seguindo a definição da legislação municipal.</p>
+      <br>
+
+      <p>habitacional atende a e Equipamento associado inserido no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) abriga espaços Corporativo/Escritórios e outros serviços de apoio e, busca integrar usos e atividades à dinâmica urbanas local.</p>
+      <br>
+
+      <p>responsável por articular o distrito à infraestrutura de transporte coletivo e à rede cicloviária, a partir da passarela que o conecta à estação Villa Lobos-Jaguaré da CPTM, evidencia o compromisso com a mobilidade e a acessibilidade nas diferentes escalas, articulando-se privilegiando os pedestres. Em 26.539,90 m2 área construída, foram adotadas soluções projetuais comprometidas com a dimensão urbano-ambiental, incorporando-se a provisão de infraestruturas de mobilidade, saneamento, adaptação ambiental e tecnologias da informação. </p>
+      <br>
+
+      <strong>equipe:</strong> stuchi&leite
+      <br>
+
+
+      <p>O platô, um artifício de projeto, acomoda o elemento integrador do Distrito, o Spine, onde ocorrem os fluxos principais, articulando as vias do entorno ou áreas de fruição no interior dos lotes. Concebido a partir do padrão de “ruas completas”, este eixo funciona como a espinha dorsal do projeto, para o qual as edificações voltam os seus usos mais dinâmicos. Nos principais pontos de alargamento do Spine, encontram-se largos propícios para o encontro, servindo como extensões dos térreos dos edifícios, para os quais se voltam as áreas comerciais e de serviços.</p>
+      <br>
+
+      <p>é um projeto de 190.000m² de área construída total, Os programas principais estão localizados nos edifícios âncora de CT&I - Ciência Tecnologia e Inovação: Incubadoras e Aceleradoras, Laboratórios de prototipagem, Salas Multifuncionais/Eventos e Auditório, Agências e Instituições Públicas e de Pesquisa, Ensino, Corporativo/Escritórios e Espaço Social-Dinâmico (espaços comunitários e de sociabilidade), cafés, restaurantes e outros serviços de apoio.</p>
+      <br>
+      
+      <p>O CITI II abriga complexos de edifícios multifuncionais, contendo:</p>
+
+      <p>- Dois edifícios de CT&I - 58.760 m²</p>
+      <p>- Habitação – HIS e Mercado Popular - 71.450 m²</p>
+      <p>- Comércio e serviços de pequeno porte - 4.110 m²</p>
+      <p>- Retail (shopping mall/ centro comercial) - 8.275 m²</p>
+      <p>- Hospedagem (long stay) - 4.290 m²</p>
+      <p>- Escritórios/corporativos - 41.840 m²</p>
+      <p>- Institucional - 1.360 m²</p>
+      <br>
+
+      <p>Os edifícios incorporam diretrizes de eficiência energética e de desempenho ambiental, com a adoção de soluções, sistemas e processos construtivos que garantem a sustentabilidade edilícia e ambiental de todo o conjunto construído.</p>
+    `,
+    "date": "2021-2022",
+    "imagesPaths": [
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_01_diagrama_habitação_de_interesse_social_gesp_3.PNG",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_02_diagrama_habitação_de_interesse_social_gesp_3.PNG",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_03_corte_esquematico_habitação_de_interesse_social_gesp_3.PNG",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_04_corte_esquematico_habitação_de_interesse_social_gesp_3.PNG",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_06_diagrama_habitação_de_interesse_social_gesp_3.png",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_07_planta_terreo_habitação_de_interesse_social_gesp_3.png",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_08_planta_01_pavto_habitação_de_interesse_social_gesp_3.png",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_09_planta_02_pavto_habitação_de_interesse_social_gesp_3.png",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_10_planta_pavto_tipo_habitação_de_interesse_social_gesp_3.png",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_11_planta_08_pavto_habitação_de_interesse_social_gesp_3.png",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_12_planta_09_pavto_habitação_de_interesse_social_gesp_3.png",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_13_corte_aa_habitação_de_interesse_social_gesp_3.png",
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_14_corte_cc_habitação_de_interesse_social_gesp_3.png"
+    ]
+  },
+  {
+    "title": "Edifício Corporartivo e Comercial – GESP.4",
+    "id": 36,
+    "thumbPath": "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_01_render_edifício_corporartivo_e_comercial_gesp_4.jpg",
+    "type": "arquitetura",
+    "description":  `
+      <p>O edifício inserido no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) abriga espaços Corporativo/Escritórios e outros serviços de .apoio e, busca integrar usos e atividades à dinâmica urbanas local.</p>
+      <br>
+
+      <p>O edifício incorpora diretrizes de eficiência energética e de desempenho ambiental, com a adoção de soluções, sistemas e processos construtivos que garantem a sustentabilidade edilícia e ambiental de todo o conjunto construído.</p>
+      <br>
+
+      <strong>área construída:</strong> 9.560,5 m2 
+      <br>
+
+      <strong>autoria:</strong> Stuchi&Leite
+    `,
+    "date": "2021-2022",
+    "imagesPaths": [
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_01_render_edifício_corporartivo_e_comercial_gesp_4.jpg",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_02_diagrama_edifício_corporartivo_e_comercial_gesp_4.png",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_03_planta_terreo_edifício_corporartivo_e_comercial_gesp_4.png",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_04_planta_subsolo_edifício_corporartivo_e_comercial_gesp_4.png",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_05_planta_01_pavto_edifício_corporartivo_e_comercial_gesp_4.png",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_06_planta_pavto_tipo_layout_b_edifício_corporartivo_e_comercial_gesp_4.png",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_07_planta_pavto_tipo_layout_a_edifício_corporartivo_e_comercial_gesp_4.png",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_08_corte_aa_edifício_corporartivo_e_comercial_gesp_4.png",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_09_elevacao_01_edifício_corporartivo_e_comercial_gesp_4.png",
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_10_elevacao_02_edifício_corporartivo_e_comercial_gesp_4.png"
+    ]
+  },
+  {
+    "title": "Equipamento Esportivo – GESP.5",
+    "id": 45,
+    "thumbPath": "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_01_diagrama_equipamento_esportivo_gesp_5.png",
+    "type": "arquitetura",
+    "description":  `
+      <p>O centro esportivo aberto, localizado no interior do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo), permite a prática de esportes ao ar livre e articular o distrito e inovação à Unip e as ruas adjacentes à gleba. Establece assim, atrativo urbano e ambiental, valorizando a inserção no tecido urbano local.</p>
+      <br>
+
+      <strong>equipe:</strong> stuchi&leite
+    `,
+    "date": "2021-2022",
+    "imagesPaths": [
+      "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_01_diagrama_equipamento_esportivo_gesp_5.png",
+      "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_02_planta_terreo_equipamento_esportivo_gesp_5.png",
+      "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_03_nivel_inferior_equipamento_esportivo_gesp_5.png",
+      "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_04_corte_aa_equipamento_esportivo_gesp_5.png",
+      "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_05_corte_bb_cc_equipamento_esportivo_gesp_5.png"
+    ]
+  },
+  {
+    "title": "Centro de Tecnologia e Inovação - USP1",
+    "id": 54,
+    "thumbPath": "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_01_render_centro_de_tecnologia_e_inovacao_usp_1.jpg",
+    "type": "arquitetura",
+    "description":  `
+      <p>O edifício de destinado ao CT&I (Centro de Tecnologia e Inovação), localizado no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) é o edifício ancora, que atende ao programa de Incubadoras e Aceleradoras, Laboratórios de prototipagem, Salas Multifuncionais/Eventos e Auditório, Agências e Instituições Públicas e de Pesquisa, Ensino, Corporativo/Escritórios e Espaço Social-Dinâmico (espaços comunitários e de sociabilidade), cafés, restaurantes e outros serviços de apoio.</p>
+      <br>
+      
+      <p>O edifício conecta o distrito à Cidade Universitária da USP, IPT (CITI I e Bairro Jaguaré. Foram adotadas soluções projetuais comprometidas com a dimensão urbano-ambiental, incorporando-se a provisão de infraestruturas de mobilidade, saneamento, adaptação ambiental e tecnologias da informação.</p>
+      <br>
+
+      <strong>área construída:</strong> 26.539,90 m2 
+      <br>
+
+      <strong>autoria:</strong> Stuchi&Leite
+    `,
+    "date": "2021-2022",
+    "imagesPaths": [
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_01_render_centro_de_tecnologia_e_inovacao_usp_1.jpg",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_02_116_CITI-II_RELATÓRIO_PERSPECTIVAS-USP01_R00-V00.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_02_diagrama_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_03_planta_terreo_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_04_nivel_inferior_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_05_planta_01_pavto_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_06_planta_02_pavto_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_07_planta_03_pavto_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_08_planta_04_pavto_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_09_planta_05_pavto_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_10_planta_06_pavto_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_11_planta_07_pavto_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_12_corte_aa_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_13_corte_bb_cc_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_14_elevacao_01_centro_de_tecnologia_e_inovacao_usp_1.png",
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_15_elevacao_03_centro_de_tecnologia_e_inovacao_usp_1.png"
+    ]
+  },
+  {
+    "title": "Edifício de Uso Misto – USP.2",
+    "id": 63,
+    "thumbPath": "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_01_render_edifício_corporativo_e_retail_usp_2.jpg",
+    "type": "arquitetura",
+    "description":  `
+      <p>O edifício de uso misto, inserido no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo), no bairro do Butantã, ao lado da Cidade Universitária, abriga espaços comerciais, corporativos, residenciais entre outros serviços de apoio e, busca integrar usos e atividades à dinâmica urbanas local.</p>
+      <br>
+
+      <p>O edifício incorpora diretrizes de eficiência energética e de desempenho ambiental, com a adoção de soluções, sistemas e processos construtivos que garantem a sustentabilidade edilícia e ambiental de todo o conjunto construído.</p>
+      <strong>área construída:</strong> 33.397,90 m2 
+      <br>
+
+      <strong>autoria:</strong> Stuchi&Leite
+    `,
+    "date": "2021-2022",
+    "imagesPaths": [
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_01_render_edifício_corporativo_e_retail_usp_2.jpg",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_02_diagrama_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_03_planta_terreo_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_04_subsolo_01_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_05_planta_01_pavto_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_06_planta_02_pavto_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_07_planta_03_04_pavto_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_08_planta_05_06_pavto_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_09_planta_07_a_09_pavto_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_10_corte_aa_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_11_corte_bb_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_12_corte_cc_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_13_elevacao_01_edifício_corporativo_e_retail_usp_2.png",
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_14_elevacao_02_edifício_corporativo_e_retail_usp_2.png"
+    ]
+  },
+  {
+    "title": "Edifício Habitacional e Equipamento associado - USP.3",
+    "id": 72,
+    "thumbPath": "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_01_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
+    "type": "arquitetura",
+    "description":  `
+      <p>O edifício, inserido no distrito de inovação, tem o programa de uso habitacional. O projeto considera duas subcategorias de uso residencial distintas – habitação de interesse social (HIS) e R2h-2 (residencial multifamiliar horizontal, segundo a legislação paulistana) – deverão produzir receitas na forma de locação e alienação. </p>
+      <br>
+      
+      <p>O uso habitacional, complementar às atividades de CT&I, integrando-o às dinâmicas próprias de bairros de uso misto – com habitação, serviços, comércio e lazer –, segundo os melhores exemplos internacionais.</p>
+      <br>
+      
+      <strong>área construída:</strong> 36.327,1 m2 
+      <br>
+      
+      <strong>autoria:</strong> Stuchi&Leite
+    `,
+    "date": "2021-2022",
+    "imagesPaths": [
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_01_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_02_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_03_corte_esquematico_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_04_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_05_planta_terreo_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_06_planta_subsolo_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_07_planta_01_pavto_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_08_planta_02_pavto_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_09_planta_03_a_6_pavto_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_10_planta_07_08_pavto_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_11_corte_aa_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_12_corte_bb_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_12_elevacao_01_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_13_elevacao_02_edifício_habitacional_e_equipamento_associado_usp_3.png"
+    ]
+  },
+
   {
     "title": "Ginásio Esportivo Municipal de Mauá.",
+    "id": 81,
     "thumbPath": "projetos/arq_15_ginasio_esportivo_municipal_de_maua/arq_15_para_publicar/fig_01_foto_ginasio_esportivo_municipal_de_maua.jpg",
     "type": "arquitura",
     "description": `
@@ -38,6 +315,7 @@ export const projetos = [
   },
   {
     "title": "Residência Alto da Lapa",
+    "id": 90,
     "thumbPath": "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_08_foto_nejimi.jpg",
     "type": "arquitetura",
     "description": `
@@ -60,6 +338,7 @@ export const projetos = [
   },
   {
     "title": "Residência G+A",
+    "id": 99,
     "thumbPath": "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_05_foto_ga.jpg",
     "type": "arquitetura",
     "description": `
@@ -107,6 +386,7 @@ export const projetos = [
   },
   {
     "title": "RESIDÊNCIA PIRACICABA II",
+    "id": 108,
     "thumbPath": "projetos/arq_02_residencia_piracicaba_i/arq_02_para_publicar/fig_03_foto_residencia_piracicaba_i.jpg",
     "type": "arquitetura",
     "description": `
@@ -127,6 +407,7 @@ export const projetos = [
   },
   {
     "title": "Clínica Radiológia",
+    "id": 117,
     "thumbPath": "projetos/arq_03_clinica_radiologica/arq_03_para_publicar/fig_04_foto_clinica_radiologica.jpg",
     "type": "arquitetura",
     "description": `
@@ -145,6 +426,7 @@ export const projetos = [
   },
   {
     "title": "Escritório Regina Bi",
+    "id": 126,
     "thumbPath": "projetos/arq_106_escritorio_regina_bi/arq_106_para_publicar/fig_01_planta_depois_escritorio_regina_bi.png",
     "type": "arquitetura",
     "description": ``,
@@ -159,6 +441,7 @@ export const projetos = [
   },
   {
     "title": "Boulevard da Paz – Provisão 02",
+    "id": 135,
     "thumbPath": "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_02_implantacao_boulevard_da_pax_prov2.jpg",
     "type": "arquitetura",
     "description": `
@@ -205,6 +488,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento Maxhaus Panamby",
+    "id": 144,
     "thumbPath": "projetos/arq_10_max_haus_panamby/arq_10_para_publicar/fig_04_foto_max_haus_panamby.jpg",
     "type": "arquitetura",
     "description": `
@@ -229,6 +513,7 @@ export const projetos = [
   },
   {
     "title": "BOULEVARD DA PAZ - PROVISÃO 01",
+    "id": 153,
     "thumbPath": "projetos/arq_121_boulevard_da_paz_prov1_estudos/arq_121_boulevard_da_paz_prov1_estudos/fig_01_estudo_boulevard_da_pax_prov1.jpg",
     "type": "arquitetura",
     "description": `
@@ -266,6 +551,7 @@ export const projetos = [
   }, 
   {
     "title": "Residência AE Campinas",
+    "id": 162,
     "thumbPath": "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_04_perspectiva_residencia_ae_campinas.jpg",
     "type": "arquitetura",
     "description": ``,
@@ -282,6 +568,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento Corujas",
+    "id": 171,
     "thumbPath": "projetos/arq_130_corujas/arq_130_para_publicar/fig_01_render_corujas.jpg",
     "type": "arquitetura",
     "description": `
@@ -321,6 +608,7 @@ export const projetos = [
   },
   {
     "title": "Souza de Toledo Advogados",
+    "id": 180,
     "thumbPath": "projetos/arq_132_souza_de_toledo_advogados/arq_132_para_publicar/fig_03_perspectiva_souza_de_toledo_advogados.png",
     "type": "arquitetura",
     "description": ``,
@@ -338,6 +626,7 @@ export const projetos = [
   },
   {
     "title": "Clínica Médica Casa Santa Terezinha",
+    "id": 189,
     "thumbPath": "projetos/arq_134_clinica_medica_casa_santa_terezinha/arq_134_para_publicar/fig_03_render_clinica_medica_cst.png",
     "type": "arquitetura",
     "description": ``,
@@ -355,6 +644,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento Alagoas",
+    "id": 198,
     "thumbPath": "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_05_render_apartamento_alagoas.png",
     "type": "arquitetura",
     "description": `
@@ -388,6 +678,7 @@ export const projetos = [
   },
   {
     "title": "Residência Ibirapuera",
+    "id": 207,
     "thumbPath": "projetos/arq_13_residencia_ibirapuera/arq_13_para_publicar/fig_03_foto_residencia_ibirapuera.jpg",
     "type": "arquitetura",
     "description": ``,
@@ -406,6 +697,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento Liberdade",
+    "id": 216,
     "thumbPath": "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_07_perspectiva_apartamento_liberdade.png",
     "type": "arquitetura",
     "description": ``,
@@ -426,6 +718,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento Alagoas Ima",
+    "id": 225,
     "thumbPath": "projetos/arq_141_apartamento_alagoas_ima/arq_141_para_publicar/fig_06_render_apartamento_alagoas.png",
     "type": "arquitetura",
     "description": `
@@ -454,6 +747,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento M+M",
+    "id": 234,
     "thumbPath": "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_05_perspectiva_apartamento_mm.png",
     "type": "arquitetura",
     "description": `
@@ -490,6 +784,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento Cubo Azul",
+    "id": 243,
     "thumbPath": "projetos/arq_17_cubo_azul/arq_17_para_publicar/fig_03_cubo_azul.jpg",
     "type": "arquitetura",
     "description": `
@@ -534,6 +829,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento Araguari",
+    "id": 252,
     "thumbPath": "projetos/arq_18_araguari/arq_18_para_publicar/fig_04_foto_araguari.jpg",
     "type": "arquitetura",
     "description": `
@@ -579,6 +875,7 @@ export const projetos = [
   },
   {
     "title": "Residência Marques de Itanhaém",
+    "id": 261,
     "thumbPath": "projetos/arq_19_residencia_marques_de_itanhaem/arq_19_para_publicar/fig_01_planta_residencia_marques_de_itanhaem.png",
     "type": "arquitetura",
     "description": `
@@ -598,6 +895,7 @@ export const projetos = [
   },
   {
     "title": "Duo I",
+    "id": 270,
     "thumbPath": "projetos/arq_23_duo_i/arq_23_para_publicar/fig_03_foto_duo_i.jpg",
     "type": "arquitetura",
     "description": `
@@ -651,6 +949,7 @@ export const projetos = [
   },
   {
     "title": "Residência Piracicaba II",
+    "id": 279,
     "thumbPath": "projetos/arq_24_residencia_piracicaba_ii/arq_24_para_publicar/fig_05_foto_residencia_piracicaba_ii.jpg",
     "type": "arquitetura",
     "description": `
@@ -704,6 +1003,7 @@ export const projetos = [
   },
   {
     "title": "APARTAMENTO MAX HAUS VILA LEOPOLDINA II",
+    "id": 288,
     "thumbPath": "projetos/arq_26_e_27_max_haus_vila_leopoldina_i_e_ii/arq_26_e_27_para_publicar/fig_04_corte_aa_max_haus_vila_leopoldina_i_e_ii.jpg",
     "type": "arquitetura",
     "description": `
@@ -729,6 +1029,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento Reserva Saúde",
+    "id": 297,
     "thumbPath": "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_15_foto_reserva_saude.jpg",
     "type": "arquitetura",
     "description": `
@@ -778,6 +1079,7 @@ export const projetos = [
   },
   {
     "title": "Ateliê de Fotografia",
+    "id": 306,
     "thumbPath": "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_16_foto_atelie_fotografia.jpg",
     "type": "arquitetura",
     "description": `
@@ -843,6 +1145,7 @@ export const projetos = [
   },
   {
     "title": "Vila Nova Conceição",
+    "id": 315,
     "thumbPath": "projetos/arq_39_vila_nova_conceicao/arq_39_para_publicar/fig_04_slide_04_villa_nova_conceição.jpg",
     "type": "arquitetura",
     "description": ``,
@@ -861,6 +1164,7 @@ export const projetos = [
   },
   {
     "title": "Residência Municipal",
+    "id": 324,
     "thumbPath": "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_05_pespectiva_residencia_municipal.jpg",
     "type": "arquitetura",
     "description": `
@@ -893,6 +1197,7 @@ export const projetos = [
   },
   {
     "title": "Residência Iraci",
+    "id": 333,
     "thumbPath": "projetos/arq_47_residencia_iraci/arq_47_para_publicar/fig_05_foto_residencia_iracia.jpg",
     "type": "arquitetura",
     "description": `
@@ -923,7 +1228,44 @@ export const projetos = [
     ]
   },
   {
+    "title": "Residência Iraci",
+    "id": 342,
+    "thumbPath": "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_01_planta_inferior_residencia_iraci_ii.png",
+    "type": "arquitetura",
+    "description": `
+      <strong>Local:</strong> Jardim Europa, São Paulo
+      <br>
+      <br>
+      
+      <p>O primeiro estudo para a reforma de uma residência na Rua Iraci, em São Paulo, visou transformar uma pequena casa em um refúgio urbano. Com ambientes integrados e um solarium elevado, buscamos valorizar o imóvel, tornando-o mais iluminado, amplo e acolhedor.</p>
+      <br>
+
+      <p>Mudanças nas diretrizes da proprietária levaram à elaboração de um novo projeto, voltado para atender às necessidades de um escritório de advocacia familiar, também desenvolvido pela Stuchi&Leite.</p>
+      <br>
+
+      <strong>Data:</strong> 
+      <br>
+      <strong>Projeto:</strong> Stuchi&Leite
+    `,
+    "date": "2016",
+    "imagesPaths": [
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_01_planta_inferior_residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_02_planta_superior_residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_03_perspectiva_residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_04_perspectiva_residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_05_corte_bb_residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_06_perspectiva_residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_07_perspectiva_residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_08_perspectiva__residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_09_corte_aa__residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_10_elevacao__residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_11_corte_cc_residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_12_elevacao_frontal__residencia_iraci_ii.png",
+    ]
+  },
+  {
     "title": "Apto Jardim Sul",
+    "id": 351,
     "thumbPath": "projetos/arq_48_apto_jardim_sul/arq_48_para_publicar/fig_07_perspectiva_apto_jardim_sul.jpg",
     "type": "arquitetura",
     "description": ``,
@@ -941,28 +1283,8 @@ export const projetos = [
     ]
   },
   {
-    "title": "Residência Iraci II",
-    "thumbPath": "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_01_planta_inferior_residencia_iraci_ii.png",
-    "type": "arquitetura",
-    "description": ``,
-    "date": "",
-    "imagesPaths": [
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_01_planta_inferior_residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_02_planta_superior_residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_03_perspectiva_residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_04_perspectiva_residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_05_corte_bb_residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_06_perspectiva_residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_07_perspectiva_residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_08_perspectiva__residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_09_corte_aa__residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_10_elevacao__residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_11_corte_cc_residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_12_elevacao_frontal__residencia_iraci_ii.png",
-    ]
-  },
-  {
     "title": "Aratas",
+    "id": 360,
     "thumbPath": "projetos/arq_51_aratas/arq_51_para_publicar/fig_14_foto_aratas.jpg",
     "type": "arquitetura",
     "description": ``,
@@ -992,6 +1314,7 @@ export const projetos = [
   },
   {
     "title": "Clínica de Saúde",
+    "id": 369,
     "thumbPath": "projetos/arq_52_clinica_de_saude/arq_52_para_publicar/fig_01_planta_clinica_de_saude.jpg",
     "type": "arquitetura",
     "description": `
@@ -1015,6 +1338,7 @@ export const projetos = [
   },
   {
     "title": "Apartamento República",
+    "id": 378,
     "thumbPath": "projetos/arq_57_atelie_republica/arq_57_para_publicar/fig_04_foto_atelie_republica.jpg",
     "type": "arquitetura",
     "description": `
@@ -1065,6 +1389,7 @@ export const projetos = [
   },
   {
     "title": "Escritório Plenno",
+    "id": 387,
     "thumbPath": "projetos/arq_58_escritorio_plenno/arq_58_para_publicar/fig_01_planta_escritorio_plenno.jpg",
     "type": "arquitetura",
     "description": `
@@ -1101,6 +1426,7 @@ export const projetos = [
   },
   {
     "title": "Casa Mirante / Residência Atibaia",
+    "id": 396,
     "thumbPath": "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_12_render_casa_mirante.jpg",
     "type": "arquitetura",
     "description": `
@@ -1140,6 +1466,7 @@ export const projetos = [
   },
   {
     "title": "Duo II Bancada",
+    "id": 405,
     "thumbPath": "projetos/arq_64_duo_ii_bancada/arq_64_para_publicar/fig_01_foto_duo_ii_bancada.jpg",
     "type": "arquitetura",
     "description": ``,
@@ -1152,6 +1479,7 @@ export const projetos = [
   },
   {
     "title": "Quadra Modelo",
+    "id": 414,
     "thumbPath": "projetos/arq_67_quadra_modelo/arq_67_para_publicar/fig_04_render_quadra_modelo.png",
     "type": "arquitetura",
     "description": `
@@ -1184,6 +1512,7 @@ export const projetos = [
   },
   {
     "title": "UP SCHOOL",
+    "id": 423,
     "thumbPath": "projetos/arq_70_escola_infantil_alto_da_lapa_up_school/arq_70_para_publicar/fig_01_diagrama_escola_infantil_alto_da_lapa.jpg",
     "type": "arquitetura",
     "description": `
@@ -1222,6 +1551,7 @@ export const projetos = [
   },
   {
     "title": "Ateliê Foto e Filme JG",
+    "id": 432,
     "thumbPath": "projetos/arq_71_atelie_foto_e_filme_jg/arq_71_para_publicar/fig_17_gif_modelo.gif",
     "type": "arquitetura",
     "description": `
@@ -1265,11 +1595,27 @@ export const projetos = [
     ]
   },
   {
-    "title": "NK Store",
+    "title": "NK STORE: CONCURSO",
+    "id": 441,
     "thumbPath": "projetos/arq_75_nk_store/arq_75_para_publicar/fig_01_foto_nk_store.jpg",
     "type": "arquitetura",
-    "description": ``,
-    "date": "",
+    "description": `
+      <strong>Local:</strong> São Paulo, SP
+      <br>
+      <br>
+
+      <p>Em parceria com a Zemel + Arquitetos, a Stuchi&Leite integrou uma das três equipes que participaram do concurso fechado para a reforma e integração dos três imóveis ocupados pela tradicional loja NK Store nos Jardins, em São Paulo. Mais do que uma simples reforma, o projeto visa criar um novo conceito de loja, focando em design inovador e na experiência do cliente, onde a loja dos Jardins aparece como um exemplo emblemático dessa nova abordagem.</p>
+      <br>
+
+      <strong>Autores do Projeto:</strong> Fabiana Stuchi e Paula Zemel
+      <br>
+      <strong>Colaboradores:</strong> Daniela Mello, Danilo Bocchini Rodrigues Alves, Francisco Costardi, Julia Machado e Thayse Portugal e Daniela Mello
+      <br>
+
+      <strong>Área:</strong> 1012 m²
+
+    `,
+    "date": "2017",
     "imagesPaths": [
       "projetos/arq_75_nk_store/arq_75_para_publicar/fig_01_foto_nk_store.jpg",
       "projetos/arq_75_nk_store/arq_75_para_publicar/fig_02_foto_nk_store.jpg",
@@ -1293,9 +1639,37 @@ export const projetos = [
   },
   {
     "title": "Ateliê Lapa",
+    "id": 450,
     "thumbPath": "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_09_foto__atelie_lapa.jpg",
     "type": "arquitetura",
-    "description": ``,
+    "description": `
+      <strong>Local:</strong> Lapa, São Paulo, SP. 
+      <br>
+      <br>
+      
+      <p>Um anexo para a artista Marina Serri era a demanda colocada pelas novas — e felizes — proprietárias da casinha na Lapa, originalmente reformada há cerca de vinte anos pelas arquitetas Fabiana Stuchi, sócia do Stuchi & Leite Projetos, e Mariana Sabino.</p>
+      <p>A ideia de construir um ateliê nos fundos do lote, eliminando o lindo jasmim-manga, não nos pareceu adequada. A solução proposta foi adicionar um novo andar ao volume da casa, liberando o terreno, trazendo mais luz e abrindo a vista para o Pico do Jaraguá, que acabou se tornando um tema recorrente nos trabalhos da artista.</p>
+      <p>A intervenção adotou estrutura metálica e fechamentos leves — policarbonato, drywall e painéis termoacústicos. As condições do terreno em aclive permitiram criar um acesso independente ao espaço de trabalho, enquanto a necessidade de não sobrecarregar a construção existente reforçou a escolha por essa solução leve e eficiente, que também otimizou o processo construtivo e reduziu o tempo de obra.</p>
+      <p>O painel basculante que protege a bancada do sol e escancara a paisagem, junto ao shed de iluminação, tornou-se um elemento central na qualidade do espaço resultante.</p>
+      <br>
+      
+      <strong>Ficha Tecnica:</strong>
+      <br>
+      <br>
+      
+      <strong>Execução:</strong> Stuchi & Leite Projetos.
+      <br>
+
+      <strong>Autores:</strong> Fabiana Stuchi. 
+      <br>
+      
+      <strong>Coordenação:</strong> Fabiana Stuchi.
+      <br>
+      
+      <p><strong>Equipe Técnica</strong> – </p>
+      <p>Gerenciamento de Obra - Joana Maia Rosa</p>
+
+    `,
     "date": "",
     "imagesPaths": [
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_09_foto__atelie_lapa.jpg",
@@ -1322,10 +1696,21 @@ export const projetos = [
     ]
   },
   {
-    "title": "Copan Azul",
+    "title": "Copan – Apartamento Azul",
+    "id": 459,
     "thumbPath": "projetos/arq_90_copan_azul/arq_90_para_publicar/fig_10_foto_copan_azul.jpg",
     "type": "arquitetura",
-    "description": ``,
+    "description": `
+      <strong>Local:</strong> São Paulo, SP
+      <br>
+      <br>
+      
+      <strong>Projeto:</strong> Apartamento Copan Azul
+      <br>
+      <strong>Autoria e coordenação:</strong> Fabiana Stuchi
+      <br>
+      <p><strong>Equipe:</strong> Danilo Bocchini e Fernanda Moreira</p>
+    `,
     "date": "",
     "imagesPaths": [
       "projetos/arq_90_copan_azul/arq_90_para_publicar/fig_05_foto_copan_azul.jpg",
@@ -1347,10 +1732,34 @@ export const projetos = [
     ]
   },
   {
-    "title": "Gravata",
+    "title": "Apartamento Gravatá",
+    "id": 468,
     "thumbPath": "projetos/arq_92_gravata/arq_92_para_publicar/fig_15_foto_gravata.jpg",
     "type": "arquitetura",
-    "description": ``,
+    "description": `
+      <strong>Local:</strong> Av. Nove de Julho, São Paulo, SP. 
+      <br>
+      <br>
+      
+      <p>O Stuchi&Leite esteve envolvido neste trabalho desde a escolha do imóvel pelo cliente, passando pelo projeto de reforma civil, até chegar no projeto de arquitetura de interiores para este apartamento de 250m², localizado no Condomínio Gravatá, edifício ícone da obra do arquiteto modernista Rino Levi. </p>
+      <p>O projeto de reforma e de interiores parte da alteração das circulações do imóvel. Antes hierarquizadas em circulação íntima e de serviço, são transformadas em uma única circulação, apropriando-se da qualidade da iluminação natural que antes era usufruída apenas pelo setor de serviços. A circulação recebe a luz filtrada pelos elementos vazados, característica da obra de Rino Levi, sendo valorizada pelo acréscimo da vegetação a partir da criação de um jardim linear e pela instalação de caixilhos em vidro temperado. Esta alteração tornou possível transformar os três quartos em suítes, atendendo à principal demanda do cliente.</p>
+      <p>A sala, já privilegiada pela vista das copas das árvores do Bairro Jardim Paulista, teve os elementos estruturais desnudados e a pintura branca sobre o concreto mantida conforme encontrada, reforçando seu valor plástico.</p>
+      No intuito de integrar os ambientes, a cozinha recebeu fechamentos retráteis (porta e janela) que tornam possível a sua extroversão, através do desenho de elementos de marcenaria e serralheria.
+      <p>A estante da sala recebeu atenção especial dos projetistas, de forma a abrigar a contínua expansão do acervo particular de livros do proprietário. </p>
+      <p>O cuidado com os detalhes no desenho dos banheiros do apartamento: a transição entre os materiais, o trabalho com a iluminação, assim como a sobreposição entre os tons dos materiais e das pedras, cria uma atmosfera única para cada ambiente.</p>
+      <br>
+
+      <strong>Execução:</strong> Stuchi & Leite Projetos.
+      <br>
+
+      <strong>Autor e coordenação:</strong> Fabiana Stuchi
+      <br>
+
+      <strong>Equipe Técnica:</strong> Danilo Bocchini, Fernanda A. Moreira. 
+      <br>
+
+      <strong>Fotografia:</strong> Ana Mello. 
+    `,
     "date": "",
     "imagesPaths": [
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_15_foto_gravata.jpg",
@@ -1393,6 +1802,7 @@ export const projetos = [
   },
   {
     "title": "Residência Sumarezinho",
+    "id": 477,
     "thumbPath": "projetos/arq_ww_residencia_sumarezinho/arq_ww_para_publicar/fig_01_planta_inferior_residencia_sumarezinho.png",
     "type": "arquitetura",
     "description": ``,
@@ -1404,11 +1814,16 @@ export const projetos = [
     ]
   },
   {
-    "title": "Edifício Royal",
+    "title": "Apartamento Edifício Royal",
+    "id": 486,
     "thumbPath": "projetos/arq_yy_edificio_royal/arq_yy_para_publicar/fig_03_foto_edificio_royal.jpg",
     "type": "arquitetura",
-    "description": ``,
-    "date": "",
+    "description": `
+      <strong>Local:</strong> Higienópolis, São Paulo
+      <br>
+      <strong>Autoria e desenvolvimento:</strong> Fabiana Stuchi
+    `,
+    "date": "2009",
     "imagesPaths": [
       "projetos/arq_yy_edificio_royal/arq_yy_para_publicar/fig_03_foto_edificio_royal.jpg",
       "projetos/arq_yy_edificio_royal/arq_yy_para_publicar/fig_04_foto_edificio_royal.jpg",
@@ -1421,11 +1836,18 @@ export const projetos = [
     ]
   },
   {
-    "title": "Kansas",
+    "title": "RESIDÊNCIA KANSAS",
+    "id": 495,
     "thumbPath": "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_07_foto_kansas.jpg",
     "type": "arquitetura",
-    "description": ``,
-    "date": "",
+    "description": `
+      <strong>Local:</strong> Brooklin, São Paulo, SP.
+      <br>
+      <strong>Autoria e desenvolvimento:</strong> Fabiana Stuchi
+      <br>
+      <strong>Obra:</strong> Stuchi.eng
+    `,
+    "date": "2010",
     "imagesPaths": [
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_04_foto_kansas.jpg",
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_05_foto_kansas.jpg",
@@ -1441,6 +1863,7 @@ export const projetos = [
 
   {
     "title": "Reurbanização Marginais São Paulo",
+    "id": 504,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_01_reurbanizacao_marginais_sao_paulo/fig_01_reurbanizacao_marginas_sao_paulo.jpg",
     "description": ``,
@@ -1453,20 +1876,154 @@ export const projetos = [
   },
   {
     "title": "Requalificação Urbana Mauá RUIM",
+    "id": 513,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_02_requalificacao_urbana_maua_RUIM/fig_01_requalificacao_urbana_maua.jpg",
-    "description": ``,
-    "date": "",
+    "description": `
+      <strong>Local:</strong>São Paulo
+      <br>
+      <strong>Autores:</strong> Carlos Leite e Mario Biselli
+      <br>
+        
+      <strong>PUBLICAÇÃO</strong>
+      <br>
+      <br>
+      
+      <strong>CONCEITUAÇÃO</strong>
+      <br>
+      <br>
+      
+      <p>A área central de Mauá - município do Grande ABC localizado a sudoeste de São Paulo - terá uma nova conformação após a implantação do projeto urbano desenvolvido pelos arquitetos Mario Biselli e Carlos Leite. </p>
+      <br>
+      
+      <p>Em parceria com a prefeitura da cidade, os arquitetos desenvolveram o Projeto de Requalificação Urbana da Área Central de Mauá, que prevê a construção de uma grande esplanada como elemento integrador e regenerador de um centro histórico degradado e fragmentado.</p>
+      <br>
+      
+      <p>O grande desafio da equipe de projeto foi criar uma conexão espacial entre os núcleos histórico e comercial do município, separados pela linha férrea Santos-Jundiaí. A intervenção, no entanto, não se limitou simplesmente a solucionar o problema de descontinuidade do tecido urbano.</p>
+      <br>
+      
+      <p>A transposição da ferrovia já havia sido abordada pelo arquiteto Vilanova Artigas com o Plano de Renovação Urbana, de 1975. Parcialmente implantado, o projeto de Artigas não só previa passarelas para ligação das áreas histórica e comercial de Mauá, como também a construção de um paço municipal e de um parque que integraria alguns equipamentos urbanos.</p>
+      <br>
+      
+      <p>Com exceção de uma passarela e do edifício da prefeitura, o restante do plano acabou ficando no papel.Assim, surgiu a idéia da esplanada elevada como elemento de conexão entre as áreas centrais.</p>
+      <br>
+      
+      <p>O projeto também prevê a construção de uma biblioteca, de um ginásio poliesportivo, atualmente em execução, e a mudança do terminal rodoviário, que foi redesenhado e será implantado sob parte da grande esplanada. Biselli e Leite também desenharam a cobertura da estação de trem elevada da CPTM (Companhia Paulista de Trens Metropolitanos), que hoje implementa um plano de modernização das estações.</p>
+      <br>
+      
+      <strong>DADOS TÉCNICOS</strong>
+      <br>
+      <br>
+      
+      <strong>Obra:</strong> Projeto de Requalificação Urbana na Área Central de Mauá
+      <br>
+
+      <strong>Cliente:</strong> Prefeitura de Mauá
+      <br>
+
+      <strong>Esplanada elevada:</strong> 8.000 m²
+      <br>
+
+      <strong>Biblioteca central:</strong> 2.200 m²
+      <br>
+
+      <strong>Data do projeto:</strong> 2003
+      <br>
+
+      <strong>Início da obra:</strong> 2004
+      <br>
+      <br>
+
+      <strong>FICHA TÉCNICA</strong>
+      <br>
+      <br>
+
+      <strong>Concepção geral (fase 1):</strong> equipe técnica da Secretaria de Serviços e Obras da Prefeitura de Mauá - Maryluce Rossi, Kátia Crocco, Adilson Ruiz e Andréa Oliveira 
+      <br>
+
+      <strong>Colaboradores:</strong> Romildo Kamura, Vanderlei Santos e Renato Guariento
+      <br>
+
+      <strong>Desenvolvimento final (fase 2):</strong> GPA [Gabinete de Projetação Arquitetônica] - Mario Biselli e Carlos LeiteColaboradores: Arthur Katchborian, Mônica Brooke, Danielle Spadotto, Tais Cristina, Cristiana Rodrigues e Daniel Corsi
+      <br>
+
+      <strong>Modelagem eletrônica:</strong> Visualize
+      <br>
+
+      <strong>Paisagismo:</strong> Mônica Brooke e Carlos Leite 
+      <br>
+
+      <strong>Cálculo estrutural, orçamento e fundações:</strong> Zulques 
+      <br>
+
+      <strong>Estrutura metálica:</strong> D'AlambertInstalações, PentrarcoSistema viário - Geométrica
+      <br>
+
+    `,
+    "date": "2009",
     "imagesPaths": [
       "projetos/urb_02_requalificacao_urbana_maua_RUIM/fig_01_requalificacao_urbana_maua.jpg",
       "projetos/urb_02_requalificacao_urbana_maua_RUIM/fig_02_requalificacao_urbana_maua.jpg",
     ]
   },
   {
-    "title": "Estruturação Urbana Santana de Parnaíba",
+    "title": "Memorial do Concurso",
+    "id": 522,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_03_estruturacao_urbana_santana_de_parnaiba/fig_01_estruturacao_urbana_santana_de_parnaiba.jpg",
-    "description": ``,
+    "description": `
+      <p>A memória do território como construção da cidadania.</p>
+      <br>
+
+      <p>O núcleo histórico: uma memória histórica revalorizada.</p>
+      <br>
+
+      <p><strong>As bordas:</strong> o parque envoltório e a memória ambiental.</p>
+      <br>
+
+      <p>O núcleo histórico tombado: uma memória edificada</p>
+      <br>
+
+      <p>Trabalha-se, no centro histórico, com o conceito da memória edificada revalorizada, através das seguintes fases de intervenção:</p>
+      <p>1. Recuperação do patrimônio histórico tombado: desenvolveu-se um conjunto de diretrizes urbanísticas de ocupação do território privado, um “zoneamento incentivado”, aliado a instrumentos legais para a sua implementação [leis de incentivo cultural]. Objetiva-se manter um ambiente tombado e recuperar o patrimônio, mas também promover novos usos.</p>
+      <br>
+
+      <p>2. Redesenho dos espaços públicos e qualificação do mesmo enquanto ponto de encontro da população, através de novo desenho geométrico, pisos, terrenos e equipamentos urbanos. Trata-se de criar, na área envoltória da Igreja Matriz, uma sala de estar urbana.</p>
+      <br>
+
+      <p>3. Complementando o item anterior, propõe-se uma reorganização dos fluxos viários e peatonais. A área central, junto à Igreja Matriz, tem seu fluxo restrito ao horário noturno – o acesso é controlado por barreiras móveis - e os percursos didático-históricos recebem tratamento de piso preferencial ao pedestre.</p>
+      <br>
+
+      <p>4. A reciclagem arquitetônica é incentivada, no sentido de preservar o patrimônio e dotá-lo de usos contemporâneos. Como possibilidade indicativa desta postura, desenvolve-se um anexo à Casa Anhanguera: o Museu da Cidade, tirando partido da topografia acentuada, situado sob a Praça 14 de Novembro e tem acesso em nível a partir do existente Museu Anhanguera.</p>
+      <br>
+
+      <p>5. Para a normatização do desenho urbano, desenvolve-se um sistema padrão que não concorre com o ambiente tombado: uma família de equipamentos/mobiliário urbanos e de comunicação visual privada/comercial e urbana/pública. Propõe-se, como diretriz, o enterramento da fiação elétrica em toda a área tombada e a substituição do piso asfáltico viário por paralelepípedos com juntas de grama e lajões de pedra.</p>
+      <br>
+
+      <p>6. Os vazios como expressão da ausência: os miolos de quadra, restritos e em declive acentuado, permanecem não construídos. Respeite-se o patrimônio existente, inclusive como testemunha do que se perdeu ao longo do tempo. Como diretriz para reformulação de quadra, respeitosa ao patrimônio, propõe-se apenas o aumento da densidade arbórea, pequenas aberturas para maior frutificação urbana e a instalação de pequenos equipamentos anexos às edificações comerciais.</p>
+      <br>
+
+      <strong>As bordas: um parque envoltório, uma memória ambiental</strong>
+      <br>
+      <br>
+
+      <p>Uma memória ambiental que complementa e integra o patrimônio tombado, desenvolve-se através do parque envoltório, conforme:</p>
+      <br>
+
+      <p>1. O parque envoltório configura-se como ampliação do percurso histórico e configura um cinturão de vegetação de proteção ambiental.</p>
+      <br>
+
+      <p>2. O parque junto à várzea do rio Tietê tem com ocupação restrita e respeitosa à várzea inundável. Na cota baixa propõem-se apenas percursos para pedestres e ciclistas, campo de futebol e quadra poliesportiva, anfiteatro e arena [encenações religiosas]: trata-se de ocupação que determinadas épocas do ano é sobreposta pelas águas do rio. As “passarelas-deck”, elevadas [um metro acima do nível máximo de inundação do rio], ligam-se ao centro histórico e, nas épocas de cheia, transformam-se num “passeio sobre as águas”. Trata-se da valorização do ambiente natural e ocupação sob o “princípio do impacto zero”.</p>
+      <br>
+
+      <p>3. O parque alto configura uma integração com o núcleo histórico e com o parque baixo. Possui ocupação esportiva na faixa ganha com o enterramento de trecho de cem metros da linha de alta tensão existente [solução técnica possível, com relação custo-benefício vantajoso, existente em São Paulo e atualmente em negociação entre o condomínio de Alphaville e a Eletropaulo].</p>
+      <br>
+
+      <p>4. Os novos eventos ocorrem ao longo do parque envoltório, através de percursos didático-ambientais, passarelas de integração ao núcleo histórico, elevador com restaurante-mirante, áreas de lazer descobertas e áreas de apoio sob marquises, o percurso museológico [Museu Edgar de Souza, antiga barragem, arena para encenação da Paixão de Cristo] e o “modelo-Tietê”: representação lúdico-recreativa do percurso do rio Tietê ao longo do Estado de São Paulo para uso também como balneário.</p>
+      <br>
+
+      <p>5. Para os morros propõem-se diretrizes para a sua ocupação controlada sob o “princípio do impacto zero” [águas e mata], procurando dissuadir a ocupação indesejável e constituir novo modo de ocupação, com maior índice de proteção ambiental [50%]. As diretrizes urbanísticas apontam também para a participação comunitária na necessidade de educação e conscientização ambiental.</p>
+    `,
     "date": "",
     "imagesPaths": [
       "projetos/urb_03_estruturacao_urbana_santana_de_parnaiba/fig_01_estruturacao_urbana_santana_de_parnaiba.jpg",
@@ -1482,6 +2039,7 @@ export const projetos = [
   },
   {
     "title": "Projeto Urbano na Orla Ferroviária",
+    "id": 531,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_04_orla_ferroviaria_RUIM/fig_01_orla_ferroviaria_tamanduatei.jpg",
     "description": `
@@ -1513,6 +2071,7 @@ export const projetos = [
   },
   {
     "title": "Plano da Nova Centralidade de Benfica, Angola",
+    "id": 540,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_05_nova_centralidade_angola/fig_01_angola.jpg",
     "description": `
@@ -1550,6 +2109,7 @@ export const projetos = [
   },
   {
     "title": "Operação Urbana Consorciada Diagonal Sul. Estruturação Urbana, Social e Econômica. Plano Diretor Estratégico.",
+    "id": 549,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_06_ouc_diagonal_sul/fig_01_ouc_diagonal_sul.jpg",
     "description": `
@@ -1741,6 +2301,7 @@ export const projetos = [
   },
   {
     "title": "Táticas de Operação e Reativação Urbana em Territórios Informais — Heliópolis",
+    "id": 558,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_07_toru_heliopolis/fig_01_toru_heliopolis.jpg",
     "description": `
@@ -1781,6 +2342,7 @@ export const projetos = [
   },
   {
     "title": "Plano de Desenvolvimento Orientado pelo Transporte",
+    "id": 567,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_08_pdu_alphaville_barueri_santana/fig_1_folder_pdu_alphaville_barueri_santana.png",
     "description": `
@@ -1828,6 +2390,7 @@ export const projetos = [
   },
   {
     "title": "PDU Viracopos",
+    "id": 576,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_09_pdu_viracopos/fig_01_pdu_viracopos.jpg",
     "description": ``,
@@ -1846,6 +2409,7 @@ export const projetos = [
   },
   {
     "title": "Masterplan Viracopos",
+    "id": 585,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_10_masterplan_viracopos/fig_01_masterplan_viracopos.jpg",
     "description": `
@@ -1880,10 +2444,58 @@ export const projetos = [
     ]
   },
   {
-    "title": "Reestruturação Urbano Ambiental Mobilidade Rio Piracicaba",
+    "title": "Sistema de Parques Lineares do Rio Piracicaba: Estruturação Urbana, Ambiental e de Mobilidade, e o Parque Renato Wagner",
+    "id": 594,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_11_reestruturação_urbano_ambiental_mobilidade_rio_piracicaba/fig_01_reestruturação_urbano_ambiental_mobilidade_rio_piracicaba.png",
-    "description": ``,
+    "description": `
+      <p>O plano urbano do Sistema de Parques Lineares do Rio Piracicaba busca estabelecer uma estratégia de intervenções — urbanas, ambientais, de mobilidade e turísticas — com caráter integrador e identidade comum, viabilizando um resultado de conjunto territorial coeso.</p>
+      <br>
+
+      <p>O trabalho foi desenvolvido em 2014, período em que a cidade passava pela revisão do Plano Diretor, criando assim uma “janela de oportunidade” e potencializando a implementação do plano.</p>
+      <br>
+
+      <p>Com a implementação de um Plano Diretor para a orla do Rio Piracicaba, propõe-se um sistema de passeios/calçadas, ciclovias, transporte público e fluvial, articulando o conjunto de áreas verdes e de lazer já existentes e projetadas.</p>
+      <br>
+
+      <p>Integram este conjunto, na margem esquerda do rio, o Parque do Trabalhador — com nova articulação ao Parque João Herrmann Neto —, a Rua do Porto, com calçadas generosas, restaurantes à beira-rio, vista desimpedida para as águas e o já consolidado Projeto Beira-Rio, além da área da antiga Fábrica Boyes*, do Museu da Água e, na sequência, após a Ponte do Mirante, de dois novos parques: o Parque Renato Wagner e, na margem oposta do rio, uma área de futura incorporação, atualmente pertencente à Companhia City de Urbanização. A partir desse ponto, desenha-se uma sequência de espaços públicos tradicionais e de reconhecido valor histórico: o Parque do Mirante, o Parque do Engenho Central e o Parque do Bosque.</p>
+      <br>
+
+      <p>Propõe-se ainda a construção de uma terceira passarela de pedestres sobre o rio, desconectada do tráfego de veículos, garantindo a fluidez entre as duas margens.</p>
+      <br>
+
+      <p>O Plano Diretor para o conjunto territorial estabelece diretrizes estratégicas, tais como:</p>
+      <p>– Inserção de usos públicos (lazer, decks, ginástica, esportes);</p>
+      <p>– Implantação de infraestrutura de apoio (sanitários, módulos de alimentação, totens informativos, bases policiais);</p>
+      <p>– Requalificação de equipamentos de grande porte (Engenho, Aquário, Planetário, Teatro, Fábrica Boyes, museus);</p>
+      <p>– Ativação de frentes comerciais (como no embasamento junto ao Lar dos Velhinhos, na nova Avenida Renato Wagner);</p>
+      <p>– Valorização de áreas com potencial para parcerias com a iniciativa privada, por meio de PPPs.</p>
+      <br>
+
+      <p>No escopo deste plano, foi também desenvolvido o projeto de requalificação ainda não implementado do Parque do Trabalhador, com perfil voltado prioritariamente às práticas esportivas, em contraste com outras áreas do sistema que possuem usos predominantes distintos.</p>
+      <br>
+
+      <strong>Autores:</strong> Carlos Leite e Fabiana Stuchi
+      <br>
+
+      <strong>Equipe:</strong> Danilo Bocchini, Francisco Costardi, Thayse Portugal, Daniela Melo, Jaime Vega
+      <br>
+      
+      <strong>Consultores: </strong> Camila Viccari (Paisagismo), Vinicius Reis (Orçamentista)
+      <br>
+      
+      <strong>Fotografias:</strong> Maira Acayaba
+      <br>
+      <strong>Coordenação do Projeto</strong>
+      <br>
+      <p><strong>SETUR – Secretaria de Turismo:</strong> Rose Massaruto</p>
+      <p>IPPLAP – Institute for Research and Urban Planning of Piracicaba</p>
+
+
+      Implementação do Projeto
+      Prefeitura Municipal de Piracicaba
+
+    `,
     "date": "",
     "imagesPaths": [
       "projetos/urb_11_reestruturação_urbano_ambiental_mobilidade_rio_piracicaba/fig_01_reestruturação_urbano_ambiental_mobilidade_rio_piracicaba.png",
@@ -1893,6 +2505,7 @@ export const projetos = [
   },
   {
     "title": "Parque Renato Wagner",
+    "id": 603,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_01_parque_linear_renato_wagner_piracicaba.jpg",
     "description": `
@@ -1966,11 +2579,23 @@ export const projetos = [
     ]
   },
   {
-    "title": "Parque João Hermann Neto Piracicaba",
+    "title": "Parque João Herman Neto",
+    "id": 612,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_13_parque_joao_hermann_neto_piracicaba/fig_01_parque_joao_hermann_neto_piracicaba.jpg",
-    "description": ``,
-    "date": "",
+    "description": `
+      <strong>Local:</strong> Piracicaba, São Paulo — 2016
+      <br>
+      <strong>Cliente:</strong> Prefeitura Municipal de Piracicaba
+      <br>
+      <br>
+
+      <p>O Parque João Herman Neto, conhecido como Parque da Rua do Porto, é um popular espaço de lazer em Piracicaba foi inaugurado em 2010. Coube ao projeto qualificar seus acessos, integrá-lo a rede cicloviária e disciplinar as áreas de estacionamento do entorno. Além destes pontos, foram propostas áreas de contemplação da paisagem e uma ponte sobre o lago para facilitar a integração entre a Rua do Porto, os equipamentos do parque e a sede da Prefeitura Municipal de Piracicaba.  </p>
+      <p>Autores: Carlos Leite e Fabiana Stuchi</p>
+      Equipe: Danilo Bocchini, Francisco Costardi, Thayse Portugal
+      Execução dos projetos: Prefeitura do Municipio de Piracicaba, SETUR (Secretaria Municipal de Turismo), IPPLAP (Instituto de Pesquisas e Planejamento de Piracicaba).
+    `,
+    "date": "2016",
     "imagesPaths": [
       "projetos/urb_13_parque_joao_hermann_neto_piracicaba/fig_01_parque_joao_hermann_neto_piracicaba.jpg",
       "projetos/urb_13_parque_joao_hermann_neto_piracicaba/fig_02_parque_joao_hermann_neto_piracicaba (2).png",
@@ -1990,6 +2615,7 @@ export const projetos = [
   },
   {
     "title": "Parque do Trabalhador - Piracicaba",
+    "id": 621,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_14_parque_do_trabalhador_piracicaba/fig_01_parque_do_trabalhador_piracicaba.png",
     "description": `
@@ -2031,6 +2657,7 @@ export const projetos = [
   },
   {
     "title": "Masterplan para a área dos Fuzileiros Navais - Salvador",
+    "id": 630,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_15_masterplan_fuzileiros_navais_salvador/fig_01_fuzileiros.jpg",
     "description": `
@@ -2079,6 +2706,7 @@ export const projetos = [
   },
   {
     "title": "Coordenação de Charrete para o Plano Estruturante de Cruz da Almas - Maceió",
+    "id": 639,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_16_charrette_cruz_das_almas_maceio/fig_01_charrete_maceio.jpeg",
     "description": `
@@ -2112,6 +2740,7 @@ export const projetos = [
   },
   {
     "title": "A Quadra Modelo",
+    "id": 648,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_17_quadra_modelo_piu/fig_01_quadra_modelo.png",
     "description": `
@@ -2142,6 +2771,7 @@ export const projetos = [
   },
   {
     "title": "Novas oportunidades de viabilizar a requalificação urbana com uso equilibrado socialmente do território",
+    "id": 657,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_18_instrumentos_urbanos_inovadores_ppps_urbanos_piu/fig_01_instrumentos_urbanos_depois.png",
     "description": `
@@ -2222,6 +2852,7 @@ export const projetos = [
   },
   {
     "title": "PIU (Projeto de Intervenção Urbana) do NESP (Novo Entreposto de São Paulo)",
+    "id": 666,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_19_piu_nesp/fig_01_piu_nesp.jpg",
     "description": `
@@ -2380,6 +3011,7 @@ export const projetos = [
   },
   {
     "title": "Plano Diretor Especializado de Mogi das Cruzes, SP",
+    "id": 675,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_21_revisão_plano_diretor_mogi_2018/ChatGPT Image 27 de nov. de 2025, 18_17_46[1].png",
     "description": `
@@ -2484,6 +3116,7 @@ export const projetos = [
   },
   {
     "title": "CAS Masterplan Centro Salvador",
+    "id": 684,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_22_cas_masterplan_centro_salvador/fig_01_cas_masterplan_orla_implantacao.jpg",
     "description": `
@@ -2556,6 +3189,7 @@ export const projetos = [
   },
   {
     "title": "Projeto de Urbanismo Social e Caminhabilidade",
+    "id": 693,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_23_lapena_urbanismo_social/fig_01_lapena_social.jpg",
     "description": `
@@ -2628,6 +3262,7 @@ export const projetos = [
   },
   {
     "title": "Projeto Praça do Mutirão",
+    "id": 702,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_24_praca_mutirao_lapena/img_01_praca_mutirao_lapena.jpg",
     "description": `
@@ -2670,6 +3305,7 @@ export const projetos = [
   },
   {
     "title": "Distrito de Inovação CITI II",
+    "id": 711,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_25_distrito_de_inovação_citi_ii/fig_10_distrito_de_inovação_ citi_ii.jpg",
     "description": ``,
@@ -2697,6 +3333,7 @@ export const projetos = [
   },
   {
     "title": "Estudos de Viabilidade Urbanística-Arquitetônica das Áreas Cury e Maktub – Mogi das Cruzes",
+    "id": 720,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_26_cury_maktub_estudo_viabilidade/fig_12_estudo_viabilidade_cury_maktub.jpg",
     "description": `
@@ -2731,6 +3368,7 @@ export const projetos = [
   },
   {
     "title": "PLANO URBANO - BOULEVARD DA PAZ",
+    "id": 729,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_05_pq_boulevard_sehab.jpg",
     "description": `
@@ -2777,6 +3415,7 @@ export const projetos = [
   },
   {
     "title": "Nova Jundiapeba",
+    "id": 738,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_28_nova_jundiapeba/fig_01_jundiapeba_mogi.png",
     "description": ``,
@@ -2793,6 +3432,7 @@ export const projetos = [
   },
   {
     "title": "Distrito de Inovação CITI_III e IV",
+    "id": 747,
     "type": "urbanismo",
     "thumbPath": "projetos/urb_29_distrito_de_inovação_ citi_iii_iv/fig_11_citi_iii_iv.jpg",
     "description": `

@@ -28,6 +28,40 @@
   background: white;
   overflow: hidden;
 }
+.carrossel__arrow {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  width: 52px;
+  bottom: 40px;
+  right: 50px;
+  animation: 4s ease 0s infinite normal none running arrowBanner;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: .3s;
+  z-index: 4;
+}
+.carrossel__arrow:hover {
+  color: #cacaca;
+  transition: .3s;
+}
+@keyframes arrowBanner {
+  0% {
+    transform: translatey(0);
+  }
+  20% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(30px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
 .carrossel-slider {
   display: flex;
   position: absolute;
@@ -62,8 +96,9 @@
   width: 100%;
   font-size: 24px;
   color: white;
+  font-weight: 300;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
   z-index: 3;
-  text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
 }
 .carrossel__img {
   min-width: 100%;
@@ -356,7 +391,10 @@
   <div id="body-scroll">
     <main id="inicio">
       <!-- Carrossel -->
-      <div class="carrossel" id="m-carrossel"></div>
+      <div class="carrossel" id="m-carrossel">
+        <a href="#destaques" class="carrossel__arrow">↓</a>
+      </div>
+
       <!-- Destaques -->
       <section class="destaques g-gap" id="destaques">
         <div class="section__grid" id="destaques_col2"></div>
@@ -496,6 +534,7 @@ import { projetos } from '/datas/data_projects.js'
 import { data_carousel } from '/datas/data_carousel.js'
 import { loadImages } from './main.js'
 
+
 // ===== VARIABLES =====
 const tabsContainer = document.getElementById('m-tab-container')
 const destaques = document.getElementById('destaques')  
@@ -537,13 +576,14 @@ const startCarousel = () => carousel_intervalo = setInterval(carousel_slide, 300
 const carousel_createHtmlImages = () => {
   
   data_carousel.forEach((obj, index) => {
+    const projeto = projetos.find(elem => elem.id == obj.id)
     const carrossel__section = document.createElement('div')
     carrossel__section.className = 'carrossel__section'
-    carrossel__section.setAttribute('title', obj.projetoTitle)
+    carrossel__section.setAttribute('title', projeto.title)
     carrossel__section.setAttribute('carousel-section-index', index) // Adiciona index para todas as imagens do carrossel
 
     carrossel__section.innerHTML = `
-      <p class="carrossel__title">${obj.projetoTitle}</p>
+      <p class="carrossel__title">${projeto.title}</p>
       <img class="carrossel__img" height="500" width="1200" src="/assets/${obj.imageThumb}" alt="Imagem do carrossel">
     `
 
@@ -628,7 +668,7 @@ const destaque_init = () => {
   }
 
   destaquesSelecionados.forEach((obj, index) => {
-    const projeto = projetos.find(elem => elem.title === obj.projetoTitle)
+    const projeto = projetos.find(elem => elem.id === obj.id)
     const destaques__ctn = document.createElement('div')
     destaques__ctn.setAttribute('title', projeto.title)
     destaques__ctn.innerHTML = `
