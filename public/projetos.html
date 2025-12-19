@@ -128,6 +128,8 @@
 import { projetos } from '/datas/data_projects.js'
 import { openPopup } from '/components/popup.js'
 import { loadImages } from './main.js'
+import { attributesNames } from '/constants/constants.js'
+
 
 // ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
@@ -159,7 +161,7 @@ const initHTMLGrid = () => {
     const elThumb = document.createElement('div')
     elThumb?.classList.add('grid__btn')
     elThumb?.setAttribute('type', obj.type)
-    elThumb?.setAttribute('title', obj.title)
+    elThumb?.setAttribute(attributesNames.projectId, obj.id)
     
     if (colClass) elThumb.classList.add(colClass)
 
@@ -168,7 +170,7 @@ const initHTMLGrid = () => {
         <p>${obj.title}</p>
         <p class="g-hover__type">${obj.type}</p>
       </div>
-      <img class="grid__img" width="300" height="300" src="/assets/${obj.thumbPath}" loading="lazy" alt="${obj.thumbPath}">
+      <img class="grid__img" width="300" height="300" src="/assets/${obj.imagesPaths[0]}" loading="lazy" alt="${obj.title}">
     `
 
     elThumb?.addEventListener('click', (event) => openPopup(projetos, event))

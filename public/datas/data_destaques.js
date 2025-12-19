@@ -1,7 +1,7 @@
 export const destaquesSelecionados = [
   {
-    id: 306,
-    imageThumb: 'projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_16_foto_atelie_fotografia.jpg'
+    id: 306, // Id do projeto
+    imageThumb: 'projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_16_foto_atelie_fotografia.jpg' // Imagem de thumb
   },
   {
     id: 729,

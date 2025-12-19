@@ -1,29 +1,35 @@
 export const publicacoes = [
   {
+    id: 2, // Id da publicação
     title: 'Projeto',
     link: 'https://revistaprojeto.com.br/',
     showPopup: false,
-    thumbPath: 'publicacoes/projeto/projeto.avif',
     description: ``,
     date: '2025',
-    imagesPaths: [],
+    imagesPaths: [
+      'publicacoes/projeto/projeto.avif',
+    ],
   },
   {
+    id: 15,
     title: 'Ateliê República',
     link: '',
     showPopup: true,
-    thumbPath: 'publicacoes/atelie_republica/atelie_republica.avif',
     description: ``,
     date: '2025',
-    imagesPaths: [],
+    imagesPaths: [
+      'publicacoes/atelie_republica/atelie_republica.avif'
+    ],
   },
   {
+    id: 23,
     title: 'Cidades Sustentáveis, Cidades Inteligentes',
     link: 'https://loja.grupoa.com.br/cidades-sustentaveis-cidades-inteligentes-p991295',
     showPopup: false,
-    thumbPath: 'publicacoes/cidades_sutentaveis_cidades_inteligentes/cidades_sutentaveis_cidades_inteligentes.avif',
     description: ``,
     date: '2025',
-    imagesPaths: [],
+    imagesPaths: [
+      'publicacoes/cidades_sutentaveis_cidades_inteligentes/cidades_sutentaveis_cidades_inteligentes.avif',
+    ],
   },
 ]

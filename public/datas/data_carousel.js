@@ -1,7 +1,7 @@
 export const data_carousel = [
   {
-    id: 711,
-    imageThumb: 'projetos/urb_25_distrito_de_inovação_citi_ii/fig_10_distrito_de_inovação_ citi_ii.jpg'
+    id: 711, // Id do projeto
+    imageThumb: 'projetos/urb_25_distrito_de_inovação_citi_ii/fig_10_distrito_de_inovação_ citi_ii.jpg' // Imagem de thumb
   },
   {
     id: 99,

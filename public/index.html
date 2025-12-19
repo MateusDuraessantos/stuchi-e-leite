@@ -528,6 +528,7 @@
 </body>
 
 <script type="module">
+import { attributesNames } from '/constants/constants.js'
 import { openPopup } from '/components/popup.js'
 import { destaquesSelecionados } from './datas/data_destaques.js'
 import { projetos } from '/datas/data_projects.js'
@@ -577,18 +578,18 @@ const carousel_createHtmlImages = () => {
   
   data_carousel.forEach((obj, index) => {
     const projeto = projetos.find(elem => elem.id == obj.id)
-    const carrossel__section = document.createElement('div')
-    carrossel__section.className = 'carrossel__section'
-    carrossel__section.setAttribute('title', projeto.title)
-    carrossel__section.setAttribute('carousel-section-index', index) // Adiciona index para todas as imagens do carrossel
+    const carrosselSection = document.createElement('div')
+    carrosselSection.className = 'carrossel__section'
+    carrosselSection.setAttribute(attributesNames.projectId, projeto.id)
+    carrosselSection.setAttribute('carousel-section-index', index) // Adiciona index para todas as imagens do carrossel
 
-    carrossel__section.innerHTML = `
+    carrosselSection.innerHTML = `
       <p class="carrossel__title">${projeto.title}</p>
       <img class="carrossel__img" height="500" width="1200" src="/assets/${obj.imageThumb}" alt="Imagem do carrossel">
     `
 
-    carrossel__section.addEventListener('click', (event) => openPopup(projetos, event))
-    carousel_container?.append(carrossel__section)
+    carrosselSection.addEventListener('click', (event) => openPopup(projetos, event))
+    carousel_container?.append(carrosselSection)
   })
 
   document.querySelector(`[carousel-section-index="${carousel_index}"]`)?.classList.add('carrossel__section--ativa') // Define qual a primeira imagem a estar ativa no carrossel
@@ -670,7 +671,7 @@ const destaque_init = () => {
   destaquesSelecionados.forEach((obj, index) => {
     const projeto = projetos.find(elem => elem.id === obj.id)
     const destaques__ctn = document.createElement('div')
-    destaques__ctn.setAttribute('title', projeto.title)
+    destaques__ctn.setAttribute(attributesNames.projectId, projeto.id)
     destaques__ctn.innerHTML = `
       <div class="g-hover">${projeto.title}</div>
       <img class="destaques__img" width="300" height="300" loading="lazy" src="/assets/${obj.imageThumb}" alt="">

@@ -1,8 +1,10 @@
 import { loadImages } from '../main.js'
+import { attributesNames } from '../constants/constants.js'
 
 export const openPopup = (datas, event) => {
-  const title = event.currentTarget.getAttribute('title')
-  const selectProject = datas.find(obj => obj.title === title)
+  const projetoId = Number(event.currentTarget.getAttribute(attributesNames.projectId))
+  const selectedProject = datas.find(obj => obj.id === projetoId)
+  
   const popup = document.createElement('div')
   const closableTag = 'closable'
   popup.classList.add('popup', 'slowFade--open')
@@ -10,21 +12,23 @@ export const openPopup = (datas, event) => {
   popup.id = 'popupcontent'
   popup.setAttribute('closable', 'true')
 
-  const imagesTagHtml = selectProject.imagesPaths.map(obj =>
-    `<img class="popup__img" src="/assets/${obj}" width="300" height="300" opentozoom loading="lazy" alt="">`)
+  const imagePrincipal = selectedProject.imagesPaths[0]
+
+  const imagesTagHtml = selectedProject.imagesPaths.slice(1).map(path =>
+    `<img class="popup__img" src="/assets/${path}" width="300" height="300" opentozoom loading="lazy" alt="${selectedProject.title}">`)
   .join('')
 
   popup.innerHTML = `
     <div class="popup__content">
       <button class="popup__close" ${closableTag}="true" aria-label="Fechar popup">✕</button>
       <div class="popup__container">
-        <p class="popup__title">${selectProject.title}</p>
-        <div class="popup__descricao">${selectProject.description}</div>
-        <p class="popup__data">${selectProject.date}</p>
+        <p class="popup__title">${selectedProject.title}</p>
+        <div class="popup__descricao">${selectedProject.description}</div>
+        <p class="popup__data">${selectedProject.date}</p>
       </div>
 
       <div class="popup__portfolio g-gap">
-        <img class="popup__img popup__img--thumb" opentozoom src="/assets/${selectProject.thumbPath}" loading="lazy" alt="">
+        <img class="popup__img popup__img--thumb" opentozoom src="/assets/${imagePrincipal}" loading="lazy" alt="${selectedProject.title}">
 
         <div class="popup__grid g-gap">
           ${imagesTagHtml}

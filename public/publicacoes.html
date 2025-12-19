@@ -49,6 +49,7 @@
 </body>
 
 <script type="module">
+import { attributesNames } from '/constants/constants.js'
 import { openPopup } from '/components/popup.js'
 import { publicacoes } from '/datas/data_publications.js'
 import { loadImages } from './main.js'
@@ -69,12 +70,12 @@ const initHTMLGrid = () => {
   publicacoes.forEach(obj => {
     const imgThumb = document.createElement('div')
     imgThumb.classList.add('public__ctn', 'g-hover__container')
-    imgThumb.setAttribute('title', obj.title)
+    imgThumb.setAttribute(attributesNames.projectId, obj.id)
 
     if (obj.showPopup === true) {
       imgThumb.innerHTML = `
         <div class="g-hover">${obj.title}</div> 
-        <img class="publi__img" width="300" height="300" src="/assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
+        <img class="publi__img" width="300" height="300" src="/assets/${obj.imagesPaths[0]}" loading="lazy" alt="${obj.title}" />
       `
       imgThumb.addEventListener('click', (event) => openPopup(publicacoes, event))
     } else {
@@ -82,7 +83,7 @@ const initHTMLGrid = () => {
         <a href="${obj.link}" target="_blank">
           <div class="g-hover">${obj.title}</div> 
         </a>
-        <img class="publi__img" width="300" height="300" src="/assets/${obj.thumbPath}" loading="lazy" alt="mv2" />
+        <img class="publi__img" width="300" height="300" src="/assets/${obj.imagesPaths[0]}" loading="lazy" alt="${obj.title}" />
       `
     }
     
