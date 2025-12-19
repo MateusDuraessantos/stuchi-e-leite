@@ -58,6 +58,9 @@
   font-weight: 600;
   font-size: 24px;
 }
+.popup__descricao li {
+  margin-left: 24px;
+}
 .popup__descricao, .popup__data {
   font-size: 16px;
   font-weight: 300;

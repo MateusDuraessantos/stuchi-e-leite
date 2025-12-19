@@ -397,7 +397,6 @@
 
       <!-- Destaques -->
       <section class="destaques g-gap" id="destaques">
-        <div class="section__grid" id="destaques_col2"></div>
       </section>
     
       <!-- Sobre -->
@@ -585,7 +584,7 @@ const carousel_createHtmlImages = () => {
 
     carrosselSection.innerHTML = `
       <p class="carrossel__title">${projeto.title}</p>
-      <img class="carrossel__img" height="500" width="1200" src="/assets/${obj.imageThumb}" alt="Imagem do carrossel">
+      <img class="carrossel__img" height="500" width="1200" src="/assets/${projeto.imagesPaths[obj.indexImageThumb]}" alt="Imagem do carrossel">
     `
 
     carrosselSection.addEventListener('click', (event) => openPopup(projetos, event))
@@ -597,6 +596,7 @@ const carousel_createHtmlImages = () => {
 }
 
 const carousel_slide = () => {
+  carousel_blockClick = true
   carousel_index = carousel_index === data_carousel.length - 1 ? 0 : carousel_index += 1
   
   const imagemAtiva = document.querySelector('.carrossel__section--ativa')
@@ -611,6 +611,7 @@ const carousel_slide = () => {
     imagemAtiva?.classList.remove('carrossel__animation--active', 'carrossel__section--ativa')
     nextToBeActivated?.classList.remove('carrossel__animation--next')
     nextToBeActivated?.classList.add('carrossel__section--ativa')
+    carousel_blockClick = false
   }, carousel_animationTime);
 }
 
@@ -655,17 +656,19 @@ const carousel_createHtmlButtons = (params) => {
 }
 
 const destaque_init = () => {
+  const carousel_sectionGrid = document.createElement('div')
+  carousel_sectionGrid.className = 'section__grid'
+  carousel_sectionGrid.id= 'destaques_col2'
 
   const gridWith_1_column = (obj, index, projeto, destaques__ctn) => {
     const posicaoImagem = index % 2 ? 'destaques--left' : 'destaques--right'
     destaques__ctn?.classList.add('destaques__ctn', posicaoImagem)
-    destaques?.prepend(destaques__ctn)
+    destaques?.append(destaques__ctn)
   }
 
   const gridWith_2_columns = (obj, index, projeto, destaques__ctn) => {
-    const destaques_col2 = document.getElementById('destaques_col2')
     destaques__ctn?.classList.add('destaques__ctn')
-    destaques_col2?.append(destaques__ctn)
+    carousel_sectionGrid?.append(destaques__ctn)
   }
 
   destaquesSelecionados.forEach((obj, index) => {
@@ -674,7 +677,7 @@ const destaque_init = () => {
     destaques__ctn.setAttribute(attributesNames.projectId, projeto.id)
     destaques__ctn.innerHTML = `
       <div class="g-hover">${projeto.title}</div>
-      <img class="destaques__img" width="300" height="300" loading="lazy" src="/assets/${obj.imageThumb}" alt="">
+      <img class="destaques__img" width="300" height="300" loading="lazy" src="/assets/${projeto.imagesPaths[obj.indexImageThumb]}" alt="">
     `
     destaques__ctn?.addEventListener('click', (event) => openPopup(projetos, event))
     
@@ -682,6 +685,9 @@ const destaque_init = () => {
       gridWith_1_column(obj, index, projeto, destaques__ctn) :
       gridWith_2_columns(obj, index, projeto, destaques__ctn)
   })
+
+  destaques?.append(carousel_sectionGrid)
+
 }
 
 const about = () => {

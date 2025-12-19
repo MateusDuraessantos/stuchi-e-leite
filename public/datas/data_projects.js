@@ -1,10 +1,219 @@
 export const arquitetura = [
   {
-    title: "Centro de Tecnologia e Inovação - GESP 1 . CITI II",
+    id: 3432,
+    title: "UBS Jardim Lapena",
+    type: "arquitetura",
+    description: `
+      <strong>Local:</strong> Jardim Lapena, São Paulo.
+      <br>
+      <br>
+
+      <p>O Projeto Integrado de Equipamento de Impacto Social do Jardim Lapena - Unidade Básica de Saúde e Praça do Mutirão – se insere em um território de alta vulnerabilidade social no extremo da Zona Leste de São Paulo, caracterizado pelo isolamento em relação ao seu distrito, São Miguel Paulista.</p>
+      <p>Através dele, são atendidos dois dos objetivos pactuados no Plano de Bairro participativo, especificamente no que se refere à construção de uma nova UBS e à conquista de espaços públicos de lazer. O projeto foi doado pela Fundação Tide Setubal (presente na comunidade há 12 anos) à Secretaria Municipal da Saúde da Prefeitura de São Paulo cuja nova tipologia vertical tornou possível abrigar o programa em 1/3 da área originalmente prevista e, com isso, a instalação de uma praça. A UBS foi desenhada para além dos seus espaços ambulatoriais, somando a eles um terceiro andar com salas de encontro e atividades direcionadas por terapeutas, que permitem a difusão de práticas para o bem-estar do corpo e da mente.</p>
+      <br>
+
+      <strong>Autoria e coordenação:</strong> Fabiana Stuchi. 
+      <br>
+      
+      <strong>Equipe Técnica:</strong> Danilo Bocchini, Thayse Portugal, Marina Sabino.
+    `,
+    date: "",
+    imagesPaths: [
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_01_render_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_02_render_ubs_lapena (2).PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_03_render_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_04_render_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_05_localizacao_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_06_render_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_07_diagrama_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_08_corte_esquematico_ubs_lapena_.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_09_implantacao_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_10_planta_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_11_planta_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_12_planta_ubs_lapena.PNG",
+      "projetos/arq_108_ubs_jardim_lapena/arq_108_para_publicar/fig_13_corte_ubs_lapena.PNG",
+    ],
+  },
+  {
+    id: 7654,
+    title: "Residência E+A",
+    type: "arquitetura",
+    description: `
+      <strong>Local:</strong> Campinas. 
+      <br>
+      <br>
+
+      <p>Situada às margens do Rio Atibaia, a casa se organiza em três blocos articulados que se abrem em direção à vista do lago e da paisagem ainda rural. Os volumes brancos, definidos pelas coberturas de telha cerâmica, resgatam os valores e formas da arquitetura colonial brasileira.</p>
+      <br>
+
+      <strong>Autores:</strong> Fabiana Stuchi e Ricardo Trevisan.
+      <br>
+
+      <strong>Coordenação:</strong> Fabiana Stuchi.
+      <br>
+
+      <strong>Equipe Técnica:</strong> Danilo Bocchini, Fabiana Granusso e João Pedro Mancine.
+    `,
+    date: "",
+    imagesPaths: [
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_01.jpg",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_01_render_ae.jpg",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_02_render_ae.jpg",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_03_render_ae.jpg",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_04_PERSPEC_frontal geral.jpg",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_05_PERSPEC_lateral quartos.jpg",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_06_PERSPEC_quintal quartos A.jpg",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_07_planta_ae.JPG",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_08_128.png",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_09_128_.png",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fig_10_128.png",
+      "projetos/arq_50_residencia_ae/arq_50_para_publicar/fog_11_128.jpg",
+    ],
+  },
+  {
+    id: 528,
+    title: "COPAN – APARTAMENTO AMARELO",
+    type: "arquitetura",
+    description: `
+      <strong>Local:</strong> São Paulo, SP
+      <br>
+
+      <strong>Projeto:</strong> Apartamento Copan Amarelo - reforma
+      <br>
+
+      <strong>Equipe:</strong> Equipe: Fabiana Stuchi, Danilo Bocchini, Daniela Melo
+    `,
+    date: "",
+    imagesPaths: [
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_06_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_08_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_09_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_10_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_12_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_13_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_14_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_15_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_16_foto__copan_amarelo.jpg",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_03_perspectiva_copan_amarelo.png",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_04_perspectiva_copan_amarelo.png",
+      "projetos/arq_80_copan_amarelo/arq_80_para_publicar/fig_05_perspectiva_copan_amarelo.png",
+    ],
+  },
+  {
+    id: 76567543,
+    title: "CARAMELO CAFÉ",
+    type: "arquitetura",
+    description: `
+      <strong>Local:</strong> Pinheiros, São Paulo
+      <br>
+
+      <strong>Autoria </strong>e coordenação: Fabiana Stuchi
+      <br>
+
+      <strong>Equipe:</strong> Danilo Bochine e Thayse Portugal
+    `,
+    date: "",
+    imagesPaths: [
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_10_foto_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_11_foto_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_12_foto_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_13_foto_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_14_foto_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_15_foto_caramelo_cafe.jpeg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_15_foto_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_01_planta_caramelo_cafe.png",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_02_corte_caramelo_cafe.png",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_03_corte_caramelo_cafe.png",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_04_elevacao_caramelo_cafe.png",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_05_elevacao_caramelo_cafe.png",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_06_perspectiva_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_07_perspectiva_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_08_perspectiva_caramelo_cafe.jpg",
+      "projetos/arq_86_caramelo_cafe/arq_86_para_publicar/fig_09_perspectiva_caramelo_cafe.jpg",
+    ],
+  },
+  {
+    id: 232,
+    title: "Apartamento São Carlos do Pinhal",
+    type: "arquitetura",
+    description: `
+      <strong>Local:</strong> Cerqueira César, São Paulo, SP
+      <br>
+      <br>
+
+      <p>Objetivou-se transformar o apartamento de três quartos e uma sala, localizado próximo à Avenida Paulista, para melhor atender às necessidades do casal de clientes e do filho pré-adolescente. Ambos trabalhavam diversos dias em casa, ela arquiteta e professora e ele, engenheiro. </p>
+      <br>
+      <p>O apartamento original contava com uma planta extremamente compartimentada, apresentando uma desproporção de áreas de serviço e de depósito em relação às áreas sociais. O projeto realizou a ampliação e integração dos espaços de convívio da casa - salas e cozinha, garantindo maior entrada de luz e ventilação naturais. Várias paredes foram demolidas, eliminando cômodos e reorganizando-se os espaços internos. Estruturou-se os novos espaços do apartamento a partir de diversas marcenarias especialmente desenhadas para o local.</p>
+      <br>
+      <p>Para a ampliação e integração das áreas de convívio, eliminou-se a separação entre a sala e cozinha e a área de um dos dormitórios e do longo corredor foram incorporados. Como o ato de cozinhar e as refeições representam parte importante da vida familiar, as salas de estar e de jantar foram articuladas à cozinha, ampliada sobre a área de serviço e de parte dos dois banheiros originais. A área de depósito e banheiro de serviços foram integradas ao quarto do casal como um novo banheiro.</p>
+      <br>
+      <p>Marcenarias foram especialmente desenhadas para o apartamento, com o propósito de resolver a estocagem sem a necessidade de cômodos fechados. A demanda de espaço para livros é resolvida com uma estante em marcenaria de três faces, duas delas ocupada por livros, com um lado servindo também como suporte para a televisão. Voltado para a sala de estar, nichos e espaços de armazenagem para adega e café. Os quartos também receberam armários novos, ampliando o volume existente e criando uma mesa de estudos para o filho.</p>
+      <br>
+
+      <strong>Autoria e coodenação:</strong> Fabiana Stuchi 
+      <br>
+      
+      <strong>Equipe Técnica:</strong> Danilo Bocchini, Thayse Portugal e Fernanda Moreira. 
+      <br>
+      
+      <strong>Fotografia:</strong> Ana Mello. 
+    `,
+    date: "",
+    imagesPaths: [
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_07_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_08_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_09_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_10_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_11_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_12_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_13_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_14_foto__apartamento_sao_carlos.jpeg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_15_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_16_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_17_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_18_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_19_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_20_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_21_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_22_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_23_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_24_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_25_foto__apartamento_sao_carlos.jpeg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_26_foto__apartamento_sao_carlos.jpg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_27_foto__apartamento_sao_carlos.jpeg",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fid_02_3d_processo_apartamento_sao_carlos.png",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_01_planta_apartamento_sao_carlos.png",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_03_3d_processo_apartamento_sao_carlos.png",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_04_3d_processo_apartamento_sao_carlos.png",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_05_3d_processo_apartamento_sao_carlos.png",
+      "projetos/arq_87_apartamento_sao_carlos/arq_87_para_publicar/fig_06_gif_modelo__apartamento_sao_carlos.gif",
+    ],
+  },
+
+  {
+    title: "Centro de Tecnologia e Inovação - GESP1",
     id: 9,
     type: "arquitetura",
-    description:  ``,
-    date: "",
+    description: `
+      <strong>Local:</strong> São Paulo (USP/GESP) - SP
+      <br>
+      <br>
+
+      <p>O edifício destinado ao CT&I (Centro de Tecnologia e Inovação), localizado no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) é o responsável por articular o distrito à infraestrutura de transporte coletivo e à rede cicloviária, a partir da passarela que o conecta à estação Villa Lobos-Jaguaré da CPTM, evidencia o compromisso com a mobilidade e a acessibilidade nas diferentes escalas. </p>
+      <br>
+
+      <p>Em 32.218,00 m2 área construída, foram adotadas soluções projetuais comprometidas com a dimensão urbano-ambiental, incorporando-se a provisão de infraestruturas de mobilidade, saneamento, adaptação ambiental e tecnologias da informação. O projeto busca integrar usos e atividades de inovação às dinâmicas e infraestrutura urbanas locais.</p>
+      <br>
+
+      <p>Estudos técnicos voltados à concepção e estruturação do Distrito de Inovação. A Stuchi & Leite integrou a equipe multidisciplinar, contribuindo com o Masterplan de cada uma das áreas - CITI II (USP/GESP), III (CDP/Humaita) e IV (CEAGESP) - e elaborou os estudos de viabilidade para todo o conjunto de edifícios, com cerca de 4.185.750,00 m de área construída total.</p>
+      <br>
+
+      <strong>Área:</strong> 32.218,00 m2
+      <br>
+
+      <strong>Autoria:</strong> stuchi&leite
+    `,
+    date: "2022",
     imagesPaths: [
       "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_01_render_centro_de_tecnologia_e_inovacao_gesp_1.jpg",
       "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_02_render_centro_de_tecnologia_e_inovacao_gesp_1.jpg",
@@ -20,8 +229,8 @@ export const arquitetura = [
       "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_12_corte_aa_centro_de_tecnologia_e_inovacao_gesp_1.png",
       "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_13_corte_bb_centro_de_tecnologia_e_inovacao_gesp_1.png",
       "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_14_elevacao_01_centro_de_tecnologia_e_inovacao_gesp_1.png",
-      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_15_elevacao_03_centro_de_tecnologia_e_inovacao_gesp_1.png"
-    ]
+      "projetos/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/arq_116.1_centro_de_tecnologia_e_inovacao_gesp_1_citi/fig_15_elevacao_03_centro_de_tecnologia_e_inovacao_gesp_1.png",
+    ],
   },
   {
     title: "Apartamento Gravatá",
@@ -53,9 +262,9 @@ export const arquitetura = [
     `,
     date: "",
     imagesPaths: [
+      "projetos/arq_92_gravata/arq_92_para_publicar/fig_17_foto_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_15_foto_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_16_foto_gravata.jpg",
-      "projetos/arq_92_gravata/arq_92_para_publicar/fig_17_foto_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_18_foto_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_19_foto_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_20_foto_gravata.jpg",
@@ -89,7 +298,7 @@ export const arquitetura = [
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_12_render_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_13_render_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_14_render_gravata.jpg",
-    ]
+    ],
   },
   {
     title: "Casa Mirante / Residência Atibaia",
@@ -117,6 +326,7 @@ export const arquitetura = [
     date: "2016",
     imagesPaths: [
       "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_01_planta_casa_mirante.png",
+      "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_12_render_casa_mirante.jpg",
       "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_02_corte_casa_mirante.png",
       "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_03_corte_casa_mirante.jpg",
       "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_04_diagrama_casa_mirante.jpg",
@@ -127,14 +337,13 @@ export const arquitetura = [
       "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_09_diagrama_casa_mirante.jpg",
       "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_10_diagrama_casa_mirante.jpg",
       "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_11_render_casa_mirante.jpg",
-      "projetos/arq_63_casa_mirante/arq_63_para_publicar/fig_12_render_casa_mirante.jpg",
-    ]
+    ],
   },
   {
     title: "Centro de Tecnologia e Inovação - USP1",
     id: 54,
     type: "arquitetura",
-    description:  `
+    description: `
       <p>O edifício de destinado ao CT&I (Centro de Tecnologia e Inovação), localizado no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) é o edifício ancora, que atende ao programa de Incubadoras e Aceleradoras, Laboratórios de prototipagem, Salas Multifuncionais/Eventos e Auditório, Agências e Instituições Públicas e de Pesquisa, Ensino, Corporativo/Escritórios e Espaço Social-Dinâmico (espaços comunitários e de sociabilidade), cafés, restaurantes e outros serviços de apoio.</p>
       <br>
       
@@ -163,8 +372,8 @@ export const arquitetura = [
       "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_12_corte_aa_centro_de_tecnologia_e_inovacao_usp_1.png",
       "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_13_corte_bb_cc_centro_de_tecnologia_e_inovacao_usp_1.png",
       "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_14_elevacao_01_centro_de_tecnologia_e_inovacao_usp_1.png",
-      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_15_elevacao_03_centro_de_tecnologia_e_inovacao_usp_1.png"
-    ]
+      "projetos/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/arq_116.6_centro_de_tecnologia_e_inovacao_usp_1_citi/fig_15_elevacao_03_centro_de_tecnologia_e_inovacao_usp_1.png",
+    ],
   },
   {
     title: "Apartamento República",
@@ -220,7 +429,7 @@ export const arquitetura = [
       "projetos/arq_57_atelie_republica/arq_57_para_publicar/fig_01_planta_siperior_atelie_republica.png",
       "projetos/arq_57_atelie_republica/arq_57_para_publicar/fig_02_planta_terreo_atelie_republica.png",
       "projetos/arq_57_atelie_republica/arq_57_para_publicar/fig_03_esquema_atelie_republica.png",
-    ]
+    ],
   },
   {
     title: "Residência Municipal",
@@ -253,7 +462,7 @@ export const arquitetura = [
       "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_08_pespectiva_residencia_municipal.jpg",
       "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_09_pespectiva_residencia_municipal.jpg",
       "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_10_pespectiva_residencia_municipal.jpg",
-    ]
+    ],
   },
   {
     title: "Residência Iraci",
@@ -284,7 +493,7 @@ export const arquitetura = [
       "projetos/arq_47_residencia_iraci/arq_47_para_publicar/fig_15_foto_residencia_iracia.jpg",
       "projetos/arq_47_residencia_iraci/arq_47_para_publicar/fig_01_planta_inferior_residencia_iracia.png",
       "projetos/arq_47_residencia_iraci/arq_47_para_publicar/fig_02_planta_superior_residencia_iracia.png",
-    ]
+    ],
   },
   {
     title: "Residência G+A",
@@ -331,7 +540,7 @@ export const arquitetura = [
       "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_02_planta_superior_ga.jpg",
       "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_03_corte_ga.jpg",
       "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_04_corte_ga.jpg",
-    ]
+    ],
   },
   {
     title: "Ateliê de Fotografia",
@@ -363,12 +572,12 @@ export const arquitetura = [
     `,
     date: "2014",
     imagesPaths: [
+      "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_16_foto_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_11_foto_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_12_foto_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_13_foto_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_14_foto_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_15_foto_atelie_fotografia.jpg",
-      "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_16_foto_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_17_foto_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_18_foto_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_19_foto_atelie_fotografia.jpg",
@@ -396,7 +605,7 @@ export const arquitetura = [
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_08_corte_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_09_corte_atelie_fotografia.jpg",
       "projetos/arq_34_atelie_fotografia/arq_34_para_publicar/fig_10_corte_atelie_fotografia.jpg",
-    ]
+    ],
   },
   {
     title: "Boulevard da Paz – Provisão 02",
@@ -442,7 +651,7 @@ export const arquitetura = [
       "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_06_apto_01_boulevard_da_pax_prov2.jpg",
       "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_07_apto_02_boulevard_da_pax_prov2.jpg",
       "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_localizacao_boulevard_da_pax_prov2.jpg",
-    ]
+    ],
   },
   {
     title: "BOULEVARD DA PAZ - PROVISÃO 01",
@@ -485,13 +694,13 @@ export const arquitetura = [
       "projetos/arq_121_boulevard_da_paz_prov1_estudos/arq_121_boulevard_da_paz_prov1_estudos/fig_04_corte_boulevard_da_pax_prov1.jpg",
       "projetos/arq_121_boulevard_da_paz_prov1_estudos/arq_121_boulevard_da_paz_prov1_estudos/fig_05_corte_boulevard_da_pax_prov1.jpg",
       "projetos/arq_121_boulevard_da_paz_prov1_estudos/arq_121_boulevard_da_paz_prov1_estudos/fig_06_corte_boulevard_da_pax_prov1.jpg",
-    ]
+    ],
   },
   {
     title: "Edifício de uso misto – Gesp.2",
     id: 18,
     type: "arquitetura",
-    description:  `
+    description: `
       <strong>Local:</strong> Jaguaré – São Paulo
       <br>
 
@@ -512,14 +721,14 @@ export const arquitetura = [
       "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_10_corte_bb_edifício_uso_misto_gesp_2.png",
       "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_11_elevacao_01_edifício_uso_misto_gesp_2.png",
       "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_12_elevacao_03_edifício_uso_misto_gesp_2.png",
-      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_13_elevacao_02_edifício_uso_misto_gesp_2.png"
-    ]
+      "projetos/arq_116.2_edificio_uso_misto_gesp_2_citi/arq_116.2_edificio_uso_misto_gesp_2_citi/fig_13_elevacao_02_edifício_uso_misto_gesp_2.png",
+    ],
   },
   {
     title: "Habitação de Interesse Social - GESP.3",
     id: 27,
     type: "arquitetura",
-    description:  `
+    description: `
       <strong>Local:</strong> Bairro do Jaguaré – São Paulo
 
       <p>O edifício, inserido no distrito de inovação, responde à demanda do bairro do Jaguaré por habitação ao mesmo tempo em que promove o adensamento qualificado. O uso habitacional, complementar às atividades de ciência, tecnologia e inovação (CT&I), contribui para a integração do empreendimento às dinâmicas próprias de bairros de uso misto, nos quais se articulam moradia, serviços, comércio e lazer, em consonância com referências internacionais consolidadas. </p>
@@ -551,8 +760,8 @@ export const arquitetura = [
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_11_planta_08_pavto_habitação_de_interesse_social_gesp_3.png",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_12_planta_09_pavto_habitação_de_interesse_social_gesp_3.png",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_13_corte_aa_habitação_de_interesse_social_gesp_3.png",
-      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_14_corte_cc_habitação_de_interesse_social_gesp_3.png"
-    ]
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_14_corte_cc_habitação_de_interesse_social_gesp_3.png",
+    ],
   },
   {
     title: "Apartamento Alagoas",
@@ -585,7 +794,7 @@ export const arquitetura = [
       "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_10_render_apartamento_alagoas.png",
       "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_11_render_apartamento_alagoas.png",
       "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_12_render_apartamento_alagoas.png",
-    ]
+    ],
   },
   {
     title: "Apartamento Alagoas Ima",
@@ -612,7 +821,7 @@ export const arquitetura = [
       "projetos/arq_141_apartamento_alagoas_ima/arq_141_para_publicar/fig_05_corte_apartamento_alagoas.png",
       "projetos/arq_141_apartamento_alagoas_ima/arq_141_para_publicar/fig_06_render_apartamento_alagoas.png",
       "projetos/arq_141_apartamento_alagoas_ima/arq_141_para_publicar/fig_07_render_apartamento_alagoas.png",
-    ]
+    ],
   },
   {
     title: "Apartamento Corujas",
@@ -651,9 +860,9 @@ export const arquitetura = [
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_18_esquema_corujas.png",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_19_render_corujas.jpg",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_20_render_corujas.jpg",
-    ]
+    ],
   },
-   {
+  {
     title: "Apartamento Araguari",
     id: 252,
     type: "arquitetura",
@@ -696,7 +905,7 @@ export const arquitetura = [
       "projetos/arq_18_araguari/arq_18_para_publicar/fig_01_planta_inferior_araguari.png",
       "projetos/arq_18_araguari/arq_18_para_publicar/fig_02_planta_superior_araguari.png",
       "projetos/arq_18_araguari/arq_18_para_publicar/fig_03_corte_araguari.png",
-    ]
+    ],
   },
   {
     title: "Apartamento Aratãs",
@@ -717,11 +926,11 @@ export const arquitetura = [
     `,
     date: "2014",
     imagesPaths: [
+      "projetos/arq_51_aratas/arq_51_para_publicar/fig_14_foto_aratas.jpg",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_10_foto_aratas.jpg",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_11_foto_aratas.jpg",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_12_foto_aratas.jpg",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_13_foto_aratas.jpg",
-      "projetos/arq_51_aratas/arq_51_para_publicar/fig_14_foto_aratas.jpg",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_15_foto_aratas.jpg",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_16_foto_aratas.jpg",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_17_foto_aratas.jpg",
@@ -737,7 +946,7 @@ export const arquitetura = [
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_07_corte_bb_aratas.png",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_08_planta_aratas.png",
       "projetos/arq_51_aratas/arq_51_para_publicar/fig_09_planta_demolicao_aratas.png",
-    ]
+    ],
   },
   {
     title: "Copan – Apartamento Azul",
@@ -772,7 +981,7 @@ export const arquitetura = [
       "projetos/arq_90_copan_azul/arq_90_para_publicar/fig_02_render_copan_azul.jpg",
       "projetos/arq_90_copan_azul/arq_90_para_publicar/fig_03_render_copan_azul.jpg",
       "projetos/arq_90_copan_azul/arq_90_para_publicar/fig_04_render_copan_azul.jpg",
-    ]
+    ],
   },
   {
     title: "Escritório Plenno",
@@ -808,13 +1017,13 @@ export const arquitetura = [
       "projetos/arq_58_escritorio_plenno/arq_58_para_publicar/fig_05_perspectiva_escritorio_plenno.png",
       "projetos/arq_58_escritorio_plenno/arq_58_para_publicar/fig_06_perspectiva_escritorio_plenno.png",
       "projetos/arq_58_escritorio_plenno/arq_58_para_publicar/fig_07_perspectiva_escritorio_plenno.png",
-    ]
+    ],
   },
   {
     title: "Edifício Corporartivo e Comercial – GESP.4",
     id: 36,
     type: "arquitetura",
-    description:  `
+    description: `
       <p>O edifício inserido no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) abriga espaços Corporativo/Escritórios e outros serviços de .apoio e, busca integrar usos e atividades à dinâmica urbanas local.</p>
       <br>
 
@@ -837,14 +1046,14 @@ export const arquitetura = [
       "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_07_planta_pavto_tipo_layout_a_edifício_corporartivo_e_comercial_gesp_4.png",
       "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_08_corte_aa_edifício_corporartivo_e_comercial_gesp_4.png",
       "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_09_elevacao_01_edifício_corporartivo_e_comercial_gesp_4.png",
-      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_10_elevacao_02_edifício_corporartivo_e_comercial_gesp_4.png"
-    ]
+      "projetos/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/arq_116.4_edificio_corporartivo_e_comercial_gesp_4_citi/fig_10_elevacao_02_edifício_corporartivo_e_comercial_gesp_4.png",
+    ],
   },
   {
     title: "Equipamento Esportivo – GESP.5",
     id: 45,
     type: "arquitetura",
-    description:  `
+    description: `
       <p>O centro esportivo aberto, localizado no interior do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo), permite a prática de esportes ao ar livre e articular o distrito e inovação à Unip e as ruas adjacentes à gleba. Establece assim, atrativo urbano e ambiental, valorizando a inserção no tecido urbano local.</p>
       <br>
 
@@ -856,8 +1065,8 @@ export const arquitetura = [
       "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_02_planta_terreo_equipamento_esportivo_gesp_5.png",
       "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_03_nivel_inferior_equipamento_esportivo_gesp_5.png",
       "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_04_corte_aa_equipamento_esportivo_gesp_5.png",
-      "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_05_corte_bb_cc_equipamento_esportivo_gesp_5.png"
-    ]
+      "projetos/arq_116.5_equipamento_esportivo_gesp_5_citi/arq_116.5_equipamento_esportivo_gesp_5_citi/fig_05_corte_bb_cc_equipamento_esportivo_gesp_5.png",
+    ],
   },
   {
     title: "Ateliê Lapa",
@@ -914,13 +1123,13 @@ export const arquitetura = [
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_06_perspectiva_atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_07_perspectiva_atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_08_perspectiva_atelie_lapa.jpg",
-    ]
+    ],
   },
   {
     title: "Edifício de Uso Misto – USP.2",
     id: 63,
     type: "arquitetura",
-    description:  `
+    description: `
       <p>O edifício de uso misto, inserido no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo), no bairro do Butantã, ao lado da Cidade Universitária, abriga espaços comerciais, corporativos, residenciais entre outros serviços de apoio e, busca integrar usos e atividades à dinâmica urbanas local.</p>
       <br>
 
@@ -945,14 +1154,14 @@ export const arquitetura = [
       "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_11_corte_bb_edifício_corporativo_e_retail_usp_2.png",
       "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_12_corte_cc_edifício_corporativo_e_retail_usp_2.png",
       "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_13_elevacao_01_edifício_corporativo_e_retail_usp_2.png",
-      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_14_elevacao_02_edifício_corporativo_e_retail_usp_2.png"
-    ]
+      "projetos/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/arq_116.7_edificio_corporativo_e_retail_usp_2_citi/fig_14_elevacao_02_edifício_corporativo_e_retail_usp_2.png",
+    ],
   },
   {
     title: "Edifício Habitacional e Equipamento associado - USP.3",
     id: 72,
     type: "arquitetura",
-    description:  `
+    description: `
       <p>O edifício, inserido no distrito de inovação, tem o programa de uso habitacional. O projeto considera duas subcategorias de uso residencial distintas – habitação de interesse social (HIS) e R2h-2 (residencial multifamiliar horizontal, segundo a legislação paulistana) – deverão produzir receitas na forma de locação e alienação. </p>
       <br>
       
@@ -979,8 +1188,8 @@ export const arquitetura = [
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_11_corte_aa_edifício_habitacional_e_equipamento_associado_usp_3.png",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_12_corte_bb_edifício_habitacional_e_equipamento_associado_usp_3.png",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_12_elevacao_01_edifício_habitacional_e_equipamento_associado_usp_3.png",
-      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_13_elevacao_02_edifício_habitacional_e_equipamento_associado_usp_3.png"
-    ]
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_13_elevacao_02_edifício_habitacional_e_equipamento_associado_usp_3.png",
+    ],
   },
   {
     title: "Apartamento Liberdade",
@@ -1000,7 +1209,7 @@ export const arquitetura = [
       "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_05_corte_apartamento_liberdade.png",
       "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_06_esquema_apartamento_liberdade.png",
       "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_07_perspectiva_apartamento_liberdade.png",
-    ]
+    ],
   },
   {
     title: "Apartamento M+M",
@@ -1036,7 +1245,7 @@ export const arquitetura = [
       "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_02_planta_antes_apartamento_mm.png",
       "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_03_corte_apartamento_mm.png",
       "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_04_corte_apartamento_mm.png",
-    ]
+    ],
   },
   {
     title: "Duo II",
@@ -1064,7 +1273,7 @@ export const arquitetura = [
       "projetos/arq_64_duo_ii_bancada/arq_64_para_publicar/fig_01_foto_duo_ii_bancada.jpg",
       "projetos/arq_64_duo_ii_bancada/arq_64_para_publicar/fig_02_foto_duo_ii_bancada.jpg",
       "projetos/arq_64_duo_ii_bancada/arq_64_para_publicar/fig_03_foto_duo_ii_bancada.jpg",
-    ]
+    ],
   },
   {
     title: "Quadra Modelo",
@@ -1095,12 +1304,12 @@ export const arquitetura = [
     `,
     date: "2016",
     imagesPaths: [
+      "projetos/arq_67_quadra_modelo/arq_67_para_publicar/fig_04_render_quadra_modelo.png",
       "projetos/arq_67_quadra_modelo/arq_67_para_publicar/fig_01_diagrama_quadra_modelo.png",
       "projetos/arq_67_quadra_modelo/arq_67_para_publicar/fig_02_render_quadra_modelo.png",
       "projetos/arq_67_quadra_modelo/arq_67_para_publicar/fig_03_render_quadra_modelo.png",
-      "projetos/arq_67_quadra_modelo/arq_67_para_publicar/fig_04_render_quadra_modelo.png",
       "projetos/arq_67_quadra_modelo/arq_67_para_publicar/fig_05_render_quadra_modelo.png",
-    ]
+    ],
   },
   {
     title: "Residência Iraci - I",
@@ -1135,7 +1344,7 @@ export const arquitetura = [
       "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_10_elevacao__residencia_iraci_ii.png",
       "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_11_corte_cc_residencia_iraci_ii.png",
       "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_12_elevacao_frontal__residencia_iraci_ii.png",
-    ]
+    ],
   },
   {
     title: "NK STORE: CONCURSO",
@@ -1177,7 +1386,7 @@ export const arquitetura = [
       "projetos/arq_75_nk_store/arq_75_para_publicar/fig_16_diagrama_nk_store.jpg",
       "projetos/arq_75_nk_store/arq_75_para_publicar/fig_17_diagrama_nk_store.jpg",
       "projetos/arq_75_nk_store/arq_75_para_publicar/fig_18_diagrama_nk_store.jpg",
-    ]
+    ],
   },
   {
     title: "Duo I",
@@ -1230,7 +1439,7 @@ export const arquitetura = [
       "projetos/arq_23_duo_i/arq_23_para_publicar/fig_15_foto_duo_i.jpg",
       "projetos/arq_23_duo_i/arq_23_para_publicar/fig_01_marcenaria_hall_duo_i.jpg",
       "projetos/arq_23_duo_i/arq_23_para_publicar/fig_02_marcenaria_escritorio_duo_i.jpg",
-    ]
+    ],
   },
   {
     title: "UP SCHOOL",
@@ -1268,7 +1477,7 @@ export const arquitetura = [
       "projetos/arq_70_escola_infantil_alto_da_lapa_up_school/arq_70_para_publicar/fig_01_diagrama_escola_infantil_alto_da_lapa.jpg",
       "projetos/arq_70_escola_infantil_alto_da_lapa_up_school/arq_70_para_publicar/fig_02_diagrama_escola_infantil_alto_da_lapa.png",
       "projetos/arq_70_escola_infantil_alto_da_lapa_up_school/arq_70_para_publicar/fig_03_diagrama_escola_infantil_alto_da_lapa.png",
-    ]
+    ],
   },
   {
     title: "Apartamento Reserva Saúde",
@@ -1317,7 +1526,7 @@ export const arquitetura = [
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_07_marcenaria_01_reserva_saude.png",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_08_marcenaria_02_reserva_saude.png",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_09_marcenaria_03_reserva_saude.png",
-    ]
+    ],
   },
   {
     title: "Clínica de Saúde",
@@ -1340,7 +1549,7 @@ export const arquitetura = [
       "projetos/arq_52_clinica_de_saude/arq_52_para_publicar/fig_02_perspectiva_clinica_de_saude.jpg",
       "projetos/arq_52_clinica_de_saude/arq_52_para_publicar/fig_03_perspectiva_clinica_de_saude.jpg",
       "projetos/arq_52_clinica_de_saude/arq_52_para_publicar/fig_04_perspectiva_clinica_de_saude.jpg",
-    ]
+    ],
   },
   {
     title: "Apartamento Cubo Azul",
@@ -1384,7 +1593,7 @@ export const arquitetura = [
       "projetos/arq_17_cubo_azul/arq_17_para_publicar/fig_10_cubo_azul.jpg",
       "projetos/arq_17_cubo_azul/arq_17_para_publicar/fig_01_planta_projeto_cubo_azul.jpg",
       "projetos/arq_17_cubo_azul/arq_17_para_publicar/fig_02_planta_original_cubo_azul.jpg",
-    ]
+    ],
   },
   {
     title: "Ateliê Foto e Filme JG",
@@ -1428,7 +1637,7 @@ export const arquitetura = [
       "projetos/arq_71_atelie_foto_e_filme_jg/arq_71_para_publicar/fig_15_foto_atelie_foto_e_filme_jg..jpg",
       "projetos/arq_71_atelie_foto_e_filme_jg/arq_71_para_publicar/fig_16_foto_atelie_foto_e_filme_jg..jpg",
       "projetos/arq_71_atelie_foto_e_filme_jg/arq_71_para_publicar/fig_17_gif_modelo.gif",
-    ]
+    ],
   },
   {
     title: "Escritório ShopLover",
@@ -1448,7 +1657,7 @@ export const arquitetura = [
       "projetos/arq_106_escritorio_regina_bi/arq_106_para_publicar/fig_03_elevacao_escritorio_regina_bi.png",
       "projetos/arq_106_escritorio_regina_bi/arq_106_para_publicar/fig_04_elevacao_escritorio_regina_bi.png",
       "projetos/arq_106_escritorio_regina_bi/arq_106_para_publicar/fig_05_elevacao_escritorio_regina_bi.png",
-    ]
+    ],
   },
   {
     title: "APARTAMENTO MAX HAUS VILA LEOPOLDINA II",
@@ -1473,7 +1682,7 @@ export const arquitetura = [
       "projetos/arq_26_e_27_max_haus_vila_leopoldina_i_e_ii/arq_26_e_27_para_publicar/fig_05_corte_bb_max_haus_vila_leopoldina_i_e_ii.jpg",
       "projetos/arq_26_e_27_max_haus_vila_leopoldina_i_e_ii/arq_26_e_27_para_publicar/fig_06_corte_cc_max_haus_vila_leopoldina_i_e_ii.jpg",
       "projetos/arq_26_e_27_max_haus_vila_leopoldina_i_e_ii/arq_26_e_27_para_publicar/fig_07_corte_dd_max_haus_vila_leopoldina_i_e_ii.jpg",
-    ]
+    ],
   },
   {
     title: "Residência Alto da Lapa",
@@ -1487,15 +1696,15 @@ export const arquitetura = [
     `,
     date: "2003",
     imagesPaths: [
-      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_08_foto_nejimi.jpg",
-      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_07_foto_nejimi.jpg",
-      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_06_foto_nejimi.jpg",
-      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_05_foto_nejimi.jpg",
-      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_04_foto_nejimi.jpg",
-      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_03_corte_trans_nejimi.png",
-      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_02_corte_long_nejimi.png",
-      "projetos/arq_xx_nejimi/arq_xx_para_publicar/fig_01_plantas_nejimi.png",
-    ]
+      "projetos/arq _xx_nejimi/arq_xx_para_publicar/fig_08_foto_nejimi.jpg",
+      "projetos/arq _xx_nejimi/arq_xx_para_publicar/fig_07_foto_nejimi.jpg",
+      "projetos/arq _xx_nejimi/arq_xx_para_publicar/fig_06_foto_nejimi.jpg",
+      "projetos/arq _xx_nejimi/arq_xx_para_publicar/fig_05_foto_nejimi.jpg",
+      "projetos/arq _xx_nejimi/arq_xx_para_publicar/fig_04_foto_nejimi.jpg",
+      "projetos/arq _xx_nejimi/arq_xx_para_publicar/fig_03_corte_trans_nejimi.png",
+      "projetos/arq _xx_nejimi/arq_xx_para_publicar/fig_02_corte_long_nejimi.png",
+      "projetos/arq _xx_nejimi/arq_xx_para_publicar/fig_01_plantas_nejimi.png",
+    ],
   },
   {
     title: "RESIDÊNCIA PIRACICABA II",
@@ -1515,7 +1724,7 @@ export const arquitetura = [
       "projetos/arq_02_residencia_piracicaba_i/arq_02_para_publicar/fig_06_foto_residencia_piracicaba_i.jpg",
       "projetos/arq_02_residencia_piracicaba_i/arq_02_para_publicar/fig_01_planta_residencia_piracicaba_i.png",
       "projetos/arq_02_residencia_piracicaba_i/arq_02_para_publicar/fig_02_corte_residencia_piracicaba_i.png",
-    ]
+    ],
   },
   {
     title: "Residência Marques de Itanhaém",
@@ -1534,7 +1743,7 @@ export const arquitetura = [
       "projetos/arq_19_residencia_marques_de_itanhaem/arq_19_para_publicar/fig_02_planta_residencia_marques_de_itanhaem.png",
       "projetos/arq_19_residencia_marques_de_itanhaem/arq_19_para_publicar/fig_03_planta_residencia_marques_de_itanhaem.png",
       "projetos/arq_19_residencia_marques_de_itanhaem/arq_19_para_publicar/fig_04_planta_residencia_marques_de_itanhaem.png",
-    ]
+    ],
   },
   {
     title: "Apartamento Edifício Royal",
@@ -1555,7 +1764,7 @@ export const arquitetura = [
       "projetos/arq_yy_edificio_royal/arq_yy_para_publicar/fig_08_foto_edificio_royal.jpg",
       "projetos/arq_yy_edificio_royal/arq_yy_para_publicar/fig_01_planta_depois_edificio_royal.png",
       "projetos/arq_yy_edificio_royal/arq_yy_para_publicar/fig_02_planta_antes_edificio_royal.png",
-    ]
+    ],
   },
   {
     title: "RESIDÊNCIA KANSAS",
@@ -1577,7 +1786,7 @@ export const arquitetura = [
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_01_plantas_kansas.png",
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_02_levantamento_kansas.png",
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_03_cortes_kansas.png",
-    ]
+    ],
   },
   {
     title: "Clínica Radiológia",
@@ -1595,7 +1804,7 @@ export const arquitetura = [
       "projetos/arq_03_clinica_radiologica/arq_03_para_publicar/fig_01_planta_superior_clinica_radiologica.png",
       "projetos/arq_03_clinica_radiologica/arq_03_para_publicar/fig_02_planta_terreo_clinica_radiologica.png",
       "projetos/arq_03_clinica_radiologica/arq_03_para_publicar/fig_03_corte_clinica_radiologica.png",
-    ]
+    ],
   },
   {
     title: "Residência Piracicaba II",
@@ -1648,7 +1857,7 @@ export const arquitetura = [
       "projetos/arq_24_residencia_piracicaba_ii/arq_24_para_publicar/fig_02_planta_superior_residencia_piracicaba_ii.jpg",
       "projetos/arq_24_residencia_piracicaba_ii/arq_24_para_publicar/fig_03_corte_residencia_piracicaba_ii.jpg",
       "projetos/arq_24_residencia_piracicaba_ii/arq_24_para_publicar/fig_04_corte_residencia_piracicaba_ii.jpg",
-    ]
+    ],
   },
   {
     title: "Ginásio Esportivo Municipal de Mauá.",
@@ -1681,7 +1890,7 @@ export const arquitetura = [
       "projetos/arq_15_ginasio_esportivo_municipal_de_maua/arq_15_para_publicar/fig_08_implantacao_ginasio_esportivo_municipal_de_maua.jpg",
       "projetos/arq_15_ginasio_esportivo_municipal_de_maua/arq_15_para_publicar/fig_09_corte_ginasio_esportivo_municipal_de_maua.jpg",
       "projetos/arq_15_ginasio_esportivo_municipal_de_maua/arq_15_para_publicar/fig_10_corte_ginasio_esportivo_municipal_de_maua.jpg",
-    ]
+    ],
   },
   {
     title: "Apartamento Maxhaus Panamby",
@@ -1705,7 +1914,7 @@ export const arquitetura = [
       "projetos/arq_10_max_haus_panamby/arq_10_para_publicar/fig_01_planta_max_haus_panamby.png",
       "projetos/arq_10_max_haus_panamby/arq_10_para_publicar/fig_02_corte_quarto_max_haus_panamby.jpg",
       "projetos/arq_10_max_haus_panamby/arq_10_para_publicar/fig_03_corte_sala_max_haus_panamby.jpg",
-    ]
+    ],
   },
   {
     title: "Residência A+E",
@@ -1735,7 +1944,7 @@ export const arquitetura = [
       "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_05_perspectiva_residencia_ae_campinas.jpg",
       "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_06_perspectiva_residencia_ae_campinas.jpg",
       "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_07_perspectiva_residencia_ae_campinas.jpg",
-    ]
+    ],
   },
   {
     title: "Souza de Toledo Advogados",
@@ -1752,7 +1961,7 @@ export const arquitetura = [
       "projetos/arq_132_souza_de_toledo_advogados/arq_132_para_publicar/fig_06_perspectiva_souza_de_toledo_advogados.png",
       "projetos/arq_132_souza_de_toledo_advogados/arq_132_para_publicar/fig_07_perspectiva_souza_de_toledo_advogados.png",
       "projetos/arq_132_souza_de_toledo_advogados/arq_132_para_publicar/fig_08_perspectiva_souza_de_toledo_advogados.png",
-    ]
+    ],
   },
   {
     title: "Clínica Médica Casa Santa Terezinha",
@@ -1769,9 +1978,8 @@ export const arquitetura = [
       "projetos/arq_134_clinica_medica_casa_santa_terezinha/arq_134_para_publicar/fig_06_render_clinica_medica_cst.png",
       "projetos/arq_134_clinica_medica_casa_santa_terezinha/arq_134_para_publicar/fig_07_render_clinica_medica_cst.png",
       "projetos/arq_134_clinica_medica_casa_santa_terezinha/arq_134_para_publicar/fig_08_render_clinica_medica_cst.png",
-    ]
+    ],
   },
-  
   {
     title: "Residência Ibirapuera",
     id: 207,
@@ -1794,7 +2002,7 @@ export const arquitetura = [
       "projetos/arq_13_residencia_ibirapuera/arq_13_para_publicar/fig_09_foto_residencia_ibirapuera.jpg",
       "projetos/arq_13_residencia_ibirapuera/arq_13_para_publicar/fig_01_planta_superior_residencia_ibirapuera.jpg",
       "projetos/arq_13_residencia_ibirapuera/arq_13_para_publicar/fig_02_planta_terreo_residencia_ibirapuera.jpg",
-    ]
+    ],
   },
   {
     title: "Apartamento Vila Nova Conceição",
@@ -1818,7 +2026,7 @@ export const arquitetura = [
       "projetos/arq_39_vila_nova_conceicao/arq_39_para_publicar/fig_07_slide_07_villa_nova_conceição.jpg",
       "projetos/arq_39_vila_nova_conceicao/arq_39_para_publicar/fig_08_slide_08_villa_nova_conceição.jpg",
       "projetos/arq_39_vila_nova_conceicao/arq_39_para_publicar/fig_09_slide_09_villa_nova_conceição.jpg",
-    ]
+    ],
   },
   {
     title: "Apartamento Jardim Sul",
@@ -1848,9 +2056,9 @@ export const arquitetura = [
       "projetos/arq_48_apto_jardim_sul/arq_48_para_publicar/fig_04_corte_cc_apto_jardim_sul.jpg",
       "projetos/arq_48_apto_jardim_sul/arq_48_para_publicar/fig_05_corte_aa_apto_jardim_sul.jpg",
       "projetos/arq_48_apto_jardim_sul/arq_48_para_publicar/fig_06_corte_bb_apto_jardim_sul.jpg",
-    ]
+    ],
   },
-]
+];
 
 export const urbanismo = [
   {
@@ -1943,9 +2151,9 @@ export const urbanismo = [
     `,
     date: "2022 - 2023",
     imagesPaths: [
+      "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_05_pq_boulevard_sehab.jpg",
       "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_17_pq_boulevard_sehab.jpg",
       "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_18_pq_boulevard_sehab.jpg",
-      "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_05_pq_boulevard_sehab.jpg",
       "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_06_pq_boulevard_sehab.jpg",
       "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_01_pq_boulevard.png",
       "projetos/urb_27_sistema_parques_boulevard_da_paz/fig_02_pq_boulevard.png",
@@ -2178,6 +2386,7 @@ export const urbanismo = [
     date: "2015",
     imagesPaths: [
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_01_parque_linear_renato_wagner_piracicaba.jpg",
+      "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_6_parque_linear_renato_wagner_piracicaba.jpg",
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_10_parque_linear_renato_wagner_piracicaba.jpg",
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_11_parque_linear_renato_wagner_piracicaba.jpg",
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_12_parque_linear_renato_wagner_piracicaba.jpg",
@@ -2203,7 +2412,6 @@ export const urbanismo = [
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_3_parque_linear_renato_wagner_piracicaba.jpg",
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_4_parque_linear_renato_wagner_piracicaba.jpg",
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_5_parque_linear_renato_wagner_piracicaba.jpg",
-      "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_6_parque_linear_renato_wagner_piracicaba.jpg",
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_7_parque_linear_renato_wagner_piracicaba.jpg",
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_8_parque_linear_renato_wagner_piracicaba.jpg",
       "projetos/urb_12_parque_linear_renato_wagner_piracicaba/fig_9_parque_linear_renato_wagner_piracicaba.jpg",
@@ -2394,7 +2602,7 @@ export const urbanismo = [
       "projetos/urb_17_quadra_modelo_piu/fig_02_quadra_modelo.png",
     ]
   },
-{
+  {
     title: "PIU (Projeto de Intervenção Urbana) do NESP (Novo Entreposto de São Paulo)",
     id: 666,
     type: "urbanismo",
@@ -2552,7 +2760,7 @@ export const urbanismo = [
       "projetos/urb_19_piu_nesp/fig_17_piu_nesp.png",
     ]
   },
- {
+  {
     title: "Novas oportunidades de viabilizar a requalificação urbana com uso equilibrado socialmente do território",
     id: 657,
     type: "urbanismo",
@@ -3438,7 +3646,7 @@ export const urbanismo = [
       "projetos/urb_02_requalificacao_urbana_maua_RUIM/fig_02_requalificacao_urbana_maua.jpg",
     ]
   },
-{
+  {
     title: "Nova Jundiapeba",
     id: 738,
     type: "urbanismo",
@@ -3452,6 +3660,121 @@ export const urbanismo = [
       "projetos/urb_28_nova_jundiapeba/fig_05_jundiapeba_mog.png",
       "projetos/urb_28_nova_jundiapeba/fig_06_jundiapeba_mog.png",
       "projetos/urb_28_nova_jundiapeba/fig_07_jundiapeba_mog.png",
+    ]
+  },
+  {
+    title: "Distrito de Inovação_ CITI_II",
+    id: 654,
+    type: "urbanismo",
+    description: `
+      <p>Estudos técnicos voltados à concepção e estruturação do Distrito de Inovação, para a PPP do CITI SP - Centro Internacional de Tecnologia e Inovação do Estado de São Paulo. O projeto incorpora três diferentes áreas, totalizando 89,08 ha, distribuídas ao longo do rio Pinheiros: CITI II (USP/ GESP), III (CDP/ Humaitá) e IV (CEAGESP). A Stuchi & Leite integrou a equipe multidisciplinar, contribuindo com o Masterplan de cada uma das áreas e elaborando estudos de viabilidade para os conjuntos de edifícios, com cerca de 4.185.750,00 m² de área construída total.</p>
+      <br>
+
+      <p>Desenvolveu-se o Estudo Preliminar para o conjunto de edificações do Distrito de Inovação do CITI II (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo). O conjunto possui 57.365 m² de área de lotes, resultando em cerca de 190.089,00m² de área construída total.</p>
+      <br>
+
+      <p>O projeto do CITI II oferta uma grande diversidade tipológica e de usos integrando as atividades de inovação às dinâmicas e infraestrutura urbanas locais, conformando um bairro de uso misto capaz de incrementar a interação orgânica entre governo, universidades, institutos de pesquisa, laboratórios, agências de fomento, empresas de ponta, startups, indústrias criativas, incubadoras e aceleradoras. </p>
+      <br>
+
+      <p>Os programas principais estão localizados nos edifícios âncora de CT&I - Ciência Tecnologia e Inovação: Incubadoras e Aceleradoras, Laboratórios de prototipagem, Salas Multifuncionais/Eventos e Auditório, Agências e Instituições Públicas e de Pesquisa, Ensino, Corporativo/Escritórios e Espaço Social-Dinâmico (espaços comunitários e de sociabilidade), cafés, restaurantes e outros serviços de apoio.</p>
+      <br>
+
+      <p>O CITI II abriga complexos de edifícios multifuncionais, contendo:</p>
+
+      <ul>
+        <li>Dois edifícios de CT&I, com um total de 58.758,00m² de área construída;</li>
+        <li>Habitação de interesse social – HIS e de Mercado Popular, com 71.451,00m²;</li>
+        <li>Comércio e serviços de pequeno porte - 4.112 m²;</li>
+        <li>Retail (shopping mall/ centro comercial) - 8.274 m²;</li>
+        <li>Hospedagem (long stay), com 4.291 m²;</li>
+        <li>Escritórios/corporativos, com 41.842 m²;</li>
+        <li>Institucional, com 1.361 m².</li>
+      </ul>
+      <br>
+
+      <p>Os edifícios incorporam diretrizes de eficiência energética e de desempenho ambiental, com a adoção de soluções, sistemas e processos construtivos que garantem a sustentabilidade edilícia e ambiental de todo o conjunto construído.</p>
+      <br>
+
+      <p>Os estudos foram desenvolvidos considerando-se as condicionantes e potencialidades do território, a partir do regramento definido pela legislação vigentes. Observaram-se as dimensões urbanística e arquitetônica, a capacidade de suporte da infraestrutura urbana existente e prevista, o sistema de transporte coletivo, o meio-ambiente e a inter-relação das edificações com o sistema de áreas livres e espaços públicos do entorno.</p>
+      <br>
+
+      <p>O platô longitudinal do terreno acomoda o elemento integrador do Distrito, o Spine, onde ocorrem os fluxos principais de veículos, ciclistas e pedestres, articulando as vias do entorno mediante abertura de sistema viário ou áreas de fruição no interior dos lotes. Concebido a partir do padrão de “ruas completas”, este eixo funciona como a espinha dorsal do projeto, para o qual as edificações voltam os seus usos mais dinâmicos, conformando fachadas ativas. Nos principais pontos de alargamento do Spine, encontram-se os hearts, largos propícios para o encontro, servindo como extensões dos térreos dos edifícios, para os quais se voltam as áreas comerciais e de serviços.</p>
+      <br>
+
+      <a href="https://www.iea.usp.br/midiateca/video/videos-2023/distrito-de-inovacao-no-estado-de-sao-paulo-a-implantacao-do-citi-sp-centro-internacional-de-tecnologia-e-inovacao" target="_blank">
+        Saiba mais
+      </a>
+      <br>
+      <br>
+
+      <strong>local:</strong> São Paulo (USP/GESP) - SP
+      <br>
+
+      <strong>data:</strong> 2022
+      <br>
+
+      <p>Stuchi & Leite</p>
+      <br>
+      
+      <strong>Equipe Stuchi & Leite:</strong>
+      <br>
+
+      <stroong>Coordenação:</stroong> Fabiana Stuchi e Danilo Bocchini
+      <br>
+      
+      <strong>Desenvolvimento:</strong> Fabiana Granusso, Fernanda Moreira, Thayse Portugal. 
+      <br>
+      <br>
+
+      <strong>Demais consultores:</strong>
+      <br>
+      <br>
+
+      <strong>Adriana Hansen:</strong> engenheira, gerentede sustentabilidade
+      <br>
+      
+      <strong>Adriano Gonçalves de Pinho, Beatriz Vilella Benitez Codas, Fernando Ferreira de Araújo Souza, Roberto de Souza, Rosane Ribeiro</strong> - <i>engenheiros</i>
+      <br>
+
+      <strong>Marília Formoso Camargo, Vitor Monteiro, Yasser Reis Gabriel</strong> - <i>advogados</i> 
+      <br>
+      
+      <strong>Matheus Villar Ejima</strong> - <i>administrador de empresas</i>
+      <br>
+      
+      <strong>Myriam Tschiptschin</strong> - <i>arquiteta, gerente de Smart CITIes</i>
+      <br>
+
+      <strong>Glaucio Neves, Sylvia Facciolla</strong> - <i>economista</i>
+      <br>
+      
+      <strong>Roberta Fontan Pereira Galvão</strong> - <i>arquiteta, ciência ambiental e geoprocessamento</i>
+      <br>
+      
+      <strong>Ingrid Schmidt Ori, Martina Mazzucco, Moreno Zaidan Garcia, Rafael Giorgi Costa</strong> - <i>arquitetos</i>
+      <br>
+      
+      <strong>Paulo Tripolini</strong> - <i>modelagem, rendering e produção de vídeo</i>
+      <br>
+    `,
+    date: "",
+    imagesPaths: [
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_18_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_03_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_04_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_05_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_06_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_07_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_08_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_09_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_10_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_11_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_12_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_13_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_14_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_15_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_16_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_17_distrito_de_inovação_ citi_ii.jpg",
     ]
   },
 ]
