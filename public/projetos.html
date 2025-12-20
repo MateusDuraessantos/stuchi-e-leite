@@ -20,11 +20,16 @@
   position: relative; 
   cursor: pointer;
   overflow: hidden;
+  border: 1px solid #e5e5e5;
 }
 .grid__img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+.grid--col1 {
+  grid-column: span 1;
+  grid-row: span 2;
 }
 .grid--col2 {
   grid-column: span 2;
@@ -125,7 +130,7 @@
 </body>
 
 <script type="module">
-import { projetos } from '/datas/data_projects.js'
+import { data_projetos, data_arquitetura, data_urbanismo } from '/datas/data_projects.js'
 import { openPopup } from '/components/popup.js'
 import { loadImages } from './main.js'
 import { attributesNames } from '/constants/constants.js'
@@ -133,7 +138,7 @@ import { attributesNames } from '/constants/constants.js'
 
 // ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
-  const gridBtn = initHTMLGrid()
+  const gridBtn = initHTMLGrid('todos')
   filtersLogics(gridBtn)
   loadImages(document.querySelectorAll('img'))
 })
@@ -142,28 +147,24 @@ document.addEventListener('DOMContentLoaded', () => {
 // ===== VARIABLES =====
 const elGrid = document.getElementById('grid')
 const typeInput = document.getElementById('typeInput')
-const filters = document.querySelectorAll('.filter__btn')
-
+const filtersBtns = document.querySelectorAll('.filter__btn')
+const shuffled = [...data_projetos].sort(() => Math.random() - 0.5)
 
 // ===== METHODS =====
-const initHTMLGrid = () => {
+const initHTMLGrid = (category) => {
 
-  // const shuffled = [...projetos].sort(() => Math.random() - 0.5);
-  const shuffled = projetos;
+  let teste = []
+  // if (category === 'todos') teste = shuffled
+  if (category === 'todos') teste = data_projetos
+  if (category === 'arquitetura') teste = data_arquitetura
+  if (category === 'urbanismo') teste = data_urbanismo
 
-  shuffled.forEach(obj => {
-    let colClass = ''
-    const randomVal = Number((Math.pow(Math.random(), 4) * 4).toFixed(0))
-    if (randomVal >= 1 && randomVal < 2) colClass = 'grid--col2'
-    if (randomVal >= 2 && randomVal < 3) colClass = 'grid--col3'
-    if (randomVal >= 3 && randomVal < 4) colClass = 'grid--col4'
-    
+  teste.forEach((obj, index) => {
     const elThumb = document.createElement('div')
-    elThumb?.classList.add('grid__btn')
-    elThumb?.setAttribute('type', obj.type)
-    elThumb?.setAttribute(attributesNames.projectId, obj.id)
-    
-    if (colClass) elThumb.classList.add(colClass)
+    elThumb.classList.add('grid__btn')
+    elThumb.setAttribute('type', obj.type)
+    elThumb.setAttribute(attributesNames.projectId, obj.id)
+    // if (obj.imgSizeClass) elThumb.classList.add(obj.imgSizeClass)
 
     elThumb.innerHTML = `
       <div class="g-hover">
@@ -173,7 +174,7 @@ const initHTMLGrid = () => {
       <img class="grid__img" width="300" height="300" src="/assets/${obj.imagesPaths[0]}" loading="lazy" alt="${obj.title}">
     `
 
-    elThumb?.addEventListener('click', (event) => openPopup(projetos, event))
+    elThumb?.addEventListener('click', (event) => openPopup(data_projetos, event))
     elGrid?.appendChild(elThumb)
   })
 
@@ -184,24 +185,26 @@ const initHTMLGrid = () => {
 
 const filtersLogics = (gridBtn) => {
   
-  const filterImgsByCategory = (event) => {
+  const filterImgsBy_category = (event) => {
     document.querySelector('[activeFilter]')?.removeAttribute('activeFilter')
     event.currentTarget?.setAttribute('activeFilter', '')
-    const filterValue = event.currentTarget?.getAttribute('data-filter')
-    gridBtn?.forEach(obj => handleVisibility(obj, obj.getAttribute('type') == filterValue || filterValue == 'todos'))
+
+    const filterParam = event.currentTarget?.getAttribute('data-filter')
+    initHTMLGrid(filterParam)
+    gridBtn?.forEach(obj => handleVisibility(obj, obj.getAttribute('type') == filterParam || filterParam == 'todos'))
   }
 
-  const filterImgsByInput = (input) => {
+  const filterImgsBy_input = (input) => {
     const val = normalizeStr(input.target.value)
-    
+
     gridBtn?.forEach(obj => {
       const title = obj.querySelector('.g-hover')?.textContent ?? ''
       handleVisibility(obj, normalizeStr(title).includes(val))
     })
   }
 
-  typeInput?.addEventListener('input', filterImgsByInput)
-  filters?.forEach(obj => obj.addEventListener('click', filterImgsByCategory))
+  typeInput?.addEventListener('input', filterImgsBy_input)
+  filtersBtns?.forEach(obj => obj.addEventListener('click', filterImgsBy_category))
 }
 
 const handleVisibility = (obj, validation) => obj.style.display = validation ? 'block' : 'none'
