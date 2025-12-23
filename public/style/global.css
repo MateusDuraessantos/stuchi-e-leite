@@ -87,7 +87,7 @@ a {
   opacity: 0;
   backdrop-filter: blur(10px);
 }
-.g-hover p {
+.g-hover__line-height {
   line-height: 28px;
 }
 .g-hover:hover {

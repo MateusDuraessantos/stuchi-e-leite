@@ -73,7 +73,7 @@ const initHTMLGrid = () => {
     imgThumb.classList.add('public__ctn', 'g-hover__container')
     imgThumb.setAttribute(attributesNames.projectId, obj.id)
 
-    const hover = `<div class="g-hover">${obj.title}</div>`
+    const hover = `<div class="g-hover g-hover__line-height">${obj.title}</div>`
     const hasPopup = obj.showPopup == true
 
     if (!hasPopup && obj.link !== '') imgThumb.innerHTML = `<a href="${obj.link}" target="_blank">${hover}</a>`

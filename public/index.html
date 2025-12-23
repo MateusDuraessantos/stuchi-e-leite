@@ -741,7 +741,7 @@ const destaque_init = () => {
     const destaques__ctn = document.createElement('div')
     destaques__ctn.setAttribute(attributesNames.projectId, projeto.id)
     destaques__ctn.innerHTML = `
-      <div class="g-hover">${projeto.title}</div>
+      <div class="g-hover g-hover__line-height">${projeto.title}</div>
       <img class="destaques__img" width="300" height="300" loading="lazy" src="/assets/${projeto.imagesPaths[obj.indexImageThumb]}" alt="">
     `
     destaques__ctn?.addEventListener('click', (event) => openPopup(data_projetos, event))

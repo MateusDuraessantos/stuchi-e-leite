@@ -2,7 +2,7 @@ export const data_arquitetura = [
   {
     title: "Centro de Tecnologia e Inovação - GESP1",
     id: 9,
-    imgSizeClass: "grid--col1",
+    imgSizeClass: "grid--col3",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> São Paulo (USP/GESP) - SP
@@ -114,7 +114,7 @@ export const data_arquitetura = [
   {
     title: "Casa Mirante / Residência Atibaia",
     id: 396,
-    imgSizeClass: "grid--col3",
+    imgSizeClass: "grid--col2",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Atibaia, São Paulo.
@@ -154,7 +154,7 @@ export const data_arquitetura = [
   {
     title: "Centro de Tecnologia e Inovação - USP1",
     id: 54,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <p>O edifício de destinado ao CT&I (Centro de Tecnologia e Inovação), localizado no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) é o edifício ancora, que atende ao programa de Incubadoras e Aceleradoras, Laboratórios de prototipagem, Salas Multifuncionais/Eventos e Auditório, Agências e Instituições Públicas e de Pesquisa, Ensino, Corporativo/Escritórios e Espaço Social-Dinâmico (espaços comunitários e de sociabilidade), cafés, restaurantes e outros serviços de apoio.</p>
@@ -191,7 +191,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento República",
     id: 378,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col3",
     type: "arquitetura",
     description: `
         <strong>Local:</strong> República, São Paulo, SP. 
@@ -246,43 +246,9 @@ export const data_arquitetura = [
     ],
   },
   {
-    title: "Residência Municipal",
-    id: 324,
-    imgSizeClass: 'grid--col3',
-    type: "arquitetura",
-    description: `
-      <strong>Local:</strong>  Vila Ré, São Paulo, SP
-      <br>
-      <br>
-
-      <p>A proprietária mora há décadas na Vila Ré, rodeada por primos, tios e irmãos. A decisão foi comprar o terreno ao lado da casa da família e utilizar as economias para construir uma nova residência. Tanto os projetos quanto a obra deveriam se adequar aos recursos financeiros limitados da família. Para isso, optamos por utilizar estrutura e blocos aparentes, garantindo uma obra de baixo custo, com maior controle e agilidade.</p>
-      <br>
-      <p>O terreno, profundo e em aclive, abriga uma casa de um único pavimento que se estende em direção ao arvoredo e à horta. Um jardim interno conecta dois volumes, integrados pela circulação. O volume íntimo, situado na parte frontal e elevado em relação à rua, cria sombra sobre a garagem.</p>
-      <br>
-      <p>Na área central da casa, o pátio desempenha um papel essencial na iluminação e ventilação do ambiente. Essa área também serve como extensão da cozinha e da área de serviço.</p>
-      <br>
-      <strong>Autoria e coordenação:</strong> Fabiana Stuchi
-      <br>
-      <strong>Desenvolvimento:</strong> Danilo Bocchine, Thayse Portugal e Kelly Yamashita
-    `,
-    date: "2011",
-    imagesPaths: [
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_07_pespectiva_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_03_corte_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_04_corte_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_05_pespectiva_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_06_pespectiva_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_08_pespectiva_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_09_pespectiva_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_10_pespectiva_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_01_planta_inferior_residencia_municipal.jpg",
-      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_02_planta_superior_residencia_municipal.jpg",
-    ],
-  },
-  {
     title: "Residência Iraci",
     id: 333,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "grid--col1",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Jardim Paulistano, São Paulo - SP
@@ -314,7 +280,7 @@ export const data_arquitetura = [
   {
     title: "Residência G+A",
     id: 99,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: 'grid--col2',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Vila Madalena, São Paulo, SP
@@ -362,7 +328,7 @@ export const data_arquitetura = [
   {
     title: "Ateliê de Fotografia",
     id: 306,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col2",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Av. Faria Lima, São Paulo, SP. 
@@ -427,7 +393,7 @@ export const data_arquitetura = [
   },
   {
     id: 232,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     title: "Apartamento São Carlos do Pinhal",
     type: "arquitetura",
     description: `
@@ -486,7 +452,7 @@ export const data_arquitetura = [
   {
     title: "Boulevard da Paz – Provisão 02",
     id: 135,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "grid--col3",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Boulevard da Paz, São Paulo, SP. 
@@ -514,26 +480,34 @@ export const data_arquitetura = [
     `,
     date: "2021-2022",
     imagesPaths: [
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_08_render_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_09_render_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_10_render_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_11_render_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_12_render_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_13_render_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_14_render_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_02_implantacao_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_03_desenho_implantacao_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_04_corte_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_05_corte_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_06_apto_01_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_07_apto_02_boulevard_da_pax_prov2.jpg",
-      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_localizacao_boulevard_da_pax_prov2.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/01_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/fig_localizacao_boulevard_da_paz_prov2.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/02_edificio_habitacional_boulevard_da_paz (2).jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/03_edificio_habitacional_boulevard_da_paz (2).jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/04_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/05_edificio_habitacional_boulevard_da_paz.JPG ",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/06_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/07_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/08_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/09_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/10_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/11_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/12_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/13_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/14_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/15_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/16_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/17_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/18_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/19_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/20_edificio_habitacional_boulevard_da_paz.jpg",
+      "projetos/arq_109_boulevard_da_paz_prov2/arq_109_boulevard_da_paz_prov2_para_publicar/21_edificio_habitacional_boulevard_da_paz.jpg",
     ],
   },
   {
     title: "BOULEVARD DA PAZ - PROVISÃO 01",
     id: 153,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Boulevard da Paz, São Paulo - SP.
@@ -576,7 +550,7 @@ export const data_arquitetura = [
   },
   {
     id: 3432,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col2",
     title: "UBS Jardim Lapena",
     type: "arquitetura",
     description: `
@@ -613,7 +587,7 @@ export const data_arquitetura = [
   {
     title: "Edifício de uso misto – Gesp.2",
     id: 18,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Jaguaré – São Paulo
@@ -642,7 +616,7 @@ export const data_arquitetura = [
   {
     title: "Habitação de Interesse Social - GESP.3",
     id: 27,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Bairro do Jaguaré – São Paulo
@@ -664,11 +638,11 @@ export const data_arquitetura = [
     `,
     date: "2021-2022",
     imagesPaths: [
+      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_06_diagrama_habitação_de_interesse_social_gesp_3.png",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_01_diagrama_habitação_de_interesse_social_gesp_3.PNG",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_02_diagrama_habitação_de_interesse_social_gesp_3.PNG",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_03_corte_esquematico_habitação_de_interesse_social_gesp_3.PNG",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_04_corte_esquematico_habitação_de_interesse_social_gesp_3.PNG",
-      "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_06_diagrama_habitação_de_interesse_social_gesp_3.png",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_07_planta_terreo_habitação_de_interesse_social_gesp_3.png",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_08_planta_01_pavto_habitação_de_interesse_social_gesp_3.png",
       "projetos/arq_116.3_habitação_de_interesse_social_gesp_3_citi/arq_116.3_habitação_de_interesse_social_gesp_3_citi/fig_09_planta_02_pavto_habitação_de_interesse_social_gesp_3.png",
@@ -682,7 +656,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Alagoas",
     id: 198,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: 'grid--col2',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Higienópolis, São Paulo, SP. 
@@ -716,7 +690,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Alagoas Ima",
     id: 225,
-    imgSizeClass: "grid--col1",
+    imgSizeClass: "grid--col2",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Rua Alagoas, São Paulo, SP. 
@@ -744,7 +718,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Corujas",
     id: 171,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Vila Madalena – São Paulo
@@ -760,30 +734,23 @@ export const data_arquitetura = [
     date: "2024",
     imagesPaths: [
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_01_render_corujas.jpg",
+      "projetos/arq_130_corujas/arq_130_para_publicar/fig_02_render_corujas (2).jpg",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_02_render_corujas.jpg",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_03_render_corujas.jpg",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_04_render_corujas.jpg",
+      "projetos/arq_130_corujas/arq_130_para_publicar/fig_03_render_corujas (2).jpg",
+      "projetos/arq_130_corujas/arq_130_para_publicar/fig_04_render_corujas (2).jpg",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_05_render_corujas.jpg",
+      "projetos/arq_130_corujas/arq_130_para_publicar/fig_06_render_corujas (2).jpg",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_06_render_corujas.jpg",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_07_render_corujas.jpg",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_08_render_corujas.jpg",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_09_render_corujas.jpg",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_10_render_corujas.jpg",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_11_render_corujas.jpg",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_12_render_corujas.jpg",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_13_esquema_corujas.png",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_14_esquema_corujas.png",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_15_esquema_corujas.png",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_16_esquema_corujas.png",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_17_esquema_corujas.png",
       "projetos/arq_130_corujas/arq_130_para_publicar/fig_18_esquema_corujas.png",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_19_render_corujas.jpg",
-      "projetos/arq_130_corujas/arq_130_para_publicar/fig_20_render_corujas.jpg",
     ],
   },
   {
     id: 7654,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "grid--col1",
     title: "Residência E+A",
     type: "arquitetura",
     description: `
@@ -821,7 +788,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Araguari",
     id: 252,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: 'grid--col1',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Moema, São Paulo, SP.
@@ -847,8 +814,8 @@ export const data_arquitetura = [
     `,
     date: "2012",
     imagesPaths: [
-      "projetos/arq_18_araguari/arq_18_para_publicar/fig_04_foto_araguari.jpg",
       "projetos/arq_18_araguari/arq_18_para_publicar/fig_05_foto_araguari.jpg",
+      "projetos/arq_18_araguari/arq_18_para_publicar/fig_04_foto_araguari.jpg",
       "projetos/arq_18_araguari/arq_18_para_publicar/fig_06_foto_araguari.jpg",
       "projetos/arq_18_araguari/arq_18_para_publicar/fig_07_foto_araguari.jpg",
       "projetos/arq_18_araguari/arq_18_para_publicar/fig_08_foto_araguari.jpg",
@@ -867,7 +834,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Aratãs",
     id: 360,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col2",
     type: "arquitetura",
     description: `
       <strong>Local:</strong>  Moema, São Paulo - SP
@@ -908,7 +875,7 @@ export const data_arquitetura = [
   },
   {
     id: 528,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     title: "COPAN – APARTAMENTO AMARELO",
     type: "arquitetura",
     description: `
@@ -975,7 +942,7 @@ export const data_arquitetura = [
   {
     title: "Escritório Plenno",
     id: 387,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Vila Buarque, São Paulo, SP
@@ -1046,7 +1013,7 @@ export const data_arquitetura = [
   {
     title: "Edifício Corporartivo e Comercial – GESP.4",
     id: 36,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: 'grid--col2',
     type: "arquitetura",
     description: `
       <p>O edifício inserido no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo) abriga espaços Corporativo/Escritórios e outros serviços de .apoio e, busca integrar usos e atividades à dinâmica urbanas local.</p>
@@ -1077,7 +1044,7 @@ export const data_arquitetura = [
   {
     title: "Equipamento Esportivo – GESP.5",
     id: 45,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "arquitetura",
     description: `
       <p>O centro esportivo aberto, localizado no interior do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo), permite a prática de esportes ao ar livre e articular o distrito e inovação à Unip e as ruas adjacentes à gleba. Establece assim, atrativo urbano e ambiental, valorizando a inserção no tecido urbano local.</p>
@@ -1097,7 +1064,7 @@ export const data_arquitetura = [
   {
     title: "Ateliê Lapa",
     id: 450,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Lapa, São Paulo, SP. 
@@ -1129,33 +1096,31 @@ export const data_arquitetura = [
     `,
     date: "",
     imagesPaths: [
+      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_11_foto__atelie_lapa.jpg",
+      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_19_foto_atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_09_foto__atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_10_foto__atelie_lapa.jpg",
-      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_11_foto__atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_12_foto__atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_13_foto__atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_14_foto__atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_15_foto__atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_16_foto__atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_17_foto__atelie_lapa.jpg",
-      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_18_foto__atelie_lapa.jpg",
-      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_19_foto__atelie_lapa.jpg",
-      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_20_foto__atelie_lapa.jpg",
-      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_21_foto__atelie_lapa.jpg",
-      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_01_planta_atelie_lapa.png",
-      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_02_corte_atelie_lapa.png",
+      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_18_foto_atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_03_esquema_atelie_lapa.png",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_04_corte_total_atelie_lapa.png",
-      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_05_esquema_atelie_lapa.png",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_06_perspectiva_atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_07_perspectiva_atelie_lapa.jpg",
       "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_08_perspectiva_atelie_lapa.jpg",
+      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_05_esquema_atelie_lapa.png",
+      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_01_planta_atelie_lapa.png",
+      "projetos/arq_78_atelie_lapa/arq_78_para_publicar/fig_02_corte_atelie_lapa.png",
     ],
   },
   {
     title: "Edifício de Uso Misto – USP.2",
     id: 63,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col2",
     type: "arquitetura",
     description: `
       <p>O edifício de uso misto, inserido no Distrito de inovação do CITI_SP (Centro Internacional de Tecnologia e Inovação do Estado de São Paulo), no bairro do Butantã, ao lado da Cidade Universitária, abriga espaços comerciais, corporativos, residenciais entre outros serviços de apoio e, busca integrar usos e atividades à dinâmica urbanas local.</p>
@@ -1188,7 +1153,7 @@ export const data_arquitetura = [
   {
     title: "Edifício Habitacional e Equipamento associado - USP.3",
     id: 72,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <p>O edifício, inserido no distrito de inovação, tem o programa de uso habitacional. O projeto considera duas subcategorias de uso residencial distintas – habitação de interesse social (HIS) e R2h-2 (residencial multifamiliar horizontal, segundo a legislação paulistana) – deverão produzir receitas na forma de locação e alienação. </p>
@@ -1204,10 +1169,10 @@ export const data_arquitetura = [
     `,
     date: "2021-2022",
     imagesPaths: [
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_04_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.png",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_01_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_02_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_03_corte_esquematico_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
-      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_04_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.png",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_05_planta_terreo_edifício_habitacional_e_equipamento_associado_usp_3.png",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_06_planta_subsolo_edifício_habitacional_e_equipamento_associado_usp_3.png",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_07_planta_01_pavto_edifício_habitacional_e_equipamento_associado_usp_3.png",
@@ -1223,7 +1188,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Liberdade",
     id: 216,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "arquitetura",
     description: `
       <p>A reforma do Studio Liberdade, situada na Av. da Liberdade, no coração da cultura oriental em São Paulo, provém do intuito dos clientes de alugar o imóvel em serviços de hospedagem online, mantendo as características da forte presença japonesa do bairro, pleno de restaurantes, lojas e tradições. São 20m² que unificam quarto, sala e cozinha, mais um banheiro e sacada, exibindo uma bela vista do 18º andar. Dada esta destinação, a necessidade de praticidade, pouco armazenamento e forte apelo estético foram reforçados desde o início dos estudos. A marcenaria constitui o cenário nipônico valorizando o material da madeira  aparente em todos os seus elementos e na simplicidade de detalhes.</p>
@@ -1246,7 +1211,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento M+M",
     id: 234,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Vila Leopoldina, São Paulo, SP. 
@@ -1270,20 +1235,16 @@ export const data_arquitetura = [
       `,
     date: "",
     imagesPaths: [
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_08_perspectivas_apartamento_mm.png",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_05_perspectiva_apartamento_mm.png",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_06_perspectiva_apartamento_mm.png",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_07_perspectiva_apartamento_mm.png",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_01_planta_depois_apartamento_mm.png",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_02_planta_antes_apartamento_mm.png",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_03_corte_apartamento_mm.png",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_04_corte_apartamento_mm.png",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_01__apartamento_mm.png ",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_02_planta__apartamento_mm.png ",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_04_apartamento_mm.png ",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_03_apartamento_mm.png",
     ],
   },
   {
     title: "Duo II",
     id: 405,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col2",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> São Paulo, SP.
@@ -1349,7 +1310,7 @@ export const data_arquitetura = [
   {
     title: "Residência Iraci - I",
     id: 342,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Jardim Europa, São Paulo
@@ -1368,24 +1329,23 @@ export const data_arquitetura = [
     `,
     date: "2016",
     imagesPaths: [
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_01_planta_inferior_residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_02_planta_superior_residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_03_perspectiva_residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_04_perspectiva_residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_05_corte_bb_residencia_iraci_ii.png",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_06_perspectiva_residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_07_perspectiva_residencia_iraci_ii.jpg",
-      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_08_perspectiva__residencia_iraci_ii.jpg",
       "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_09_corte_aa__residencia_iraci_ii.png",
       "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_10_elevacao__residencia_iraci_ii.png",
       "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_11_corte_cc_residencia_iraci_ii.png",
       "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_12_elevacao_frontal__residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_01_perspectiva_residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_02_perspectiva_residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_03_perspectiva__residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_04_perspectiva_residencia_iraci_ii.jpg",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_05_planta_inferior_residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_06_planta_superior_residencia_iraci_ii.png",
+      "projetos/arq_48_residencia_iraci_ii/arq_48_para_publicar/fig_07_corte_bb_residencia_iraci_ii.png",
     ],
   },
   {
     title: "NK STORE: CONCURSO",
     id: 441,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> São Paulo, SP
@@ -1428,7 +1388,7 @@ export const data_arquitetura = [
   {
     title: "Duo I",
     id: 270,
-    imgSizeClass: "grid--col1",
+    imgSizeClass: "grid--col3",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> São Paulo, SP.
@@ -1480,9 +1440,43 @@ export const data_arquitetura = [
     ],
   },
   {
+    title: "Residência Municipal",
+    id: 324,
+    imgSizeClass: '',
+    type: "arquitetura",
+    description: `
+      <strong>Local:</strong>  Vila Ré, São Paulo, SP
+      <br>
+      <br>
+
+      <p>A proprietária mora há décadas na Vila Ré, rodeada por primos, tios e irmãos. A decisão foi comprar o terreno ao lado da casa da família e utilizar as economias para construir uma nova residência. Tanto os projetos quanto a obra deveriam se adequar aos recursos financeiros limitados da família. Para isso, optamos por utilizar estrutura e blocos aparentes, garantindo uma obra de baixo custo, com maior controle e agilidade.</p>
+      <br>
+      <p>O terreno, profundo e em aclive, abriga uma casa de um único pavimento que se estende em direção ao arvoredo e à horta. Um jardim interno conecta dois volumes, integrados pela circulação. O volume íntimo, situado na parte frontal e elevado em relação à rua, cria sombra sobre a garagem.</p>
+      <br>
+      <p>Na área central da casa, o pátio desempenha um papel essencial na iluminação e ventilação do ambiente. Essa área também serve como extensão da cozinha e da área de serviço.</p>
+      <br>
+      <strong>Autoria e coordenação:</strong> Fabiana Stuchi
+      <br>
+      <strong>Desenvolvimento:</strong> Danilo Bocchine, Thayse Portugal e Kelly Yamashita
+    `,
+    date: "2011",
+    imagesPaths: [
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_07_pespectiva_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_03_corte_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_04_corte_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_05_pespectiva_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_06_pespectiva_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_08_pespectiva_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_09_pespectiva_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_10_pespectiva_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_01_planta_inferior_residencia_municipal.jpg",
+      "projetos/arq_45_residencia_municipal/arq_45_para_publicar/fig_02_planta_superior_residencia_municipal.jpg",
+    ],
+  },
+  {
     title: "UP SCHOOL",
     id: 423,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Alto da Lapa, São Paulo, SP
@@ -1521,7 +1515,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Reserva Saúde",
     id: 297,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "grid--col1",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Saúde, São Paulo, SP
@@ -1546,12 +1540,12 @@ export const data_arquitetura = [
     `,
     date: "2013",
     imagesPaths: [
+      "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_15_foto_reserva_saude.jpg",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_10_foto_reserva_saude.jpg",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_11_foto_reserva_saude.jpg",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_12_foto_reserva_saude.jpg",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_13_foto_reserva_saude.jpg",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_14_foto_reserva_saude.jpg",
-      "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_15_foto_reserva_saude.jpg",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_16_foto_reserva_saude.jpg",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_17_foto_reserva_saude.jpg",
       "projetos/arq_29_reserva_saude/arq_29_para_publicar/fig_18_foto_reserva_saude.jpg",
@@ -1571,7 +1565,7 @@ export const data_arquitetura = [
   {
     title: "Clínica de Saúde",
     id: 369,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Consolação, São Paulo - SP
@@ -1595,7 +1589,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Cubo Azul",
     id: 243,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col3",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> São Paulo, SP.
@@ -1640,7 +1634,7 @@ export const data_arquitetura = [
   {
     title: "Ateliê Foto e Filme JG",
     id: 432,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: 'grid--col1',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Cambuci, São Paulo, SP.
@@ -1685,7 +1679,7 @@ export const data_arquitetura = [
   {
     title: "Escritório ShopLover",
     id: 126,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "grid--col1",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Pinheiros, São Paulo.
@@ -1706,7 +1700,7 @@ export const data_arquitetura = [
   {
     title: "APARTAMENTO MAX HAUS VILA LEOPOLDINA II",
     id: 288,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Vila Leopoldina
@@ -1732,7 +1726,7 @@ export const data_arquitetura = [
   {
     title: "Residência Alto da Lapa",
     id: 90,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col2",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Alto da Lapa, São Paulo.
@@ -1755,7 +1749,7 @@ export const data_arquitetura = [
   {
     title: "RESIDÊNCIA PIRACICABA II",
     id: 108,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <p><strong>Local:</strong> Piracicaba, SP.</p>
@@ -1776,7 +1770,7 @@ export const data_arquitetura = [
   {
     title: "Residência Marques de Itanhaém",
     id: 261,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Vila Madalena, São Paulo, SP.
@@ -1796,7 +1790,7 @@ export const data_arquitetura = [
   {
     title: "Apartamento Edifício Royal",
     id: 486,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Higienópolis, São Paulo
@@ -1818,7 +1812,7 @@ export const data_arquitetura = [
   {
     title: "RESIDÊNCIA KANSAS",
     id: 495,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col1",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Brooklin, São Paulo, SP.
@@ -1829,8 +1823,8 @@ export const data_arquitetura = [
     `,
     date: "2010",
     imagesPaths: [
-      "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_04_foto_kansas.jpg",
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_05_foto_kansas.jpg",
+      "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_04_foto_kansas.jpg",
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_06_foto_kansas.jpg",
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_07_foto_kansas.jpg",
       "projetos/arq_zz_kansas/arq_zz_para_publicar/fig_01_plantas_kansas.png",
@@ -1841,7 +1835,7 @@ export const data_arquitetura = [
   {
     title: "Clínica Radiológia",
     id: 117,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Piracicaba
@@ -1860,7 +1854,7 @@ export const data_arquitetura = [
   {
     title: "Residência Piracicaba II",
     id: 279,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "grid--col1",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Piracicaba, São Paulo. 
@@ -1914,7 +1908,7 @@ export const data_arquitetura = [
   {
     title: "Ginásio Esportivo Municipal de Mauá.",
     id: 81,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: 'grid--col2',
     type: "arquitura",
     description: `
       <strong>CONCEITUAÇÃO</strong>

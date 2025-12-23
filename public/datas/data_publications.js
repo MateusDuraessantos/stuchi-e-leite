@@ -10,17 +10,33 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_3464051446d846f6a153a41869ead173~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_2a6cdec49c2542548c16f7a75e37cec0~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_81fe52d3b4e447b9ab3e50b78f8c0f8d~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_4860b1aa7b7642428f8ca1e66a3e0122~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_9053f0997365490084a9ed943ba35168~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_48936ac7a62a4a9293e5ab7689ce98c0~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_b6f35dca55b34a28aef6a5197bc16512~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_ba474840b71e41099b7dfa866163534f~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_bc01e90f816d45729127c129b3e6ad4a~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_fb6baf8a3bd2498b8ba0b5aa744fac9e~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_fb6210fccd184f29a94e89bd1e9a097a~mv2.jpg",
+
     ]
   },
   {
     id: 90,
-    title: "",
-    description: ``,
-    date: '',
+    title: "APARTAMENTO DUO II",
+    description: `Revista Arquitetura & Construção`,
+    date: 'JULHO 2017',
     showPopup: true,
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_3c153e9c7ca4438ea5801c3a3e4c99f3~mv2/ba8294_3c153e9c7ca4438ea5801c3a3e4c99f3~mv2.jpg",
+      "publicacoes/ba8294_3c153e9c7ca4438ea5801c3a3e4c99f3~mv2/ba8294_defad22f944646d6a871ded256b9ad66~mv2.jpg",
+      "publicacoes/ba8294_3c153e9c7ca4438ea5801c3a3e4c99f3~mv2/ba8294_49d61b67b20643f0a207d2953e4b426b~mv2.jpg",
+      "publicacoes/ba8294_3c153e9c7ca4438ea5801c3a3e4c99f3~mv2/ba8294_825e1f9aa0f94397b951c74d6bf6f1f1~mv2.jpg",
+      "publicacoes/ba8294_3c153e9c7ca4438ea5801c3a3e4c99f3~mv2/ba8294_4442d2d2bc5b43c6b8b54ac665b99f9d~mv2.jpg",
+      "publicacoes/ba8294_3c153e9c7ca4438ea5801c3a3e4c99f3~mv2/ba8294_d90d91ea9e714c8ebcad2a67c01f53a4~mv2.jpg",
     ]
   },
   {
@@ -45,6 +61,8 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_49b00fb4f4db400092cbf03dc09a0926~mv2/ba8294_49b00fb4f4db400092cbf03dc09a0926~mv2.jpg",
+      "publicacoes/ba8294_49b00fb4f4db400092cbf03dc09a0926~mv2/ba8294_a2ccf7176e5d4f2bbaa5d757faff1e77~mv2.jpg",
+      "publicacoes/ba8294_49b00fb4f4db400092cbf03dc09a0926~mv2/ba8294_7962f1d5f6eb4e5cab14df330c9c6f4c~mv2.jpg",
     ]
   },
   {
@@ -58,6 +76,8 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_5abd5a2356cf47008d27dca4e9f5c97b~mv2/ba8294_5abd5a2356cf47008d27dca4e9f5c97b~mv2.jpg",
+      "publicacoes/ba8294_5abd5a2356cf47008d27dca4e9f5c97b~mv2/ba8294_572733a859814adc98a563b780c0839b~mv2.jpg",
+      "publicacoes/ba8294_5abd5a2356cf47008d27dca4e9f5c97b~mv2/ba8294_6b066cc999ec402c9f216e5cbf0429e8~mv2.jpg",
     ]
   },
   {
@@ -69,6 +89,10 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_07250981bfdf4bc1bb6c204b9004ee48~mv2/ba8294_07250981bfdf4bc1bb6c204b9004ee48~mv2.jpg",
+      "publicacoes/ba8294_07250981bfdf4bc1bb6c204b9004ee48~mv2/ba8294_7ec007dc58214584a96918b49725c6ef~mv2.jpg",
+      "publicacoes/ba8294_07250981bfdf4bc1bb6c204b9004ee48~mv2/ba8294_90c18f73c7f648c6bdf81e845ef0b765~mv2.jpg",
+      "publicacoes/ba8294_07250981bfdf4bc1bb6c204b9004ee48~mv2/ba8294_21392ef2852d4315b14fb98755fccd06~mv2.jpg",
+      "publicacoes/ba8294_07250981bfdf4bc1bb6c204b9004ee48~mv2/ba8294_c24f20922d194f6eaa4489ef38f9aff2~mv2.jpg",
     ]
   },
   {
@@ -82,17 +106,9 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_1aab692207284d54a3272dde3da4c92f~mv2/ba8294_1aab692207284d54a3272dde3da4c92f~mv2.jpg",
-    ]
-  },
-  {
-    id: 144,
-    title: "Carlos Leite x",
-    description: ``,
-    date: '',
-    showPopup: false,
-    link: '',
-    imagesPaths: [
-      "publicacoes/ba8294_f67a013cd5be4c7caa72855ab1f2fc27~mv2/ba8294_f67a013cd5be4c7caa72855ab1f2fc27~mv2.png",
+      "publicacoes/ba8294_1aab692207284d54a3272dde3da4c92f~mv2/ba8294_c5d869bfb6864e3e9eb2801988ef9fc3~mv2.jpg",
+      "publicacoes/ba8294_1aab692207284d54a3272dde3da4c92f~mv2/ba8294_46c70be110a14f8f90b29eea3cd3346c~mv2.jpg",
+      "publicacoes/ba8294_1aab692207284d54a3272dde3da4c92f~mv2/ba8294_540070d4284849719429cdb3b2aada5e~mv2.jpg",
     ]
   },
   {
@@ -104,6 +120,12 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2.jpg",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_1e5363efdf774f89a4f28e8caa4bfabf~mv2.jpg",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_62b79e2a10034c368fe352586ca0649d~mv2.jpg",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_170d3c3121da428487ecfa551c3972c8~mv2.jpg",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_5933804fafc149c885c79eb5cc442a59~mv2.jpg",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_d6cd005c68d14e9c86905f50007181d7~mv2.jpg",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_f7b765a1c8de4a5fbbc95c13062451da~mv2.jpg",
     ]
   },
   {
@@ -115,6 +137,8 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_b2e2a867bbd34e1b9ab14e11bbdb4a44/ba8294_b2e2a867bbd34e1b9ab14e11bbdb4a44.jpg",
+      "publicacoes/ba8294_b2e2a867bbd34e1b9ab14e11bbdb4a44/ba8294_d0d0b40c2bcd4629b7233590fa945d1d.jpg",
+      "publicacoes/ba8294_b2e2a867bbd34e1b9ab14e11bbdb4a44/ba8294_83e3a452a56f45d6bb2c78fc8289a29d.jpg",
     ]
   },
   {
@@ -126,6 +150,7 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_0bf3a753075c4f03b64c283b024b21f1~mv2/ba8294_0bf3a753075c4f03b64c283b024b21f1~mv2.jpg",
+      "publicacoes/ba8294_0bf3a753075c4f03b64c283b024b21f1~mv2/ba8294_4fcf95d799a24180904d299b1cd2c87c.jpg",
     ]
   },
   {
@@ -138,6 +163,9 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_4f1e33efff104f729eaa50dd264d4668~mv2/ba8294_4f1e33efff104f729eaa50dd264d4668~mv2.jpg",
+      "publicacoes/ba8294_4f1e33efff104f729eaa50dd264d4668~mv2/ba8294_63bd91694a7640beba854aff8bb87b1b.jpg",
+      "publicacoes/ba8294_4f1e33efff104f729eaa50dd264d4668~mv2/ba8294_8faad87adaa044619dcb318bb9c06c8b.jpg",
+      "publicacoes/ba8294_4f1e33efff104f729eaa50dd264d4668~mv2/ba8294_9d1a99524cbd4b6faa11ce9e1926af69.jpg",
     ]
   },
   {
@@ -149,6 +177,9 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_0279a04db57b47c797f2f1570141bc2c~mv2/ba8294_0279a04db57b47c797f2f1570141bc2c~mv2.jpg",
+      "publicacoes/ba8294_0279a04db57b47c797f2f1570141bc2c~mv2/ba8294_7d2ad377e38743a6bae3a35e3ff35b3d.jpg",
+      "publicacoes/ba8294_0279a04db57b47c797f2f1570141bc2c~mv2/ba8294_47080f416fd74e58b730a90678148797.jpg",
+      "publicacoes/ba8294_0279a04db57b47c797f2f1570141bc2c~mv2/ba8294_f00c9c069f07457783e36728a772808b.jpg",
     ]
   },
   {
@@ -162,6 +193,8 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_5ed101c2345f40b29f22f1bb4004c98e~mv2/ba8294_5ed101c2345f40b29f22f1bb4004c98e~mv2.jpg",
+      "publicacoes/ba8294_5ed101c2345f40b29f22f1bb4004c98e~mv2/ba8294_f5cabfbafe6f4becb4b67fe9d0fec251.jpg",
+      "publicacoes/ba8294_5ed101c2345f40b29f22f1bb4004c98e~mv2/ba8294_8e475d1aab364abfa5467c2b75fa804f.jpg",
     ]
   },
   {
@@ -175,6 +208,9 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_8c9c51a91a674d279484d116aee77924~mv2/ba8294_8c9c51a91a674d279484d116aee77924~mv2.jpg",
+      "publicacoes/ba8294_8c9c51a91a674d279484d116aee77924~mv2/ba8294_e918a77ff2844c30a2d0b5bb2d70129a.jpg",
+      "publicacoes/ba8294_8c9c51a91a674d279484d116aee77924~mv2/ba8294_1535c67ce5e94887aaa66cc05437e843.jpg",
+      "publicacoes/ba8294_8c9c51a91a674d279484d116aee77924~mv2/ba8294_b68b4f7e32cf4b878afbfeeca405546b.jpg",
     ]
   },
   {
@@ -188,6 +224,8 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_2cb4cd08a19045578fbb9595abcc5dca~mv2/ba8294_2cb4cd08a19045578fbb9595abcc5dca~mv2.jpg",
+      "publicacoes/ba8294_2cb4cd08a19045578fbb9595abcc5dca~mv2/ba8294_d3cc90134b1c4ce88a521dece358c47d.jpg",
+      "publicacoes/ba8294_2cb4cd08a19045578fbb9595abcc5dca~mv2/ba8294_4c7dc8d5bc024892ba8bef68808f4b81.jpg",
     ]
   },
   {
@@ -199,17 +237,20 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_b0f151716314479aac1455aa56e822a1~mv2/ba8294_b0f151716314479aac1455aa56e822a1~mv2.jpg",
+      "publicacoes/ba8294_b0f151716314479aac1455aa56e822a1~mv2/ba8294_432d6331172d48d2935f6b79a4978a77.jpg",
+      "publicacoes/ba8294_b0f151716314479aac1455aa56e822a1~mv2/ba8294_e7bc1d138db344129b4f1643eb502af1.jpg",
     ]
   },
   {
     id: 234,
-    title: "",
-    description: ``,
-    date: '',
+    title: "Apartamento Cubo Azul",
+    description: `Revista Casa e Jardim`,
+    date: 'Julho 2014',
     showPopup: true,
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_a75768b3f2ae4f0da635d4dccfacf4c5~mv2/ba8294_a75768b3f2ae4f0da635d4dccfacf4c5~mv2.jpg",
+      "publicacoes/ba8294_a75768b3f2ae4f0da635d4dccfacf4c5~mv2/ba8294_ff8c556a0b2d4a658fc59bde1ff550f9.jpg",
     ]
   },
   {
@@ -221,6 +262,10 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_68931466f474428c978938bc20342f89~mv2/ba8294_68931466f474428c978938bc20342f89~mv2.jpg",
+      "publicacoes/ba8294_68931466f474428c978938bc20342f89~mv2/ba8294_1415cb66e629480497d275f359dcc2ee.jpg",
+      "publicacoes/ba8294_68931466f474428c978938bc20342f89~mv2/ba8294_b2f62c79f71349db8e4858fa0aec1115.jpg",
+      "publicacoes/ba8294_68931466f474428c978938bc20342f89~mv2/ba8294_ce79a8d690d14feb9cd2a30da41119df.jpg",
+      "publicacoes/ba8294_68931466f474428c978938bc20342f89~mv2/ba8294_f5bae8f9b71148d18776c586c302d1b8.jpg",
     ]
   },
   {
@@ -234,6 +279,7 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_02c3fd51d4d34009a4b244c3733ae6e6~mv2/ba8294_02c3fd51d4d34009a4b244c3733ae6e6~mv2.jpg",
+      "publicacoes/ba8294_02c3fd51d4d34009a4b244c3733ae6e6~mv2/ba8294_2fc7a69bf3c94522aede54db628e49dc.jpg",
     ]
   },
   {
@@ -245,6 +291,8 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_bdd4432060514a13a9b4d44ef71ff21c~mv2/ba8294_bdd4432060514a13a9b4d44ef71ff21c~mv2.jpg",
+      "publicacoes/ba8294_bdd4432060514a13a9b4d44ef71ff21c~mv2/ba8294_6fcd4f18b453431fab04f76465f43259.jpg",
+      "publicacoes/ba8294_bdd4432060514a13a9b4d44ef71ff21c~mv2/ba8294_161c870127644b6b9f93e5fb747513f5.jpg",
     ]
   },
   {
@@ -256,6 +304,14 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2.jpg",
+      "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_0de70c2421ca4efb888aa01d907211da.jpg",
+      "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_0fab0566e9b847dba7bd3882e7d9b07f.jpg",
+      "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_4df31f30b750473692a19ba9f1aced02.jpg",
+      "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_79d7cf65ae5c4282814b1b8d70f8dac9.jpg",
+      "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_79ec628cf4004a519e794d1349dbcee3.jpg",
+      "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_449ff477ea804dee808729dd8a8a0dde.jpg",
+      "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_596cb809fb8c4453b652f94be737d74f.jpg",
+      "publicacoes/ba8294_687cb29a468f4df7811163a7b32f7d51~mv2/ba8294_32306dfae2a742e3ab4d871c881ca236.jpg",
     ]
   },
   {
@@ -267,6 +323,10 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_f5cbe8d0f81b4a83b173f473c5913340~mv2/ba8294_f5cbe8d0f81b4a83b173f473c5913340~mv2.jpg",
+      "publicacoes/ba8294_f5cbe8d0f81b4a83b173f473c5913340~mv2/ba8294_84c454f8c774430f889330b98d2a356e.jpg",
+      "publicacoes/ba8294_f5cbe8d0f81b4a83b173f473c5913340~mv2/ba8294_94b5c3efe25e4c6fb03e20847edcc96e.jpg",
+      "publicacoes/ba8294_f5cbe8d0f81b4a83b173f473c5913340~mv2/ba8294_12346acfbde64786a847067b84339950.jpg",
+      "publicacoes/ba8294_f5cbe8d0f81b4a83b173f473c5913340~mv2/ba8294_cb6a520367354e699ed241c02fa0c60f.jpg",
     ]
   },
   {
@@ -278,6 +338,12 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_832e1ee7876d452db3216d2fad473167~mv2.jpg",
+      "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_84c454f8c774430f889330b98d2a356e.jpg",
+      "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_94b5c3efe25e4c6fb03e20847edcc96e.jpg",
+      "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_745c6d83eab04712bc4b4fcb27522320.jpe",
+      "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_12346acfbde64786a847067b84339950.jpg",
+      "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_cb6a520367354e699ed241c02fa0c60f.jpg",
+      "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_d53e0a6b3fa8487e9745cc3a0803609f.jpg",
     ]
   },
   {
@@ -294,6 +360,7 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_3010461ad3464c27a7fa162969e8f98c~mv2/ba8294_3010461ad3464c27a7fa162969e8f98c~mv2.jpg",
+      "publicacoes/ba8294_3010461ad3464c27a7fa162969e8f98c~mv2/ba8294_68d32980e772cbdff1da90bd6b70f7df.jpg",
     ]
   },
   {
@@ -310,6 +377,7 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_c0b8561e5bf04cd88e0f3651cac589e7~mv2/ba8294_c0b8561e5bf04cd88e0f3651cac589e7~mv2.jpg",
+      "publicacoes/ba8294_c0b8561e5bf04cd88e0f3651cac589e7~mv2/ba8294_5a95e3f02572c706c78b6ef374b65f8e.jpg",
     ]
   },
   {
@@ -326,6 +394,18 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_9b41b9c72fe346188dacf9ea00837b6d~mv2/ba8294_9b41b9c72fe346188dacf9ea00837b6d~mv2.jpg",
+      "publicacoes/ba8294_9b41b9c72fe346188dacf9ea00837b6d~mv2/ba8294_d11909609dce1ea2333fa92666a89372.jpg",
+    ]
+  },
+  {
+    id: 144,
+    title: "Carlos Leite x",
+    description: ``,
+    date: '',
+    showPopup: false,
+    link: '',
+    imagesPaths: [
+      "publicacoes/ba8294_f67a013cd5be4c7caa72855ab1f2fc27~mv2/ba8294_f67a013cd5be4c7caa72855ab1f2fc27~mv2.png",
     ]
   },
   {

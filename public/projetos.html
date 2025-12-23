@@ -153,6 +153,8 @@ const shuffled = [...data_projetos].sort(() => Math.random() - 0.5)
 // ===== METHODS =====
 const initHTMLGrid = (category) => {
 
+  elGrid.innerHTML = ''
+
   let teste = []
   // if (category === 'todos') teste = shuffled
   if (category === 'todos') teste = data_projetos
@@ -164,10 +166,10 @@ const initHTMLGrid = (category) => {
     elThumb.classList.add('grid__btn')
     elThumb.setAttribute('type', obj.type)
     elThumb.setAttribute(attributesNames.projectId, obj.id)
-    // if (obj.imgSizeClass) elThumb.classList.add(obj.imgSizeClass)
+    if (obj.imgSizeClass) elThumb.classList.add(obj.imgSizeClass)
 
     elThumb.innerHTML = `
-      <div class="g-hover">
+      <div class="g-hover g-hover__line-height">
         <p>${obj.title}</p>
         <p class="g-hover__type">${obj.type}</p>
       </div>
