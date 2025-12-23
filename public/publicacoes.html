@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-top: 60px;
+  gap: 50px;
 }
 .publi__img {
   display: block;
@@ -43,7 +44,7 @@
 <body>
   <div id="body-scroll">
     <main>
-      <section class="publi g-gap max__width" id="grid"></section>
+      <section class="publi max__width" id="grid"></section>
     </main>
   </div>
 </body>
@@ -72,20 +73,17 @@ const initHTMLGrid = () => {
     imgThumb.classList.add('public__ctn', 'g-hover__container')
     imgThumb.setAttribute(attributesNames.projectId, obj.id)
 
-    if (obj.showPopup === true) {
-      imgThumb.innerHTML = `
-        <div class="g-hover">${obj.title}</div> 
-        <img class="publi__img" width="300" height="300" src="/assets/${obj.imagesPaths[0]}" loading="lazy" alt="${obj.title}" />
-      `
-      imgThumb.addEventListener('click', (event) => openPopup(publicacoes, event))
-    } else {
-      imgThumb.innerHTML = `
-        <a href="${obj.link}" target="_blank">
-          <div class="g-hover">${obj.title}</div> 
-        </a>
-        <img class="publi__img" width="300" height="300" src="/assets/${obj.imagesPaths[0]}" loading="lazy" alt="${obj.title}" />
-      `
+    const hover = `<div class="g-hover">${obj.title}</div>`
+    const hasPopup = obj.showPopup == true
+
+    if (!hasPopup && obj.link !== '') imgThumb.innerHTML = `<a href="${obj.link}" target="_blank">${hover}</a>`
+    else {
+      if (hasPopup) imgThumb.addEventListener('click', (event) => openPopup(publicacoes, event))
+      imgThumb.innerHTML = hover
     }
+
+    imgThumb.innerHTML += `<img class="publi__img" width="300" height="300" src="/assets/${obj.imagesPaths[0]}" loading="lazy" alt="${obj.title}" />`
+
     
     grid.appendChild(imgThumb)
   })

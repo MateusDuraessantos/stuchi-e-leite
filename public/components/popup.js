@@ -28,7 +28,7 @@ export const openPopup = (datas, event) => {
       </div>
 
       <div class="popup__portfolio g-gap">
-        <img class="popup__img popup__img--thumb" opentozoom src="/assets/${imagePrincipal}" loading="lazy" alt="${selectedProject.title}">
+        <img class="popup__img popup__img--thumb" width="600" height="400" opentozoom src="/assets/${imagePrincipal}" loading="lazy" alt="${selectedProject.title}">
 
         <div class="popup__grid g-gap">
           ${imagesTagHtml}
