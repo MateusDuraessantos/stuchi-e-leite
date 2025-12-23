@@ -83,7 +83,7 @@
   display: block;
   height: max-content;
   margin-bottom: 8px;
-  break-inside: avoid;
+  width: 100%;
 }
 .popup__img {
   object-fit: contain;

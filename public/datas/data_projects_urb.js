@@ -2,7 +2,7 @@ export const data_urbanismo = [
   {
     title: "Distrito de Inovação_ CITI_II",
     id: 654,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col3",
     type: "urbanismo",
     description: `
       <p>Estudos técnicos voltados à concepção e estruturação do Distrito de Inovação, para a PPP do CITI SP - Centro Internacional de Tecnologia e Inovação do Estado de São Paulo. O projeto incorpora três diferentes áreas, totalizando 89,08 ha, distribuídas ao longo do rio Pinheiros: CITI II (USP/ GESP), III (CDP/ Humaitá) e IV (CEAGESP). A Stuchi & Leite integrou a equipe multidisciplinar, contribuindo com o Masterplan de cada uma das áreas e elaborando estudos de viabilidade para os conjuntos de edifícios, com cerca de 4.185.750,00 m² de área construída total.</p>
@@ -97,15 +97,14 @@ export const data_urbanismo = [
     `,
     date: "",
     imagesPaths: [
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_10_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_07_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_03_distrito_de_inovação_ citi_ii.jpg",
-      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_18_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_05_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_06_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_08_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_09_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_04_distrito_de_inovação_ citi_ii.jpg",
-      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_10_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_11_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_12_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_13_distrito_de_inovação_ citi_ii.jpg",
@@ -113,6 +112,7 @@ export const data_urbanismo = [
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_15_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_16_distrito_de_inovação_ citi_ii.jpg",
       "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_17_distrito_de_inovação_ citi_ii.jpg",
+      "projetos/urb_25_distrito_de_inovação_ citi_ii/fig_18_distrito_de_inovação_ citi_ii.jpg",
     ]
   },
   {
@@ -228,9 +228,9 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "Nova Jundiapeba",
+    title: "Revisão do Plano Dietor de Mogi das Cruzes",
     id: 738,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: 'grid--col2',
     type: "urbanismo",
     description: ``,
     date: "",
@@ -247,7 +247,7 @@ export const data_urbanismo = [
   {
     title: "Projeto de Urbanismo Social e Caminhabilidade",
     id: 693,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col2",
     type: "urbanismo",
     description: `
       <p>Localizado em um território de alta vulnerabilidade social no extremo norte da Zona Leste de São Paulo o Projeto de Urbanismo Social e Caminhabilidade no Jardim Lapena é fruto das prioridades elencadas pelos moradores do território a partir do Plano de Bairro do Jardim Lapena e foi desenvolvido em conjunto com a comunidade organizada, em diversas oficinas no Galpão ZL com as lideranças comunitárias. </p>
@@ -296,13 +296,13 @@ export const data_urbanismo = [
     `,
     date: "2021",
     imagesPaths: [
+      "projetos/urb_23_lapena_urbanismo_social/fig_07_lapena_gory_depois.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_01_lapena_social.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_02_lapena_social.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_03_lapena_social.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_04_lapena_social.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_05_lapena_social.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_06_lapena_gory_antes.jpg",
-      "projetos/urb_23_lapena_urbanismo_social/fig_07_lapena_gory_depois.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_07_lapena_viela_antes.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_08_lapena_viela_depois.jpg",
       "projetos/urb_23_lapena_urbanismo_social/fig_09_lapena_depois.JPG",
@@ -320,7 +320,7 @@ export const data_urbanismo = [
   {
     title: "Projeto Praça do Mutirão",
     id: 702,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "urbanismo",
     description: `
       <p>O projeto da Nova Praça do Mutirão configura aquele que será o maior e mais central espaço público da comunidade do Jardim Lapena. O desenho urbano proposto buscou materializar parte dos anseios expressos pela população no Plano de Bairro, desenvolvido entre 2017 e 2019. </p>
@@ -423,7 +423,7 @@ export const data_urbanismo = [
   {
     title: "Parque Renato Wagner",
     id: 603,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: 'grid--col3',
     type: "urbanismo",
     description: `
       <strong>Cliente:</strong> Prefeitura Municipal de Piracicaba
@@ -497,7 +497,7 @@ export const data_urbanismo = [
   {
     title: "Parque do Trabalhador - Piracicaba",
     id: 621,
-    imgSizeClass: "grid--col1",
+    imgSizeClass: "grid--col2",
     type: "urbanismo",
     description: `
       <strong>Cliente:</strong> Prefeitura Municipal de Piracicaba
@@ -538,7 +538,7 @@ export const data_urbanismo = [
   {
     title: "Masterplan para a área dos Fuzileiros Navais - Salvador",
     id: 630,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: 'grid--col2',
     type: "urbanismo",
     description: `
       <strong>Local:</strong> Salvador, Bahia.
@@ -587,7 +587,7 @@ export const data_urbanismo = [
   {
     title: "Parque João Herman Neto",
     id: 612,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "urbanismo",
     description: `
       <strong>Local:</strong> Piracicaba, São Paulo — 2016
@@ -622,7 +622,7 @@ export const data_urbanismo = [
   {
     title: "Coordenação de Charrete para o Plano Estruturante de Cruz da Almas - Maceió",
     id: 639,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "urbanismo",
     description: `
       <p>Coordenação de Charrete para estruturar o Masterplan do novo bairro, Cruz das Almas na idade de Maceió_AL, tendo como objetivo a construção de estratégias e instrumentos de intervenção.</p>
@@ -656,7 +656,7 @@ export const data_urbanismo = [
   {
     title: "A Quadra Modelo",
     id: 648,
-    imgSizeClass: "",
+    imgSizeClass: "grid--col3",
     type: "urbanismo",
     description: `
       <p>A Quadra Modelo é um ensaio projetual desenvolvido para uma quadra existente na área central da cidade de São Paulo.</p>
@@ -675,11 +675,11 @@ export const data_urbanismo = [
     `,
     date: "",
     imagesPaths: [
+      "projetos/urb_17_quadra_modelo_piu/fig_07__quadra_modelo.png",
       "projetos/urb_17_quadra_modelo_piu/fig_03_quadra_modelo.png",
       "projetos/urb_17_quadra_modelo_piu/fig_04__quadra_modelo.png",
       "projetos/urb_17_quadra_modelo_piu/fig_05_quadra_modelo.png",
       "projetos/urb_17_quadra_modelo_piu/fig_06__quadra_modelo.png",
-      "projetos/urb_17_quadra_modelo_piu/fig_07__quadra_modelo.png",
       "projetos/urb_17_quadra_modelo_piu/fig_01_quadra_modelo.png",
       "projetos/urb_17_quadra_modelo_piu/fig_02_quadra_modelo.png",
     ]
@@ -687,7 +687,7 @@ export const data_urbanismo = [
   {
     title: "PIU (Projeto de Intervenção Urbana) do NESP (Novo Entreposto de São Paulo)",
     id: 666,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "urbanismo",
     description: `
       <strong>Local:</strong> São Paulo, SP.
@@ -846,7 +846,7 @@ export const data_urbanismo = [
   {
     title: "Novas oportunidades de viabilizar a requalificação urbana com uso equilibrado socialmente do território",
     id: 657,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "urbanismo",
     description: `
       Novas oportunidades de viabilizar a requalificação urbana com uso equilibrado socialmente do território
@@ -927,7 +927,7 @@ export const data_urbanismo = [
   {
     title: "Plano Diretor Especializado de Mogi das Cruzes, SP",
     id: 675,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: 'grid--col2',
     type: "urbanismo",
     description: `
     
@@ -1005,9 +1005,9 @@ export const data_urbanismo = [
     `,
     date: "2017/8",
     imagesPaths: [
+      "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_02_pd_mogi (2).JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/ChatGPT Image 27 de nov. de 2025, 18_17_46[1].png",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_01_pd_mogi.JPG",
-      "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_02_pd_mogi (2).JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_03_pd_mogi (2).JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_04_pd_mogi (2).JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_05_pd_mogi.JPG",
@@ -1032,7 +1032,7 @@ export const data_urbanismo = [
   {
     title: "CAS Masterplan Centro Salvador",
     id: 684,
-    imgSizeClass: "grid--col1",
+    imgSizeClass: "grid--col3",
     type: "urbanismo",
     description: `
       <strong>Local:</strong> Salvador, Bahia, 2014.
@@ -1105,7 +1105,7 @@ export const data_urbanismo = [
   {
     title: "Masterplan Viracopos",
     id: 585,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: 'grid--col2',
     type: "urbanismo",
     description: `
       <strong>Local:</strong> Campinas, São Paulo
@@ -1181,7 +1181,7 @@ export const data_urbanismo = [
   {
     title: "Plano de Desenvolvimento Orientado pelo Transporte",
     id: 567,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "urbanismo",
     description: `
       <p>O plano parte do princípio fundamental do <strong>Desenvolvimento Orientado pelo Transporte (DOT)</strong>, adotando uma estratégia integrada entre o <strong>desenvolvimento urbano do território</strong> — com a criação de novas centralidades urbanas — e o <strong>planejamento das redes de mobilidade</strong>, que incluem o transporte coletivo e os modos ativos de deslocamento.</p>
@@ -1270,7 +1270,7 @@ export const data_urbanismo = [
   {
     title: "Estudos de Viabilidade Urbanística-Arquitetônica das Áreas Cury e Maktub",
     id: 720,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "urbanismo",
     description: `
       <strong>Local:</strong> Mogi das Cruzes, SP
@@ -1309,7 +1309,7 @@ export const data_urbanismo = [
   {
     title: "Plano da Nova Centralidade de Benfica, Angola",
     id: 540,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "urbanismo",
     description: `
       <p>O desenvolvimento do Plano Diretor da Nova Centralidade de Benfica, em Angola, realizado em 2012, propôs uma estrutura urbana capaz de .consolidar o território ao sul da capital e responder aos desafios de expansão e reorganização metropolitana.</p>
@@ -1347,7 +1347,7 @@ export const data_urbanismo = [
   {
     title: "Estruturação Urbana de Santana do Parnaíba",
     id: 522,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: 'grid--col2',
     type: "urbanismo",
     description: `
 
@@ -1419,7 +1419,7 @@ export const data_urbanismo = [
   {
     title: "Projeto Urbano na Orla Ferroviária",
     id: 531,
-    imgSizeClass: "grid--col1",
+    imgSizeClass: "",
     type: "urbanismo",
     description: `
       <strong>Local:</strong> São Paulo, SP
@@ -1451,7 +1451,7 @@ export const data_urbanismo = [
   {
     title: "Operação Urbana Consorciada Diagonal Sul. Estruturação Urbana, Social e Econômica. Plano Diretor Estratégico.",
     id: 549,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "urbanismo",
     description: `
       <strong>CONCEITUAÇÃO</strong>
@@ -1656,7 +1656,7 @@ export const data_urbanismo = [
   {
     title: "Requalificação Urbana de Mauá",
     id: 513,
-    imgSizeClass: 'grid--col4',
+    imgSizeClass: '',
     type: "urbanismo",
     description: `
       <strong>Local:</strong> São Paulo,
