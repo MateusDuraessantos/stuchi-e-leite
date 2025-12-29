@@ -58,9 +58,13 @@
   font-weight: 600;
   font-size: 24px;
 }
+.popup__descricao {
+  overflow: auto;
+  padding-right: 4px;
+}
 .popup__data, .popup__descricao, .popup__descricao * {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .popup__descricao strong, .popup__descricao br {
   font-weight: 600;
@@ -171,6 +175,9 @@
   }
   .popup__container {
     gap: 14px;
+  }
+  .popup__portfolio {
+    height: 100%;
   }
   .popup__portfolio, .popup__grid {
     display: flex;

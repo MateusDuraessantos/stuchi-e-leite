@@ -933,6 +933,7 @@ export const data_urbanismo = [
     
         <strong>Assessoria e Consultoria no Processo de Revisão </strong>
         <br>
+        <br>
         
         <strong>Prêmio IAB SP 2018</strong>
         <br>
