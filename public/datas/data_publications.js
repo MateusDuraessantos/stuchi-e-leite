@@ -24,7 +24,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 90,
+    id: 95640,
     title: "APARTAMENTO DUO II",
     description: `Revista Arquitetura & Construção`,
     date: 'JULHO 2017',
@@ -40,7 +40,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 99,
+    id: 9932,
     title: "APARTAMENTO DUO II",
     description: `
       Revista Casa & Jardim
@@ -53,7 +53,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 108,
+    id: 165408,
     title: "RESIDÊNCIA IRACI",
     description: `Revista Arquitetura & Construção`,
     date: 'SETEMBRO 2016',
@@ -66,7 +66,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 117,
+    id: 65463,
     title: "APARTAMENTO CUBO AZUL",
     description: `
       Revista Living
@@ -81,7 +81,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 126,
+    id: 6548767,
     title: 'CARLOS LEITE - "Novos e habitados centros"',
     description: `Revista AU`,
     date: 'JUNHO 2016',
@@ -96,7 +96,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 135,
+    id: 9876,
     title: "APARTAMENTO ARATÃS",
     description: `
       Revista Arquitetura & Construção
@@ -129,7 +129,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 162,
+    id: 2345,
     title: "APARTAMENTO RESERVA SAÚDE",
     description: `Revista Casa e Jardim`,
     date: 'Agosto 2015',
@@ -169,7 +169,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 189,
+    id: 186549,
     title: "Ateliê de Fotografia ",
     description: `Revista Arquitetura & Construção`,
     date: 'Novembro 2014',
@@ -183,7 +183,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 198,
+    id: 18798,
     title: "Apartamento DUO",
     description: `
       Revista Casa Cláudia
@@ -214,7 +214,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 216,
+    id: 21006,
     title: "APARTAMENTO ARAGUARI",
     description: `
       Revista Casa Cláudia
@@ -229,7 +229,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 225,
+    id: 28825,
     title: "Apartamento DUO",
     description: `Revista Arquitetura & Construção`,
     date: 'Julho 2014',
@@ -242,7 +242,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 234,
+    id: 2567834,
     title: "Apartamento Cubo Azul",
     description: `Revista Casa e Jardim`,
     date: 'Julho 2014',
@@ -254,7 +254,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 243,
+    id: 5678,
     title: "Masterplan Estratégico para o Plano de Reabilitação do Centro Antigo do CAS (Centro Antigo de Salvador)",
     description: `Revista Projeto Design`,
     date: 'Maio 2014',
@@ -269,7 +269,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 252,
+    id: 25272,
     title: "Apartamento Cubo Azul",
     description: `
       Revista Arquitetura & Construção
@@ -283,7 +283,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 261,
+    id: 2124361,
     title: "Apartamento Cubo Azul",
     description: `Estadão - Suplemento Casa`,
     date: 'Novembro 2013',
@@ -296,7 +296,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 270,
+    id: 275643760,
     title: "Apartamento Araguari",
     description: `Arquitetura & Construção`,
     date: 'Outubro 2013',
@@ -315,7 +315,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 279,
+    id: 27745679,
     title: "MaxHaus Panamby",
     description: `Revista Arquitetura & Construção`,
     date: 'Dezembro 2012',
@@ -330,7 +330,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 288,
+    id: 2098788,
     title: "MaxHaus Panamby",
     description: `Revista Arquitetura & Construção`,
     date: 'Dezembro 2012',
@@ -347,7 +347,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 297,
+    id: 2923457,
     title: "CASA G+A",
     description: `
       <p>Revista Arquitetura & Construção</p>
@@ -364,7 +364,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 306,
+    id: 3234506,
     title: "OPERAÇÃO URBANA DIAGONAL SUL",
     description: `
       <p>Revista Arquitetura & Construção</p>
@@ -381,7 +381,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 315,
+    id: 1234315,
     title: "CASA G+A",
     description: `
       <p>Prêmio O Melhor da Arquitetura</p>
@@ -398,7 +398,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 144,
+    id: 4321144,
     title: "Carlos Leite x",
     description: ``,
     date: '',
@@ -409,7 +409,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 3522,
+    id: 543522,
     title: "",
     date: '',
     description: ``,
@@ -420,7 +420,7 @@ export const publicacoes = [
     ]
   },
   {
-    id: 812,
+    id: 342812,
     title: "",
     date: '',
     description: ``,
@@ -431,7 +431,7 @@ export const publicacoes = [
     ]
   },
   {
-  id: 13,
+  id: 112343,
   title: '',
     showPopup: false,
     date: '',
@@ -442,7 +442,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 26,
+  id: 27866,
   title: '',
     showPopup: false,
     date: '',
@@ -453,7 +453,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 39,
+  id: 34539,
   title: '',
     showPopup: false,
     date: '',
@@ -464,7 +464,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 52,
+  id: 98762,
   title: '',
     showPopup: false,
     date: '',
@@ -475,7 +475,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 65,
+  id: 60985,
   title: '',
     showPopup: false,
     date: '',
@@ -486,7 +486,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 78,
+  id: 709878,
   title: '',
     showPopup: false,
     date: '',
@@ -508,7 +508,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 104,
+  id: 1009784,
   title: '',
     showPopup: false,
     date: '',
@@ -519,7 +519,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 117,
+  id: 1098717,
   title: '',
     showPopup: false,
     date: '',
@@ -541,7 +541,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 143,
+  id: 1456783,
   title: '',
     showPopup: false,
     date: '',
@@ -552,7 +552,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 156,
+  id: 1569864,
   title: '',
     showPopup: false,
     date: '',
@@ -563,7 +563,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 169,
+  id: 164579,
   title: '',
     showPopup: false,
     date: '',
@@ -574,7 +574,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 182,
+  id: 18339592,
   title: '',
     showPopup: false,
     date: '',
@@ -585,7 +585,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 195,
+  id: 198795,
   title: '',
     showPopup: false,
     date: '',
@@ -596,7 +596,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 208,
+  id: 2082845,
   title: '',
     showPopup: false,
     date: '',
@@ -607,7 +607,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 221,
+  id: 2278564231,
   title: '',
     showPopup: false,
     date: '',
@@ -618,7 +618,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 234,
+  id: 23865324,
   title: '',
     showPopup: false,
     date: '',
@@ -629,7 +629,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 247,
+  id: 2134547,
   title: '',
     showPopup: false,
     date: '',
@@ -640,7 +640,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 260,
+  id: 2671750,
   title: '',
     showPopup: false,
     date: '',
@@ -651,7 +651,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 273,
+  id: 2761257473,
   title: '',
     showPopup: false,
     date: '',
@@ -662,7 +662,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 286,
+  id: 28643266,
   title: '',
     showPopup: false,
     date: '',
@@ -673,7 +673,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 299,
+  id: 2975239,
   title: '',
     showPopup: false,
     date: '',
@@ -684,7 +684,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 312,
+  id: 31865262,
   title: '',
     showPopup: false,
     date: '',
@@ -695,7 +695,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 325,
+  id: 3212635,
   title: '',
     showPopup: false,
     date: '',
@@ -706,7 +706,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 338,
+  id: 3313858,
   title: '',
     showPopup: false,
     date: '',
@@ -717,7 +717,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 351,
+  id: 35541751,
   title: '',
     showPopup: false,
     date: '',
@@ -728,7 +728,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 364,
+  id: 398564,
   title: '',
     showPopup: false,
     date: '',
@@ -750,7 +750,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 390,
+  id: 39089760,
   title: '',
     showPopup: false,
     date: '',
@@ -761,7 +761,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 403,
+  id: 407603,
   title: '',
     showPopup: false,
     date: '',
@@ -772,7 +772,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 416,
+  id: 4108756,
   title: '',
     showPopup: false,
     date: '',
@@ -783,7 +783,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 429,
+  id: 427809,
   title: '',
     showPopup: false,
     date: '',
@@ -794,7 +794,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 442,
+  id: 4543242,
   title: '',
     showPopup: false,
     date: '',
@@ -805,7 +805,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 455,
+  id: 45534763,
   title: '',
     showPopup: false,
     date: '',
@@ -816,7 +816,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 468,
+  id: 4654368,
   title: '',
     showPopup: false,
     date: '',
@@ -827,7 +827,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 481,
+  id: 4765481,
   title: '',
     showPopup: false,
     date: '',
@@ -838,7 +838,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 494,
+  id: 8765494,
   title: '',
     showPopup: false,
     date: '',
@@ -849,7 +849,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 507,
+  id: 5098707,
   title: '',
     showPopup: false,
     date: '',
@@ -860,7 +860,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 520,
+  id: 5298760,
   title: '',
     showPopup: false,
     date: '',
@@ -871,7 +871,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 533,
+  id: 51245433,
   title: '',
     showPopup: false,
     date: '',
@@ -882,7 +882,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 546,
+  id: 5213446,
   title: '',
     showPopup: false,
     date: '',
@@ -893,7 +893,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 559,
+  id: 5214359,
   title: '',
     showPopup: false,
     date: '',
@@ -904,7 +904,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 572,
+  id: 576542,
   title: '',
     showPopup: false,
     date: '',
@@ -915,7 +915,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 585,
+  id: 5821435,
   title: '',
     showPopup: false,
     date: '',
@@ -926,7 +926,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 598,
+  id: 59843,
   title: '',
     showPopup: false,
     date: '',
@@ -937,7 +937,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 611,
+  id: 61211,
   title: '',
     showPopup: false,
     date: '',
@@ -948,7 +948,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 624,
+  id: 62434,
   title: '',
     showPopup: false,
     date: '',
@@ -959,7 +959,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 637,
+  id: 63767,
   title: '',
     showPopup: false,
     date: '',
@@ -970,7 +970,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 650,
+  id: 65450,
   title: '',
     showPopup: false,
     date: '',
@@ -981,7 +981,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 663,
+  id: 6633,
   title: '',
     showPopup: false,
     date: '',
@@ -992,7 +992,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 676,
+  id: 68576,
   title: '',
     showPopup: false,
     date: '',
@@ -1003,7 +1003,7 @@ export const publicacoes = [
     ],
   },
   {
-  id: 689,
+  id: 665489,
   title: '',
     showPopup: false,
     date: '',

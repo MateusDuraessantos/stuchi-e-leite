@@ -553,58 +553,58 @@ let carousel_animationTime = 500
 const data_carousel = [
   {
     id: 654, // Id do projeto
-    indexImageThumb: 8
+    imageName: 'fig_10_distrito_de_inovação_ citi_ii.jpg' // Imagem de thumb
   },
   {
     id: 99,
-    indexImageThumb: 0
+    imageName: 'fig_05_foto_ga.jpg'
   },
   {
     id: 603,
-    indexImageThumb: 1
+    imageName: "fig_6_parque_linear_renato_wagner_piracicaba.jpg"
   },
   {
     id: 378,
-    indexImageThumb: 0
+    imageName: 'fig_04_foto_atelie_republica.jpg'
   },
   {
     id: 396,
-    indexImageThumb: 0
+    imageName: 'fig_12_render_casa_mirante.jpg'
   },
   {
     id: 738,
-    indexImageThumb: 0
+    imageName: 'fig_01_jundiapeba_mogi.png'
   },
   {
     id: 468,
-    indexImageThumb: 0
+    imageName: 'fig_17_foto_gravata.jpg'
   },
 ]
 
 const destaquesSelecionados = [
   {
     id: 306, // Id do projeto
-    indexImageThumb: 0 // Imagem de thumb
+    imageName: 'fig_16_foto_atelie_fotografia.jpg' // Imagem de thumb
   },
   {
     id: 729,
-    indexImageThumb: 0
+    imageName: 'fig_05_pq_boulevard_sehab.jpg'
   },
   {
     id: 414,
-    indexImageThumb: 0
+    imageName: 'fig_04_render_quadra_modelo.png'
   },
   {
     id: 360,
-    indexImageThumb: 0
+    imageName: 'fig_14_foto_aratas.jpg'
   },
   {
     id: 684,
-    indexImageThumb: 0
+    imageName: 'fig_01_cas_masterplan_orla_implantacao.jpg'
   },
   {
     id: 333,
-    indexImageThumb: 0
+    imageName: 'fig_03_foto_residencia_iracia.jpg'
   },
 ]
 
@@ -633,13 +633,14 @@ const carousel_createHtmlImages = () => {
   data_carousel.forEach((obj, index) => {
     const projeto = data_projetos.find(elem => elem.id == obj.id)
     const carrosselSection = document.createElement('div')
+    const imageThumbPath = `/assets/${projeto.imagesPaths.filter(img => img.includes(obj.imageName))}`
     carrosselSection.className = 'carrossel__section'
     carrosselSection.setAttribute(attributesNames.projectId, projeto.id)
     carrosselSection.setAttribute('carousel-section-index', index) // Adiciona index para todas as imagens do carrossel
 
     carrosselSection.innerHTML = `
       <p class="carrossel__title">${projeto.title}</p>
-      <img class="carrossel__img" height="500" width="1200" src="/assets/${projeto.imagesPaths[obj.indexImageThumb]}" alt="Imagem do carrossel">
+      <img class="carrossel__img" height="500" width="1200" src="${imageThumbPath}" alt="Imagem do carrossel">
     `
 
     carrosselSection.addEventListener('click', (event) => openPopup(data_projetos, event))
@@ -739,10 +740,11 @@ const destaque_init = () => {
   destaquesSelecionados.forEach((obj, index) => {
     const projeto = data_projetos.find(elem => elem.id === obj.id)
     const destaques__ctn = document.createElement('div')
+    const imageThumbPath = `/assets/${projeto.imagesPaths.filter(img => img.includes(obj.imageName))}` 
     destaques__ctn.setAttribute(attributesNames.projectId, projeto.id)
     destaques__ctn.innerHTML = `
       <div class="g-hover g-hover__line-height">${projeto.title}</div>
-      <img class="destaques__img" width="300" height="300" loading="lazy" src="/assets/${projeto.imagesPaths[obj.indexImageThumb]}" alt="">
+      <img class="destaques__img" width="300" height="300" loading="lazy" src="${imageThumbPath}" alt="">
     `
     destaques__ctn?.addEventListener('click', (event) => openPopup(data_projetos, event))
     

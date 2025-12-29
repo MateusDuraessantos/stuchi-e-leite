@@ -19,9 +19,9 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   background: white;
-  width: calc(100% - 40px);
-  height: calc(100% - 40px);
-  padding: 80px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  padding: 50px;
   gap: 40px;
 }
 .popup__container {
@@ -58,12 +58,15 @@
   font-weight: 600;
   font-size: 24px;
 }
+.popup__data, .popup__descricao, .popup__descricao * {
+  font-size: 14px;
+  font-weight: 300;
+}
+.popup__descricao strong, .popup__descricao br {
+  font-weight: 600;
+}
 .popup__descricao li {
   margin-left: 24px;
-}
-.popup__descricao, .popup__data {
-  font-size: 16px;
-  font-weight: 300;
 }
 .popup__portfolio {
   display: flex;

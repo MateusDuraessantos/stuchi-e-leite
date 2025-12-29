@@ -5,7 +5,7 @@ export const addHeader = () => {
   header.innerHTML = `
     <div class="header__logo">
       <p class="header__name">STUCHI<span>&</span>LEITE</p>
-      <p class="header__description">Projetos & Consultoria | Arquitetura e Desevolvimento Urbano</p>
+      <p class="header__description">Projetos & Consultoria | Arquitetura e Desenvolvimento Urbano</p>
     </div>
 
     <button class="header__hamburger" id="hamburger" aria-label="Menu hamburguer" aria-expanded="false" aria-controls="id-header">

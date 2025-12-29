@@ -14,7 +14,10 @@
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 20vw;
   grid-auto-flow: dense;
-  margin: 0 100px;
+  height: 100%;
+  margin: auto;
+  margin-top: 10px;
+  width: calc(100% - 200px);
 }
 .grid__btn {
   position: relative; 
@@ -25,6 +28,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: top;
 }
 .grid--col1 {
   grid-column: span 1;
@@ -40,12 +44,20 @@
   grid-column: span 2;
   grid-row: span 2;
 }
+/* filter */
 .filter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: white;
+}
+.filter__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
-  margin: 20px 100px;
+  width: calc(100% - 200px);
+  padding-bottom: 12px;
+  padding-right: 10px;
 }
 .filter__buttons {
   display: flex;
@@ -95,16 +107,32 @@
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 30vw;
-    margin: 0 5px;
+    width: calc(100% - 20px);
+  }
+  .grid__img {
+    height: calc(100% - 28px);
+  }
+  .filter__container {
+    width: calc(100% - 20px);
+  }
+  .filter {
+    top: 50px;
   }
 }
 @media screen and (max-width: 600px) {
   .filter {
+    height: max-content;
+  }
+  .filter__container {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: max-content;
-    margin-bottom: 10px !important;
+    padding: 0;
+    padding-bottom: 12px;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
   }
   .filter__btn {
     font-size: 14px;
@@ -113,16 +141,19 @@
 </style>
 
 <body>
+  <div class="filter">
+    <div class="filter__container">
+      <div class="filter__buttons">
+        <button class="filter__btn" data-filter="todos" activeFilter>Todos</button>
+        <button class="filter__btn" data-filter="arquitetura">Arquitetura</button>
+        <button class="filter__btn" data-filter="urbanismo">Urbanismo</button>
+      </div>
+      <input class="filter__text" type="text" id="typeInput" placeholder="Pesquisar">
+    </div>
+  </div>
+
   <div id="body-scroll">
     <main>
-      <div class="filter">
-        <div class="filter__buttons">
-          <button class="filter__btn" data-filter="todos" activeFilter>Todos</button>
-          <button class="filter__btn" data-filter="arquitetura">Arquitetura</button>
-          <button class="filter__btn" data-filter="urbanismo">Urbanismo</button>
-        </div>
-        <input class="filter__text" type="text" id="typeInput" placeholder="Pesquisar">
-      </div>
       <div class="grid g-gap" id="grid"></div>
     </main>
   </div>
@@ -154,13 +185,12 @@ const initHTMLGrid = (category) => {
 
   elGrid.innerHTML = ''
 
-  let teste = []
-  // if (category === 'todos') teste = shuffled
-  if (category === 'todos') teste = data_projetos
-  if (category === 'arquitetura') teste = data_arquitetura
-  if (category === 'urbanismo') teste = data_urbanismo
+  let dataGrid = []
+  if (category === 'todos') dataGrid = shuffled
+  if (category === 'arquitetura') dataGrid = data_arquitetura
+  if (category === 'urbanismo') dataGrid = data_urbanismo
 
-  teste.forEach((obj, index) => {
+  dataGrid.forEach((obj, index) => {
     const elThumb = document.createElement('div')
     elThumb.classList.add('grid__btn')
     elThumb.setAttribute('type', obj.type)
@@ -173,6 +203,7 @@ const initHTMLGrid = (category) => {
         <p class="g-hover__type">${obj.type}</p>
       </div>
       <img class="grid__img" width="300" height="300" src="/assets/${obj.imagesPaths[0]}" loading="lazy" alt="${obj.title}">
+      <p class="g-grid__mobile">${obj.title}</p>
     `
 
     elThumb?.addEventListener('click', (event) => openPopup(data_projetos, event))

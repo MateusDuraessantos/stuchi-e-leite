@@ -102,22 +102,8 @@ a {
   font-weight: 100;
   color: white;
 }
-@media screen and (max-width: 1000px) {
-  .max__width {
-    width: calc(100% - 20px);
-  }
-  .g-gap {
-    gap: 6px;
-  }
-  body {
-    padding-top: 50px;
-  }
-  p {
-    font-size: 14px;
-  }
-  .g-hover {
-    display: none;
-  }
+.g-grid__mobile {
+  display: none;
 }
 
 /* Loading Images */
@@ -132,4 +118,32 @@ a {
 @keyframes imgLoading {
   0%   { background-position: 100% 0; }
   100% { background-position: 0 0; }
+}
+
+@media screen and (max-width: 1000px) {
+  .max__width {
+    width: calc(100% - 20px);
+  }
+  .g-gap {
+    gap: 6px;
+  }
+  body {
+    padding-top: 50px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .g-grid__mobile {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    width: calc(100% - 20px);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 21px;
+  }
+  .g-hover {
+    display: none;
+  }
 }
