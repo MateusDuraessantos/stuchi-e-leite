@@ -94,6 +94,7 @@ export const data_arquitetura = [
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_33_foto_gravata.jpeg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_34_foto_gravata.jpeg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_35_foto_gravata.jpeg",
+      "projetos/arq_92_gravata/arq_92_para_publicar/fig_14_render_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_36_foto_gravata.jpeg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_01_planta_depois_gravata.png",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_02_planta_antes_gravata.png",
@@ -107,8 +108,6 @@ export const data_arquitetura = [
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_10_render_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_11_render_gravata.jpg",
       "projetos/arq_92_gravata/arq_92_para_publicar/fig_12_render_gravata.jpg",
-      "projetos/arq_92_gravata/arq_92_para_publicar/fig_13_render_gravata.jpg",
-      "projetos/arq_92_gravata/arq_92_para_publicar/fig_14_render_gravata.jpg",
     ],
   },
   {
@@ -319,10 +318,17 @@ export const data_arquitetura = [
       "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_24_foto_ga.jpg",
       "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_25_foto_ga.jpg",
       "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_26_foto_ga.jpg",
-      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_01_implantacao_ga.jpg",
-      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_02_planta_superior_ga.jpg",
-      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_03_corte_ga.jpg",
-      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_04_corte_ga.jpg",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_27_projetoantes.jpg",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_28_residencia-luis-eduardo-magalhaes-gouvea-1.jpg",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_29_residencia-luis-eduardo-magalhaes-gouvea-2.jpg",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_30_residencia-luis-eduardo-magalhaes-gouvea-4.jpg",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_31_040.jpg",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_32_041.jpg",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_33_projetoterreoga.png",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_34_projetosuperiorga.png",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_35_cortega.png",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_36_detlareiraga.jpg",
+      "projetos/arq_01_residencia_ga/arq_01_para_publicar/fig_37_croquiga.jpg",
     ],
   },
   {
@@ -450,7 +456,7 @@ export const data_arquitetura = [
     ],
   },
   {
-    title: "Boulevard da Paz – Provisão 02",
+    title: "Boulevard da Paz - Provisão 02",
     id: 135,
     imgSizeClass: "grid--col3",
     type: "arquitetura",
@@ -675,6 +681,7 @@ export const data_arquitetura = [
     imagesPaths: [
       "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_05_render_apartamento_alagoas.png",
       "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_06_render_apartamento_alagoas.png",
+      "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_03_apartamento_alagoas.png",
       "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_07_render_apartamento_alagoas.png",
       "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_08_render_apartamento_alagoas.png",
       "projetos/arq_139_apartamento_alagoas/arq_139_para_publicar/fig_09_render_apartamento_alagoas.png",
@@ -1169,8 +1176,8 @@ export const data_arquitetura = [
     `,
     date: "2021-2022",
     imagesPaths: [
-      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_01_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_04_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.png",
+      "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_01_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_02_diagrama_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_03_corte_esquematico_edifício_habitacional_e_equipamento_associado_usp_3.PNG",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_05_planta_terreo_edifício_habitacional_e_equipamento_associado_usp_3.png",
@@ -1183,62 +1190,6 @@ export const data_arquitetura = [
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_12_corte_bb_edifício_habitacional_e_equipamento_associado_usp_3.png",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_12_elevacao_01_edifício_habitacional_e_equipamento_associado_usp_3.png",
       "projetos/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/arq_116.8_edificio_habitacional_e_equipamento_associado_usp_3_citi/fig_13_elevacao_02_edifício_habitacional_e_equipamento_associado_usp_3.png",
-    ],
-  },
-  {
-    title: "Apartamento Liberdade",
-    id: 216,
-    imgSizeClass: "",
-    type: "arquitetura",
-    description: `
-      <p>A reforma do Studio Liberdade, situada na Av. da Liberdade, no coração da cultura oriental em São Paulo, provém do intuito dos clientes de alugar o imóvel em serviços de hospedagem online, mantendo as características da forte presença japonesa do bairro, pleno de restaurantes, lojas e tradições. São 20m² que unificam quarto, sala e cozinha, mais um banheiro e sacada, exibindo uma bela vista do 18º andar. Dada esta destinação, a necessidade de praticidade, pouco armazenamento e forte apelo estético foram reforçados desde o início dos estudos. A marcenaria constitui o cenário nipônico valorizando o material da madeira  aparente em todos os seus elementos e na simplicidade de detalhes.</p>
-    `,
-    date: "",
-    imagesPaths: [
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_08_foto_apartamento_liberdade.jpg",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_09_foto_apartamento_liberdade.jpg",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_10_foto_apartamento_liberdade.jpg",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_11_foto_apartamento_liberdade.jpg",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_01_planta_depois_apartamento_liberdade.png",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_02_planta-antes_apartamento_liberdade.png",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_03_corte_apartamento_liberdade.png",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_04_corte_apartamento_liberdade.png",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_05_corte_apartamento_liberdade.png",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_06_esquema_apartamento_liberdade.png",
-      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_07_perspectiva_apartamento_liberdade.png",
-    ],
-  },
-  {
-    title: "Apartamento M+M",
-    id: 234,
-    imgSizeClass: '',
-    type: "arquitetura",
-    description: `
-      <strong>Local:</strong> Vila Leopoldina, São Paulo, SP. 
-      
-      <p>Localizado na Vila Leopoldina o projeto explora o volume do imóvel (m³), já que a área de 30m² não seria suficiente para abrigar confortavelmente a família de 4 pessoas em suas estadas esporádicas na cidade. O desenho cuidadoso da marcenaria é o elemento central que organiza o espaço, integra funções e garante o uso inteligente do imóvel.</p>
-      <br>
-
-      <strong>Ficha Tecnica:</strong>
-      <br>
-      
-      <strong>Execução:</strong> Stuchi & Leite Projetos.
-      <br>
-      
-      <strong>Autores:</strong> Fabiana Stuchi.
-      <br>
-      
-      <strong>Coordenação:</strong> Fabiana Stuchi.
-      <br>
-
-      <strong>Equipe Técnica:</strong> Fabiana Granusso  e Gabriella Ferranda.  
-      `,
-    date: "",
-    imagesPaths: [
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_01__apartamento_mm.png ",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_02_planta__apartamento_mm.png ",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_04_apartamento_mm.png ",
-      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_03_apartamento_mm.png",
     ],
   },
   {
@@ -1437,6 +1388,67 @@ export const data_arquitetura = [
       "projetos/arq_23_duo_i/arq_23_para_publicar/fig_15_foto_duo_i.jpg",
       "projetos/arq_23_duo_i/arq_23_para_publicar/fig_01_marcenaria_hall_duo_i.jpg",
       "projetos/arq_23_duo_i/arq_23_para_publicar/fig_02_marcenaria_escritorio_duo_i.jpg",
+    ],
+  },
+  {
+    title: "Apartamento Liberdade",
+    id: 216,
+    imgSizeClass: "",
+    type: "arquitetura",
+    description: `
+      <p>A reforma do Studio Liberdade, situada na Av. da Liberdade, no coração da cultura oriental em São Paulo, provém do intuito dos clientes de alugar o imóvel em serviços de hospedagem online, mantendo as características da forte presença japonesa do bairro, pleno de restaurantes, lojas e tradições. São 20m² que unificam quarto, sala e cozinha, mais um banheiro e sacada, exibindo uma bela vista do 18º andar. Dada esta destinação, a necessidade de praticidade, pouco armazenamento e forte apelo estético foram reforçados desde o início dos estudos. A marcenaria constitui o cenário nipônico valorizando o material da madeira  aparente em todos os seus elementos e na simplicidade de detalhes.</p>
+    `,
+    date: "",
+    imagesPaths: [
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_08_foto_apartamento_liberdade.jpg",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_09_foto_apartamento_liberdade.jpg",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_10_foto_apartamento_liberdade.jpg",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_02_foto_apartamento_liberdade.jpg",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_11_foto_apartamento_liberdade.jpg",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_01_planta_depois_apartamento_liberdade.png",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_02_planta-antes_apartamento_liberdade.png",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_03_corte_apartamento_liberdade.png",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_04_corte_apartamento_liberdade.png",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_05_corte_apartamento_liberdade.png",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_06_esquema_apartamento_liberdade.png",
+      "projetos/arq_140_apartamento_liberdade/arq_140_para_publicar/fig_07_perspectiva_apartamento_liberdade.png",
+    ],
+  },
+  {
+    title: "Apartamento M+M",
+    id: 234,
+    imgSizeClass: '',
+    type: "arquitetura",
+    description: `
+      <strong>Local:</strong> Vila Leopoldina, São Paulo, SP. 
+      
+      <p>Localizado na Vila Leopoldina o projeto explora o volume do imóvel (m³), já que a área de 30m² não seria suficiente para abrigar confortavelmente a família de 4 pessoas em suas estadas esporádicas na cidade. O desenho cuidadoso da marcenaria é o elemento central que organiza o espaço, integra funções e garante o uso inteligente do imóvel.</p>
+      <br>
+
+      <strong>Ficha Tecnica:</strong>
+      <br>
+      
+      <strong>Execução:</strong> Stuchi & Leite Projetos.
+      <br>
+      
+      <strong>Autores:</strong> Fabiana Stuchi.
+      <br>
+      
+      <strong>Coordenação:</strong> Fabiana Stuchi.
+      <br>
+
+      <strong>Equipe Técnica:</strong> Fabiana Granusso  e Gabriella Ferranda.  
+      `,
+    date: "",
+    imagesPaths: [
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_01__apartamento_mm.png",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_02_planta__apartamento_mm.png",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_03_apartamento_mm.jpg",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_04_apartamento_mm.jpg",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_05_apartamento_mm.jpg",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_06_apartamento_mm.jpg",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_07_apartamento_mm.jpg",
+      "projetos/arq_143_apartamento_mm/arq_143_para_publicar/fig_08_apartamento_mm.jpg",
     ],
   },
   {
@@ -1966,37 +1978,6 @@ export const data_arquitetura = [
       "projetos/arq_10_max_haus_panamby/arq_10_para_publicar/fig_01_planta_max_haus_panamby.png",
       "projetos/arq_10_max_haus_panamby/arq_10_para_publicar/fig_02_corte_quarto_max_haus_panamby.jpg",
       "projetos/arq_10_max_haus_panamby/arq_10_para_publicar/fig_03_corte_sala_max_haus_panamby.jpg",
-    ],
-  },
-  {
-    title: "Residência A+E",
-    id: 162,
-    imgSizeClass: 'grid--col3',
-    type: "arquitetura",
-    description: `
-      <strong>Local:</strong> Campinas, São Paulo
-      <br>
-      <br>
-
-      <p>Situada às margens do Rio Atibaia, a casa se organiza em três blocos articulados que se abrem em direção à vista do lago e da paisagem ainda rural. Os volumes brancos, definidos pelas coberturas de telha cerâmica, resgatam os valores e formas da arquitetura colonial brasileira.</p>
-      <br>
-      
-      <strong>Autoria:</strong> Fabiana Stuchi e Ricardo Trevisan
-      <br>
-
-      <strong>Desenvolvimento:</strong> Stuchi&Leite
-    `,
-    date: "2023",
-    imagesPaths: [
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_01_foto.jpeg",
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_02_foto.jpg",
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_01_implantacao_residencia_ae_campinas.png",
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_02_planta_residencia_ae_campinas.png",
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_03_corte_residencia_ae_campinas.png",
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_04_perspectiva_residencia_ae_campinas.jpg",
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_05_perspectiva_residencia_ae_campinas.jpg",
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_06_perspectiva_residencia_ae_campinas.jpg",
-      "projetos/arq_128_residencia_ae_campinas/arq_128_para_publicar/fig_07_perspectiva_residencia_ae_campinas.jpg",
     ],
   },
   {

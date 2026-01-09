@@ -60,6 +60,12 @@ a {
   transition: .3s;
   cursor: pointer;
 }
+.g-link {
+  color: black;
+}
+.g-link:hover {
+  text-decoration: underline;
+} 
 .g-gap {
   gap: 8px;
 }

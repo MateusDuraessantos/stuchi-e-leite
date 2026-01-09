@@ -17,9 +17,9 @@ export const addHeader = () => {
 
       <div class="header__container">
         <div class="header__links">
-          <a class="header__link" data-ancor="inicio" href="/#inicio">Início</a>
-          <a class="header__link" data-ancor="sobre" href="/#sobre">Sobre</a>
-          <a class="header__link" data-ancor="contato" href="/#contato">Contato</a>
+          <a class="header__link" data-ancor="inicio" href="/#inicio" closable="true">Início</a>
+          <a class="header__link" data-ancor="sobre" href="/#sobre" closable="true">Sobre</a>
+          <a class="header__link" data-ancor="contato" href="/#contato" closable="true">Contato</a>
           <hr>
           <a class="header__link" data-ancor="projetos" href="/projetos.html">Projetos</a>
           <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>

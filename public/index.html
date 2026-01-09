@@ -222,6 +222,7 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: black;
 }
 .tab-names:hover {
   color: var(--vermelho_00);
@@ -240,7 +241,7 @@
 }
 .tab-ativa {
   position: relative;
-  color: var(--vermelho_00);
+  color: var(--vermelho_00) !important;
 }
 .tab-ativa::before {
   content: '';
@@ -347,6 +348,12 @@
   .carrossel {
     max-height: 700px; 
   }
+  .carrossel__arrow  {
+    right: 10px;
+  }
+  .carrossel__title {
+    font-size: 18px;
+  }
   /* Tab */
   .tab-menu {
     gap: 20px;
@@ -375,7 +382,7 @@
     margin-right: 20vw;
   }
   .destaques__ctn {
-    height: 300px;
+    height: max-content;
   }
   .tab__descricao {
     height: 300px;
@@ -383,6 +390,9 @@
   .tab-menu {
     padding-top: 8px;
     background: white;
+  }
+  .tab__descricao p {
+    font-style: 14px;
   }
 }
 </style>
@@ -409,7 +419,16 @@
             <div class="tab-item" title="Stuchi & Leite">
               <div class="tab__col--1">
                 <div class="tab__descricao">
-                  <p>O escritório nasceu da parceria entre <strong>Carlos Leite</strong> e <strong>Fabiana Stuchi</strong>, unindo trajetórias que articulam prática profissional e vivência acadêmica, somando mais de 25 anos de experiência. O Stuchi&Leite desenvolve soluções específicas para diferentes contextos e escalas de atuação e mantém os sócios diretamente envolvidos na criação e no desenvolvimento dos trabalhos. Ao longo do tempo, temos nos dedicado ao desenvolvimento de projetos, pesquisas e consultorias em arquitetura, design, urbanismo, reabilitação, estruturação/modelagem urbana e desenvolvimento urbano sustentável, atuando tanto para clientes privados quanto para o setor público.</p>
+                  <p>O escritório nasceu da parceria entre Carlos Leite e Fabiana Stuchi, unindo trajetórias que articulam prática profissional e vivência acadêmica, somando mais de 25 anos de experiência. O Stuchi&Leite desenvolve soluções específicas para diferentes contextos e escalas de atuação e mantém os sócios diretamente envolvidos na criação e no desenvolvimento dos trabalhos.</p>
+
+                  <p>Desenvolvemos:</p>
+                  <p>- Projetos de arquitetura</p>
+                  <p>- Acompanhamento de obras</p>
+                  <p>- Projetos urbanos e masterplans</p>
+                  <p>- Consultorias em desenvolvimento urbano, Planos Diretores, Planos de Bairro, reestruturação urbana, desenvolvimento sustentável e afins</p>
+                  <p>- Urbanismo Social</p>
+                  <p>- Pesquisas e consultorias tanto para clientes privados quanto para o setor público.</p>
+
 
                   <strong>Arquitetos colaboradores ontem e hoje</strong>
                   <div class="tab__grid">
@@ -430,7 +449,7 @@
                       <p>Gabriela Piazza</p>
                       <p>Guilherme Seror</p>
                       <p>Jaime Veja</p>
-                      <p>João Pedro Mancine</p>
+                      <p>João Pedro Manccini</p>
                       <p>Kelly Yamashita</p>
                       <p>Marlon Longo</p>
                       <p>Nathalie Signorini</p>
@@ -439,8 +458,6 @@
                       <p>Viviane Andrade Sá</p>
                     </div>
                   </div>
-
-                  
                 </div>
               </div>
               <div class="tab__col--2">
@@ -471,7 +488,7 @@
                 </a>
     
                 <div class="tab__fone">
-                  <p>carlos@stuchileite.com</p>
+                  <a class="g-link" href="mailto:carlos@stuchileite.com">carlos@stuchileite.com</a>
                 </div>
               </div>
             </div>
@@ -487,7 +504,7 @@
               <div class="tab__col--2">
                 <img class="tab--img" height="300" width="300" src="/assets/fabiana.png" loading="lazy" alt="">
                 <div class="tab__fone">
-                  <p>fabiana@stuchileite.com</p>
+                  <a href="mailto:fabiana@stuchileite.com" class="g-link">fabiana@stuchileite.com</a>
                 </div>
               </div>
             </div>

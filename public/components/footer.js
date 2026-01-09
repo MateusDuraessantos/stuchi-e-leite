@@ -16,7 +16,7 @@ export const addFooter = () => {
     </div>
     <div class="footer__col">
       <p class="footer__title">Email</p>
-      <p class="footer__info">comunicacao@stuchileite.com</p>
+      <a class="footer__info g-link" href="mailto:comunicacao@stuchileite.com">comunicacao@stuchileite.com</a>
     </div>
     <div class="footer__col">
       <a class="footer__title footer__title--link" href="${links.urlLinkedin}" target="_blank">Linkedin</a>

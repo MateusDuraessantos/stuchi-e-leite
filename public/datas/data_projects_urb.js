@@ -175,7 +175,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "PLANO URBANO - BOULEVARD DA PAZ",
+    title: "Sistema de Parques - Boulevard da Paz",
     id: 729,
     imgSizeClass: "grid--col2",
     type: "urbanismo",
@@ -228,7 +228,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "Revisão do Plano Dietor de Mogi das Cruzes",
+    title: "Urbanismo Social - Jd. Lapena",
     id: 738,
     imgSizeClass: 'grid--col2',
     type: "urbanismo",
@@ -361,7 +361,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "Sistema de Parques Lineares do Rio Piracicaba: Estruturação Urbana, Ambiental e de Mobilidade, e o Parque Renato Wagner",
+    title: "Sistema de Parques do Rio Piracicaba",
     id: 594,
     imgSizeClass: "grid--col2",
     type: "urbanismo",
@@ -620,7 +620,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "Coordenação de Charrete para o Plano Estruturante de Cruz da Almas - Maceió",
+    title: "Plano para Cruz da Almas - Maceió",
     id: 639,
     imgSizeClass: '',
     type: "urbanismo",
@@ -654,7 +654,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "A Quadra Modelo",
+    title: "PIU - A Quadra Modelo",
     id: 648,
     imgSizeClass: "grid--col3",
     type: "urbanismo",
@@ -685,7 +685,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "PIU (Projeto de Intervenção Urbana) do NESP (Novo Entreposto de São Paulo)",
+    title: "PIU do Novo Entreposto de São Paulo",
     id: 666,
     imgSizeClass: '',
     type: "urbanismo",
@@ -844,7 +844,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "Novas oportunidades de viabilizar a requalificação urbana com uso equilibrado socialmente do território",
+    title: "Instrumentos Urbanos Inovadores",
     id: 657,
     imgSizeClass: "",
     type: "urbanismo",
@@ -925,87 +925,30 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "Plano Diretor Especializado de Mogi das Cruzes, SP",
+    title: "Plano Diretor Espacializado de Mogi das Cruzes, SP",
     id: 675,
     imgSizeClass: 'grid--col2',
     type: "urbanismo",
     description: `
-    
-        <strong>Assessoria e Consultoria no Processo de Revisão </strong>
-        <br>
-        <br>
-        
-        <strong>Prêmio IAB SP 2018</strong>
-        <br>
-        
-        <strong>Data:</strong> 2017/8
-        <br>
-        <strong>Cliente:</strong> Prefeitura de Mogi das Cruzes, SP
-        <br>
-        <strong>Consultores principais:</strong>
-        <br>
+      <p>CONSULTORIA NO PROCESSO DE REVISÃO DO PLANO DIRETOR ESPACIALIZADO DE MOGI DAS CRUZES, SP.</p>
+      <br>
+      
+      <strong>RECEBEU O PRÊMIO IAB 20108</strong>
+      <br>
+      <br>
+      
+      <p>​> Local: Mogi das Cruzes, SP</p>
+      <p>​> Data: 2017/8</p>
+      <p>​> Cliente: Prefeitura de Mogi das Cruzes, SP</p>
+      <p>​> Consultores principais:</p>
+      <br>
 
-        <p>Urbanismo, Modelagem Urbana e Construção de Cenários de Desenvolvimento: Carlos Leite, Fabiana Stuchi, Marlon Longo, Danilo Bocchini</p>
-        <p>Legislação Urbana, Instrumentos Urbanísticos: José A. Apparecido Jr.</p>
-        <br>
-
-        <p>• CIDADE CONECTADA E IGUALITÁRIA</p>
-        Promover a conectividade urbana em escala local, considerando suas múltiplas dimensões, de modo a facilitar os movimentos entre os bairros e garantir o acesso igualitário a equipamentos e serviços. Valorizar e estreitar os vínculos em escala metropolitana, transformando o município em um ponto significativo dentro dos vetores territoriais da macrometrópole paulista.
-        <p>• CIDADE COMPACTA E QUALIFICADA</p>
-        Valorização e qualificação urbana das diversas centralidades consolidadas e incipientes, reduzindo os movimentos pendulares intraurbanos, com ampliação da mobilidade e acessibilidade promovidas pelo transporte público. Limitar a expansão da área urbanizada, evitando os desequilíbrios provocados pela fragmentação do tecido urbano e os problemas ambientais decorrentes do avanço sobre as áreas de interesse ambiental.
-        <p>• CIDADE SUSTENTÁVEL E INOVADORA</p>
-        Valorização do patrimônio ambiental e cultural do município, com especial atenção para as áreas de preservação e o amplo território rural, afirmando assim a atratividade do município por meio da diversificação de sua economia, incentivando atividades como a indústria criativa, a agricultura familiar, o turismo ecológico e o potencial de comércio e serviços.
-        <p>• Redirecionar o crescimento da área urbanizada, de forma a conter o padrão de fragmentação do tecido urbano que avança em direção às áreas de</p>
-        interesse ambiental.
-        <p>• Qualificar o conjunto de centralidades existentes nas áreas de ocupação consolidada, bem como ordenar o crescimento das novas centralidades nas áreas em processo de consolidação urbana.</p>
-        <p>• Orientar e qualificar a produção imobiliária do município, visando o aumento da oferta de moradia em áreas com suporte adequado de infraestrutura e</p>
-        equipamentos urbanos, bem como promover o equilíbrio na oferta de emprego na área consolidada.
-        <p>• Garantir o cumprimento da função social da propriedade urbana por meio de parâmetros objetivos de ocupação do solo e da definição das necessárias contrapartidas à coletividade.</p>
-        <p>• Promover o patrimônio ambiental do município, valorizando a biodiversidade e o reconhecimento dos serviços ambientais prestados por essas áreas.</p>
-        <p>• Promover, proteger e preservar o patrimônio histórico, artístico, cultural, arquitetônico, arqueológico, paisagístico e natural do município, fomentando o resgate e a preservação da memória como meio de transformação social e política e de consolidação da identidade do município e de seus cidadãos.</p>
-        <p>• Promover o Turismo por meio da identificação de imóveis, áreas e percursos prioritários ao seu desenvolvimento.</p>
-        <p>• Fortalecer a atividade econômica nas áreas rurais, reconhecendo o papel fundamental dessas áreas na contenção da urbanização e da manutenção da</p>
-        preservação ambiental.
-        <p>• Ampliar a acessibilidade urbana, reduzindo os movimentos pendulares existentes e fortalecendo as conexões entre diferentes centralidades, com</p>
-        ênfase no sistema de transporte público.
-        <p>• Promover o ordenamento do território e o planejamento do processo de urbanização realizando o controle da ocupação e da expansão urbana, de forma a promover a prevenção e a gestão dos riscos de desastres e ampliar o acesso a áreas seguras.</p>
-        <p>• Ampliar o acesso à habitação de interesse social por meio da oferta de novos instrumentos urbanísticos e do avanço nas políticas de regularização do solo urbano, com especial atenção para às ocupações em áreas de risco.</p>
-        <p>• Reconhecer o papel do município na Região Metropolitana de São Paulo e articular políticas públicas municipais com as diretrizes metropolitanas.</p>
-        <p>• Espacializar os instrumentos urbanos</p>
-        <p>• Visualizar as transformações a serem induzidas</p>
-        <p>• Facilitar e potencializar a interação e participação com a comunidade</p>
-        <br>
-
-        <p>Parâmetros que propiciem o dinamismo urbano.</p>
-        <br>
-
-        <strong>As qualidades intangíveis da vida urbana:</strong>
-        <br>
-
-        <p>• adensamento populacional que gera vida urbana e territórios mais vivos</p>
-        <p>• diversidade de usos que desestimule a monofuncionalidade da vida urbana, atributos que qualificam o território físico.</p>
-        <br>
-
-        <strong>As qualidades tangíveis do território urbano:</strong>
-        <br>
-        <p>• calçadas e passeios púbicos generosos e qualificados </p>
-        <p>• fruição urbana: propiciar, sempre que possível, passagens e percursos intra e entre quarteirões, sejam em espaços públicos ou privados de uso coletivo</p>
-        <br>
-
-        <strong>MODELAGENS DAS CENTRALIDADES:</strong>
-        <br>
-        
-        <p>A SITUAÇÃO ATUAL E OS DIFERENTES CENÁRIOS PARA A TRANSFORMAÇÃO INDUZIDA</p>
-        <br>
-        
-        <strong>Cenário [A] situação atual</strong>
-        <br>
-        <p>• Cenário [B] ensaio futuro respeitando a legislação urbanística vigente, aplicando o estressando dos índices de ocupação e aproveitamento para que atinjam o potencial construtivo máximo, sem incluir os lotes ociosos como passíveis de transformação.</p>
-        <p>• Cenário [C] ensaio futuro como resultado das proposições e aplicações dos diferentes</p>
-        <p>instrumentos urbanísticos definidos na revisão do Plano Diretor, em consonância com as suas vocações, também aplicando o estressamento de índices para alcançar potencial construtivo máximo na totalidade das áreas de transformação.</p>
+      <p>Urbanismo, Modelagem Urbana e Construção de Cenários de Desenvolvimento: Carlos Leite, Fabiana Stuchi, Marlon Longo, Danilo Bocchini</p>
+      <p>Legislação Urbana, Instrumentos Urbanísticos: José A. Apparecido Jr.</p>
     `,
     date: "2017/8",
     imagesPaths: [
+      "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_11_pd_mogi.jpg",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_02_pd_mogi (2).JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/ChatGPT Image 27 de nov. de 2025, 18_17_46[1].png",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_01_pd_mogi.JPG",
@@ -1015,7 +958,6 @@ export const data_urbanismo = [
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_06_pd_mogi (2).JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_06_pd_mogi.JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_10_pd_mogi.JPG",
-      "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_11_pd_mogi.jpg",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_12_pd_mogi.JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_13_pd_mogi.JPG",
       "projetos/urb_21_revisão_plano_diretor_mogi_2018/fig_14_pd_mogi.JPG",
@@ -1180,7 +1122,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "Plano de Desenvolvimento Orientado pelo Transporte",
+    title: "Plano para Barueri, Santana de Parnaíba e Alphaville",
     id: 567,
     imgSizeClass: '',
     type: "urbanismo",
@@ -1450,7 +1392,7 @@ export const data_urbanismo = [
     ]
   },
   {
-    title: "Operação Urbana Consorciada Diagonal Sul. Estruturação Urbana, Social e Econômica. Plano Diretor Estratégico.",
+    title: "Operação Urbana Consorciada Diagonal Sul.t",
     id: 549,
     imgSizeClass: '',
     type: "urbanismo",
