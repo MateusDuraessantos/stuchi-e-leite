@@ -16,7 +16,7 @@ header {
   margin: auto;
   padding: 0 50px;
   background: white;
-  z-index: 2;
+  z-index: 10;
 }
 .header__logo {
   display: flex;
@@ -81,24 +81,9 @@ header {
 header * {
   transition: 1s !important;
 }
-.menu--open .header__container {
-  animation: 1s openMenu forwards;
-  transform: translateX(-100vw);
-}
 @keyframes openMenu {
   from { transform: translateX(-100vw) }
   to { transform: translateX(0) }
-}
-.menu--open .header__container {
-  animation: 1s openMenu forwards;
-  transform: translateX(-100vw);
-}
-.menu--close .header__container {
-  animation: 1s closeMenu forwards;
-  transform: translateX(0);
-}
-.menu--close.menu--open {
-  opacity: 0;
 }
 @keyframes openMenu {
   from { transform: translateX(-100vw) }
@@ -127,12 +112,24 @@ header * {
   .header__name {
     font-size: 14px;
   }
-  
   .header__hamburger {
     display: block;
   }
-
   /* Menu para mobiles */
+  .header__container {
+    transform: translateX(-100vw);
+  }
+  .menu--open .header__container {
+    animation: 1s openMenu forwards;
+    transform: translateX(-100vw);
+  }
+  .menu--close .header__container {
+    animation: 1s closeMenu forwards;
+    transform: translateX(0);
+  }
+  .menu--close.menu--open {
+    opacity: 0;
+  }
   .menu--open {
     position: fixed;
     flex-direction: column;

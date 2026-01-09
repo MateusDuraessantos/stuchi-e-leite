@@ -1,3 +1,5 @@
+import { stringToLowerCase } from '/mask.js'
+
 export const data_arquitetura = [
   {
     title: "Centro de Tecnologia e Inovação - GESP1",
@@ -2137,5 +2139,5 @@ export const data_arquitetura = [
       "projetos/arq_48_apto_jardim_sul/arq_48_para_publicar/fig_06_corte_bb_apto_jardim_sul.jpg",
     ],
   },
-];
+].map(obj => ({...obj, title: stringToLowerCase(obj.title)}))
 

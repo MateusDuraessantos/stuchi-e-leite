@@ -23,7 +23,19 @@ export const openPopup = (datas, event) => {
       <button class="popup__close" ${closableTag}="true" aria-label="Fechar popup">✕</button>
       <div class="popup__container">
         <p class="popup__title">${selectedProject.title}</p>
-        <div class="popup__descricao">${selectedProject.description}</div>
+        
+        <details class="collapse collapse--mobile" open>
+          <summary class="collapse__summary"></summary>
+
+          <div class="collapse__content">
+            <div class="collapse__inner">
+              <div class="popup__descricao">${selectedProject.description}</div>
+            </div>
+          </div>
+        </details>
+
+        <div class="popup__descricao collapse--desktop">${selectedProject.description}</div>
+
         <p class="popup__data">${selectedProject.date}</p>
       </div>
 

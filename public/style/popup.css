@@ -1,3 +1,46 @@
+/* Collapse */
+.collapse > summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.collapse > summary::-webkit-details-marker {
+  display: none;
+}
+.collapse__summary {
+  justify-content: flex-end;
+  padding: 10px;
+}
+.collapse > summary::after {
+  content: "▶";
+  display: inline-block;
+  transition: transform .2s ease;
+  color: black;
+}
+.collapse[open] > summary::after {
+  transform: rotate(90deg);
+}
+.collapse > summary::before {
+  content: "Mostrar";
+}
+.collapse[open] > summary::before {
+  content: "Ocultar";
+}
+.collapse__content {
+  user-select: none;
+}
+.collapse__inner {
+  overflow: hidden;
+  min-height: 0;
+}
+.collapse--desktop {
+  display: block;
+}
+.collapse--mobile {
+  display: none;
+}
 /* Popup */
 * {
   overscroll-behavior: contain;
@@ -12,7 +55,7 @@
   width: 100vw;
   height: 100vh;
   background: rgba(0,0,0, 0.4);
-  z-index: 10;
+  z-index: 30;
 }
 .popup__content {
   position: relative;
@@ -34,14 +77,17 @@
 }
 .popup__close {
   position: absolute;
-  right: 20px;
-  top: 10px;
+  right: 0px;
+  top: 0px;
   border: none;
   background: none;
   transition: .3s;
   cursor: pointer;
   font-size: 30px;
   text-shadow: 2px 0px 3px #ffffffa3;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
 }
 .popup__close:hover {
   opacity: 0.3;
@@ -151,6 +197,14 @@
   transition: .3s;
 }
 @media screen and (max-width: 1000px) {
+  /* Collapse */
+  .collapse--desktop {
+    display: none;
+  }
+  .collapse--mobile {
+    display: block;
+  }
+  /* Popup */
   .popup {
     padding: 0;
   }
@@ -170,11 +224,17 @@
   .popup__title {
     font-size: 16px;
   }
+  .popup__descricao {
+    overflow: auto;
+    max-height: 40vh;
+  }
   .popup__descricao, .popup__data {
     font-size: 14px;
   }
   .popup__container {
     gap: 14px;
+    height: max-content;
+    overflow: initial;
   }
   .popup__portfolio {
     height: 100%;

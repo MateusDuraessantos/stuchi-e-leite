@@ -1,3 +1,5 @@
+import { stringToLowerCase } from '/mask.js'
+
 export const data_urbanismo = [
   {
     title: "Distrito de Inovação_ CITI_II",
@@ -1633,4 +1635,4 @@ export const data_urbanismo = [
       "projetos/urb_02_requalificacao_urbana_maua_RUIM/fig_02_requalificacao_urbana_maua.jpg",
     ]
   },
-]
+].map(obj => ({...obj, title: stringToLowerCase(obj.title)}))

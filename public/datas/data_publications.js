@@ -1,3 +1,5 @@
+import { stringToLowerCase } from '/mask.js'
+
 export const publicacoes = [
   {
     id: 81, // Id da publicação
@@ -1013,4 +1015,4 @@ export const publicacoes = [
       "publicacoes/ba8294_0e8d37d8e1d34d1798999dc7a75211ba~mv2.jpg",
     ],
   },
-]
+].map(obj => ({...obj, title: stringToLowerCase(obj.title)}))

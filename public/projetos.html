@@ -171,9 +171,7 @@ import { attributesNames } from '/constants/constants.js'
 
 // ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
-  const gridBtn = initHTMLGrid('todos')
-  filtersLogics(gridBtn)
-  loadImages(document.querySelectorAll('img'))
+  initHTMLGrid('todos')
 })
 
 
@@ -181,13 +179,29 @@ document.addEventListener('DOMContentLoaded', () => {
 const elGrid = document.getElementById('grid')
 const typeInput = document.getElementById('typeInput')
 const filtersBtns = document.querySelectorAll('.filter__btn')
-const shuffled = [...data_projetos].sort(() => Math.random() - 0.5)
+
+let index_urb = 0 
+let index_arq = 0 
+let shuffled = [] 
+
+data_projetos.forEach((obj, index) => {
+  if (index % 3 === 0 && data_urbanismo[index_urb]) {
+    shuffled.push(data_urbanismo[index_urb])
+    index_urb++
+  } else if (data_arquitetura[index_arq]) {
+    shuffled.push(data_arquitetura[index_arq])
+    index_arq++
+  }
+}) 
+
 
 // ===== METHODS =====
 const initHTMLGrid = (category) => {
 
   elGrid.innerHTML = ''
-
+  typeInput.value = ''
+  elGrid.scrollTop = 0;
+  
   let dataGrid = []
   if (category === 'todos') dataGrid = shuffled
   if (category === 'arquitetura') dataGrid = data_arquitetura
@@ -213,33 +227,37 @@ const initHTMLGrid = (category) => {
     elGrid?.appendChild(elThumb)
   })
 
-  const gridBtn = document.querySelectorAll('.grid__btn')
+  loadImages(document.querySelectorAll('img'))
 
-  return gridBtn
+  filtersLogics()
 }
 
-const filtersLogics = (gridBtn) => {
+const filterGrid_byTyping = (input) => {
+  const val = normalizeStr(input.target.value)
+
+  const gridBtn = document.querySelectorAll('.grid__btn')
+  gridBtn?.forEach(obj => {
+    const title = obj.querySelector('.g-hover')?.textContent ?? ''
+    handleVisibility(obj, normalizeStr(title).includes(val))
+  })
+}
+
+const filterGrid_byButtons = (event) => {
+  document.querySelector('[activeFilter]')?.removeAttribute('activeFilter')
+  event.currentTarget?.setAttribute('activeFilter', '')
   
-  const filterImgsBy_category = (event) => {
-    document.querySelector('[activeFilter]')?.removeAttribute('activeFilter')
-    event.currentTarget?.setAttribute('activeFilter', '')
+  const filterParam = event.currentTarget?.getAttribute('data-filter')
+  initHTMLGrid(filterParam)
 
-    const filterParam = event.currentTarget?.getAttribute('data-filter')
-    initHTMLGrid(filterParam)
-    gridBtn?.forEach(obj => handleVisibility(obj, obj.getAttribute('type') == filterParam || filterParam == 'todos'))
-  }
+  const gridBtn = document.querySelectorAll('.grid__btn')
+  gridBtn?.forEach(obj => handleVisibility(obj, obj.getAttribute('type') == filterParam || filterParam == 'todos'))
+}
 
-  const filterImgsBy_input = (input) => {
-    const val = normalizeStr(input.target.value)
-
-    gridBtn?.forEach(obj => {
-      const title = obj.querySelector('.g-hover')?.textContent ?? ''
-      handleVisibility(obj, normalizeStr(title).includes(val))
-    })
-  }
-
-  typeInput?.addEventListener('input', filterImgsBy_input)
-  filtersBtns?.forEach(obj => obj.addEventListener('click', filterImgsBy_category))
+const filtersLogics = () => {
+  typeInput?.removeEventListener('input', filterGrid_byTyping)
+  typeInput?.addEventListener('input', filterGrid_byTyping)
+  filtersBtns?.forEach(obj => obj.removeEventListener('click', filterGrid_byButtons))
+  filtersBtns?.forEach(obj => obj.addEventListener('click', filterGrid_byButtons))
 }
 
 const handleVisibility = (obj, validation) => obj.style.display = validation ? 'block' : 'none'
