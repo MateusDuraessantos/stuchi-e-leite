@@ -2,28 +2,29 @@
 @import './footer.css';
 @import './header.css';
 @import './popup.css';
+html, * {
+  scroll-behavior: smooth;
+}
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent !important; 
-  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent !important;
+  scrollbar-width: thin;
+  scrollbar-color: #cacaca #ffffff;
 }
 *::-webkit-scrollbar {
   width: 10px;
 }
-
 *::-webkit-scrollbar-track {
   background: white;
 }
-
 *::-webkit-scrollbar-thumb {
   background-color: #cacaca;
   border-radius: 5px;
   border: 2px solid white;
 }
-
 *::-webkit-scrollbar-thumb:hover {
   background-color: #aaa;
 }
@@ -40,6 +41,12 @@ strong {
   height: calc(100vh - 80px);
   overflow-y: scroll;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+@supports (height: 100dvh) {
+  #body-scroll {
+    height: calc(100dvh - 80px);
+  }
 }
 body {
   padding-top: 80px;
@@ -54,6 +61,8 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
 }
 a {
   text-decoration: none;
@@ -65,12 +74,13 @@ a {
 }
 .g-link:hover {
   text-decoration: underline;
-} 
+}
 .g-gap {
   gap: 8px;
 }
 .g-hover__container {
   position: relative;
+  height: auto;
   height: max-content;
   width: 100%;
 }
@@ -91,7 +101,13 @@ a {
   transition: .3s;
   cursor: pointer;
   opacity: 0;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+}
+@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  .g-hover {
+    background: rgba(0, 0, 0, 0.65);
+  }
 }
 .g-hover__line-height {
   line-height: 28px;
@@ -111,21 +127,18 @@ a {
 .g-grid__mobile {
   display: none;
 }
-
 /* Loading Images */
 .loading__img {
-  background: linear-gradient( 90deg, #ececec 25%, #d7d7d7 37%, #ececec 63% );
+  background: linear-gradient(90deg, #ececec 25%, #d7d7d7 37%, #ececec 63%);
   background-size: 400% 100%;
   position: relative;
   z-index: 2;
   animation: imgLoading 1.4s ease infinite;
 }
-
 @keyframes imgLoading {
   0%   { background-position: 100% 0; }
   100% { background-position: 0 0; }
 }
-
 @media screen and (max-width: 1000px) {
   .max__width {
     width: calc(100% - 20px);
@@ -145,11 +158,22 @@ a {
     font-size: 14px;
     width: calc(100% - 20px);
     overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    height: 21px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+    word-break: break-word;
+
+    min-height: 21px;
   }
   .g-hover {
     display: none;
+  }
+  #body-scroll {
+    height: calc(100vh - 50px);
+  }
+  @supports (height: 100dvh) {
+    #body-scroll {
+      height: calc(100dvh - 50px);
+    }
   }
 }

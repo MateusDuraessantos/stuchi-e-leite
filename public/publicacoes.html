@@ -16,12 +16,13 @@
 .publi__img {
   display: block;
   width: 100%;
-  height: max-content;
+  height: auto;
   object-fit: contain;
 }
 .public__ctn {
   height: 100%;
   overflow: hidden;
+  min-width: 0;
 }
 .publi .g-hover {
   font-size: 18px;
@@ -33,12 +34,37 @@
   .publi {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .public__ctn {
+    justify-content: flex-end;
+    overflow: initial;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .g-hover__line-height {
+    position: initial;
+    display: block;
+    opacity: 1;
+    background: none;
+    backdrop-filter: none;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    height: max-content;
+    color: black;
+    font-size: 14px !important;
+    line-height: 110%;
+    text-wrap: wrap;
+    text-align: start;
   }
 }
 @media screen and (max-width: 600px) {
   .publi {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
   }
 }
 </style>

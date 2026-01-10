@@ -21,6 +21,7 @@ header {
 .header__logo {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .header__name {
   font-weight: 600;
@@ -46,11 +47,11 @@ header {
   text-decoration: none;
   color: var(--preto_00);
   font-weight: 600;
-  transition: .3s !important;
+  transition: .3s;
   gap: 24px;
 }
 .header__link:hover {
-  transition: .3s !important;
+  transition: .3s;
   color: var(--vermelho_00);
 }
 .header__a {
@@ -68,7 +69,6 @@ header {
 }
 .header__redes img:hover {
   opacity: .6;
-  transition: .3s;
 }
 .header__hamburger, .header__close {
   display: none;
@@ -78,20 +78,13 @@ header {
   right: 20px;
   top: 14px;
 }
-header * {
-  transition: 1s !important;
-}
 @keyframes openMenu {
-  from { transform: translateX(-100vw) }
-  to { transform: translateX(0) }
-}
-@keyframes openMenu {
-  from { transform: translateX(-100vw) }
-  to { transform: translateX(0) }
+  from { transform: translateX(-100vw); }
+  to   { transform: translateX(0); }
 }
 @keyframes closeMenu {
-  from { transform: translateX(0) }
-  to { transform: translateX(-100vw) }
+  from { transform: translateX(0); }
+  to   { transform: translateX(-100vw); }
 }
 @media screen and (max-width: 1200px) {
   .header__links {
@@ -102,11 +95,18 @@ header * {
   }
 }
 @media screen and (max-width: 1000px) {
+  .header__description {
+    font-size: 10px;
+    text-overflow: ellipsis;
+    width: calc(100% - 44px);
+    overflow: hidden;
+    text-wrap: nowrap;
+  }
   header, .no-scroll header {
     height: 50px;
     padding: 0 20px;
   }
-  .header__description, .header__links, .header__redes {
+  .header__links, .header__redes {
     display: none;
   }
   .header__name {
@@ -115,13 +115,11 @@ header * {
   .header__hamburger {
     display: block;
   }
-  /* Menu para mobiles */
   .header__container {
     transform: translateX(-100vw);
   }
   .menu--open .header__container {
     animation: 1s openMenu forwards;
-    transform: translateX(-100vw);
   }
   .menu--close .header__container {
     animation: 1s closeMenu forwards;
@@ -132,18 +130,23 @@ header * {
   }
   .menu--open {
     position: fixed;
+    display: flex;
     flex-direction: column;
     left: 0;
     top: 0;
     width: 100vw;
     background: rgba(0, 0, 0, 0.4);
-    height: 100vh;
     z-index: 20;
     gap: 0;
   }
+  @supports (height: 100dvh) {
+    .menu--open {
+      height: 100dvh;
+    }
+  }
   .menu--open .header__description, .menu--open .header__links, .menu--open .header__redes, .menu--open .header__close {
     display: block;
-  } 
+  }
   .menu--open .header__hamburger {
     display: block;
   }
@@ -175,8 +178,6 @@ header * {
   }
   .menu--open .header__redes {
     gap: 24px;
-  }
-  .menu--open .header__redes {
     margin: 30px 0;
   }
   .menu--open hr {
@@ -203,11 +204,18 @@ header * {
     font-size: 30px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
   }
   .menu--open .header__close:hover {
     opacity: 0.4;
   }
   .header__right {
+    -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
+  }
+  @supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+    .header__right {
+      background: rgba(255, 255, 255, 0.75);
+    }
   }
 }

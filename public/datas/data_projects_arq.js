@@ -2140,4 +2140,3 @@ export const data_arquitetura = [
     ],
   },
 ].map(obj => ({...obj, title: stringToLowerCase(obj.title)}))
-

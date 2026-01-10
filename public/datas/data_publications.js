@@ -52,6 +52,7 @@ export const publicacoes = [
     link: '',
     imagesPaths: [
       "publicacoes/ba8294_11a224a061f240e18e4d1adf4d267f36~mv2/ba8294_11a224a061f240e18e4d1adf4d267f36~mv2.jpg",
+      "publicacoes/ba8294_11a224a061f240e18e4d1adf4d267f36~mv2/ba8294_0763949839a147f1bad45ebcbd63ca14~mv2.jpg",
     ]
   },
   {
