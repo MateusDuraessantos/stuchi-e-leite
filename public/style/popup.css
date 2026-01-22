@@ -47,14 +47,6 @@
   display: none;
 }
 /* Popup */
-* {
-  overscroll-behavior: contain;
-}
-@supports not (overscroll-behavior: contain) {
-  html, body {
-    overscroll-behavior: auto;
-  }
-}
 .popup {
   position: fixed;
   display: flex;
