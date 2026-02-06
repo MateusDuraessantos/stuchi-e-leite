@@ -4,6 +4,11 @@ import { addFooter } from './components/footer.js'
 document.addEventListener('DOMContentLoaded', () => {
   addHeader()
   addFooter()
+
+  const favicon = document.createElement('link')
+  favicon.setAttribute('rel', 'icon')
+  favicon.setAttribute('href', '/assets/favicon.ico')
+  document.head.append(favicon)
 })
 
 export const loadImages = (images) => {
