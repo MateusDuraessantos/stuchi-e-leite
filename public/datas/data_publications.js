@@ -22,7 +22,7 @@ export const publicacoes = [
     showPopup: true,
     link: '',
     imagesPaths: [
-      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_3464051446d846f6a153a41869ead173~mv2.jpg",
+      "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_1c123d52231542d79c1b86da6f20c861~mv2.avif",
       "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_2a6cdec49c2542548c16f7a75e37cec0~mv2.jpg",
       "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_81fe52d3b4e447b9ab3e50b78f8c0f8d~mv2.jpg",
       "publicacoes/ba8294_3464051446d846f6a153a41869ead173~mv2/ba8294_4860b1aa7b7642428f8ca1e66a3e0122~mv2.jpg",
@@ -199,13 +199,13 @@ export const publicacoes = [
     showPopup: true,
     link: '',
     imagesPaths: [
-      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2.jpg",
-      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_1e5363efdf774f89a4f28e8caa4bfabf~mv2.jpg",
-      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_62b79e2a10034c368fe352586ca0649d~mv2.jpg",
-      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_170d3c3121da428487ecfa551c3972c8~mv2.jpg",
-      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_5933804fafc149c885c79eb5cc442a59~mv2.jpg",
-      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_d6cd005c68d14e9c86905f50007181d7~mv2.jpg",
-      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_f7b765a1c8de4a5fbbc95c13062451da~mv2.jpg",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_7b768c2246134494b36ac1f130957d03~mv2_d_2355_3230_s_2.avif",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_1e5363efdf774f89a4f28e8caa4bfabf~mv2.avif",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_62b79e2a10034c368fe352586ca0649d~mv2.avif",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_170d3c3121da428487ecfa551c3972c8~mv2.avif",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_5933804fafc149c885c79eb5cc442a59~mv2.avif",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_d6cd005c68d14e9c86905f50007181d7~mv2.avif",
+      "publicacoes/ba8294_517d5c86c64a4c4595ddb52d9d5d5e4f~mv2/ba8294_f7b765a1c8de4a5fbbc95c13062451da~mv2.avif",
     ]
   },
   {
@@ -908,7 +908,7 @@ export const publicacoes = [
       "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_832e1ee7876d452db3216d2fad473167~mv2.jpg",
       "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_84c454f8c774430f889330b98d2a356e.jpg",
       "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_94b5c3efe25e4c6fb03e20847edcc96e.jpg",
-      "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_745c6d83eab04712bc4b4fcb27522320.jpe",
+      "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_745c6d83eab04712bc4b4fcb27522320.jpeg",
       "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_12346acfbde64786a847067b84339950.jpg",
       "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_cb6a520367354e699ed241c02fa0c60f.jpg",
       "publicacoes/ba8294_832e1ee7876d452db3216d2fad473167~mv2/ba8294_d53e0a6b3fa8487e9745cc3a0803609f.jpg",
