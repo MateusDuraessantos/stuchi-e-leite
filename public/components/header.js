@@ -32,7 +32,7 @@ export const addHeader = () => {
     </div>
   `
 
-  document.getElementById('body-scroll').appendChild(header)
+  document.body.appendChild(header)
 
   const idHeader = header.querySelector('#id-header')
   const hamburger = header.querySelector('#hamburger')

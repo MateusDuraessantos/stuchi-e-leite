@@ -69,8 +69,9 @@ Procedimento recomendado:
   ```js
     {
       title: "Nome do Novo Projeto",
+      id: 1,
+      imgSizeClass: "grid--col3",
       type: "urbanismo",
-      thumbPath: "projetos/nome_do_projeto/imagem.jpg",
       description: "Breve resumo do projeto.",
       date: "Data do projeto",
       imagesPaths: [

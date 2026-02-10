@@ -161,7 +161,7 @@
 }
 .destaques__ctn {
   position: relative;
-  height: 50vh;
+  height: 48vh;
 }
 .destaques__img {
   width: 100%;
@@ -339,6 +339,11 @@
   from { transform: translateX(0); }
   to { transform: translateX(-100%); }
 }
+@media screen and (max-width: 1200px) {
+  .destaques__ctn {
+    height: max-content;
+  }
+}
 @media screen and (max-width: 650px) {
   /* Carrossel */
   .carrossel {
@@ -403,9 +408,9 @@
   <div id="body-scroll">
     <main id="inicio">
       <!-- Carrossel -->
-      <div class="carrossel" id="m-carrossel">
+      <!-- <div class="carrossel" id="m-carrossel">
         <a href="#destaques" class="carrossel__arrow">↓</a>
-      </div>
+      </div> -->
 
       <!-- Destaques -->
       <section class="destaques g-gap" id="destaques">
