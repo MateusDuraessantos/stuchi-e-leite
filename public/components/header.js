@@ -1,4 +1,4 @@
-import { links } from '../constants/constants.js'
+import { links, tabsIdsSections } from '../constants/constants.js'
 
 export const addHeader = () => {
   const header = document.createElement('header')
@@ -9,21 +9,21 @@ export const addHeader = () => {
     </div>
 
     <button class="header__hamburger" id="hamburger" aria-label="Menu hamburguer" aria-expanded="false" aria-controls="id-header">
-      <img width="20" width="40" src="/assets/icons/hamburger.svg" loading="lazy" alt="" aria-hidden="true"/>
+      <img width="20" height="20" src="/assets/icons/hamburger.svg" loading="lazy" alt="" aria-hidden="true"/>
     </button>
     
     <div class="header__right" closable="true" id="id-header" role="navigation">
       <button class="header__close" closable="true" aria-label="Fechar menu hamburguer">✕</button>
 
       <div class="header__container">
-        <div class="header__links">
+        <nav class="header__links">
           <a class="header__link" data-ancor="inicio" href="/#inicio" closable="true">Início</a>
           <a class="header__link" data-ancor="sobre" href="/#sobre" closable="true">Sobre</a>
           <a class="header__link" data-ancor="contato" href="/#contato" closable="true">Contato</a>
           <hr>
           <a class="header__link" data-ancor="projetos" href="/projetos.html">Projetos</a>
           <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>
-        </div>
+        </nav>
         <div class="header__redes">
           <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="/assets/icons/insta.svg" loading="lazy" alt="Instagram"></a>
           <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="/assets/icons/linkedin.svg" loading="lazy" alt="LinkedIn"></a>
@@ -57,26 +57,30 @@ export const addHeader = () => {
     }, 1000)
   }
 
-  const urlParams = () => {
-    setTimeout(() => {
-      header.querySelector('[active]')?.removeAttribute('active')
-
-      header.querySelector(`[data-ancor="${verifyUrl()}"]`)?.setAttribute('active', '')
-    }, 0)
-  }
 
   hamburger?.addEventListener('click', hamburgerMenu_open)
   header?.addEventListener('click', hamburgerMenu_close)
-  headerLink.forEach(obj => obj.addEventListener('click', urlParams))
-  urlParams()
+  headerLink.forEach(obj => obj.addEventListener('click', urlParams(verifyUrl())))
+  urlParams(verifyUrl())
+}
+
+export const urlParams = (hashValue) => {
+  const header = document.querySelector('header')
+  header.querySelector('[active]')?.removeAttribute('active')
+  header.querySelector(`[data-ancor="${hashValue}"]`)?.setAttribute('active', '')
+  setTimeout(() => {
+  }, 0)
 }
 
 const verifyUrl = () => {
   try {
-    const url = window.location
-    if (url.pathname.includes('publicacoes')) return 'publicacoes'
-    else if (url.pathname.includes('projetos')) return 'projetos'
-    else return url.hash.slice(1) || 'inicio'
+    if (location.pathname.includes('publicacoes')) return 'publicacoes'
+    else if (location.pathname.includes('projetos')) return 'projetos'
+    else {
+      const isValidTabSection = tabsIdsSections.some(elem => elem === location.hash.slice(1))
+      if (isValidTabSection) return 'sobre'
+      return location.hash.slice(1) || 'inicio'
+    }
   } catch (error) {
     throw new Error("Url inválido" + error);
   }

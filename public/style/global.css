@@ -37,6 +37,9 @@ html, * {
 strong {
   font-weight: 600;
 }
+.text--light {
+  font-weight: 400;
+}
 #body-scroll {
   height: calc(100vh - 80px);
   overflow-y: scroll;

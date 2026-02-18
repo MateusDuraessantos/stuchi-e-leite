@@ -180,13 +180,6 @@
   max-width: 1100px;
   width: calc(100% - 100px);
 }
-#sobre {
-  position: absolute;
-  bottom: 100%;
-  width: 100%;
-  height: 0;
-  pointer-events: none;
-}
 /* tab */
 .tab {
   position: relative;
@@ -225,11 +218,12 @@
   transition: .3s;
 }
 .tab-item {
+  position: relative;
   display: flex;
   min-width: 100%;
   overflow: hidden;
   height: 426px;
-  margin-top: 30px;
+  padding-top: 30px;
   gap: 30px;
 }
 .tab-item h1 {
@@ -406,119 +400,23 @@
 
 <body>
   <div id="body-scroll">
-    <main id="inicio">
+    <main>
+      <span id="inicio"></span>
       <!-- Carrossel -->
-      <!-- <div class="carrossel" id="m-carrossel">
+      <div class="carrossel" id="inicio">
         <a href="#destaques" class="carrossel__arrow">↓</a>
-      </div> -->
+      </div>
 
       <!-- Destaques -->
-      <section class="destaques g-gap" id="destaques">
-      </section>
+      <section class="destaques g-gap" id="destaques"></section>
     
       <!-- Sobre -->
-      <section class="max__width sobre" id="sobre_id">
-        <div id="sobre"></div>
+      <section class="max__width sobre" id="sobre">
         <div class="tab" id="m-tab">
-          <div class="tab-container" id="m-tab-container">
-
-            <!-- Stuchi & Leite -->
-            <div class="tab-item" title="Stuchi & Leite">
-              <div class="tab__col--1">
-                <div class="tab__descricao">
-                  <p>O escritório nasceu da parceria entre Carlos Leite e Fabiana Stuchi, unindo trajetórias que articulam prática profissional e vivência acadêmica, somando mais de 25 anos de experiência. O Stuchi&Leite desenvolve soluções específicas para diferentes contextos e escalas de atuação e mantém os sócios diretamente envolvidos na criação e no desenvolvimento dos trabalhos.</p>
-
-                  <p>Desenvolvemos:</p>
-                  <p>- Projetos de arquitetura</p>
-                  <p>- Acompanhamento de obras</p>
-                  <p>- Projetos urbanos e masterplans</p>
-                  <p>- Consultorias em desenvolvimento urbano, Planos Diretores, Planos de Bairro, reestruturação urbana, desenvolvimento sustentável e afins</p>
-                  <p>- Urbanismo Social</p>
-                  <p>- Pesquisas e consultorias tanto para clientes privados quanto para o setor público.</p>
-
-
-                  <strong>Arquitetos colaboradores ontem e hoje</strong>
-                  <div class="tab__grid">
-                    <div class="tab__arquiteto">
-                      <p>Adriana Martins</p>
-                      <p>André Andreis</p>
-                      <p>Ariane D’Ándrea</p>
-                      <p>Daniela Miranda</p>
-                      <p>Danilo Bocchini</p>
-                      <p>Fabiana Granusso</p>
-                      <p>Fabiana Paiva</p>
-                      <p>Fernanda Moreira</p>
-                      <p>Giovanna Cassavia</p>
-                      <p>Francisco Costardi</p>
-                      <p>Gabriella Ferranda</p>
-                    </div>
-                    <div class="tab__arquiteto">
-                      <p>Gabriela Piazza</p>
-                      <p>Guilherme Seror</p>
-                      <p>Jaime Veja</p>
-                      <p>João Pedro Manccini</p>
-                      <p>Kelly Yamashita</p>
-                      <p>Marlon Longo</p>
-                      <p>Nathalie Signorini</p>
-                      <p>Tales Ferretti</p>
-                      <p>Thayse Portugal </p>
-                      <p>Viviane Andrade Sá</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab__col--2">
-                <img class="tab--img" height="300" width="300" src="/assets/stuch-leite.jpg" loading="lazy" alt="">
-              </div>
-            </div>
-
-            <!-- Carlos Leit -->
-            <div class="tab-item" title="Carlos Leite">
-              <div class="tab__col--1">
-                <div class="tab__descricao">
-                  <p>
-                    Sócio fundador da Stuchi&Leite, cursou Engenharia Agrícola e Ambiental na UFRRJ (1983–1986); graduou-se Arquiteto e Urbanista pela Escola de Belas Artes de São Paulo (1991); é Mestre (1997) e Doutor (2002) em Estruturas Ambientais Urbanas pela FAU-USP; possui pós-doutorado pela Universidade Politécnica da Califórnia em Sustainable Urban-Economic Development; é professor da Faculdade de Arquitetura e Urbanismo da Universidade Presbiteriana Mackenzie; coordena o projeto de pesquisa Instrumentos Urbanos Inovadores: Financiamento da Cidade e Urbanismo Social; é Pesquisador Visitante no Instituto de Estudos Avançados da USP (Grupo Espaços Urbanos e Saúde); foi diretor da São Paulo Urbanismo (PMSP); foi coordenador do Núcleo de Urbanismo Social do Laboratório Arq.Futuro de Cidades do Insper; e é consultor ad hoc de instituições multilaterais como BID, CAF, UNESCO e administrações públicas.
-                  </p>
-                </div>
-              </div>
-              <div class="tab__col--2">
-                <img class="tab--img" height="300" width="300" src="/assets/carlos.png" loading="lazy" alt="">
-    
-                <a class="tab__button" href="https://www.instagram.com/carlos_leite_urbanista/" target="_blank">
-                  <p>Instagram</p>
-                  <img width="20" height="20" src="/assets/icons/arrow.svg" loading="lazy" alt="Seta">
-                </a>
-    
-                <a class="tab__button" href="https://www.linkedin.com/in/carlos-leite-5408289/" target="_blank">
-                  <p>LinkedIn</p>
-                  <img width="20" height="20" src="/assets/icons/arrow.svg" loading="lazy" alt="Seta">
-                </a>
-    
-                <div class="tab__fone">
-                  <a class="g-link" href="mailto:carlos@stuchileite.com">carlos@stuchileite.com</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Fabiana Stuchi -->
-            <div class="tab-item" title="Fabiana Stuchi">
-              <div class="tab__col--1">
-                <div class="tab__descricao">
-                  <p>Sócio fundadora da Stuchi&leite Projetos, é graduada em Arquitetura e Urbanismo pelo IAU-USP (1998). Mestre em Arquitetura e Urbanismo pela FAU-USP (2007), com a dissertação “Habitat: Um olhar moderno sobre os anos 50 em São Paulo”.  Atuou de forma independente em diversas parcerias, com destaque para coordenação de projetos complexos e de grande porte no escritório Piratininga Arquitetos Associados e Paulo Mendes da Rocha. </p>
-                  <p>Lidera o time do escritório, à frente dos projetos de distintas escalas e programas – residenciais, comerciais, educacionais, institucional, corporativos, habitacionais e urbanísticos; e é professora do Curso de Arquitetura e Urbanismo da Faap, desde 2016.</p>
-                </div>
-              </div>
-              <div class="tab__col--2">
-                <img class="tab--img" height="300" width="300" src="/assets/fabiana.jpeg" loading="lazy" alt="">
-                <div class="tab__fone">
-                  <a href="https://wa.me/5511982802740" class="g-link" target="_blank">+55 11 98280-2740</a>
-                  <a href="mailto:fabiana@stuchileite.com" class="g-link" target="_blank">fabiana@stuchileite.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="tab-container" id="m-tab-container"></div>
         </div>
       </section>
+
       <!-- Parcerias -->
       <section class="parcerias" id="parcerias">
         <div class="parcerias__slider">
@@ -552,28 +450,33 @@
 </body>
 
 <script type="module">
-import { attributesNames } from '/constants/constants.js'
+import {
+  attributesNames,
+  tabsIdsSections,
+  hash_stuchieleite,
+  hash_carlos,
+  hash_fabiana,
+} from '/constants/constants.js'
 import { openPopup } from '/components/popup.js'
 import { data_projetos } from '/datas/data_projects.js'
 import { loadImages } from './main.js'
-
+import { urlParams } from '/components/header.js'
 
 // ===== VARIABLES =====
 const tabsContainer = document.getElementById('m-tab-container')
 const destaques = document.getElementById('destaques')  
 const parcerias = document.getElementById('parcerias')
-const sobre_id = document.getElementById('sobre_id')
+const sobre = document.getElementById('sobre')
 const tabs = document.getElementById('m-tab')
-const tabItens = Array.from(tabs.querySelectorAll('.tab-item'))
-const tabAtiva = 'tab-ativa'
+const classTabAtiva = 'tab-ativa'
 const parcerias__slider = parcerias?.querySelector('.parcerias__slider')
-const carousel_container = document.getElementById('m-carrossel')
+const carousel_container = document.querySelector('.carrossel')
 let tabAtivaIndex = 0
 let carousel_index = 0
 let carousel_intervalo = null
 let carousel_timeout = null
 let carousel_blockClick = false
-let carousel_blockClickSetTimeout = false
+let carousel_blockClickSetTimeout = null
 let carousel_animationTime = 500
 const data_carousel = [
   {
@@ -605,7 +508,6 @@ const data_carousel = [
     imageName: 'fig_17_foto_gravata.jpg'
   },
 ]
-
 const destaquesSelecionados = [
   {
     id: 306, // Id do projeto
@@ -632,33 +534,173 @@ const destaquesSelecionados = [
     imageName: 'fig_03_foto_residencia_iracia.jpg'
   },
 ]
+const tabsDatas = [
+  {
+    // Stuchi & Leite
+    title: 'Stuchi & Leite',
+    hash: hash_stuchieleite,
+    tab__descricao: `
+        <p>O escritório nasceu da parceria entre <strong class="text--light">Carlos Leite</strong> e <strong class="text--light">Fabiana Stuchi</strong>, unindo trajetórias que articulam prática profissional e vivência acadêmica, somando mais de 25 anos de experiência. O <strong class="text--light">Stuchi&Leite</strong> desenvolve soluções específicas para diferentes contextos e escalas de atuação e mantém os sócios diretamente envolvidos na criação e no desenvolvimento dos trabalhos.</p>
+
+        <p>Desenvolvemos:</p>
+        <p>- Projetos de arquitetura</p>
+        <p>- Acompanhamento de obras</p>
+        <p>- Projetos urbanos e masterplans</p>
+        <p>- Consultorias em desenvolvimento urbano, Planos Diretores, Planos de Bairro, reestruturação urbana, desenvolvimento sustentável e afins</p>
+        <p>- Urbanismo Social</p>
+        <p>- Pesquisas e consultorias tanto para clientes privados quanto para o setor público.</p>
+
+
+        <strong>Arquitetos colaboradores ontem e hoje</strong>
+        <div class="tab__grid">
+          <div class="tab__arquiteto">
+            <p>Adriana Martins</p>
+            <p>André Andreis</p>
+            <p>Ariane D’Ándrea</p>
+            <p>Daniela Miranda</p>
+            <p>Danilo Bocchini</p>
+            <p>Fabiana Granusso</p>
+            <p>Fabiana Paiva</p>
+            <p>Fernanda Moreira</p>
+            <p>Giovanna Cassavia</p>
+            <p>Francisco Costardi</p>
+            <p>Gabriella Ferranda</p>
+          </div>
+          <div class="tab__arquiteto">
+            <p>Gabriela Piazza</p>
+            <p>Guilherme Seror</p>
+            <p>Jaime Veja</p>
+            <p>João Pedro Manccini</p>
+            <p>Kelly Yamashita</p>
+            <p>Marlon Longo</p>
+            <p>Nathalie Signorini</p>
+            <p>Tales Ferretti</p>
+            <p>Thayse Portugal </p>
+            <p>Viviane Andrade Sá</p>
+          </div>
+        </div>
+    `,
+    tabCol_2: `
+      <img class="tab--img" height="300" width="300" src="/assets/stuch-leite.jpg" loading="lazy" alt="">
+    `
+  },
+  {
+    // Carlos Leite
+    title: 'Carlos Leite',
+    hash: hash_carlos,
+    tab__descricao: `
+      <p>Sócio fundador da <strong class="text--light">Stuchi&Leite</strong>, cursou Engenharia Agrícola e Ambiental na UFRRJ (1983–1986); graduou-se Arquiteto e Urbanista pela Escola de Belas Artes de São Paulo (1991); é Mestre (1997) e Doutor (2002) em Estruturas Ambientais Urbanas pela FAU-USP; possui pós-doutorado pela Universidade Politécnica da Califórnia em Sustainable Urban-Economic Development; é professor da Faculdade de Arquitetura e Urbanismo da Universidade Presbiteriana Mackenzie; coordena o projeto de pesquisa Instrumentos Urbanos Inovadores: Financiamento da Cidade e Urbanismo Social; é Pesquisador Visitante no Instituto de Estudos Avançados da USP (Grupo Espaços Urbanos e Saúde); foi diretor da São Paulo Urbanismo (PMSP); foi coordenador do Núcleo de Urbanismo Social do Laboratório Arq.Futuro de Cidades do Insper; e é consultor ad hoc de instituições multilaterais como BID, CAF, UNESCO e administrações públicas.</p>`,
+      tabCol_2: `
+        <img class="tab--img" height="300" width="300" src="/assets/carlos.png" loading="lazy" alt="">
+
+          <a class="tab__button" href="https://www.instagram.com/carlos_leite_urbanista/" target="_blank">
+            <p>Instagram</p>
+            <img width="20" height="20" src="/assets/icons/arrow.svg" loading="lazy" alt="Seta">
+          </a>
+
+          <a class="tab__button" href="https://www.linkedin.com/in/carlos-leite-5408289/" target="_blank">
+            <p>LinkedIn</p>
+            <img width="20" height="20" src="/assets/icons/arrow.svg" loading="lazy" alt="Seta">
+          </a>
+
+          <div class="tab__fone">
+            <a class="g-link" href="mailto:carlos@stuchileite.com">carlos@stuchileite.com</a>
+          </div>
+      `,
+  },
+  {
+    // Fabiana Stuchi
+    title: 'Fabiana Stuchi',
+    hash: hash_fabiana,
+    tab__descricao: `
+        <p>Sócio fundadora da <strong class="text--light">Stuchi&Leite</strong> Projetos, é graduada em Arquitetura e Urbanismo pelo IAU-USP (1998). Mestre em Arquitetura e Urbanismo pela FAU-USP (2007), com a dissertação “Habitat: Um olhar moderno sobre os anos 50 em São Paulo”.  Atuou de forma independente em diversas parcerias, com destaque para coordenação de projetos complexos e de grande porte no escritório Piratininga Arquitetos Associados e Paulo Mendes da Rocha. </p>
+
+        <p>Lidera o time do escritório, à frente dos projetos de distintas escalas e programas – residenciais, comerciais, educacionais, institucional, corporativos, habitacionais e urbanísticos; e é professora do Curso de Arquitetura e Urbanismo da Faap, desde 2016.</p>
+      `,
+      tabCol_2: `
+        <img class="tab--img" height="300" width="300" src="/assets/fabiana.jpeg" loading="lazy" alt="">
+          <div class="tab__fone">
+            <a href="https://wa.me/5511982802740" class="g-link" target="_blank">+55 11 98280-2740</a>
+            <a href="mailto:fabiana@stuchileite.com" class="g-link" target="_blank">fabiana@stuchileite.com</a>
+          </div>
+        </div>
+      `
+  },
+
+]
+
 
 
 // ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
+  tabsHTML()
   destaque_init()
-  about()
+  sobre_init()
   parceiros()
   carousel()
   loadImages(document.querySelectorAll('img'))
+
+  window.addEventListener('hashchange', () => {
+    const urlHash = takeUrlHash()
+
+    if (urlHash === 'sobre') {
+      document.getElementById('sobre')?.scrollIntoView()
+      return
+    }
+
+    if (tabsIdsSections.includes(urlHash)) {
+      document.getElementById('sobre')?.scrollIntoView()
+    }
+
+    moverTabs(urlHash)
+  })
+  
+  setTimeout(() => {
+    moverTabs(takeUrlHash())
+    const hashValue = tabsIdsSections.includes(takeUrlHash()) ? 'sobre' : takeUrlHash()
+    document.getElementById(hashValue)?.scrollIntoView()
+  }, 500);
+
+  observeAnchors('#inicio, #sobre, #contato')
+
 })
 
-
 // ===== METHODS =====
+const takeUrlHash = () => location.hash.slice(1)
+
+const tabsHTML = () => {
+  const container = document.getElementById('m-tab-container')
+
+  const htmlFromTabs = tabsDatas.map((obj, index) =>
+    `
+      <div class="tab-item" title="${obj.title}" hash-value="${obj.hash}" id="${index}">
+        <div class="tab__col--1">
+          <div class="tab__descricao">${obj.tab__descricao}</div>
+        </div>
+        <div class="tab__col--2">
+          ${obj.tabCol_2}
+        </div>
+      </div>
+    `
+  ).join('')
+
+  container.innerHTML = htmlFromTabs
+}
+
 const carousel = () => {
   carousel_createHtmlImages() // Cria o html de todas as imagens do carrossel
   carousel_createHtmlButtons() // Cria os botões para o usuário alterar a visualização manualmente
-  startCarousel() // Adiciona todas as animações e eventos necessários para o carrossel funcionar
+  carousel_start() // Adiciona todas as animações e eventos necessários para o carrossel funcionar
 }
 
-const startCarousel = () => carousel_intervalo = setInterval(carousel_slide, 3000);
+const carousel_start = () => carousel_intervalo = setInterval(carousel_slide, 3000);
 
 const carousel_createHtmlImages = () => {
-  
+
   data_carousel.forEach((obj, index) => {
-    const projeto = data_projetos.find(elem => elem.id == obj.id)
+    const projeto = data_projetos?.find(elem => elem.id == obj.id)
     const carrosselSection = document.createElement('div')
-    const imageThumbPath = `/assets/${projeto.imagesPaths.filter(img => img.includes(obj.imageName))}`
+    const imageThumbPath = `/assets/${projeto.imagesPaths.find(img => img.includes(obj.imageName))}`
     carrosselSection.className = 'carrossel__section'
     carrosselSection.setAttribute(attributesNames.projectId, projeto.id)
     carrosselSection.setAttribute('carousel-section-index', index) // Adiciona index para todas as imagens do carrossel
@@ -706,7 +748,7 @@ const carousel_selectOnClick = (event) => {
   
   carousel_blockClick = true
   const index = Number(event.target.getAttribute('carousel-button-index'))
-  
+
   if (index === carousel_index) { // Se clicou no botão da imagem atual, não faz nada e libera o clique
     carousel_blockClick = false
     return
@@ -714,9 +756,9 @@ const carousel_selectOnClick = (event) => {
 
   carousel_index = index - 1
 
-  carousel_timeout = setTimeout(startCarousel, 5000);
+  carousel_timeout = setTimeout(carousel_start, 5000);
 
-  carousel_slide(true)
+  carousel_slide()
 
   clearInterval(carousel_intervalo)
   clearTimeout(carousel_timeout)
@@ -727,23 +769,21 @@ const carousel_selectOnClick = (event) => {
   }, carousel_animationTime);
 }
 
-const carousel_createHtmlButtons = (params) => {
+const carousel_createHtmlButtons = () => {
   const div = document.createElement('div')
   div?.classList.add('carrossel-button')
-
-  const carousel = document.getElementById('m-carrossel')
 
   for (let i = 0; i < data_carousel.length; i++) {
     const button = document.createElement('button')
     button.addEventListener('click', carousel_selectOnClick)
     button.setAttribute('class', `carrossel__btn ${i === carousel_index ? 'carrossel__button--ativa' : ''}`)
-    button.setAttribute('aria-label', 'aria-label="Trocar imagem do carrossel"')
+    button.setAttribute('aria-label', 'Trocar imagem do carrossel')
     button.setAttribute('carousel-button-index', i)
     button.innerHTML = `<span></span>`
     div.append(button)
   }
 
-  carousel.append(div)
+  carousel_container.append(div)
 }
 
 const destaque_init = () => {
@@ -763,9 +803,9 @@ const destaque_init = () => {
   }
 
   destaquesSelecionados.forEach((obj, index) => {
-    const projeto = data_projetos.find(elem => elem.id === obj.id)
+    const projeto = data_projetos?.find(elem => elem.id === obj.id)
     const destaques__ctn = document.createElement('div')
-    const imageThumbPath = `/assets/${projeto.imagesPaths.filter(img => img.includes(obj.imageName))}` 
+    const imageThumbPath = `/assets/${projeto.imagesPaths.find(img => img.includes(obj.imageName))}` 
     destaques__ctn.setAttribute(attributesNames.projectId, projeto.id)
     destaques__ctn.innerHTML = `
       <div class="g-hover g-hover__line-height">${projeto.title}</div>
@@ -782,40 +822,70 @@ const destaque_init = () => {
 
 }
 
-const about = () => {
-  const tabsNomes = tabItens.map((obj, i) => `
-    <button
-      class="tab-names ${i === tabAtivaIndex ? tabAtiva : ''}"
-      role="tab"
-      aria-selected="${i === tabAtivaIndex}"
-      tabindex="${i === tabAtivaIndex? '0':'-1'}"
-      id="tab-${i}"
-    >
-      ${obj.getAttribute('title')}
-    </button>
-  `).join('')
+const sobre_init = () => {
+  const tabItens = Array.from(tabs.querySelectorAll('.tab-item'))
+  const tabsNomes = tabItens.map((obj, i) => {
+
+    return `
+      <button
+        class="tab-names"
+        role="tab"
+        aria-selected="${i === tabAtivaIndex}"
+        tabindex="${i === tabAtivaIndex ? '0':'-1'}"
+        id="${i}"
+        hash-value="${obj.getAttribute('hash-value')}"
+      >
+        ${obj.getAttribute('title')}
+      </button>
+    `
+  }).join('')
 
   const tabMenu = document.createElement('div')
   tabMenu?.classList.add('tab-menu')
   tabMenu.setAttribute('aria-label', 'Sample Tabs')
   tabMenu.setAttribute('role', 'tablist')
   tabMenu.innerHTML = tabsNomes
-  sobre_id.prepend(tabMenu)
+  sobre.prepend(tabMenu)
+  const tabsNames = document.querySelectorAll('.tab-names')
 
-  document.querySelectorAll('.tab-names')?.forEach((obj, index) => 
-    obj.addEventListener('click', (event) => {
-      tabAtivaIndex = index
-      moverTabs(event.currentTarget, index)
-    })
-  )
+  tabsNames.forEach(buttonTab => sobre_addInteractions(buttonTab))
+
 }
 
-const moverTabs = (elem, index) => {
-  tabsContainer.style.transform = `translateX(${tabAtivaIndex * -100}%)`
+const sobre_addInteractions = (buttonTab) => {
+  buttonTab.addEventListener('click', (event) => {
+    const hashValue = event.currentTarget.getAttribute('hash-value')
+    const urlHash = takeUrlHash()
+
+    let finalHash = hashValue
+
+    if (tabsIdsSections.some(obj => obj === urlHash) || urlHash === 'sobre') {
+      document.getElementById('sobre')?.scrollIntoView()
+      if (urlHash === 'sobre') finalHash = hash_stuchieleite
+    }
+
+    location.hash = hashValue
+
+    moverTabs(finalHash)
+  })
+}
+
+const moverTabs = (paramHashValue) => {
+  const verifyHash = tabsIdsSections.some(obj => obj === paramHashValue)
+  const valueHash = verifyHash ? paramHashValue : hash_stuchieleite
+
+  const elem = document.querySelector(`[hash-value="${valueHash}"]`)
   if (elem == undefined) return
-  if (!elem.querySelector(`.${tabAtiva}`)) {
-    document.querySelector(`.${tabAtiva}`)?.classList.remove(tabAtiva)
-    elem?.classList.add(tabAtiva)
+
+  const index = Number(elem.id)
+  if (Number.isNaN(index)) return
+
+  tabAtivaIndex = index
+
+  tabsContainer.style.transform = `translateX(${tabAtivaIndex * -100}%)`
+  if (!elem.querySelector(`.${classTabAtiva}`)) {
+    document.querySelector(`.${classTabAtiva}`)?.classList.remove(classTabAtiva)
+    elem?.classList.add(classTabAtiva)
 
     tabs.querySelectorAll('.tab-names').forEach((b, i) => {
       b.setAttribute('aria-selected', i === index ? 'true' : 'false')
@@ -830,6 +900,26 @@ const parceiros = () => {
     ${parcerias__slider?.outerHTML}
     ${parcerias__slider?.outerHTML}
   `
+}
+
+const onAnchorEnter = (id) => {
+  urlParams(id)
+  console.log('Entrou na tela:', id)
+}
+
+const observeAnchors = (selector = '[id]') => {
+  const anchors = document.querySelectorAll(selector)
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return
+      onAnchorEnter(entry.target.id)
+    })
+  }, {
+    threshold: 0.5,
+    rootMargin: '0px 0px -10% 0px'
+  })
+
+  anchors.forEach((el) => observer.observe(el))
 }
 </script>
 
