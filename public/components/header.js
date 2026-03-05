@@ -9,7 +9,7 @@ export const addHeader = () => {
     </div>
 
     <button class="header__hamburger" id="hamburger" aria-label="Menu hamburguer" aria-expanded="false" aria-controls="id-header">
-      <img width="20" height="20" src="/assets/icons/hamburger.svg" loading="lazy" alt="" aria-hidden="true"/>
+      <img width="20" height="20" src="/assets/icons/hamburger.svg"  alt="" aria-hidden="true"/>
     </button>
     
     <div class="header__right" closable="true" id="id-header" role="navigation">
@@ -25,8 +25,8 @@ export const addHeader = () => {
           <a class="header__link" data-ancor="publicacoes" href="/publicacoes.html">Publicações</a>
         </nav>
         <div class="header__redes">
-          <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="/assets/icons/insta.svg" loading="lazy" alt="Instagram"></a>
-          <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="/assets/icons/linkedin.svg" loading="lazy" alt="LinkedIn"></a>
+          <a class="header__a" href="${links.urlInstagram}" target="_blank"><img src="/assets/icons/insta.svg"  alt="Instagram"></a>
+          <a class="header__a" href="${links.urlLinkedin}" target="_blank"><img src="/assets/icons/linkedin.svg"  alt="LinkedIn"></a>
         </div>
       </div>
     </div>

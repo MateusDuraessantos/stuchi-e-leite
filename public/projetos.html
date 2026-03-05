@@ -9,6 +9,9 @@
 </head>
 
 <style>
+#body-scroll {
+  height: calc(100vh - 178px) !important; 
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -157,7 +160,7 @@
 </body>
 
 <script type="module">
-import { data_projetos, data_arquitetura, data_urbanismo } from '/datas/data_projects.js'
+import { data_projetos } from '/datas/data_projects.js'
 import { openPopup } from '/components/popup.js'
 import { loadImages } from './main.js'
 import { attributesNames } from '/constants/constants.js'
@@ -174,20 +177,6 @@ const elGrid = document.getElementById('grid')
 const typeInput = document.getElementById('typeInput')
 const filtersBtns = document.querySelectorAll('.filter__btn')
 
-let index_urb = 0 
-let index_arq = 0 
-let shuffled = [] 
-
-data_projetos.forEach((obj, index) => {
-  if (index % 3 === 0 && data_urbanismo[index_urb]) {
-    shuffled.push(data_urbanismo[index_urb])
-    index_urb++
-  } else if (data_arquitetura[index_arq]) {
-    shuffled.push(data_arquitetura[index_arq])
-    index_arq++
-  }
-}) 
-
 
 // ===== METHODS =====
 const initHTMLGrid = (category) => {
@@ -197,9 +186,9 @@ const initHTMLGrid = (category) => {
   elGrid.scrollTop = 0;
   
   let dataGrid = []
-  if (category === 'todos') dataGrid = shuffled
-  if (category === 'arquitetura') dataGrid = data_arquitetura
-  if (category === 'urbanismo') dataGrid = data_urbanismo
+  if (category === 'todos') dataGrid = data_projetos
+  if (category === 'arquitetura') dataGrid = data_projetos.filter(obj => obj.type === 'arquitetura')
+  if (category === 'urbanismo') dataGrid = data_projetos.filter(obj => obj.type === 'urbanismo')
 
   dataGrid.forEach((obj, index) => {
     const elThumb = document.createElement('div')

@@ -500,10 +500,6 @@ const data_carousel = [
     imageName: 'fig_12_render_casa_mirante.jpg'
   },
   {
-    id: 738,
-    imageName: 'fig_01_jundiapeba_mogi.png'
-  },
-  {
     id: 468,
     imageName: 'fig_17_foto_gravata.jpg'
   },
@@ -698,7 +694,10 @@ const carousel_start = () => carousel_intervalo = setInterval(carousel_slide, 30
 const carousel_createHtmlImages = () => {
 
   data_carousel.forEach((obj, index) => {
-    const projeto = data_projetos?.find(elem => elem.id == obj.id)
+    const projeto = data_projetos?.find(elem => elem.id === obj.id)
+
+    if (!projeto) return
+
     const carrosselSection = document.createElement('div')
     const imageThumbPath = `/assets/${projeto.imagesPaths.find(img => img.includes(obj.imageName))}`
     carrosselSection.className = 'carrossel__section'
@@ -786,36 +785,41 @@ const carousel_createHtmlButtons = () => {
   carousel_container.append(div)
 }
 
+const gridWith_1_column = ({ index, elDiv }) => {
+  const posicaoImagem = index % 2 ? 'destaques--left' : 'destaques--right'
+  elDiv?.classList.add('destaques__ctn', posicaoImagem)
+  destaques?.append(elDiv)
+}
+
+const gridWith_2_columns = ({ elDiv, carousel_sectionGrid }) => {
+  elDiv?.classList.add('destaques__ctn')
+  carousel_sectionGrid?.append(elDiv)
+}
+
 const destaque_init = () => {
   const carousel_sectionGrid = document.createElement('div')
   carousel_sectionGrid.className = 'section__grid'
   carousel_sectionGrid.id= 'destaques_col2'
 
-  const gridWith_1_column = (obj, index, projeto, destaques__ctn) => {
-    const posicaoImagem = index % 2 ? 'destaques--left' : 'destaques--right'
-    destaques__ctn?.classList.add('destaques__ctn', posicaoImagem)
-    destaques?.append(destaques__ctn)
-  }
-
-  const gridWith_2_columns = (obj, index, projeto, destaques__ctn) => {
-    destaques__ctn?.classList.add('destaques__ctn')
-    carousel_sectionGrid?.append(destaques__ctn)
-  }
-
   destaquesSelecionados.forEach((obj, index) => {
     const projeto = data_projetos?.find(elem => elem.id === obj.id)
-    const destaques__ctn = document.createElement('div')
+    
+    if (!projeto) return
+    
+    const elDiv = document.createElement('div')
     const imageThumbPath = `/assets/${projeto.imagesPaths.find(img => img.includes(obj.imageName))}` 
-    destaques__ctn.setAttribute(attributesNames.projectId, projeto.id)
-    destaques__ctn.innerHTML = `
+    elDiv.setAttribute(attributesNames.projectId, projeto.id)
+    elDiv.innerHTML = `
       <div class="g-hover g-hover__line-height">${projeto.title}</div>
       <img class="destaques__img" width="300" height="300" loading="lazy" src="${imageThumbPath}" alt="">
     `
-    destaques__ctn?.addEventListener('click', (event) => openPopup(data_projetos, event))
+    elDiv?.addEventListener('click', (event) => openPopup(data_projetos, event))
     
+    const parametros = { index, elDiv, carousel_sectionGrid }
+
     index < destaquesSelecionados.length - 2 ?
-      gridWith_1_column(obj, index, projeto, destaques__ctn) :
-      gridWith_2_columns(obj, index, projeto, destaques__ctn)
+      gridWith_1_column(parametros) :
+      gridWith_2_columns(parametros)
   })
 
   destaques?.append(carousel_sectionGrid)
