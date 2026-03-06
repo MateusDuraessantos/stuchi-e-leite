@@ -8,7 +8,9 @@ export const openPopup = (datas, event) => {
 
   if (!selectedProject) return
 
-  addHashWhenOpenPopup(selectedProject)
+  if (window.location.pathname.includes('projetos', 'publicacoes') ||
+      window.location.pathname.includes('publicacoes')
+  ) addHashWhenOpenPopup(selectedProject)
 
   const popup = document.createElement('div')
   const closableTag = 'closable'

@@ -3085,11 +3085,12 @@ export const data_projetos =  [
   {
     title: "Reurbanização Marginais São Paulo",
     id: 504,
-    imgSizeClass: "grid--col2",
+    imgSizeClass: "",
     type: "urbanismo",
     description: ``,
     date: "",
     imagesPaths: [
+      "projetos/urb_01_reurbanizacao_marginais_sao_paulo/fig_00_reurbanizacao_marginas_sao_paulo.jpg",
       "projetos/urb_01_reurbanizacao_marginais_sao_paulo/fig_01_reurbanizacao_marginas_sao_paulo.jpg",
       "projetos/urb_01_reurbanizacao_marginais_sao_paulo/fig_02_reurbanizacao_marginas_sao_paulo.jpg",
       "projetos/urb_01_reurbanizacao_marginais_sao_paulo/fig_03_reurbanizacao_marginas_sao_paulo.jpg",
@@ -3098,7 +3099,7 @@ export const data_projetos =  [
   {
     title: "Escritório ShopLover",
     id: 126,
-    imgSizeClass: "grid--col1",
+    imgSizeClass: "",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Pinheiros, São Paulo.
@@ -3571,7 +3572,7 @@ export const data_projetos =  [
   {
     title: "Residência Ibirapuera",
     id: 207,
-    imgSizeClass: "grid--col1",
+    imgSizeClass: "",
     type: "arquitetura",
     description: `
       <strong>Local:</strong> São Paulo
@@ -3596,7 +3597,7 @@ export const data_projetos =  [
   {
     title: "Apartamento Vila Nova Conceição",
     id: 315,
-    imgSizeClass: 'grid--col3',
+    imgSizeClass: '',
     type: "arquitetura",
     description: `
       <strong>Local:</strong> Vila Nova Conceição, São Paulo
