@@ -164,11 +164,13 @@ import { data_projetos } from '/datas/data_projects.js'
 import { openPopup } from '/components/popup.js'
 import { loadImages } from './main.js'
 import { attributesNames } from '/constants/constants.js'
+import { verififyHashToOpenPopup } from './communs/urls.js'
 
 
 // ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
   initHTMLGrid('todos')
+  verififyHashToOpenPopup(data_projetos)
 })
 
 

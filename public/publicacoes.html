@@ -83,11 +83,14 @@ import { attributesNames } from '/constants/constants.js'
 import { openPopup } from '/components/popup.js'
 import { publicacoes } from '/datas/data_publications.js'
 import { loadImages } from './main.js'
+import { verififyHashToOpenPopup } from './communs/urls.js'
+
 
 // ===== ONMOUNTED =====
 document.addEventListener('DOMContentLoaded', () => {
   initHTMLGrid()
   loadImages(document.querySelectorAll('img'))
+  verififyHashToOpenPopup(publicacoes)
 })
 
 

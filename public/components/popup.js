@@ -1,10 +1,15 @@
 import { loadImages } from '../main.js'
 import { attributesNames } from '../constants/constants.js'
+import { addHashWhenOpenPopup } from '../communs/urls.js'
 
 export const openPopup = (datas, event) => {
-  const projetoId = Number(event.currentTarget.getAttribute(attributesNames.projectId))
+  const projetoId = typeof event === 'number' ? event : Number(event.currentTarget.getAttribute(attributesNames.projectId))
   const selectedProject = datas.find(obj => obj.id === projetoId)
-  
+
+  if (!selectedProject) return
+
+  addHashWhenOpenPopup(selectedProject)
+
   const popup = document.createElement('div')
   const closableTag = 'closable'
   popup.classList.add('popup', 'slowFade--open')
@@ -57,7 +62,7 @@ export const openPopup = (datas, event) => {
 
   loadImages(popup.querySelectorAll('img'))
 
-  // Methods
+  // ===== METHODS =====
   const zoom_open = (event) => {
     const pathImg = event.currentTarget.getAttribute('src')
     const temp = document.createElement('div')
@@ -82,6 +87,7 @@ export const openPopup = (datas, event) => {
   const closePopup = (event) => {
     document.body.style.overflow = ''
     if (event == undefined || Boolean(event?.target.getAttribute(closableTag))) {
+      history.replaceState(null, null, window.location.pathname + window.location.search);
       popup.classList.remove('slowFade--open')
       popup.classList.add('slowFade--close')
       setTimeout(() => popup.remove(), 1000)
@@ -148,7 +154,7 @@ export const openPopup = (datas, event) => {
     
   }
 
-  // On Mounted
+  // ====== ON MOUNTED ======
   document.querySelectorAll('[opentozoom]').forEach(obj => obj.addEventListener('click', zoom_open))
   document.addEventListener('keydown', closeOnEsc)
   popup.addEventListener('click', closePopup)
